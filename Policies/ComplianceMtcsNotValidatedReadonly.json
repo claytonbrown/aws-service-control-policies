@@ -82,7 +82,6 @@
                 "kinesisvideostreams:*",
                 "lex:*",
                 "licensemanager:*",
-                "licensemanager:UpdateServiceSettings*",
                 "lightsail:*",
                 "machinelearning:*",
                 "macie:*",
