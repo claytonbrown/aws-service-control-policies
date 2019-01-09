@@ -1,0 +1,50 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtPCI",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "batch:*",
+                "cloudformation:*",
+                "cloudfront:*",
+                "cloudhsm:*",
+                "cloudtrail:*",
+                "cloudwatch:*",
+                "codebuild:*",
+                "config:*",
+                "connect:*",
+                "directconnect:*",
+                "directoryservice:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticbeanstalk:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "inspector:*",
+                "kinesis:*",
+                "lambda:*",
+                "macie:*",
+                "opsworks:*",
+                "quicksight:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "sagemaker:*",
+                "shield:*",
+                "snowball:*",
+                "sns:*",
+                "sqs:*",
+                "systemsmanager:*",
+                "waf:*",
+                "workdocs:*",
+                "workspaces:*",
+                "xray:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

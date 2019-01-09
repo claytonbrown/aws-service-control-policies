@@ -1,0 +1,38 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtMTCS",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "cloudformation:*",
+                "cloudfront:*",
+                "cloudhsm:*",
+                "cloudtrail:*",
+                "config:*",
+                "directconnect:*",
+                "directoryservice:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticache:*",
+                "elasticbeanstalk:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "lambda:*",
+                "rds:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "sqs:*",
+                "storagegateway:*",
+                "waf:*",
+                "workdocs:*",
+                "workspaces:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

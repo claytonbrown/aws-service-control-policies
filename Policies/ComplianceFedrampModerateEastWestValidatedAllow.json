@@ -1,0 +1,41 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtFEDRAMPMODERATEEASTWEST",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "clouddirectory:*",
+                "cloudformation:*",
+                "cloudtrail:*",
+                "cloudwatch:*",
+                "config:*",
+                "directoryservice:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticache:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "inspector:*",
+                "kinesis:*",
+                "lambda:*",
+                "macie:*",
+                "quicksight:*",
+                "rds:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "shield:*",
+                "snowball:*",
+                "sns:*",
+                "sqs:*",
+                "systemsmanager:*",
+                "waf:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

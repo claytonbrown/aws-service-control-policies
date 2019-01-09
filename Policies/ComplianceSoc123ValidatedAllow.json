@@ -1,0 +1,46 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSOC123",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "clouddirectory:*",
+                "cloudformation:*",
+                "cloudfront:*",
+                "cloudhsm:*",
+                "cloudtrail:*",
+                "cloudwatch:*",
+                "connect:*",
+                "directconnect:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticache:*",
+                "elasticbeanstalk:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "inspector:*",
+                "kinesis:*",
+                "lambda:*",
+                "rds:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "ses:*",
+                "shield:*",
+                "sns:*",
+                "sqs:*",
+                "stepfunctions:*",
+                "storagegateway:*",
+                "systemsmanager:*",
+                "waf:*",
+                "workmail:*",
+                "workspaces:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

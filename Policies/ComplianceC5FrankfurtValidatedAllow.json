@@ -1,0 +1,38 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtC5FRANKFURT",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "cloudformation:*",
+                "cloudfront:*",
+                "cloudhsm:*",
+                "cloudtrail:*",
+                "connect:*",
+                "directconnect:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticache:*",
+                "elasticbeanstalk:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "kinesis:*",
+                "lambda:*",
+                "rds:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "shield:*",
+                "sqs:*",
+                "stepfunctions:*",
+                "storagegateway:*",
+                "systemsmanager:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

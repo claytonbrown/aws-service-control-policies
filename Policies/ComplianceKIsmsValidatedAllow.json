@@ -1,0 +1,34 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtKISMS",
+            "Effect": "Allow",
+            "Action": [
+                "apigateway:*",
+                "cloudformation:*",
+                "cloudfront:*",
+                "cloudtrail:*",
+                "config:*",
+                "directconnect:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticache:*",
+                "elasticbeanstalk:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "lambda:*",
+                "rds:*",
+                "redshift:*",
+                "route53:*",
+                "s3:*",
+                "sqs:*",
+                "storagegateway:*",
+                "waf:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

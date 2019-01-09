@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtDODCCSRGIL2EASTWEST",
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:*",
+                "cloudtrail:*",
+                "cloudwatch:*",
+                "dynamodb:*",
+                "ec2:*",
+                "elasticloadbalancing:*",
+                "elasticmapreduce:*",
+                "kinesis:*",
+                "rds:*",
+                "redshift:*",
+                "s3:*",
+                "sns:*",
+                "sqs:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
