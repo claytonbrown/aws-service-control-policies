@@ -1,1 +1,1 @@
-Generated SCP Not Validated DENY for hipaa-baa 
+Generated DENY SCP for HIPAA-BAA Not Validated Services

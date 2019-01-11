@@ -1,1 +1,1 @@
-Generated SCP Not Validated DENY for fedramp-moderate-east-west 
+Generated DENY SCP for FEDRAMP-MODERATE-EAST-WEST Not Validated Services

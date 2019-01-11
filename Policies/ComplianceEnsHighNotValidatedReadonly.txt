@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for ens-high 
+Generated ReadOnly SCP for ENS-HIGH Validated Services

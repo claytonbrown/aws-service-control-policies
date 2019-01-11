@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtIRAPPROTECTED-Deny",
+            "Sid": "StmtIRAPPROTECTEDNOTVALIDATEDREADONLY-Deny",
             "Effect": "Deny",
             "Action": [],
             "Resource": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "Sid": "StmtIRAPPROTECTED-Accept",
+            "Sid": "StmtIRAPPROTECTEDNOTVALIDATEDREADONLY-Accept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

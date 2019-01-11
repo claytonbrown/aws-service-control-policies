@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for mtcs 
+Generated ReadOnly SCP for MTCS Validated Services

@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for soc-1-2-3 
+Generated ReadOnly SCP for SOC-1-2-3 Validated Services

@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtSOC123-Deny",
+            "Sid": "StmtSOC123NOTVALIDATEDREADONLY-Deny",
             "Effect": "Deny",
             "Action": [],
             "Resource": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "Sid": "StmtSOC123-Accept",
+            "Sid": "StmtSOC123NOTVALIDATEDREADONLY-Accept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

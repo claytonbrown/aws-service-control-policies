@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for mtcs 
+Generated ALLOW SCP for MTCS Validated Services

@@ -1,1 +1,1 @@
-Generated SCP Not Validated DENY for fedramp-high-govcloud 
+Generated DENY SCP for FEDRAMP-HIGH-GOVCLOUD Not Validated Services

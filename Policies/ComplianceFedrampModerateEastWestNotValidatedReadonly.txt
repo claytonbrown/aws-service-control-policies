@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for fedramp-moderate-east-west 
+Generated ReadOnly SCP for FEDRAMP-MODERATE-EAST-WEST Validated Services

@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for fedramp-moderate-east-west 
+Generated ALLOW SCP for FEDRAMP-MODERATE-EAST-WEST Validated Services

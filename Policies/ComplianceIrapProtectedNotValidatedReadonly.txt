@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for irap-protected 
+Generated ReadOnly SCP for IRAP-PROTECTED Validated Services

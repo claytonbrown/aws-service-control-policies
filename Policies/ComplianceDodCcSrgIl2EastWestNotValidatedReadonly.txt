@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for dod-cc-srg-il2-east-west 
+Generated ReadOnly SCP for DOD-CC-SRG-IL2-EAST-WEST Validated Services

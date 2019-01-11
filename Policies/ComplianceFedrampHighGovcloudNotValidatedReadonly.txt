@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for fedramp-high-govcloud 
+Generated ReadOnly SCP for FEDRAMP-HIGH-GOVCLOUD Validated Services

@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtC5FRANKFURT",
+            "Sid": "StmtC5FRANKFURTVALIDATEDALLOW",
             "Effect": "Allow",
             "Action": [
                 "apigateway:*",

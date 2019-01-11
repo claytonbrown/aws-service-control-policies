@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtIRAPPROTECTED",
+            "Sid": "StmtIRAPPROTECTEDNOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
                 "alexaforbusiness:*",

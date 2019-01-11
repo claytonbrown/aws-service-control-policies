@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for ens-high 
+Generated ALLOW SCP for ENS-HIGH Validated Services

@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for hipaa-baa 
+Generated ReadOnly SCP for HIPAA-BAA Validated Services

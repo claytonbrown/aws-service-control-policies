@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for dod-cc-srg-il2-govcloud 
+Generated ALLOW SCP for DOD-CC-SRG-IL2-GOVCLOUD Validated Services

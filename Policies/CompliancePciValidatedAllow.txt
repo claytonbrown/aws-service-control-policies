@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for pci 
+Generated ALLOW SCP for PCI Validated Services

@@ -1,1 +1,1 @@
-Generated SCP Validated ReadOnly (Deny/Accept) for dod-cc-srg-il4-govcloud 
+Generated ReadOnly SCP for DOD-CC-SRG-IL4-GOVCLOUD Validated Services

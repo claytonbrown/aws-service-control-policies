@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtKISMS",
+            "Sid": "StmtKISMSVALIDATEDALLOW",
             "Effect": "Allow",
             "Action": [
                 "apigateway:*",

@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for fedramp-high-govcloud 
+Generated ALLOW SCP for FEDRAMP-HIGH-GOVCLOUD Validated Services

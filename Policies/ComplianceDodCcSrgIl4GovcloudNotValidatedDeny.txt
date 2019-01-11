@@ -1,1 +1,1 @@
-Generated SCP Not Validated DENY for dod-cc-srg-il4-govcloud 
+Generated DENY SCP for DOD-CC-SRG-IL4-GOVCLOUD Not Validated Services

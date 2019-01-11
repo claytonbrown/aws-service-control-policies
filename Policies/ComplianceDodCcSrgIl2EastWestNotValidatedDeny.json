@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtDODCCSRGIL2EASTWEST",
+            "Sid": "StmtDODCCSRGIL2EASTWESTNOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
                 "alexaforbusiness:*",

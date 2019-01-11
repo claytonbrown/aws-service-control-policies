@@ -1,1 +1,1 @@
-Generated SCP Not Validated DENY for dod-cc-srg-il2-east-west 
+Generated DENY SCP for DOD-CC-SRG-IL2-EAST-WEST Not Validated Services

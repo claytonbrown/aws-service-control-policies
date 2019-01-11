@@ -1,1 +1,1 @@
-Generated SCP Validated ALLOW for dod-cc-srg-il2-east-west 
+Generated ALLOW SCP for DOD-CC-SRG-IL2-EAST-WEST Validated Services
