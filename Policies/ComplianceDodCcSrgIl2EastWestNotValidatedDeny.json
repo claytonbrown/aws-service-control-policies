@@ -5,6 +5,7 @@
             "Sid": "StmtDODCCSRGIL2EASTWESTNOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
+                "actions:*",
                 "alexaforbusiness:*",
                 "amplify:*",
                 "apigateway:*",

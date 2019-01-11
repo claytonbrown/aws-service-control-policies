@@ -5,6 +5,7 @@
             "Sid": "StmtFEDRAMPMODERATEEASTWESTNOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
+                "actions:*",
                 "alexaforbusiness:*",
                 "amplify:*",
                 "applicationautoscaling:*",

@@ -5,6 +5,7 @@
             "Sid": "StmtPCINOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
+                "actions:*",
                 "alexaforbusiness:*",
                 "amplify:*",
                 "applicationautoscaling:*",

@@ -5,6 +5,7 @@
             "Sid": "StmtDODCCSRGIL5GOVCLOUDNOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
+                "actions:*",
                 "alexaforbusiness:*",
                 "amplify:*",
                 "apigateway:*",

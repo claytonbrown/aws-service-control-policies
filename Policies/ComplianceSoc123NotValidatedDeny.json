@@ -5,6 +5,7 @@
             "Sid": "StmtSOC123NOTVALIDATEDDENY",
             "Effect": "Deny",
             "Action": [
+                "actions:*",
                 "alexaforbusiness:*",
                 "amplify:*",
                 "applicationautoscaling:*",
