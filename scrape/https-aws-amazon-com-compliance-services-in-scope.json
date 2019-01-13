@@ -1,0 +1,2379 @@
+{
+    "aws-cf-resource-compliance": {
+        "any": [],
+        "none": []
+    },
+    "aws-compliance": {
+        "any": [],
+        "c5-frankfurt": [
+            "Amazon API Gateway",
+            "Amazon Aurora (MySQL)",
+            "Amazon CloudFront",
+            "Amazon Cognito",
+            "Amazon Connect",
+            "Amazon DynamoDB",
+            "Amazon Elastic Container Registry (ECR)",
+            "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]",
+            "Amazon ElastiCache",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic File System (EFS)",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon RDS (SQL Server)",
+            "Amazon RDS (MariaDB)",
+            "Amazon Route 53",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service for Microsoft Active Directory",
+            "AWS Elastic Beanstalk",
+            "AWS Identity & Access Management (IAM)",
+            "AWS IoT",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Lambda@Edge",
+            "AWS Shield",
+            "AWS Step Functions",
+            "AWS Storage Gateway",
+            "AWS Systems Manager",
+            "Elastic Load Balancing",
+            "VM Import/Export"
+        ],
+        "dod-cc-srg-il2-east-west": [
+            "Amazon Aurora (MySQL)",
+            "Amazon CloudWatch Logs",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Identity & Access Management (IAM)",
+            "AWS Key Management Service",
+            "Elastic Load Balancing"
+        ],
+        "dod-cc-srg-il2-govcloud": [
+            "Amazon Aurora (MySQL)",
+            "Amazon CloudWatch Logs",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Identity & Access Management (IAM)",
+            "AWS Key Management Service",
+            "Elastic Load Balancing"
+        ],
+        "dod-cc-srg-il4-govcloud": [
+            "Amazon Aurora (MySQL)",
+            "Amazon CloudWatch Logs",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Identity & Access Management (IAM)",
+            "AWS Key Management Service",
+            "Elastic Load Balancing"
+        ],
+        "dod-cc-srg-il5-govcloud": [
+            "Amazon Aurora (MySQL)",
+            "Amazon CloudWatch Logs",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Identity & Access Management (IAM)",
+            "AWS Key Management Service",
+            "Elastic Load Balancing"
+        ],
+        "ens-high": [
+            "Amazon API Gateway",
+            "Amazon DynamoDB",
+            "Amazon ElastiCache",
+            "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic File System (EFS)",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Redshift",
+            "Amazon RDS",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkSpaces",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Beanstalk",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Snowball",
+            "AWS Storage Gateway",
+            "Elastic Load Balancing",
+            "VM Import/Export"
+        ],
+        "fedramp-high-govcloud": [
+            "Amazon API Gateway",
+            "Amazon Athena",
+            "Amazon Aurora (MySQL)",
+            "Amazon Aurora (Postgres)",
+            "Amazon Cloud Directory",
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Events",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic Container Registry (ECR)",
+            "Amazon Elastic Container Service (ECS)",
+            "Amazon Elastic File System (EFS)",
+            "Amazon Elastic MapReduce",
+            "Amazon ElastiCache",
+            "Amazon Elasticsearch",
+            "Amazon Glacier",
+            "Amazon GuardDuty",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Firehose",
+            "Amazon Macie",
+            "Amazon Polly",
+            "Amazon QuickSight",
+            "Amazon Redshift",
+            "Amazon Rekognition",
+            "Amazon RDS (MySQL)",
+            "Amazon RDS (Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon RDS (SQL Server)",
+            "Amazon RDS (MariaDB)",
+            "Amazon Route 53",
+            "Amazon SageMaker",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS CodeDeploy",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Beanstalk",
+            "AWS Glue",
+            "AWS Identity & Access Management (IAM)",
+            "AWS IoT Core",
+            "AWS IoT Device Manager",
+            "AWS IoT Greengrass",
+            "AWS Key Management Service (KMS)",
+            "AWS Lambda",
+            "AWS Managed Services",
+            "AWS Organizations",
+            "AWS Server Migration Service (SMS)",
+            "AWS Shield Advanced",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Step Functions",
+            "AWS Systems Manager",
+            "AWS WAF"
+        ],
+        "fedramp-moderate-east-west": [
+            "Amazon API Gateway",
+            "Amazon Athena",
+            "Amazon Aurora (MySQL)",
+            "Amazon Aurora (Postgres)",
+            "Amazon Cloud Directory",
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Events",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon DynamoDB",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic Container Registry (ECR)",
+            "Amazon Elastic Container Service (ECS)",
+            "Amazon Elastic File System (EFS)",
+            "Amazon Elastic MapReduce",
+            "Amazon ElastiCache",
+            "Amazon Elasticsearch",
+            "Amazon Glacier",
+            "Amazon GuardDuty",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Firehose",
+            "Amazon Macie",
+            "Amazon Polly",
+            "Amazon QuickSight",
+            "Amazon Redshift",
+            "Amazon Rekognition",
+            "Amazon RDS (MySQL)",
+            "Amazon RDS (Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon RDS (SQL Server)",
+            "Amazon RDS (MariaDB)",
+            "Amazon Route 53",
+            "Amazon SageMaker",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS CodeDeploy",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Beanstalk",
+            "AWS Glue",
+            "AWS Identity & Access Management (IAM)",
+            "AWS IoT Core",
+            "AWS IoT Device Manager",
+            "AWS IoT Greengrass",
+            "AWS Key Management Service (KMS)",
+            "AWS Lambda",
+            "AWS Managed Services",
+            "AWS Organizations",
+            "AWS Server Migration Service (SMS)",
+            "AWS Shield Advanced",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Step Functions",
+            "AWS Systems Manager",
+            "AWS WAF"
+        ],
+        "hipaa-baa": [
+            "Amazon Athena",
+            "Amazon API Gateway",
+            "Amazon Aurora (MySQL,PostgreSQL)",
+            "Amazon Auto Scaling",
+            "Amazon CloudFront (including Lamba@Edge)",
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Events",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon Comprehend [Medical]",
+            "Amazon  Connect",
+            "Amazon DocumentDB (with MongoDB compatibility)",
+            "Amazon DynamoDB",
+            "Amazon Elasticsearch Service",
+            "Amazon Elastic Container Registry (ECR)",
+            "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]",
+            "Amazon Elastic Container Service for Kubernetes",
+            "Amazon ElastiCache (Redis)",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic File System",
+            "Amazon Elastic MapReduce",
+            "Amazon FreeRTOS",
+            "Amazon FSx",
+            "Amazon GuardDuty",
+            "Amazon Glacier",
+            "Amazon Inspector",
+            "Amazon Kinesis Analytics",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Firehose",
+            "Amazon Kinesis Video Streams",
+            "Amazon Macie",
+            "Amazon MQ",
+            "Amazon Neptune",
+            "Amazon Polly",
+            "Amazon QuickSight",
+            "Amazon Redshift",
+            "Amazon Rekognition",
+            "Amazon RDS (MariaDB)",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon RDS (SQL Server)",
+            "Amazon Route 53",
+            "Amazon SageMaker [excluding Public Workforce and Vendor Workforce]",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow",
+            "Amazon Transcribe",
+            "Amazon Translate",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS Amplify Console",
+            "AWS AppSync",
+            "AWS Batch",
+            "AWS Certificate Manager",
+            "AWS CloudHSM",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS CodeDeploy",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS DataSync",
+            "AWS Direct Connect",
+            "AWS Directory Service (excluding Simple AD and AD Connector)",
+            "AWS Elastic Beanstalk",
+            "AWS Elemental MediaConnect",
+            "AWS Elemental MediaConvert",
+            "AWS Elemental MediaLive",
+            "AWS Firewall Manager",
+            "AWS Global Accelerator",
+            "AWS Glue",
+            "AWS Greengrass",
+            "AWS IoT ( Core and Device Management)",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Managed Services",
+            "AWS OpsWorks for Chef Automate",
+            "AWS OpsWorks for Puppet Enterprise",
+            "AWS OpsWorks\u00a0Stack",
+            "AWS RoboMaker",
+            "AWS Secrets Manager",
+            "AWS Security Hub",
+            "AWS Serverless Application\u00a0Respository",
+            "AWS Server Migration Service",
+            "AWS Service Catalog",
+            "AWS Shield",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Snowmobile",
+            "AWS Step Functions",
+            "AWS Storage Gateway",
+            "AWS Systems Manager (previously Amazon EC2 Systems Manager)",
+            "AWS Transfer for SFTP",
+            "AWS VM Import/Export",
+            "AWS X-Ray",
+            "AWS WAF",
+            "Elastic Load Balancing"
+        ],
+        "irap-protected": [
+            "Amazon API Gateway",
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon DynamoDB",
+            "Amazon EC2 Container Service (ECS)",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic MapReduce (EMR)",
+            "Amazon Elasticache",
+            "Amazon Glacier",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Firehose",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon Relational Database Service (RDS)",
+            "Amazon Route 53",
+            "Amazon S3 Transfer Acceleration",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Load Balancing (ELB)",
+            "AWS Identity and Access Management (IAM)",
+            "AWS Key Management Service (KMS)",
+            "AWS Lambda",
+            "AWS Lambda@Edge",
+            "AWS Shield",
+            "AWS Step Functions",
+            "AWS Systems Manager (SSM)",
+            "AWS Web Application Firewall (WAF)"
+        ],
+        "irap-unclassified": [
+            "Amazon API Gateway",
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon DynamoDB",
+            "Amazon EC2 Container Service (ECS)",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic MapReduce (EMR)",
+            "Amazon Elasticache",
+            "Amazon Glacier",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Firehose",
+            "Amazon Kinesis Data Streams",
+            "Amazon Redshift",
+            "Amazon Relational Database Service (RDS)",
+            "Amazon Route 53",
+            "Amazon S3 Transfer Acceleration",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS Auto Scaling",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Load Balancing (ELB)",
+            "AWS Identity and Access Management (IAM)",
+            "AWS Key Management Service (KMS)",
+            "AWS Lambda",
+            "AWS Lambda@Edge",
+            "AWS Shield",
+            "AWS Step Functions",
+            "AWS Systems Manager (SSM)",
+            "AWS Web Application Firewall (WAF)"
+        ],
+        "k-isms": [
+            "Amazon API Gateway",
+            "Amazon CloudFront",
+            "Amazon DynamoDB",
+            "Amazon ElastiCache",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Redshift",
+            "Amazon RDS",
+            "Amazon Route 53",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "AWS CloudFormation",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Elastic Beanstalk",
+            "AWS Identity & Access Management (IAM)",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Storage Gateway",
+            "AWS WAF",
+            "Elastic Load Balancing",
+            "VM Import/Export"
+        ],
+        "mtcs": [
+            "Amazon API Gateway",
+            "Amazon Cloud Directory",
+            "Amazon CloudFront",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon DynamoDB",
+            "Amazon ElastiCache",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic Container Registery (ECR)",
+            "Amazon Elastic Container Service (ECS)",
+            "Amazon Elastic MapReduce",
+            "Amazon Glacier",
+            "Amazon Kinesis Data Streams",
+            "Amazon QuickSight",
+            "Amazon Redshift",
+            "Amazon RDS (MariaDB)",
+            "Amazon RDS (MySQL, Oracle)",
+            "Amazon RDS (Postgres)",
+            "Amazon RDS (SQL Server)",
+            "Amazon Route 53",
+            "Amazon SimpleDB",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS Auto Scaling",
+            "AWS Batch",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS CodeDeploy",
+            "AWS CodePipeline",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service",
+            "AWS Elastic Beanstalk",
+            "AWS Identity & Access Management (IAM)",
+            "AWS IoT Core",
+            "AWS Key Management Service (KMS)",
+            "AWS Lambda",
+            "AWS Lambda@Edge",
+            "AWS OpsWorks Stacks",
+            "AWS Shield",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Snowmobile",
+            "AWS Step Functions",
+            "AWS Storage Gateway",
+            "AWS Systems Manager",
+            "AWS WAF",
+            "AWS X-Ray",
+            "Elastic Load Balancing",
+            "VM Import/Export"
+        ],
+        "none": [],
+        "pci": [
+            "Amazon API Gateway",
+            "Amazon Athena",
+            "Amazon Cloud Directory",
+            "Amazon CloudFront",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon Comprehend",
+            "Amazon Connect",
+            "Amazon DocumentDB (with MongoDB compatibility)",
+            "Amazon DynamoDB",
+            "Amazon ElastiCache for Redis",
+            "Amazon Elastic Container Registry (ECR)",
+            "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]",
+            "Amazon Elastic Container Service for Kubernetes (EKS)",
+            "Amazon Elastic Block Store (EBS)",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic MapReduce",
+            "Amazon Elastic File System (EFS)",
+            "Amazon Elasticsearch Service",
+            "Amazon FreeRTOS",
+            "Amazon FSx",
+            "Amazon Glacier",
+            "Amazon GuardDuty",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Analytics",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Data Firehose",
+            "Amazon Kinesis Video Streams",
+            "Amazon Macie",
+            "Amazon MQ",
+            "Amazon Neptune",
+            "Amazon Polly",
+            "Amazon Quicksight",
+            "Amazon Redshift",
+            "Amazon Rekognition",
+            "Amazon Relational Database Service (RDS ) [includes Amazon Aurora ]",
+            "Amazon Route 53",
+            "Amazon S3 Transfer Acceleration",
+            "Amazon SageMaker",
+            "Amazon SimpleDB",
+            "Amazon Simple Queue Service (SQS)",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Notification Service (SNS)",
+            "Amazon Simple Workflow Service (SWF)",
+            "Amazon Transcribe",
+            "Amazon Translate",
+            "Amazon Virtual Private Cloud (VPC)",
+            "Amazon WorkDocs",
+            "Amazon WorkSpaces",
+            "AWS Auto Scaling",
+            "AWS AppSync",
+            "AWS Batch",
+            "AWS Certificate Manager (ACM)",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS DataSync",
+            "AWS Direct Connect",
+            "AWS Directory Service for Microsoft and AD Connector",
+            "AWS Elastic Beanstalk",
+            "AWS Elemental MediaConnect",
+            "AWS Firewall Manager",
+            "AWS Global Accelerator",
+            "AWS Glue",
+            "AWS IoT Greengrass",
+            "AWS Identity & Access Management (IAM)",
+            "AWS IoT Core [includes Device Management ]",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Lambda@Edge",
+            "AWS Managed Services",
+            "AWS OpsWorks CM [includes Chef Automate , Puppet Enterprise ]",
+            "AWS OpsWorks Stacks",
+            "AWS RoboMaker",
+            "AWS Secrets Manager",
+            "AWS Serverless Application Repository",
+            "AWS Server Migration Service (SMS)",
+            "AWS Service Catalog",
+            "AWS Shield",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Snowmobile",
+            "AWS Step Functions",
+            "AWS Storage Gateway",
+            "AWS Systems Manager",
+            "AWS Transfer for SFTP",
+            "AWS WAF",
+            "AWS X-Ray",
+            "Elastic Load Balancing",
+            "VM Import/Export"
+        ],
+        "soc-1-2-3": [
+            "Amazon Athena",
+            "Amazon Cloud Directory",
+            "Amazon CloudFront",
+            "Amazon CloudWatch Logs",
+            "Amazon Cognito",
+            "Amazon Connect",
+            "Amazon DocumentDB (with MongoDB compatibility)",
+            "Amazon DynamoDB",
+            "Amazon Elastic Container Registry",
+            "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]",
+            "Amazon ElastiCache",
+            "Amazon Elastic Block Store",
+            "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic File System",
+            "Amazon EMR",
+            "Amazon Glacier",
+            "Amazon Inspector",
+            "Amazon Kinesis Data Streams",
+            "Amazon Kinesis Video Streams",
+            "Amazon MQ",
+            "Amazon Pinpoint",
+            "Amazon Polly",
+            "Amazon QuickSight",
+            "Amazon Redshift",
+            "Amazon Rekognition",
+            "Amazon Relational Database Service (RDS) [Including Amazon Aurora]",
+            "Amazon Route 53",
+            "Amazon SageMaker",
+            "Amazon SimpleDB",
+            "Amazon Simple Email Service",
+            "Amazon Simple Notification Service",
+            "Amazon Simple Queue Service",
+            "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Workflow Service",
+            "Amazon Virtual Private Cloud",
+            "Amazon WorkDocs",
+            "Amazon WorkMail",
+            "Amazon WorkSpaces",
+            "API Gateway",
+            "AWS Auto Scaling",
+            "AWS AppSync",
+            "AWS Batch",
+            "AWS Certificate Manager",
+            "AWS CloudFormation",
+            "AWS CloudHSM",
+            "AWS CloudTrail",
+            "AWS CodeBuild",
+            "AWS CodeCommit",
+            "AWS Config",
+            "AWS Database Migration Service",
+            "AWS Direct Connect",
+            "AWS Directory Service [Excludes Simple Active Directory",
+            "AWS Elastic Beanstalk",
+            "AWS Firewall Manager",
+            "AWS Identity & Access Management (IAM)",
+            "VM Import/Export [referenced in the SOC report as AWS Import/Export]",
+            "AWS IoT Core",
+            "AWS IoT Device Management",
+            "AWS Key Management Service",
+            "AWS Lambda",
+            "AWS Managed Services",
+            "AWS OpsWorks",
+            "AWS Service Catalog",
+            "AWS Shield",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Snowmobile",
+            "AWS Step Functions",
+            "AWS Storage Gateway",
+            "AWS Systems Manager",
+            "AWS WAF",
+            "AWS X-Ray",
+            "Elastic Load Balancing"
+        ],
+        "unmatched": {}
+    },
+    "services": {
+        "API Gateway": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "ag",
+                "apigateway"
+            ]
+        },
+        "AWS Amplify Console": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "ac",
+                "amplifyconsole"
+            ]
+        },
+        "AWS AppSync": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "appsync"
+            ]
+        },
+        "AWS Auto Scaling": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "as",
+                "autoscaling"
+            ]
+        },
+        "AWS Batch": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "batch"
+            ]
+        },
+        "AWS Certificate Manager": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "certificatemanager",
+                "cm"
+            ]
+        },
+        "AWS Certificate Manager (ACM)": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "acm",
+                "certificatemanager",
+                "certificatemanageracm",
+                "cm"
+            ]
+        },
+        "AWS CloudFormation": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "cloudformation"
+            ]
+        },
+        "AWS CloudHSM": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "cloudhsm"
+            ]
+        },
+        "AWS CloudTrail": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "cloudtrail"
+            ]
+        },
+        "AWS CodeBuild": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "codebuild"
+            ]
+        },
+        "AWS CodeCommit": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "codecommit"
+            ]
+        },
+        "AWS CodeDeploy": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "codedeploy"
+            ]
+        },
+        "AWS CodePipeline": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "codepipeline"
+            ]
+        },
+        "AWS Config": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "config"
+            ]
+        },
+        "AWS DataSync": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "datasync"
+            ]
+        },
+        "AWS Database Migration Service": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "databasemigrationservice",
+                "dms"
+            ]
+        },
+        "AWS Direct Connect": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "dc",
+                "directconnect"
+            ]
+        },
+        "AWS Directory Service": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "directoryservice",
+                "ds"
+            ]
+        },
+        "AWS Directory Service (excluding Simple AD and AD Connector)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "excludingsimpleadandadconnector",
+                "directoryservice",
+                "ds",
+                "directoryserviceexcludingsimpleadandadconnector"
+            ]
+        },
+        "AWS Directory Service [Excludes Simple Active Directory": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "directoryserviceexcludessimpleactivedirectory",
+                "dsesad",
+                "directoryservice[excludessimpleactivedirectory"
+            ]
+        },
+        "AWS Directory Service for Microsoft Active Directory": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "directoryserviceformicrosoftactivedirectory",
+                "dsfmad"
+            ]
+        },
+        "AWS Directory Service for Microsoft and AD Connector": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "dsfmaac",
+                "directoryserviceformicrosoftandadconnector"
+            ]
+        },
+        "AWS Elastic Beanstalk": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "eb",
+                "elasticbeanstalk"
+            ]
+        },
+        "AWS Elastic Load Balancing (ELB)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "elb",
+                "elasticloadbalancing",
+                "elasticloadbalancingelb"
+            ]
+        },
+        "AWS Elemental MediaConnect": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elementalmediaconnect",
+                "em"
+            ]
+        },
+        "AWS Elemental MediaConvert": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elementalmediaconvert",
+                "em"
+            ]
+        },
+        "AWS Elemental MediaLive": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "em",
+                "elementalmedialive"
+            ]
+        },
+        "AWS Firewall Manager": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "fm",
+                "firewallmanager"
+            ]
+        },
+        "AWS Global Accelerator": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "globalaccelerator",
+                "ga"
+            ]
+        },
+        "AWS Glue": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "glue"
+            ]
+        },
+        "AWS Greengrass": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "greengrass"
+            ]
+        },
+        "AWS Identity & Access Management (IAM)": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "iam",
+                "identityaccessmanagementiam",
+                "identity&accessmanagement"
+            ]
+        },
+        "AWS Identity and Access Management (IAM)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "identityandaccessmanagement",
+                "iam",
+                "iaam",
+                "identityandaccessmanagementiam"
+            ]
+        },
+        "AWS IoT": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "iot"
+            ]
+        },
+        "AWS IoT ( Core and Device Management)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "coreanddevicemanagement",
+                "iotcoreanddevicemanagement",
+                "iot"
+            ]
+        },
+        "AWS IoT Core": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "ic",
+                "iotcore"
+            ]
+        },
+        "AWS IoT Core [includes Device Management ]": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "icidm",
+                "iotcore[includesdevicemanagement]",
+                "iotcoreincludesdevicemanagement"
+            ]
+        },
+        "AWS IoT Device Management": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "iotdevicemanagement",
+                "idm"
+            ]
+        },
+        "AWS IoT Device Manager": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "idm",
+                "iotdevicemanager"
+            ]
+        },
+        "AWS IoT Greengrass": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "ig",
+                "iotgreengrass"
+            ]
+        },
+        "AWS Key Management Service": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "kms",
+                "keymanagementservice"
+            ]
+        },
+        "AWS Key Management Service (KMS)": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "kms",
+                "keymanagementservicekms",
+                "keymanagementservice"
+            ]
+        },
+        "AWS Lambda": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "lambda"
+            ]
+        },
+        "AWS Lambda@Edge": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "le",
+                "lambda@edge",
+                "lambdaedge"
+            ]
+        },
+        "AWS Managed Services": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "ms",
+                "managedservices"
+            ]
+        },
+        "AWS OpsWorks": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "opsworks"
+            ]
+        },
+        "AWS OpsWorks CM [includes Chef Automate , Puppet Enterprise ]": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "opsworkscm[includeschefautomate,puppetenterprise]",
+                "ocicape",
+                "opsworkscmincludeschefautomatepuppetenterprise"
+            ]
+        },
+        "AWS OpsWorks Stacks": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "opsworksstacks",
+                "os"
+            ]
+        },
+        "AWS OpsWorks for Chef Automate": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "ofca",
+                "opsworksforchefautomate"
+            ]
+        },
+        "AWS OpsWorks for Puppet Enterprise": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "ofpe",
+                "opsworksforpuppetenterprise"
+            ]
+        },
+        "AWS OpsWorks\u00a0Stack": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "opsworks\u00a0stack",
+                "os",
+                "opsworksstack"
+            ]
+        },
+        "AWS Organizations": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "organizations"
+            ]
+        },
+        "AWS RoboMaker": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "robomaker"
+            ]
+        },
+        "AWS Secrets Manager": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sm",
+                "secretsmanager"
+            ]
+        },
+        "AWS Security Hub": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sh",
+                "securityhub"
+            ]
+        },
+        "AWS Server Migration Service": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sms",
+                "servermigrationservice"
+            ]
+        },
+        "AWS Server Migration Service (SMS)": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "sms",
+                "servermigrationservice",
+                "servermigrationservicesms"
+            ]
+        },
+        "AWS Serverless Application Repository": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "serverlessapplicationrepository",
+                "sar"
+            ]
+        },
+        "AWS Serverless Application\u00a0Respository": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "serverlessapplicationrespository",
+                "serverlessapplication\u00a0respository",
+                "sar"
+            ]
+        },
+        "AWS Service Catalog": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sc",
+                "servicecatalog"
+            ]
+        },
+        "AWS Shield": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "shield"
+            ]
+        },
+        "AWS Shield Advanced": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "sa",
+                "shieldadvanced"
+            ]
+        },
+        "AWS Snowball": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "snowball"
+            ]
+        },
+        "AWS Snowball Edge": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "se",
+                "snowballedge"
+            ]
+        },
+        "AWS Snowmobile": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "snowmobile"
+            ]
+        },
+        "AWS Step Functions": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "stepfunctions",
+                "sf"
+            ]
+        },
+        "AWS Storage Gateway": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "storagegateway",
+                "sg"
+            ]
+        },
+        "AWS Systems Manager": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "systemsmanager",
+                "sm"
+            ]
+        },
+        "AWS Systems Manager (SSM)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "systemsmanagerssm",
+                "systemsmanager",
+                "sm",
+                "ssm"
+            ]
+        },
+        "AWS Systems Manager (previously Amazon EC2 Systems Manager)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "systemsmanager",
+                "sm",
+                "previouslyec2systemsmanager",
+                "systemsmanagerpreviouslyecsystemsmanager"
+            ]
+        },
+        "AWS Transfer for SFTP": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "tfs",
+                "transferforsftp"
+            ]
+        },
+        "AWS VM Import/Export": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "vie",
+                "vmimportexport"
+            ]
+        },
+        "AWS WAF": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "waf"
+            ]
+        },
+        "AWS Web Application Firewall (WAF)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "waf",
+                "webapplicationfirewallwaf",
+                "webapplicationfirewall"
+            ]
+        },
+        "AWS X-Ray": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "xr",
+                "xray",
+                "x-ray"
+            ]
+        },
+        "Amazon  Connect": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "connect"
+            ]
+        },
+        "Amazon API Gateway": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "ag",
+                "apigateway"
+            ]
+        },
+        "Amazon Athena": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "athena"
+            ]
+        },
+        "Amazon Aurora (MySQL)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "mysql",
+                "auroramysql",
+                "aurora"
+            ]
+        },
+        "Amazon Aurora (MySQL,PostgreSQL)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "mysql,postgresql",
+                "aurora",
+                "auroramysqlpostgresql"
+            ]
+        },
+        "Amazon Aurora (Postgres)": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "postgres",
+                "aurora",
+                "aurorapostgres"
+            ]
+        },
+        "Amazon Auto Scaling": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "as",
+                "autoscaling"
+            ]
+        },
+        "Amazon Cloud Directory": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "cd",
+                "clouddirectory"
+            ]
+        },
+        "Amazon CloudFront": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "cloudfront"
+            ]
+        },
+        "Amazon CloudFront (including Lamba@Edge)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "cloudfront",
+                "cloudfrontincludinglambaedge",
+                "includinglamba@edge"
+            ]
+        },
+        "Amazon CloudWatch": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "cloudwatch"
+            ]
+        },
+        "Amazon CloudWatch Events": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "ce",
+                "cloudwatchevents"
+            ]
+        },
+        "Amazon CloudWatch Logs": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "cl",
+                "cloudwatchlogs"
+            ]
+        },
+        "Amazon Cognito": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "cognito"
+            ]
+        },
+        "Amazon Comprehend": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "comprehend"
+            ]
+        },
+        "Amazon Comprehend [Medical]": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "comprehendmedical",
+                "comprehend[medical]",
+                "cm"
+            ]
+        },
+        "Amazon Connect": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "connect"
+            ]
+        },
+        "Amazon DocumentDB (with MongoDB compatibility)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "documentdbwithmongodbcompatibility",
+                "documentdb",
+                "withmongodbcompatibility"
+            ]
+        },
+        "Amazon DynamoDB": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "dynamodb"
+            ]
+        },
+        "Amazon EC2 Container Service (ECS)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "ecs",
+                "ec2containerservice",
+                "eccontainerserviceecs"
+            ]
+        },
+        "Amazon EMR": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "emr"
+            ]
+        },
+        "Amazon ElastiCache": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "elasticache"
+            ]
+        },
+        "Amazon ElastiCache (Redis)": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elasticache",
+                "redis",
+                "elasticacheredis"
+            ]
+        },
+        "Amazon ElastiCache for Redis": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "efr",
+                "elasticacheforredis"
+            ]
+        },
+        "Amazon Elastic Block Store": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "ebs",
+                "elasticblockstore"
+            ]
+        },
+        "Amazon Elastic Block Store (EBS)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "ebs",
+                "elasticblockstore",
+                "elasticblockstoreebs"
+            ]
+        },
+        "Amazon Elastic Compute Cloud (EC2)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "ec2",
+                "ecc",
+                "elasticcomputecloudec",
+                "elasticcomputecloud"
+            ]
+        },
+        "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]": {
+            "compliance": [
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud"
+            ],
+            "search_terms": [
+                "ec2",
+                "elasticcomputecloudecincludesallinstancetypes",
+                "ecc",
+                "elasticcomputecloud"
+            ]
+        },
+        "Amazon Elastic Container Registery (ECR)": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "elasticcontainerregistery",
+                "ecr",
+                "elasticcontainerregisteryecr"
+            ]
+        },
+        "Amazon Elastic Container Registry": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "ecr",
+                "elasticcontainerregistry"
+            ]
+        },
+        "Amazon Elastic Container Registry (ECR)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "elasticcontainerregistryecr",
+                "ecr",
+                "elasticcontainerregistry"
+            ]
+        },
+        "Amazon Elastic Container Service (ECS)": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "ecs",
+                "elasticcontainerservice",
+                "elasticcontainerserviceecs"
+            ]
+        },
+        "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "ecs",
+                "elasticcontainerservice",
+                "elasticcontainerserviceecsbothfargateandeclaunchtypes"
+            ]
+        },
+        "Amazon Elastic Container Service for Kubernetes": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elasticcontainerserviceforkubernetes",
+                "ecsfk"
+            ]
+        },
+        "Amazon Elastic Container Service for Kubernetes (EKS)": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "elasticcontainerserviceforkuberneteseks",
+                "ecsfk",
+                "eks",
+                "elasticcontainerserviceforkubernetes"
+            ]
+        },
+        "Amazon Elastic File System": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elasticfilesystem",
+                "efs"
+            ]
+        },
+        "Amazon Elastic File System (EFS)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "elasticfilesystemefs",
+                "elasticfilesystem",
+                "efs"
+            ]
+        },
+        "Amazon Elastic MapReduce": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "elasticmapreduce",
+                "emr",
+                "em"
+            ]
+        },
+        "Amazon Elastic MapReduce (EMR)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "elasticmapreduce",
+                "emr",
+                "elasticmapreduceemr",
+                "em"
+            ]
+        },
+        "Amazon Elasticache": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "elasticache"
+            ]
+        },
+        "Amazon Elasticsearch": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "elasticsearch"
+            ]
+        },
+        "Amazon Elasticsearch Service": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "elasticsearchservice",
+                "es",
+                "elasticsearch"
+            ]
+        },
+        "Amazon FSx": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "fsx"
+            ]
+        },
+        "Amazon FreeRTOS": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "freertos"
+            ]
+        },
+        "Amazon Glacier": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "s3",
+                "glacier"
+            ]
+        },
+        "Amazon GuardDuty": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "guardduty"
+            ]
+        },
+        "Amazon Inspector": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "inspector"
+            ]
+        },
+        "Amazon Kinesis Analytics": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "kinesisanalytics",
+                "ka"
+            ]
+        },
+        "Amazon Kinesis Data Analytics": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "kinesisdataanalytics",
+                "kda"
+            ]
+        },
+        "Amazon Kinesis Data Firehose": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "kinesisdatafirehose",
+                "kdf"
+            ]
+        },
+        "Amazon Kinesis Data Streams": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "kds",
+                "kinesisdatastreams"
+            ]
+        },
+        "Amazon Kinesis Firehose": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "kf",
+                "kinesisfirehose"
+            ]
+        },
+        "Amazon Kinesis Video Streams": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "kvs",
+                "kinesisvideostreams"
+            ]
+        },
+        "Amazon MQ": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "mq"
+            ]
+        },
+        "Amazon Macie": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "macie"
+            ]
+        },
+        "Amazon Neptune": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "neptune"
+            ]
+        },
+        "Amazon Pinpoint": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "pinpoint"
+            ]
+        },
+        "Amazon Polly": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "polly"
+            ]
+        },
+        "Amazon QuickSight": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "quicksight"
+            ]
+        },
+        "Amazon Quicksight": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "quicksight"
+            ]
+        },
+        "Amazon RDS": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "rds"
+            ]
+        },
+        "Amazon RDS (MariaDB)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "rds",
+                "rdsmariadb",
+                "mariadb"
+            ]
+        },
+        "Amazon RDS (MySQL)": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "rds",
+                "rdsmysql",
+                "mysql"
+            ]
+        },
+        "Amazon RDS (MySQL, Oracle)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "rdsmysqloracle",
+                "mysql,oracle",
+                "rds"
+            ]
+        },
+        "Amazon RDS (Oracle)": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "rdsoracle",
+                "rds",
+                "oracle"
+            ]
+        },
+        "Amazon RDS (Postgres)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "rds",
+                "postgres",
+                "rdspostgres"
+            ]
+        },
+        "Amazon RDS (SQL Server)": {
+            "compliance": [
+                "c5-frankfurt"
+            ],
+            "search_terms": [
+                "sqlserver",
+                "rdssqlserver",
+                "rds"
+            ]
+        },
+        "Amazon Redshift": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "redshift"
+            ]
+        },
+        "Amazon Rekognition": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "rekognition"
+            ]
+        },
+        "Amazon Relational Database Service (RDS ) [includes Amazon Aurora ]": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "rds",
+                "relationaldatabaseservicerdsincludesaurora",
+                "relationaldatabaseservice"
+            ]
+        },
+        "Amazon Relational Database Service (RDS)": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "rds",
+                "relationaldatabaseservicerds",
+                "relationaldatabaseservice"
+            ]
+        },
+        "Amazon Relational Database Service (RDS) [Including Amazon Aurora]": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "rds",
+                "relationaldatabaseservice",
+                "relationaldatabaseservicerdsincludingaurora"
+            ]
+        },
+        "Amazon Route 53": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "route",
+                "route53"
+            ]
+        },
+        "Amazon S3 Transfer Acceleration": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "s3transferacceleration",
+                "stransferacceleration",
+                "sta"
+            ]
+        },
+        "Amazon SageMaker": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "sagemaker"
+            ]
+        },
+        "Amazon SageMaker [excluding Public Workforce and Vendor Workforce]": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sagemakerexcludingpublicworkforceandvendorworkforce",
+                "sepwavw",
+                "sagemaker[excludingpublicworkforceandvendorworkforce]"
+            ]
+        },
+        "Amazon Simple Email Service": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "simpleemailservice",
+                "ses"
+            ]
+        },
+        "Amazon Simple Notification Service": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "sns",
+                "simplenotificationservice"
+            ]
+        },
+        "Amazon Simple Notification Service (SNS)": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "sns",
+                "simplenotificationservice",
+                "simplenotificationservicesns"
+            ]
+        },
+        "Amazon Simple Queue Service": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "simplequeueservice",
+                "sqs"
+            ]
+        },
+        "Amazon Simple Queue Service (SQS)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "simplequeueservice",
+                "sqs",
+                "simplequeueservicesqs"
+            ]
+        },
+        "Amazon Simple Storage Service (S3)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "s3",
+                "sss",
+                "simplestorageservices",
+                "simplestorageservice"
+            ]
+        },
+        "Amazon Simple Workflow": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "sw",
+                "simpleworkflow"
+            ]
+        },
+        "Amazon Simple Workflow Service": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "sws",
+                "simpleworkflowservice"
+            ]
+        },
+        "Amazon Simple Workflow Service (SWF)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "swf",
+                "simpleworkflowserviceswf",
+                "simpleworkflowservice",
+                "sws"
+            ]
+        },
+        "Amazon SimpleDB": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "simpledb",
+                "sdb"
+            ]
+        },
+        "Amazon Transcribe": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "transcribe"
+            ]
+        },
+        "Amazon Translate": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "translate"
+            ]
+        },
+        "Amazon Virtual Private Cloud": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "virtualprivatecloud",
+                "vpc"
+            ]
+        },
+        "Amazon Virtual Private Cloud (VPC)": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "virtualprivatecloud",
+                "virtualprivatecloudvpc",
+                "vpc"
+            ]
+        },
+        "Amazon WorkDocs": {
+            "compliance": [
+                "mtcs"
+            ],
+            "search_terms": [
+                "workdocs"
+            ]
+        },
+        "Amazon WorkMail": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "workmail"
+            ]
+        },
+        "Amazon WorkSpaces": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "workspaces"
+            ]
+        },
+        "Auto Scaling": {
+            "compliance": [
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud"
+            ],
+            "search_terms": [
+                "as",
+                "autoscaling"
+            ]
+        },
+        "Elastic Load Balancing": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "elb",
+                "elasticloadbalancing"
+            ]
+        },
+        "VM Import/Export": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "vie",
+                "vmimportexport"
+            ]
+        },
+        "VM Import/Export [referenced in the SOC report as AWS Import/Export]": {
+            "compliance": [
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "vmimportexportreferencedinthesocreportasimportexport",
+                "vmimportexport[referencedinthesocreportasimportexport]",
+                "vieritsraie"
+            ]
+        }
+    }
+}

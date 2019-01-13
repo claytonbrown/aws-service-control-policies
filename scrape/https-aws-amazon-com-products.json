@@ -1,0 +1,1905 @@
+{
+    "alexaforbusiness": {
+        "alias": "alexaforbusiness",
+        "description": "Empower your Organization with Alexa",
+        "product_label": " Alexa for Business",
+        "search_terms": [
+            "alexaforbusiness",
+            "afb",
+            "alexa-for-business"
+        ],
+        "service_name": "alexa-for-business",
+        "url": "/alexaforbusiness/"
+    },
+    "amazonmq": {
+        "alias": "amazonmq",
+        "description": "Managed Message Broker for ActiveMQ",
+        "product_label": " Amazon MQ",
+        "search_terms": [
+            "mq",
+            "amazonmq"
+        ],
+        "service_name": "mq",
+        "url": "/amazon-mq/"
+    },
+    "amplify": {
+        "alias": "amplify",
+        "description": "Build and deploy mobile and web applications",
+        "product_label": " AWS Amplify",
+        "search_terms": [
+            "amplify"
+        ],
+        "service_name": "amplify",
+        "url": "/amplify/"
+    },
+    "apigateway": {
+        "alias": "apigateway",
+        "description": "Build, Deploy, and Manage APIs",
+        "product_label": " Amazon API Gateway",
+        "search_terms": [
+            "ag",
+            "api-gateway",
+            "apigateway"
+        ],
+        "service_name": "api-gateway",
+        "url": "/api-gateway/"
+    },
+    "applicationdiscovery": {
+        "alias": "applicationdiscovery",
+        "description": "Discover On-Premises Applications to Streamline Migration",
+        "product_label": " AWS Application Discovery Service",
+        "search_terms": [
+            "applicationdiscoveryservice",
+            "applicationdiscovery",
+            "application-discovery-service",
+            "ads"
+        ],
+        "service_name": "application-discovery-service",
+        "url": "/application-discovery/"
+    },
+    "appmesh": {
+        "alias": "appmesh",
+        "description": "Monitor and control microservices",
+        "product_label": " AWS App Mesh",
+        "search_terms": [
+            "am",
+            "appmesh",
+            "app-mesh"
+        ],
+        "service_name": "app-mesh",
+        "url": "/app-mesh/"
+    },
+    "appstream2": {
+        "alias": "appstream2",
+        "description": "Stream Desktop Applications Securely to a Browser",
+        "product_label": " Amazon AppStream 2.0",
+        "search_terms": [
+            "appstream2.0",
+            "appstream",
+            "appstream-2-0",
+            "appstream2"
+        ],
+        "service_name": "appstream-2-0",
+        "url": "/appstream2/"
+    },
+    "appsync": {
+        "alias": "appsync",
+        "description": "Real-time and Offline Mobile Data Apps",
+        "product_label": " AWS AppSync",
+        "search_terms": [
+            "appsync"
+        ],
+        "service_name": "appsync",
+        "url": "/appsync/"
+    },
+    "artifact": {
+        "alias": "artifact",
+        "description": "On-demand access to AWS compliance reports",
+        "product_label": " AWS Artifact",
+        "search_terms": [
+            "artifact"
+        ],
+        "service_name": "artifact",
+        "url": "/artifact/"
+    },
+    "athena": {
+        "alias": "athena",
+        "description": "Query Data in S3 using SQL",
+        "product_label": " Amazon Athena",
+        "search_terms": [
+            "athena"
+        ],
+        "service_name": "athena",
+        "url": "/athena/"
+    },
+    "autoscaling": {
+        "alias": "autoscaling",
+        "description": "Scale Multiple Resources to Meet Demand",
+        "product_label": " AWS Auto Scaling",
+        "search_terms": [
+            "as",
+            "auto-scaling",
+            "autoscaling"
+        ],
+        "service_name": "auto-scaling",
+        "url": "/autoscaling/"
+    },
+    "awscostmanagementawsbudgets": {
+        "alias": "awscostmanagementawsbudgets",
+        "description": "Set Custom Cost and Usage Budgets",
+        "product_label": " AWS Budgets",
+        "search_terms": [
+            "awscostmanagementawsbudgets",
+            "budgets"
+        ],
+        "service_name": "budgets",
+        "url": "/aws-cost-management/aws-budgets/"
+    },
+    "awscostmanagementawscostandusagereporting": {
+        "alias": "awscostmanagementawscostandusagereporting",
+        "description": "Access Comprehensive Cost and Usage Information",
+        "product_label": " AWS Cost and Usage Report",
+        "search_terms": [
+            "awscostmanagementawscostandusagereporting",
+            "costandusagereport",
+            "cost-and-usage-report",
+            "caur"
+        ],
+        "service_name": "cost-and-usage-report",
+        "url": "/aws-cost-management/aws-cost-and-usage-reporting/"
+    },
+    "awscostmanagementawscostexplorer": {
+        "alias": "awscostmanagementawscostexplorer",
+        "description": "Analyze Your AWS Cost and Usage",
+        "product_label": " AWS Cost Explorer",
+        "search_terms": [
+            "ce",
+            "cost-explorer",
+            "costexplorer",
+            "awscostmanagementawscostexplorer"
+        ],
+        "service_name": "cost-explorer",
+        "url": "/aws-cost-management/aws-cost-explorer/"
+    },
+    "awscostmanagementreservedinstancereporting": {
+        "alias": "awscostmanagementreservedinstancereporting",
+        "description": "Dive Deeper into Your Reserved Instances (RIs)",
+        "product_label": " Reserved Instance Reporting",
+        "search_terms": [
+            "reservedinstancereporting",
+            "rir",
+            "awscostmanagementreservedinstancereporting",
+            "reserved-instance-reporting"
+        ],
+        "service_name": "reserved-instance-reporting",
+        "url": "/aws-cost-management/reserved-instance-reporting/"
+    },
+    "batch": {
+        "alias": "batch",
+        "description": "Run Batch Jobs at Any Scale",
+        "product_label": " AWS Batch",
+        "search_terms": [
+            "batch"
+        ],
+        "service_name": "batch",
+        "url": "/batch/"
+    },
+    "blockchain": {
+        "alias": "blockchain",
+        "description": "Create and manage scalable blockchain networks",
+        "product_label": " Amazon Managed Blockchain",
+        "search_terms": [
+            "managedblockchain",
+            "blockchain",
+            "managed-blockchain",
+            "mb"
+        ],
+        "service_name": "managed-blockchain",
+        "url": "/blockchain/"
+    },
+    "certificatemanager": {
+        "alias": "certificatemanager",
+        "description": "Provision, Manage, and Deploy SSL/TLS Certificates",
+        "product_label": " AWS Certificate Manager",
+        "search_terms": [
+            "certificatemanager",
+            "certificate-manager",
+            "cm"
+        ],
+        "service_name": "certificate-manager",
+        "url": "/certificate-manager/"
+    },
+    "chime": {
+        "alias": "chime",
+        "description": "Frustration-free Meetings, Video Calls, and Chat",
+        "product_label": " Amazon Chime",
+        "search_terms": [
+            "chime"
+        ],
+        "service_name": "chime",
+        "url": "/chime/"
+    },
+    "cli": {
+        "alias": "cli",
+        "description": "Unified tool to manage AWS services",
+        "product_label": " AWS Command Line Interface",
+        "search_terms": [
+            "command-line-interface",
+            "cli",
+            "commandlineinterface"
+        ],
+        "service_name": "command-line-interface",
+        "url": "/cli/"
+    },
+    "cloud9": {
+        "alias": "cloud9",
+        "description": "Write, Run, and Debug Code on a Cloud IDE",
+        "product_label": " AWS Cloud9",
+        "search_terms": [
+            "cloud9",
+            "cloud"
+        ],
+        "service_name": "cloud9",
+        "url": "/cloud9/"
+    },
+    "clouddirectory": {
+        "alias": "clouddirectory",
+        "description": "Create Flexible Cloud-native Directories",
+        "product_label": " Amazon Cloud Directory",
+        "search_terms": [
+            "cd",
+            "clouddirectory",
+            "cloud-directory"
+        ],
+        "service_name": "cloud-directory",
+        "url": "/cloud-directory/"
+    },
+    "cloudformation": {
+        "alias": "cloudformation",
+        "description": "Create and Manage Resources with Templates",
+        "product_label": " AWS CloudFormation",
+        "search_terms": [
+            "cloudformation"
+        ],
+        "service_name": "cloudformation",
+        "url": "/cloudformation/"
+    },
+    "cloudfront": {
+        "alias": "cloudfront",
+        "description": "Global Content Delivery Network",
+        "product_label": " Amazon CloudFront",
+        "search_terms": [
+            "cloudfront"
+        ],
+        "service_name": "cloudfront",
+        "url": "/cloudfront/"
+    },
+    "cloudhsm": {
+        "alias": "cloudhsm",
+        "description": "Hardware-based Key Storage for Regulatory Compliance",
+        "product_label": " AWS CloudHSM",
+        "search_terms": [
+            "cloudhsm"
+        ],
+        "service_name": "cloudhsm",
+        "url": "/cloudhsm/"
+    },
+    "cloudmap": {
+        "alias": "cloudmap",
+        "description": "Application resource registry for microservices",
+        "product_label": " AWS Cloud Map",
+        "search_terms": [
+            "cloud-map",
+            "cm",
+            "cloudmap"
+        ],
+        "service_name": "cloud-map",
+        "url": "/cloud-map/"
+    },
+    "cloudsearch": {
+        "alias": "cloudsearch",
+        "description": "Managed Search Service",
+        "product_label": " Amazon CloudSearch",
+        "search_terms": [
+            "cloudsearch"
+        ],
+        "service_name": "cloudsearch",
+        "url": "/cloudsearch/"
+    },
+    "cloudtrail": {
+        "alias": "cloudtrail",
+        "description": "Track User Activity and API Usage",
+        "product_label": " AWS CloudTrail",
+        "search_terms": [
+            "cloudtrail"
+        ],
+        "service_name": "cloudtrail",
+        "url": "/cloudtrail/"
+    },
+    "cloudwatch": {
+        "alias": "cloudwatch",
+        "description": "Monitor Resources and Applications",
+        "product_label": " Amazon CloudWatch",
+        "search_terms": [
+            "cloudwatch"
+        ],
+        "service_name": "cloudwatch",
+        "url": "/cloudwatch/"
+    },
+    "codebuild": {
+        "alias": "codebuild",
+        "description": "Build and Test Code",
+        "product_label": " AWS CodeBuild",
+        "search_terms": [
+            "codebuild"
+        ],
+        "service_name": "codebuild",
+        "url": "/codebuild/"
+    },
+    "codecommit": {
+        "alias": "codecommit",
+        "description": "Store Code in Private Git Repositories",
+        "product_label": " AWS CodeCommit",
+        "search_terms": [
+            "codecommit"
+        ],
+        "service_name": "codecommit",
+        "url": "/codecommit/"
+    },
+    "codedeploy": {
+        "alias": "codedeploy",
+        "description": "Automate Code Deployment",
+        "product_label": " AWS CodeDeploy",
+        "search_terms": [
+            "codedeploy"
+        ],
+        "service_name": "codedeploy",
+        "url": "/codedeploy/"
+    },
+    "codepipeline": {
+        "alias": "codepipeline",
+        "description": "Release Software using Continuous Delivery",
+        "product_label": " AWS CodePipeline",
+        "search_terms": [
+            "codepipeline"
+        ],
+        "service_name": "codepipeline",
+        "url": "/codepipeline/"
+    },
+    "codestar": {
+        "alias": "codestar",
+        "description": "Develop and Deploy AWS Applications ",
+        "product_label": " AWS CodeStar",
+        "search_terms": [
+            "codestar"
+        ],
+        "service_name": "codestar",
+        "url": "/codestar/"
+    },
+    "cognito": {
+        "alias": "cognito",
+        "description": "Identity Management for your Apps",
+        "product_label": " Amazon Cognito",
+        "search_terms": [
+            "cognito"
+        ],
+        "service_name": "cognito",
+        "url": "/cognito/"
+    },
+    "comprehend": {
+        "alias": "comprehend",
+        "description": "Discover Insights and Relationships in Text",
+        "product_label": " Amazon Comprehend",
+        "search_terms": [
+            "comprehend"
+        ],
+        "service_name": "comprehend",
+        "url": "/comprehend/"
+    },
+    "config": {
+        "alias": "config",
+        "description": "Track Resource Inventory and Changes",
+        "product_label": " AWS Config",
+        "search_terms": [
+            "config"
+        ],
+        "service_name": "config",
+        "url": "/config/"
+    },
+    "connect": {
+        "alias": "connect",
+        "description": "Cloud-based Contact Center",
+        "product_label": " Amazon Connect",
+        "search_terms": [
+            "connect"
+        ],
+        "service_name": "connect",
+        "url": "/connect/"
+    },
+    "console": {
+        "alias": "console",
+        "description": "Web-based user interface",
+        "product_label": " AWS Management Console",
+        "search_terms": [
+            "console",
+            "managementconsole",
+            "management-console",
+            "mc"
+        ],
+        "service_name": "management-console",
+        "url": "/console/"
+    },
+    "consolemobile": {
+        "alias": "consolemobile",
+        "description": "Access resources on the go",
+        "product_label": " AWS Console Mobile Application",
+        "search_terms": [
+            "console-mobile-application",
+            "consolemobile",
+            "consolemobileapplication",
+            "cma"
+        ],
+        "service_name": "console-mobile-application",
+        "url": "/console/mobile/"
+    },
+    "controltower": {
+        "alias": "controltower",
+        "description": "Set up and govern a secure, compliant, multi-account environment",
+        "product_label": " AWS Control Tower",
+        "search_terms": [
+            "control-tower",
+            "ct",
+            "controltower"
+        ],
+        "service_name": "control-tower",
+        "url": "/controltower/"
+    },
+    "corretto": {
+        "alias": "corretto",
+        "description": "Production-ready distribution of OpenJDK",
+        "product_label": " Amazon Corretto",
+        "search_terms": [
+            "corretto"
+        ],
+        "service_name": "corretto",
+        "url": "/corretto/"
+    },
+    "datapipeline": {
+        "alias": "datapipeline",
+        "description": "Orchestration Service for Periodic, Data-driven Workflows",
+        "product_label": " AWS Data Pipeline",
+        "search_terms": [
+            "data-pipeline",
+            "dp",
+            "datapipeline"
+        ],
+        "service_name": "data-pipeline",
+        "url": "/datapipeline/"
+    },
+    "datasync": {
+        "alias": "datasync",
+        "description": "Simple, fast, online data transfer",
+        "product_label": " AWS DataSync",
+        "search_terms": [
+            "datasync"
+        ],
+        "service_name": "datasync",
+        "url": "/datasync/"
+    },
+    "deeplens": {
+        "alias": "deeplens",
+        "description": "Deep Learning Enabled Video Camera",
+        "product_label": " AWS DeepLens",
+        "search_terms": [
+            "deeplens"
+        ],
+        "service_name": "deeplens",
+        "url": "/deeplens/"
+    },
+    "deepracer": {
+        "alias": "deepracer",
+        "description": "Autonomous 1/18th scale race car, driven by ML",
+        "product_label": " AWS DeepRacer",
+        "search_terms": [
+            "deepracer"
+        ],
+        "service_name": "deepracer",
+        "url": "/deepracer/"
+    },
+    "devicefarm": {
+        "alias": "devicefarm",
+        "description": "Test Android, FireOS, and iOS Apps on Real Devices in the Cloud",
+        "product_label": " AWS Device Farm",
+        "search_terms": [
+            "devicefarm",
+            "df",
+            "device-farm"
+        ],
+        "service_name": "device-farm",
+        "url": "/device-farm/"
+    },
+    "directconnect": {
+        "alias": "directconnect",
+        "description": "Dedicated Network Connection to AWS",
+        "product_label": " AWS Direct Connect",
+        "search_terms": [
+            "direct-connect",
+            "dc",
+            "directconnect"
+        ],
+        "service_name": "direct-connect",
+        "url": "/directconnect/"
+    },
+    "directoryservice": {
+        "alias": "directoryservice",
+        "description": "Host and Manage Active Directory",
+        "product_label": " AWS Directory Service",
+        "search_terms": [
+            "directoryservice",
+            "directory-service",
+            "ds"
+        ],
+        "service_name": "directory-service",
+        "url": "/directoryservice/"
+    },
+    "dms": {
+        "alias": "dms",
+        "description": "Migrate Databases with Minimal Downtime",
+        "product_label": " AWS Database Migration Service",
+        "search_terms": [
+            "databasemigrationservice",
+            "database-migration-service",
+            "dms"
+        ],
+        "service_name": "database-migration-service",
+        "url": "/dms/"
+    },
+    "documentdb": {
+        "alias": "documentdb",
+        "description": "Fully managed document database",
+        "product_label": " Amazon DocumentDB (with MongoDB compatibility)",
+        "search_terms": [
+            "documentdbwithmongodbcompatibility",
+            "documentdb",
+            "withmongodbcompatibility"
+        ],
+        "service_name": "documentdb",
+        "url": "/documentdb/"
+    },
+    "dynamodb": {
+        "alias": "dynamodb",
+        "description": "Managed NoSQL Database",
+        "product_label": " Amazon DynamoDB",
+        "search_terms": [
+            "dynamodb"
+        ],
+        "service_name": "dynamodb",
+        "url": "/dynamodb/"
+    },
+    "ebs": {
+        "alias": "ebs",
+        "description": "EC2 block storage volumes",
+        "product_label": " Amazon Elastic Block Store (EBS)",
+        "search_terms": [
+            "elastic-block-store",
+            "ebs",
+            "elasticblockstore",
+            "elasticblockstoreebs"
+        ],
+        "service_name": "elastic-block-store",
+        "url": "/ebs/"
+    },
+    "ec2": {
+        "alias": "ec2",
+        "description": "Virtual Servers in the Cloud",
+        "product_label": " Amazon EC2",
+        "search_terms": [
+            "ec2",
+            "ec"
+        ],
+        "service_name": "ec2",
+        "url": "/ec2/"
+    },
+    "ec2autoscaling": {
+        "alias": "ec2autoscaling",
+        "description": "Scale Compute Capacity to Meet Demand",
+        "product_label": " Amazon EC2 Auto Scaling",
+        "search_terms": [
+            "eas",
+            "ec2autoscaling",
+            "ecautoscaling",
+            "ec2-auto-scaling"
+        ],
+        "service_name": "ec2-auto-scaling",
+        "url": "/ec2/autoscaling/"
+    },
+    "ecr": {
+        "alias": "ecr",
+        "description": "Store and Retrieve Docker Images",
+        "product_label": " Amazon Elastic Container Registry",
+        "search_terms": [
+            "elastic-container-registry",
+            "ecr",
+            "elasticcontainerregistry"
+        ],
+        "service_name": "elastic-container-registry",
+        "url": "/ecr/"
+    },
+    "ecs": {
+        "alias": "ecs",
+        "description": "Run and Manage Docker Containers",
+        "product_label": " Amazon Elastic Container Service",
+        "search_terms": [
+            "elastic-container-service",
+            "ecs",
+            "elasticcontainerservice"
+        ],
+        "service_name": "elastic-container-service",
+        "url": "/ecs/"
+    },
+    "efs": {
+        "alias": "efs",
+        "description": "Fully managed file system for EC2",
+        "product_label": " Amazon Elastic File System (EFS)",
+        "search_terms": [
+            "elasticfilesystemefs",
+            "elasticfilesystem",
+            "elastic-file-system",
+            "efs"
+        ],
+        "service_name": "elastic-file-system",
+        "url": "/efs/"
+    },
+    "eks": {
+        "alias": "eks",
+        "description": "Run Managed Kubernetes on AWS",
+        "product_label": " Amazon Elastic Container Service for Kubernetes",
+        "search_terms": [
+            "elastic-container-service-for-kubernetes",
+            "elasticcontainerserviceforkubernetes",
+            "ecsfk",
+            "eks"
+        ],
+        "service_name": "elastic-container-service-for-kubernetes",
+        "url": "/eks/"
+    },
+    "elasticache": {
+        "alias": "elasticache",
+        "description": "In-memory Caching System",
+        "product_label": " Amazon ElastiCache",
+        "search_terms": [
+            "elasticache"
+        ],
+        "service_name": "elasticache",
+        "url": "/elasticache/"
+    },
+    "elasticbeanstalk": {
+        "alias": "elasticbeanstalk",
+        "description": "Run and Manage Web Apps",
+        "product_label": " AWS Elastic Beanstalk",
+        "search_terms": [
+            "eb",
+            "elasticbeanstalk",
+            "elastic-beanstalk"
+        ],
+        "service_name": "elastic-beanstalk",
+        "url": "/elasticbeanstalk/"
+    },
+    "elasticinference": {
+        "alias": "elasticinference",
+        "description": "Deep learning inference acceleration",
+        "product_label": " Amazon Elastic Inference",
+        "search_terms": [
+            "ei",
+            "elasticinference",
+            "elastic-inference"
+        ],
+        "service_name": "elastic-inference",
+        "url": "/elastic-inference/"
+    },
+    "elasticloadbalancing": {
+        "alias": "elasticloadbalancing",
+        "description": "Distribute incoming traffic across multiple targets",
+        "product_label": " Elastic Load Balancing",
+        "search_terms": [
+            "elastic-load-balancing",
+            "elb",
+            "elasticloadbalancing"
+        ],
+        "service_name": "elastic-load-balancing",
+        "url": "/elasticloadbalancing/"
+    },
+    "elasticmapreduce": {
+        "alias": "elasticmapreduce",
+        "description": "Hosted Hadoop Framework",
+        "product_label": " Amazon EMR",
+        "search_terms": [
+            "elasticmapreduce",
+            "emr"
+        ],
+        "service_name": "emr",
+        "url": "/elasticmapreduce/"
+    },
+    "elasticsearchservice": {
+        "alias": "elasticsearchservice",
+        "description": "Run and Scale Elasticsearch Clusters",
+        "product_label": " Amazon Elasticsearch Service",
+        "search_terms": [
+            "elasticsearch-service",
+            "elasticsearchservice",
+            "es",
+            "elasticsearch"
+        ],
+        "service_name": "elasticsearch-service",
+        "url": "/elasticsearch-service/"
+    },
+    "elastictranscoder": {
+        "alias": "elastictranscoder",
+        "description": "Easy-to-use Scalable Media Transcoding",
+        "product_label": " Amazon Elastic Transcoder",
+        "search_terms": [
+            "et",
+            "elastic-transcoder",
+            "elastictranscoder"
+        ],
+        "service_name": "elastic-transcoder",
+        "url": "/elastictranscoder/"
+    },
+    "fargate": {
+        "alias": "fargate",
+        "description": "Run Containers without Managing Servers or Clusters",
+        "product_label": " AWS Fargate",
+        "search_terms": [
+            "fargate"
+        ],
+        "service_name": "fargate",
+        "url": "/fargate/"
+    },
+    "firewallmanager": {
+        "alias": "firewallmanager",
+        "description": "Central Management of Firewall Rules",
+        "product_label": " AWS Firewall Manager",
+        "search_terms": [
+            "fm",
+            "firewallmanager",
+            "firewall-manager"
+        ],
+        "service_name": "firewall-manager",
+        "url": "/firewall-manager/"
+    },
+    "forecast": {
+        "alias": "forecast",
+        "description": "Increase forecast accuracy using machine learning",
+        "product_label": " Amazon Forecast",
+        "search_terms": [
+            "forecast"
+        ],
+        "service_name": "forecast",
+        "url": "/forecast/"
+    },
+    "freertos": {
+        "alias": "freertos",
+        "description": "IoT Operating System for Microcontrollers",
+        "product_label": " Amazon FreeRTOS",
+        "search_terms": [
+            "freertos"
+        ],
+        "service_name": "freertos",
+        "url": "/freertos/"
+    },
+    "fsxlustre": {
+        "alias": "fsxlustre",
+        "description": "Fully managed compute-intensive file system",
+        "product_label": " Amazon FSx for Lustre",
+        "search_terms": [
+            "ffl",
+            "fsxforlustre",
+            "fsx-for-lustre",
+            "fsxlustre"
+        ],
+        "service_name": "fsx-for-lustre",
+        "url": "/fsx/lustre/"
+    },
+    "fsxwindows": {
+        "alias": "fsxwindows",
+        "description": "Fully managed Windows native file system",
+        "product_label": " Amazon FSx for Windows File Server",
+        "search_terms": [
+            "ffwfs",
+            "fsxwindows",
+            "fsxforwindowsfileserver",
+            "fsx-for-windows-file-server"
+        ],
+        "service_name": "fsx-for-windows-file-server",
+        "url": "/fsx/windows/"
+    },
+    "gamelift": {
+        "alias": "gamelift",
+        "description": "Simple, Fast, Cost-effective Dedicated Game Server Hosting",
+        "product_label": " Amazon GameLift",
+        "search_terms": [
+            "gamelift"
+        ],
+        "service_name": "gamelift",
+        "url": "/gamelift/"
+    },
+    "gettingstartedtoolssdks": {
+        "alias": "gettingstartedtoolssdks",
+        "description": "Tools and SDKs for AWS",
+        "product_label": " AWS Tools and SDKs",
+        "search_terms": [
+            "tools-and-sdks",
+            "gettingstartedtoolssdks",
+            "tas",
+            "toolsandsdks"
+        ],
+        "service_name": "tools-and-sdks",
+        "url": "/getting-started/tools-sdks/"
+    },
+    "glacier1": {
+        "alias": "glacier1",
+        "description": "Low-cost Archive Storage in the Cloud",
+        "product_label": " Amazon S3 Glacier",
+        "search_terms": [
+            "s3-glacier",
+            "s3glacier",
+            "glacier1",
+            "sg",
+            "sglacier"
+        ],
+        "service_name": "s3-glacier",
+        "url": "/glacier1/"
+    },
+    "globalaccelerator": {
+        "alias": "globalaccelerator",
+        "description": "Improve application availability and performance",
+        "product_label": " AWS Global Accelerator",
+        "search_terms": [
+            "globalaccelerator",
+            "ga",
+            "global-accelerator"
+        ],
+        "service_name": "global-accelerator",
+        "url": "/global-accelerator/"
+    },
+    "glue": {
+        "alias": "glue",
+        "description": "Prepare and Load Data",
+        "product_label": " AWS Glue",
+        "search_terms": [
+            "glue"
+        ],
+        "service_name": "glue",
+        "url": "/glue/"
+    },
+    "greengrass": {
+        "alias": "greengrass",
+        "description": "Local Compute, Messaging, and Sync for Devices",
+        "product_label": " AWS Greengrass",
+        "search_terms": [
+            "greengrass"
+        ],
+        "service_name": "greengrass",
+        "url": "/greengrass/"
+    },
+    "groundstation": {
+        "alias": "groundstation",
+        "description": "Fully managed ground station as a service",
+        "product_label": " AWS Ground Station",
+        "search_terms": [
+            "gs",
+            "groundstation",
+            "ground-station"
+        ],
+        "service_name": "ground-station",
+        "url": "/ground-station/"
+    },
+    "guardduty": {
+        "alias": "guardduty",
+        "description": "Managed Threat Detection Service",
+        "product_label": " Amazon GuardDuty",
+        "search_terms": [
+            "guardduty"
+        ],
+        "service_name": "guardduty",
+        "url": "/guardduty/"
+    },
+    "iam": {
+        "alias": "iam",
+        "description": "Manage User Access and Encryption Keys",
+        "product_label": " AWS Identity & Access Management",
+        "search_terms": [
+            "identity-access-management",
+            "identityaccessmanagement",
+            "identity&accessmanagement",
+            "iam"
+        ],
+        "service_name": "identity-access-management",
+        "url": "/iam/"
+    },
+    "inferentia": {
+        "alias": "inferentia",
+        "description": "Machine learning inference chip",
+        "product_label": " Amazon Inferentia",
+        "search_terms": [
+            "inferentia"
+        ],
+        "service_name": "inferentia",
+        "url": "/inferentia/"
+    },
+    "inspector": {
+        "alias": "inspector",
+        "description": "Analyze Application Security",
+        "product_label": " Amazon Inspector",
+        "search_terms": [
+            "inspector"
+        ],
+        "service_name": "inspector",
+        "url": "/inspector/"
+    },
+    "iot1click": {
+        "alias": "iot1click",
+        "description": "One Click Creation of an AWS Lambda Trigger",
+        "product_label": " AWS IoT 1-Click",
+        "search_terms": [
+            "iot1-click",
+            "iot1click",
+            "iotclick",
+            "ic",
+            "iot-1-click"
+        ],
+        "service_name": "iot-1-click",
+        "url": "/iot-1-click/"
+    },
+    "iotanalytics": {
+        "alias": "iotanalytics",
+        "description": "Analytics for IoT Devices",
+        "product_label": " AWS IoT Analytics",
+        "search_terms": [
+            "iot-analytics",
+            "ia",
+            "iotanalytics"
+        ],
+        "service_name": "iot-analytics",
+        "url": "/iot-analytics/"
+    },
+    "iotbutton": {
+        "alias": "iotbutton",
+        "description": "Cloud Programmable Dash Button",
+        "product_label": " AWS IoT Button",
+        "search_terms": [
+            "ib",
+            "iotbutton",
+            "iot-button"
+        ],
+        "service_name": "iot-button",
+        "url": "/iot/button/"
+    },
+    "iotcore": {
+        "alias": "iotcore",
+        "description": "Connect Devices to the Cloud",
+        "product_label": " AWS IoT Core",
+        "search_terms": [
+            "ic",
+            "iotcore",
+            "iot-core"
+        ],
+        "service_name": "iot-core",
+        "url": "/iot-core/"
+    },
+    "iotdevicedefender": {
+        "alias": "iotdevicedefender",
+        "description": "Security Management for IoT Devices",
+        "product_label": " AWS IoT Device Defender",
+        "search_terms": [
+            "idd",
+            "iotdevicedefender",
+            "iot-device-defender"
+        ],
+        "service_name": "iot-device-defender",
+        "url": "/iot-device-defender/"
+    },
+    "iotdevicemanagement": {
+        "alias": "iotdevicemanagement",
+        "description": "Onboard, Organize, and Remotely Manage IoT Devices",
+        "product_label": " AWS IoT Device Management",
+        "search_terms": [
+            "iotdevicemanagement",
+            "idm",
+            "iot-device-management"
+        ],
+        "service_name": "iot-device-management",
+        "url": "/iot-device-management/"
+    },
+    "iotevents": {
+        "alias": "iotevents",
+        "description": "IoT event detection and response",
+        "product_label": " AWS IoT Events",
+        "search_terms": [
+            "ie",
+            "iotevents",
+            "iot-events"
+        ],
+        "service_name": "iot-events",
+        "url": "/iot-events/"
+    },
+    "iotsitewise": {
+        "alias": "iotsitewise",
+        "description": "IoT data collector and interpreter",
+        "product_label": " AWS IoT SiteWise",
+        "search_terms": [
+            "is",
+            "iotsitewise",
+            "iot-sitewise"
+        ],
+        "service_name": "iot-sitewise",
+        "url": "/iot-sitewise/"
+    },
+    "iotthingsgraph": {
+        "alias": "iotthingsgraph",
+        "description": "Easily connect devices and web services",
+        "product_label": " AWS IoT Things Graph",
+        "search_terms": [
+            "itg",
+            "iotthingsgraph",
+            "iot-things-graph"
+        ],
+        "service_name": "iot-things-graph",
+        "url": "/iot-things-graph/"
+    },
+    "kinesis": {
+        "alias": "kinesis",
+        "description": "Work with Real-time Streaming Data",
+        "product_label": " Amazon Kinesis",
+        "search_terms": [
+            "kinesis"
+        ],
+        "service_name": "kinesis",
+        "url": "/kinesis/"
+    },
+    "kinesisvideostreams": {
+        "alias": "kinesisvideostreams",
+        "description": "Process and Analyze Video Streams",
+        "product_label": " Amazon Kinesis Video Streams",
+        "search_terms": [
+            "kinesis-video-streams",
+            "kvs",
+            "kinesisvideostreams"
+        ],
+        "service_name": "kinesis-video-streams",
+        "url": "/kinesis/video-streams/"
+    },
+    "kms": {
+        "alias": "kms",
+        "description": "Managed Creation and Control of Encryption Keys",
+        "product_label": " AWS Key Management Service",
+        "search_terms": [
+            "kms",
+            "key-management-service",
+            "keymanagementservice"
+        ],
+        "service_name": "key-management-service",
+        "url": "/kms/"
+    },
+    "lakeformation": {
+        "alias": "lakeformation",
+        "description": "Build a secure data lake in days",
+        "product_label": " AWS Lake Formation",
+        "search_terms": [
+            "lake-formation",
+            "lf",
+            "lakeformation"
+        ],
+        "service_name": "lake-formation",
+        "url": "/lake-formation/"
+    },
+    "lambda": {
+        "alias": "lambda",
+        "description": "Run your Code in Response to Events",
+        "product_label": " AWS Lambda",
+        "search_terms": [
+            "lambda"
+        ],
+        "service_name": "lambda",
+        "url": "/lambda/"
+    },
+    "lex": {
+        "alias": "lex",
+        "description": "Build Voice and Text Chatbots",
+        "product_label": " Amazon Lex",
+        "search_terms": [
+            "lex"
+        ],
+        "service_name": "lex",
+        "url": "/lex/"
+    },
+    "licensemanager": {
+        "alias": "licensemanager",
+        "description": "Track, manage, and control licenses",
+        "product_label": " AWS License Manager",
+        "search_terms": [
+            "licensemanager",
+            "lm",
+            "license-manager"
+        ],
+        "service_name": "license-manager",
+        "url": "/license-manager/"
+    },
+    "lightsail": {
+        "alias": "lightsail",
+        "description": "Launch and Manage Virtual Private Servers",
+        "product_label": " Amazon Lightsail",
+        "search_terms": [
+            "lightsail"
+        ],
+        "service_name": "lightsail",
+        "url": "/lightsail/"
+    },
+    "lumberyard": {
+        "alias": "lumberyard",
+        "description": "A Free Cross-platform 3D Game Engine with Full Source, Integrated with AWS and Twitch",
+        "product_label": " Amazon Lumberyard",
+        "search_terms": [
+            "lumberyard"
+        ],
+        "service_name": "lumberyard",
+        "url": "/lumberyard/"
+    },
+    "machinelearningamis": {
+        "alias": "machinelearningamis",
+        "description": "Quickly Start Deep Learning on EC2",
+        "product_label": " AWS Deep Learning AMIs",
+        "search_terms": [
+            "deep-learning-amis",
+            "deeplearningamis",
+            "machinelearningamis",
+            "dla"
+        ],
+        "service_name": "deep-learning-amis",
+        "url": "/machine-learning/amis/"
+    },
+    "macie": {
+        "alias": "macie",
+        "description": "Discover, Classify, and Protect your Data",
+        "product_label": " Amazon Macie",
+        "search_terms": [
+            "macie"
+        ],
+        "service_name": "macie",
+        "url": "/macie/"
+    },
+    "managedservices": {
+        "alias": "managedservices",
+        "description": "Infrastructure operations management for AWS",
+        "product_label": " AWS Managed Services",
+        "search_terms": [
+            "ms",
+            "managedservices",
+            "managed-services"
+        ],
+        "service_name": "managed-services",
+        "url": "/managed-services/"
+    },
+    "mediaconnect": {
+        "alias": "mediaconnect",
+        "description": "Reliable and secure live video transport",
+        "product_label": " AWS Elemental MediaConnect",
+        "search_terms": [
+            "elementalmediaconnect",
+            "elemental-mediaconnect",
+            "mediaconnect",
+            "em"
+        ],
+        "service_name": "elemental-mediaconnect",
+        "url": "/mediaconnect/"
+    },
+    "mediaconvert": {
+        "alias": "mediaconvert",
+        "description": "Convert File-based Video Content",
+        "product_label": " AWS Elemental MediaConvert",
+        "search_terms": [
+            "elemental-mediaconvert",
+            "elementalmediaconvert",
+            "mediaconvert",
+            "em"
+        ],
+        "service_name": "elemental-mediaconvert",
+        "url": "/mediaconvert/"
+    },
+    "medialive": {
+        "alias": "medialive",
+        "description": "Convert Live Video Content",
+        "product_label": " AWS Elemental MediaLive",
+        "search_terms": [
+            "medialive",
+            "elemental-medialive",
+            "elementalmedialive",
+            "em"
+        ],
+        "service_name": "elemental-medialive",
+        "url": "/medialive/"
+    },
+    "mediapackage": {
+        "alias": "mediapackage",
+        "description": "Video Origination and Packaging",
+        "product_label": " AWS Elemental MediaPackage",
+        "search_terms": [
+            "mediapackage",
+            "elementalmediapackage",
+            "elemental-mediapackage",
+            "em"
+        ],
+        "service_name": "elemental-mediapackage",
+        "url": "/mediapackage/"
+    },
+    "mediastore": {
+        "alias": "mediastore",
+        "description": "Media Storage and Simple HTTP Origin",
+        "product_label": " AWS Elemental MediaStore",
+        "search_terms": [
+            "mediastore",
+            "elementalmediastore",
+            "elemental-mediastore",
+            "em"
+        ],
+        "service_name": "elemental-mediastore",
+        "url": "/mediastore/"
+    },
+    "mediatailor": {
+        "alias": "mediatailor",
+        "description": "Video Personalization and Monetization",
+        "product_label": " AWS Elemental MediaTailor",
+        "search_terms": [
+            "elementalmediatailor",
+            "mediatailor",
+            "elemental-mediatailor",
+            "em"
+        ],
+        "service_name": "elemental-mediatailor",
+        "url": "/mediatailor/"
+    },
+    "migrationhub": {
+        "alias": "migrationhub",
+        "description": "Track Migrations from a Single Place",
+        "product_label": " AWS Migration Hub",
+        "search_terms": [
+            "migration-hub",
+            "mh",
+            "migrationhub"
+        ],
+        "service_name": "migration-hub",
+        "url": "/migration-hub/"
+    },
+    "msk": {
+        "alias": "msk",
+        "description": "Fully managed Apache Kafka service",
+        "product_label": " Amazon Managed Streaming for Kafka",
+        "search_terms": [
+            "msk",
+            "managedstreamingforkafka",
+            "managed-streaming-for-kafka",
+            "msfk"
+        ],
+        "service_name": "managed-streaming-for-kafka",
+        "url": "/msk/"
+    },
+    "mxnet": {
+        "alias": "mxnet",
+        "description": "Scalable, High-performance Deep Learning",
+        "product_label": " Apache MXNet on AWS",
+        "search_terms": [
+            "apachemxnetonaws",
+            "mxnet",
+            "amoa",
+            "apache-mxnet-on-aws"
+        ],
+        "service_name": "apache-mxnet-on-aws",
+        "url": "/mxnet/"
+    },
+    "neptune": {
+        "alias": "neptune",
+        "description": "Fully Managed Graph Database Service",
+        "product_label": " Amazon Neptune ",
+        "search_terms": [
+            "neptune"
+        ],
+        "service_name": "neptune",
+        "url": "/neptune/"
+    },
+    "opsworks": {
+        "alias": "opsworks",
+        "description": "Automate Operations with Chef and Puppet",
+        "product_label": " AWS OpsWorks",
+        "search_terms": [
+            "opsworks"
+        ],
+        "service_name": "opsworks",
+        "url": "/opsworks/"
+    },
+    "organizations": {
+        "alias": "organizations",
+        "description": "Policy-based Management for Multiple AWS Accounts",
+        "product_label": " AWS Organizations",
+        "search_terms": [
+            "organizations"
+        ],
+        "service_name": "organizations",
+        "url": "/organizations/"
+    },
+    "outposts": {
+        "alias": "outposts",
+        "description": "Run AWS services on-premises",
+        "product_label": " AWS Outposts",
+        "search_terms": [
+            "outposts"
+        ],
+        "service_name": "outposts",
+        "url": "/outposts/"
+    },
+    "partnersdqp": {
+        "alias": "partnersdqp",
+        "description": "Curated catalog of AWS-compatible IoT hardware",
+        "product_label": " AWS Partner Device Catalog",
+        "search_terms": [
+            "partnerdevicecatalog",
+            "pdc",
+            "partner-device-catalog",
+            "partnersdqp"
+        ],
+        "service_name": "partner-device-catalog",
+        "url": "/partners/dqp/"
+    },
+    "personalize": {
+        "alias": "personalize",
+        "description": "Build real-time recommendations into your applications",
+        "product_label": " Amazon Personalize",
+        "search_terms": [
+            "personalize"
+        ],
+        "service_name": "personalize",
+        "url": "/personalize/"
+    },
+    "pinpoint": {
+        "alias": "pinpoint",
+        "description": "Push Notifications for Mobile Apps",
+        "product_label": " Amazon Pinpoint",
+        "search_terms": [
+            "pinpoint"
+        ],
+        "service_name": "pinpoint",
+        "url": "/pinpoint/"
+    },
+    "polly": {
+        "alias": "polly",
+        "description": "Turn Text into Lifelike Speech",
+        "product_label": " Amazon Polly",
+        "search_terms": [
+            "polly"
+        ],
+        "service_name": "polly",
+        "url": "/polly/"
+    },
+    "premiumsupportphd": {
+        "alias": "premiumsupportphd",
+        "description": "Personalized View of AWS Service Health",
+        "product_label": " AWS Personal Health Dashboard",
+        "search_terms": [
+            "phd",
+            "personalhealthdashboard",
+            "personal-health-dashboard",
+            "premiumsupportphd"
+        ],
+        "service_name": "personal-health-dashboard",
+        "url": "/premiumsupport/phd/"
+    },
+    "privatelink": {
+        "alias": "privatelink",
+        "description": "Securely Access Services Hosted on AWS",
+        "product_label": " Amazon VPC PrivateLink",
+        "search_terms": [
+            "vpcprivatelink",
+            "privatelink",
+            "vpc-privatelink",
+            "vp"
+        ],
+        "service_name": "vpc-privatelink",
+        "url": "/privatelink/"
+    },
+    "qldb": {
+        "alias": "qldb",
+        "description": "Fully managed ledger database",
+        "product_label": " Amazon Quantum Ledger Database (QLDB)",
+        "search_terms": [
+            "quantumledgerdatabaseqldb",
+            "qld",
+            "quantumledgerdatabase",
+            "qldb",
+            "quantum-ledger-database"
+        ],
+        "service_name": "quantum-ledger-database",
+        "url": "/qldb/"
+    },
+    "quicksight": {
+        "alias": "quicksight",
+        "description": "Fast Business Analytics Service",
+        "product_label": " Amazon Quicksight",
+        "search_terms": [
+            "quicksight"
+        ],
+        "service_name": "quicksight",
+        "url": "/quicksight/"
+    },
+    "rds": {
+        "alias": "rds",
+        "description": "Managed Relational Database Service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB",
+        "product_label": " Amazon RDS",
+        "search_terms": [
+            "rds"
+        ],
+        "service_name": "rds",
+        "url": "/rds/"
+    },
+    "rdsaurora": {
+        "alias": "rdsaurora",
+        "description": "High Performance Managed Relational Database",
+        "product_label": " Amazon Aurora",
+        "search_terms": [
+            "aurora",
+            "rdsaurora"
+        ],
+        "service_name": "aurora",
+        "url": "/rds/aurora/"
+    },
+    "rdsvmware": {
+        "alias": "rdsvmware",
+        "description": "Automate on-premises database management",
+        "product_label": " Amazon RDS on VMware",
+        "search_terms": [
+            "rdsvmware",
+            "rov",
+            "rds-on-vmware",
+            "rdsonvmware"
+        ],
+        "service_name": "rds-on-vmware",
+        "url": "/rds/vmware/"
+    },
+    "redshift": {
+        "alias": "redshift",
+        "description": "Fast, Simple, Cost-effective Data Warehousing",
+        "product_label": " Amazon Redshift",
+        "search_terms": [
+            "redshift"
+        ],
+        "service_name": "redshift",
+        "url": "/redshift/"
+    },
+    "rekognition": {
+        "alias": "rekognition",
+        "description": "Analyze Image and Video",
+        "product_label": " Amazon Rekognition",
+        "search_terms": [
+            "rekognition"
+        ],
+        "service_name": "rekognition",
+        "url": "/rekognition/"
+    },
+    "robomaker": {
+        "alias": "robomaker",
+        "description": "Develop, test, and deploy robotics applications",
+        "product_label": " AWS RoboMaker",
+        "search_terms": [
+            "robomaker"
+        ],
+        "service_name": "robomaker",
+        "url": "/robomaker/"
+    },
+    "route53": {
+        "alias": "route53",
+        "description": "Scalable Domain Name System",
+        "product_label": " Amazon Route 53",
+        "search_terms": [
+            "route",
+            "route53",
+            "route-53"
+        ],
+        "service_name": "route-53",
+        "url": "/route53/"
+    },
+    "s3": {
+        "alias": "s3",
+        "description": "Scalable Storage in the Cloud",
+        "product_label": " Amazon Simple Storage Service (S3)",
+        "search_terms": [
+            "sss",
+            "simplestorageservices",
+            "simple-storage-service",
+            "simplestorageservice",
+            "s3"
+        ],
+        "service_name": "simple-storage-service",
+        "url": "/s3/"
+    },
+    "sagemaker": {
+        "alias": "sagemaker",
+        "description": "Build, Train, and Deploy Machine Learning Models at Scale",
+        "product_label": " Amazon SageMaker",
+        "search_terms": [
+            "sagemaker"
+        ],
+        "service_name": "sagemaker",
+        "url": "/sagemaker/"
+    },
+    "sagemakergroundtruth": {
+        "alias": "sagemakergroundtruth",
+        "description": "Build accurate ML training datasets",
+        "product_label": " Amazon SageMaker Ground Truth",
+        "search_terms": [
+            "sagemakergroundtruth",
+            "sgt",
+            "sagemaker-ground-truth"
+        ],
+        "service_name": "sagemaker-ground-truth",
+        "url": "/sagemaker/groundtruth/"
+    },
+    "secretsmanager": {
+        "alias": "secretsmanager",
+        "description": "Rotate, Manage, and Retrieve Secrets",
+        "product_label": " AWS Secrets Manager",
+        "search_terms": [
+            "sm",
+            "secretsmanager",
+            "secrets-manager"
+        ],
+        "service_name": "secrets-manager",
+        "url": "/secrets-manager/"
+    },
+    "securityhub": {
+        "alias": "securityhub",
+        "description": "Unified security and compliance center",
+        "product_label": " AWS Security Hub",
+        "search_terms": [
+            "sh",
+            "security-hub",
+            "securityhub"
+        ],
+        "service_name": "security-hub",
+        "url": "/security-hub/"
+    },
+    "serverlessrepo": {
+        "alias": "serverlessrepo",
+        "description": "Discover, Deploy, and Publish Serverless Applications",
+        "product_label": " AWS Serverless Application Repository",
+        "search_terms": [
+            "serverlessrepo",
+            "serverlessapplicationrepository",
+            "serverless-application-repository",
+            "sar"
+        ],
+        "service_name": "serverless-application-repository",
+        "url": "/serverlessrepo/"
+    },
+    "servermigrationservice": {
+        "alias": "servermigrationservice",
+        "description": "Migrate On-Premises Servers to AWS",
+        "product_label": " AWS Server Migration Service ",
+        "search_terms": [
+            "sms",
+            "servermigrationservice",
+            "server-migration-service"
+        ],
+        "service_name": "server-migration-service",
+        "url": "/server-migration-service/"
+    },
+    "servicecatalog": {
+        "alias": "servicecatalog",
+        "description": "Create and Use Standardized Products",
+        "product_label": " AWS Service Catalog",
+        "search_terms": [
+            "service-catalog",
+            "sc",
+            "servicecatalog"
+        ],
+        "service_name": "service-catalog",
+        "url": "/servicecatalog/"
+    },
+    "ses": {
+        "alias": "ses",
+        "description": "Email Sending and Receiving",
+        "product_label": " Amazon Simple Email Service (SES)",
+        "search_terms": [
+            "simpleemailservice",
+            "ses",
+            "simple-email-service",
+            "simpleemailserviceses"
+        ],
+        "service_name": "simple-email-service",
+        "url": "/ses/"
+    },
+    "sftp": {
+        "alias": "sftp",
+        "description": "Fully managed SFTP service",
+        "product_label": " AWS Transfer for SFTP",
+        "search_terms": [
+            "tfs",
+            "transfer-for-sftp",
+            "transferforsftp",
+            "sftp"
+        ],
+        "service_name": "transfer-for-sftp",
+        "url": "/sftp/"
+    },
+    "shield": {
+        "alias": "shield",
+        "description": "DDoS Protection",
+        "product_label": " AWS Shield",
+        "search_terms": [
+            "shield"
+        ],
+        "service_name": "shield",
+        "url": "/shield/"
+    },
+    "singlesignon": {
+        "alias": "singlesignon",
+        "description": "Cloud Single Sign-On (SSO) Service",
+        "product_label": " AWS Single Sign-On",
+        "search_terms": [
+            "single-sign-on",
+            "singlesignon",
+            "singlesign-on",
+            "sso"
+        ],
+        "service_name": "single-sign-on",
+        "url": "/single-sign-on/"
+    },
+    "snow": {
+        "alias": "snow",
+        "description": "Physical devices to migrate data into and out of AWS",
+        "product_label": " AWS Snow Family",
+        "search_terms": [
+            "snow",
+            "snowfamily",
+            "sf",
+            "snow-family"
+        ],
+        "service_name": "snow-family",
+        "url": "/snow/"
+    },
+    "sns": {
+        "alias": "sns",
+        "description": "Pub/Sub, Mobile Push and SMS",
+        "product_label": " Amazon Simple Notification Service (SNS)",
+        "search_terms": [
+            "simple-notification-service",
+            "sns",
+            "simplenotificationservice",
+            "simplenotificationservicesns"
+        ],
+        "service_name": "simple-notification-service",
+        "url": "/sns/"
+    },
+    "sqs": {
+        "alias": "sqs",
+        "description": "Managed Message Queues",
+        "product_label": " Amazon Simple Queue Service (SQS) ",
+        "search_terms": [
+            "simplequeueservicesqs",
+            "simple-queue-service",
+            "simplequeueservice",
+            "sqs"
+        ],
+        "service_name": "simple-queue-service",
+        "url": "/sqs/"
+    },
+    "stepfunctions": {
+        "alias": "stepfunctions",
+        "description": "Coordinate Distributed Applications",
+        "product_label": " AWS Step Functions",
+        "search_terms": [
+            "stepfunctions",
+            "sf",
+            "step-functions"
+        ],
+        "service_name": "step-functions",
+        "url": "/step-functions/"
+    },
+    "storagegateway": {
+        "alias": "storagegateway",
+        "description": "Hybrid Storage Integration",
+        "product_label": " AWS Storage Gateway",
+        "search_terms": [
+            "storagegateway",
+            "storage-gateway",
+            "sg"
+        ],
+        "service_name": "storage-gateway",
+        "url": "/storagegateway/"
+    },
+    "sumerian": {
+        "alias": "sumerian",
+        "description": "Build and Run VR and AR Applications",
+        "product_label": " Amazon Sumerian",
+        "search_terms": [
+            "sumerian"
+        ],
+        "service_name": "sumerian",
+        "url": "/sumerian/"
+    },
+    "systemsmanager": {
+        "alias": "systemsmanager",
+        "description": "Gain Operational Insights and Take Action",
+        "product_label": " AWS Systems Manager",
+        "search_terms": [
+            "systemsmanager",
+            "sm",
+            "systems-manager"
+        ],
+        "service_name": "systems-manager",
+        "url": "/systems-manager/"
+    },
+    "tensorflow": {
+        "alias": "tensorflow",
+        "description": "Open-source Machine Intelligence Library",
+        "product_label": " TensorFlow on AWS",
+        "search_terms": [
+            "tensorflow",
+            "tensorflowonaws",
+            "tensorflow-on-aws",
+            "toa"
+        ],
+        "service_name": "tensorflow-on-aws",
+        "url": "/tensorflow/"
+    },
+    "textract": {
+        "alias": "textract",
+        "description": "Extract text and data from documents",
+        "product_label": " Amazon Textract",
+        "search_terms": [
+            "textract"
+        ],
+        "service_name": "textract",
+        "url": "/textract/"
+    },
+    "timestream": {
+        "alias": "timestream",
+        "description": "Fully managed time series database",
+        "product_label": " Amazon Timestream",
+        "search_terms": [
+            "timestream"
+        ],
+        "service_name": "timestream",
+        "url": "/timestream/"
+    },
+    "transcribe": {
+        "alias": "transcribe",
+        "description": "Automatic Speech Recognition",
+        "product_label": " Amazon Transcribe",
+        "search_terms": [
+            "transcribe"
+        ],
+        "service_name": "transcribe",
+        "url": "/transcribe/"
+    },
+    "transitgateway": {
+        "alias": "transitgateway",
+        "description": "Easily scale VPC and account connections",
+        "product_label": " AWS Transit Gateway",
+        "search_terms": [
+            "tg",
+            "transit-gateway",
+            "transitgateway"
+        ],
+        "service_name": "transit-gateway",
+        "url": "/transit-gateway/"
+    },
+    "translate": {
+        "alias": "translate",
+        "description": "Natural and Fluent Language Translation",
+        "product_label": " Amazon Translate",
+        "search_terms": [
+            "translate"
+        ],
+        "service_name": "translate",
+        "url": "/translate/"
+    },
+    "trustedadvisor": {
+        "alias": "trustedadvisor",
+        "description": "Optimize Performance and Security",
+        "product_label": " AWS Trusted Advisor",
+        "search_terms": [
+            "trustedadvisor",
+            "ta",
+            "trusted-advisor"
+        ],
+        "service_name": "trusted-advisor",
+        "url": "/trustedadvisor/"
+    },
+    "vmware": {
+        "alias": "vmware",
+        "description": "Build a Hybrid Cloud without Custom Hardware",
+        "product_label": " VMware Cloud on AWS",
+        "search_terms": [
+            "vmware-cloud-on-aws",
+            "vcoa",
+            "vmwarecloudonaws",
+            "vmware"
+        ],
+        "service_name": "vmware-cloud-on-aws",
+        "url": "/vmware/"
+    },
+    "vpc": {
+        "alias": "vpc",
+        "description": "Isolated Cloud Resources",
+        "product_label": " Amazon VPC",
+        "search_terms": [
+            "ec2",
+            "vpc"
+        ],
+        "service_name": "vpc",
+        "url": "/vpc/"
+    },
+    "waf": {
+        "alias": "waf",
+        "description": "Filter Malicious Web Traffic",
+        "product_label": " AWS WAF",
+        "search_terms": [
+            "waf"
+        ],
+        "service_name": "waf",
+        "url": "/waf/"
+    },
+    "wellarchitectedtool": {
+        "alias": "wellarchitectedtool",
+        "description": "Review and improve your workloads",
+        "product_label": " AWS Well-Architected Tool",
+        "search_terms": [
+            "well-architected-tool",
+            "wellarchitectedtool",
+            "wat",
+            "well-architectedtool"
+        ],
+        "service_name": "well-architected-tool",
+        "url": "/well-architected-tool/"
+    },
+    "workdocs": {
+        "alias": "workdocs",
+        "description": "Enterprise Storage and Sharing Service",
+        "product_label": " Amazon WorkDocs",
+        "search_terms": [
+            "workdocs"
+        ],
+        "service_name": "workdocs",
+        "url": "/workdocs/"
+    },
+    "workmail": {
+        "alias": "workmail",
+        "description": "Secure and Managed Business Email and Calendaring",
+        "product_label": " Amazon WorkMail",
+        "search_terms": [
+            "workmail"
+        ],
+        "service_name": "workmail",
+        "url": "/workmail/"
+    },
+    "workspaces": {
+        "alias": "workspaces",
+        "description": "Desktop Computing Service",
+        "product_label": " Amazon WorkSpaces",
+        "search_terms": [
+            "workspaces"
+        ],
+        "service_name": "workspaces",
+        "url": "/workspaces/"
+    },
+    "xray": {
+        "alias": "xray",
+        "description": "Analyze and Debug Your Applications",
+        "product_label": " AWS X-Ray",
+        "search_terms": [
+            "xr",
+            "xray",
+            "x-ray"
+        ],
+        "service_name": "x-ray",
+        "url": "/xray/"
+    }
+}
