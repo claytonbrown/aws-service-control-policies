@@ -1,0 +1,13 @@
+{
+  "RegionRestricted": {
+                        "Action": [
+                            "*:*"
+                        ],
+                        "Condition": {"StringLikeIfExists": {"aws:RequestedRegion": ["us-east-1","ap-southeast-2","us-west-2"]}},
+                        "Effect": "Deny",
+                        "Resource": "*"
+                    },
+  "RegionRestricted2": {},
+  "RegionRestricted3": {},
+  "RegionRestricted4": {}
+}
