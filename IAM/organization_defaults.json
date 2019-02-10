@@ -1,13 +1,36 @@
-{
-  "RegionRestricted": {
-                        "Action": [
-                            "*:*"
-                        ],
-                        "Condition": {"StringLikeIfExists": {"aws:RequestedRegion": ["us-east-1","ap-southeast-2","us-west-2"]}},
-                        "Effect": "Deny",
-                        "Resource": "*"
-                    },
-  "RegionRestricted2": {},
-  "RegionRestricted3": {},
-  "RegionRestricted4": {}
-}
+[
+  {
+    "CorpIP": {
+      "Action": "*:*",
+      "Condition": {
+        "IpAddress": {
+          "aws:SourceIp": [
+            "203.0.113.0/24",
+            "203.0.113.0/24"
+          ]
+        }
+      },
+      "Effect": "Allow",
+      "MFA": {},
+      "Resource": "*",
+      "SourceVpc": {},
+      "TagKeys": {}
+    },
+    "Region": {
+      "Action": [
+        "*:*"
+      ],
+      "Condition": {
+        "StringLikeIfExists": {
+          "aws:RequestedRegion": [
+            "us-east-1",
+            "ap-southeast-2",
+            "us-west-2"
+          ]
+        }
+      },
+      "Effect": "Deny",
+      "Resource": "*"
+    }
+  }
+]

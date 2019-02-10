@@ -23,13 +23,35 @@
             "AWS::ApiGateway::VpcLink": {}
         },
         "search_terms": [
-            "ag",
             "apigateway",
             "apigatewayapigateway",
-            "Amazon API Gateway (API Gateway)"
+            "Amazon API Gateway (API Gateway)",
+            "ag"
         ],
         "service_label": "Amazon API Gateway (API Gateway)",
         "service_name": "apigateway"
+    },
+    "apigatewayv2": {
+        "category": "Application Services",
+        "resource_types": {
+            "AWS::ApiGatewayV2::Api": {},
+            "AWS::ApiGatewayV2::Authorizer": {},
+            "AWS::ApiGatewayV2::Deployment": {},
+            "AWS::ApiGatewayV2::Integration": {},
+            "AWS::ApiGatewayV2::IntegrationResponse": {},
+            "AWS::ApiGatewayV2::Model": {},
+            "AWS::ApiGatewayV2::Route": {},
+            "AWS::ApiGatewayV2::RouteResponse": {},
+            "AWS::ApiGatewayV2::Stage": {}
+        },
+        "search_terms": [
+            "Amazon API Gateway V2 (API Gateway V2)",
+            "apigatewayvapigatewayv",
+            "apigatewayv2",
+            "agv"
+        ],
+        "service_label": "Amazon API Gateway V2 (API Gateway V2)",
+        "service_name": "apigatewayv2"
     },
     "applicationautoscaling": {
         "category": "Compute",
@@ -38,10 +60,10 @@
             "AWS::ApplicationAutoScaling::ScalingPolicy": {}
         },
         "search_terms": [
-            "Application Auto Scaling",
-            "aas",
             "applicationautoscaling",
-            "autoscaling"
+            "aas",
+            "autoscaling",
+            "Application Auto Scaling"
         ],
         "service_label": "Application Auto Scaling",
         "service_name": "applicationautoscaling"
@@ -58,8 +80,8 @@
             "AWS::AppStream::User": {}
         },
         "search_terms": [
-            "appstream2.0",
             "appstream",
+            "appstream2.0",
             "AppStream 2.0"
         ],
         "service_label": "AppStream 2.0",
@@ -114,10 +136,10 @@
         },
         "search_terms": [
             "cm",
-            "acm",
+            "AWS Certificate Manager (ACM)",
             "certificatemanager",
-            "certificatemanageracm",
-            "AWS Certificate Manager (ACM)"
+            "acm",
+            "certificatemanageracm"
         ],
         "service_label": "AWS Certificate Manager (ACM)",
         "service_name": "certificatemanager"
@@ -143,9 +165,9 @@
             "AWS::CloudFront::StreamingDistribution": {}
         },
         "search_terms": [
-            "cloudfront",
+            "cloudfrontcloudfront",
             "Amazon CloudFront (CloudFront)",
-            "cloudfrontcloudfront"
+            "cloudfront"
         ],
         "service_label": "Amazon CloudFront (CloudFront)",
         "service_name": "cloudfront"
@@ -160,10 +182,10 @@
             "AWS::ServiceDiscovery::Service": {}
         },
         "search_terms": [
-            "servicediscovery",
             "cm",
-            "AWS Cloud Map",
-            "cloudmap"
+            "cloudmap",
+            "servicediscovery",
+            "AWS Cloud Map"
         ],
         "service_label": "AWS Cloud Map",
         "service_name": "cloudmap"
@@ -186,8 +208,8 @@
             "AWS::CodeCommit::Repository": {}
         },
         "search_terms": [
-            "AWS CodeCommit",
-            "codecommit"
+            "codecommit",
+            "AWS CodeCommit"
         ],
         "service_label": "AWS CodeCommit",
         "service_name": "codecommit"
@@ -214,8 +236,8 @@
             "AWS::CodePipeline::Webhook": {}
         },
         "search_terms": [
-            "codepipeline",
-            "AWS CodePipeline"
+            "AWS CodePipeline",
+            "codepipeline"
         ],
         "service_label": "AWS CodePipeline",
         "service_name": "codepipeline"
@@ -232,8 +254,8 @@
             "AWS::Cognito::UserPoolUserToGroupAttachment": {}
         },
         "search_terms": [
-            "cognito",
-            "Amazon Cognito"
+            "Amazon Cognito",
+            "cognito"
         ],
         "service_label": "Amazon Cognito",
         "service_name": "cognito"
@@ -262,9 +284,9 @@
             "AWS::DataPipeline::Pipeline": {}
         },
         "search_terms": [
+            "datapipeline",
             "AWS Data Pipeline",
-            "dp",
-            "datapipeline"
+            "dp"
         ],
         "service_label": "AWS Data Pipeline",
         "service_name": "datapipeline"
@@ -276,9 +298,9 @@
             "AWS::DirectoryService::SimpleAD": {}
         },
         "search_terms": [
+            "AWS Directory Service",
             "directoryservice",
-            "ds",
-            "AWS Directory Service"
+            "ds"
         ],
         "service_label": "AWS Directory Service",
         "service_name": "directoryservice"
@@ -292,11 +314,11 @@
             "AWS::DocDB::DBSubnetGroup": {}
         },
         "search_terms": [
+            "docdb",
             "documentdbwithmongodbcompatibilitydocumentdb",
             "withmongodbcompatibility",
-            "documentdb",
             "Amazon DocumentDB (with MongoDB compatibility) (Amazon DocumentDB)",
-            "docdb"
+            "documentdb"
         ],
         "service_label": "Amazon DocumentDB (with MongoDB compatibility) (Amazon DocumentDB)",
         "service_name": "documentdb"
@@ -307,8 +329,8 @@
             "AWS::DynamoDB::Table": {}
         },
         "search_terms": [
-            "dynamodbdynamodb",
             "Amazon DynamoDB (DynamoDB)",
+            "dynamodbdynamodb",
             "dynamodb"
         ],
         "service_label": "Amazon DynamoDB (DynamoDB)",
@@ -322,11 +344,11 @@
             "AWS::DAX::SubnetGroup": {}
         },
         "search_terms": [
-            "dynamodbacceleratordax",
-            "Amazon DynamoDB Accelerator (DAX)",
-            "dax",
             "dynamodbaccelerator",
-            "da"
+            "Amazon DynamoDB Accelerator (DAX)",
+            "da",
+            "dynamodbacceleratordax",
+            "dax"
         ],
         "service_label": "Amazon DynamoDB Accelerator (DAX)",
         "service_name": "dynamodbaccelerator"
@@ -341,11 +363,11 @@
             "AWS::AutoScaling::ScheduledAction": {}
         },
         "search_terms": [
-            "autoscaling",
+            "ecautoscaling",
             "eas",
             "ec2autoscaling",
-            "Amazon EC2 Auto Scaling",
-            "ecautoscaling"
+            "autoscaling",
+            "Amazon EC2 Auto Scaling"
         ],
         "service_label": "Amazon EC2 Auto Scaling",
         "service_name": "ec2autoscaling"
@@ -363,11 +385,11 @@
             "AWS::SSM::ResourceDataSync": {}
         },
         "search_terms": [
-            "ec2systemsmanager",
-            "esm",
+            "Amazon EC2 Systems Manager (SSM)",
             "ecsystemsmanagerssm",
+            "ec2systemsmanager",
             "ssm",
-            "Amazon EC2 Systems Manager (SSM)"
+            "esm"
         ],
         "service_label": "Amazon EC2 Systems Manager (SSM)",
         "service_name": "ec2systemsmanager"
@@ -383,9 +405,9 @@
             "AWS::ElastiCache::SubnetGroup": {}
         },
         "search_terms": [
+            "elasticache",
             "Amazon ElastiCache (ElastiCache)",
-            "elasticacheelasticache",
-            "elasticache"
+            "elasticacheelasticache"
         ],
         "service_label": "Amazon ElastiCache (ElastiCache)",
         "service_name": "elasticache"
@@ -399,10 +421,10 @@
             "AWS::ElasticBeanstalk::Environment": {}
         },
         "search_terms": [
-            "eb",
+            "AWS Elastic Beanstalk (Elastic Beanstalk)",
             "elasticbeanstalk",
             "elasticbeanstalkelasticbeanstalk",
-            "AWS Elastic Beanstalk (Elastic Beanstalk)"
+            "eb"
         ],
         "service_label": "AWS Elastic Beanstalk (Elastic Beanstalk)",
         "service_name": "elasticbeanstalk"
@@ -414,11 +436,11 @@
             "AWS::EC2::VolumeAttachment": {}
         },
         "search_terms": [
-            "ec2",
-            "Amazon Elastic Block Store (Amazon EBS)",
-            "ebs",
             "elasticblockstore",
-            "elasticblockstoreebs"
+            "ebs",
+            "Amazon Elastic Block Store (Amazon EBS)",
+            "elasticblockstoreebs",
+            "ec2"
         ],
         "service_label": "Amazon Elastic Block Store (Amazon EBS)",
         "service_name": "elasticblockstore"
@@ -441,11 +463,11 @@
             "AWS::EC2::VPCPeeringConnection": {}
         },
         "search_terms": [
-            "elasticcomputecloud",
             "Amazon Elastic Compute Cloud (Amazon EC2)",
+            "elasticcomputecloud",
+            "elasticcomputecloudec",
             "ec2",
-            "ecc",
-            "elasticcomputecloudec"
+            "ecc"
         ],
         "service_label": "Amazon Elastic Compute Cloud (Amazon EC2)",
         "service_name": "elasticcomputecloud"
@@ -458,8 +480,8 @@
         "search_terms": [
             "elasticcontainerregistryecr",
             "ecr",
-            "elasticcontainerregistry",
-            "Amazon Elastic Container Registry (Amazon ECR)"
+            "Amazon Elastic Container Registry (Amazon ECR)",
+            "elasticcontainerregistry"
         ],
         "service_label": "Amazon Elastic Container Registry (Amazon ECR)",
         "service_name": "elasticcontainerregistry"
@@ -472,10 +494,10 @@
             "AWS::ECS::TaskDefinition": {}
         },
         "search_terms": [
-            "ecs",
             "elasticcontainerservice",
+            "elasticcontainerserviceecs",
             "Amazon Elastic Container Service (Amazon ECS)",
-            "elasticcontainerserviceecs"
+            "ecs"
         ],
         "service_label": "Amazon Elastic Container Service (Amazon ECS)",
         "service_name": "elasticcontainerservice"
@@ -488,8 +510,8 @@
         "search_terms": [
             "Amazon Elastic Container Service for Kubernetes",
             "elasticcontainerserviceforkubernetes",
-            "ecsfk",
-            "eks"
+            "eks",
+            "ecsfk"
         ],
         "service_label": "Amazon Elastic Container Service for Kubernetes",
         "service_name": "elasticcontainerserviceforkubernetes"
@@ -501,10 +523,10 @@
             "AWS::EFS::MountTarget": {}
         },
         "search_terms": [
-            "elasticfilesystemefs",
             "elasticfilesystem",
-            "Amazon Elastic File System (Amazon EFS)",
-            "efs"
+            "elasticfilesystemefs",
+            "efs",
+            "Amazon Elastic File System (Amazon EFS)"
         ],
         "service_label": "Amazon Elastic File System (Amazon EFS)",
         "service_name": "elasticfilesystem"
@@ -520,10 +542,10 @@
             "AWS::ElasticLoadBalancingV2::TargetGroup": {}
         },
         "search_terms": [
-            "Elastic Load Balancing",
             "elb",
+            "elasticloadbalancingv2",
             "elasticloadbalancing",
-            "elasticloadbalancingv2"
+            "Elastic Load Balancing"
         ],
         "service_label": "Elastic Load Balancing",
         "service_name": "elasticloadbalancing"
@@ -534,10 +556,10 @@
             "AWS::Elasticsearch::Domain": {}
         },
         "search_terms": [
-            "elasticsearchservice",
-            "elasticsearch",
-            "elasticsearchservicees",
             "Amazon Elasticsearch Service (Amazon ES)",
+            "elasticsearchservicees",
+            "elasticsearch",
+            "elasticsearchservice",
             "es"
         ],
         "service_label": "Amazon Elasticsearch Service (Amazon ES)",
@@ -553,8 +575,8 @@
             "AWS::EMR::Step": {}
         },
         "search_terms": [
-            "emr",
             "emremr",
+            "emr",
             "Amazon EMR (Amazon EMR)"
         ],
         "service_label": "Amazon EMR (Amazon EMR)",
@@ -568,9 +590,9 @@
             "AWS::GameLift::Fleet": {}
         },
         "search_terms": [
-            "Amazon GameLift (GameLift)",
+            "gameliftgamelift",
             "gamelift",
-            "gameliftgamelift"
+            "Amazon GameLift (GameLift)"
         ],
         "service_label": "Amazon GameLift (GameLift)",
         "service_name": "gamelift"
@@ -589,8 +611,8 @@
             "AWS::Glue::Trigger": {}
         },
         "search_terms": [
-            "glue",
-            "AWS Glue"
+            "AWS Glue",
+            "glue"
         ],
         "service_label": "AWS Glue",
         "service_name": "glue"
@@ -627,9 +649,9 @@
         "search_terms": [
             "iam",
             "iaam",
+            "AWS Identity and Access Management (IAM)",
             "identityandaccessmanagementiam",
-            "identityandaccessmanagement",
-            "AWS Identity and Access Management (IAM)"
+            "identityandaccessmanagement"
         ],
         "service_label": "AWS Identity and Access Management (IAM)",
         "service_name": "identityandaccessmanagement"
@@ -673,10 +695,10 @@
             "AWS::IoT1Click::Project": {}
         },
         "search_terms": [
-            "iot1-click",
             "iot1click",
-            "iotclick",
             "ic",
+            "iot1-click",
+            "iotclick",
             "AWS IoT 1-Click"
         ],
         "service_label": "AWS IoT 1-Click",
@@ -692,8 +714,8 @@
         },
         "search_terms": [
             "ia",
-            "iotanalytics",
-            "AWS IoT Analytics"
+            "AWS IoT Analytics",
+            "iotanalytics"
         ],
         "service_label": "AWS IoT Analytics",
         "service_name": "iotanalytics"
@@ -705,10 +727,10 @@
             "AWS::KMS::Key": {}
         },
         "search_terms": [
-            "kms",
             "keymanagementservicekms",
+            "AWS Key Management Service (AWS KMS)",
             "keymanagementservice",
-            "AWS Key Management Service (AWS KMS)"
+            "kms"
         ],
         "service_label": "AWS Key Management Service (AWS KMS)",
         "service_name": "keymanagementservice"
@@ -724,10 +746,10 @@
             "AWS::KinesisFirehose::DeliveryStream": {}
         },
         "search_terms": [
-            "Amazon Kinesis",
+            "kinesisfirehose",
             "kinesis",
-            "kinesisanalytics",
-            "kinesisfirehose"
+            "Amazon Kinesis",
+            "kinesisanalytics"
         ],
         "service_label": "Amazon Kinesis",
         "service_name": "kinesis"
@@ -745,8 +767,8 @@
         },
         "search_terms": [
             "lambdalambda",
-            "AWS Lambda (Lambda)",
-            "lambda"
+            "lambda",
+            "AWS Lambda (Lambda)"
         ],
         "service_label": "AWS Lambda (Lambda)",
         "service_name": "lambda"
@@ -759,9 +781,9 @@
             "AWS::AmazonMQ::ConfigurationAssociation": {}
         },
         "search_terms": [
-            "mq",
+            "amazonmq",
             "Amazon MQ",
-            "amazonmq"
+            "mq"
         ],
         "service_label": "Amazon MQ",
         "service_name": "mq"
@@ -777,8 +799,8 @@
         },
         "search_terms": [
             "neptuneneptune",
-            "Amazon Neptune (Neptune)",
-            "neptune"
+            "neptune",
+            "Amazon Neptune (Neptune)"
         ],
         "service_label": "Amazon Neptune (Neptune)",
         "service_name": "neptune"
@@ -793,8 +815,8 @@
             "AWS::Redshift::ClusterSubnetGroup": {}
         },
         "search_terms": [
-            "redshift",
-            "Amazon Redshift"
+            "Amazon Redshift",
+            "redshift"
         ],
         "service_label": "Amazon Redshift",
         "service_name": "redshift"
@@ -815,8 +837,8 @@
         "search_terms": [
             "rds",
             "relationaldatabaseservicerds",
-            "relationaldatabaseservice",
-            "Amazon Relational Database Service (Amazon RDS)"
+            "Amazon Relational Database Service (Amazon RDS)",
+            "relationaldatabaseservice"
         ],
         "service_label": "Amazon Relational Database Service (Amazon RDS)",
         "service_name": "relationaldatabaseservice"
@@ -833,11 +855,11 @@
             "AWS::Route53Resolver::ResolverRuleAssociation": {}
         },
         "search_terms": [
-            "Amazon Route\u00a053",
-            "route53",
-            "route53resolver",
+            "route",
             "route\u00a053",
-            "route"
+            "route53resolver",
+            "route53",
+            "Amazon Route\u00a053"
         ],
         "service_label": "Amazon Route\u00a053",
         "service_name": "route53"
@@ -867,8 +889,8 @@
             "AWS::SecretsManager::SecretTargetAttachment": {}
         },
         "search_terms": [
-            "sm",
             "secretsmanager",
+            "sm",
             "AWS Secrets Manager (Secrets Manager)",
             "secretsmanagersecretsmanager"
         ],
@@ -915,10 +937,10 @@
             "AWS::SNS::TopicPolicy": {}
         },
         "search_terms": [
+            "simplenotificationservicesns",
             "sns",
-            "Amazon Simple Notification Service (Amazon SNS)",
             "simplenotificationservice",
-            "simplenotificationservicesns"
+            "Amazon Simple Notification Service (Amazon SNS)"
         ],
         "service_label": "Amazon Simple Notification Service (Amazon SNS)",
         "service_name": "simplenotificationservice"
@@ -930,10 +952,10 @@
             "AWS::SQS::QueuePolicy": {}
         },
         "search_terms": [
-            "simplequeueservicesqs",
-            "Amazon Simple Queue Service (Amazon SQS)",
             "simplequeueservice",
-            "sqs"
+            "sqs",
+            "Amazon Simple Queue Service (Amazon SQS)",
+            "simplequeueservicesqs"
         ],
         "service_label": "Amazon Simple Queue Service (Amazon SQS)",
         "service_name": "simplequeueservice"
@@ -946,10 +968,10 @@
         },
         "search_terms": [
             "sss",
-            "simplestorageservices",
-            "simplestorageservice",
             "s3",
-            "Amazon Simple Storage Service (Amazon S3)"
+            "Amazon Simple Storage Service (Amazon S3)",
+            "simplestorageservices",
+            "simplestorageservice"
         ],
         "service_label": "Amazon Simple Storage Service (Amazon S3)",
         "service_name": "simplestorageservice"
@@ -961,10 +983,10 @@
             "AWS::StepFunctions::StateMachine": {}
         },
         "search_terms": [
-            "stepfunctions",
-            "stepfunctionsstepfunctions",
             "sf",
-            "AWS Step Functions (Step Functions)"
+            "AWS Step Functions (Step Functions)",
+            "stepfunctionsstepfunctions",
+            "stepfunctions"
         ],
         "service_label": "AWS Step Functions (Step Functions)",
         "service_name": "stepfunctions"
@@ -1007,11 +1029,11 @@
             "AWS::EC2::VPNGatewayRoutePropagation": {}
         },
         "search_terms": [
-            "Amazon Virtual Private Cloud (Amazon VPC)",
+            "virtualprivatecloudvpc",
+            "vpc",
             "virtualprivatecloud",
             "ec2",
-            "virtualprivatecloudvpc",
-            "vpc"
+            "Amazon Virtual Private Cloud (Amazon VPC)"
         ],
         "service_label": "Amazon Virtual Private Cloud (Amazon VPC)",
         "service_name": "virtualprivatecloud"
@@ -1036,9 +1058,9 @@
             "AWS::WAFRegional::XssMatchSet": {}
         },
         "search_terms": [
-            "waf",
+            "wafregional",
             "AWS WAF",
-            "wafregional"
+            "waf"
         ],
         "service_label": "AWS WAF",
         "service_name": "waf"
