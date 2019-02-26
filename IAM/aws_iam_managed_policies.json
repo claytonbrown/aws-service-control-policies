@@ -13976,13 +13976,36 @@
                             "arn:aws:ec2:*:*:vpc/*",
                             "arn:aws:ec2:*:*:subnet/*"
                         ]
+                    },
+                    {
+                        "Action": "route53:AssociateVPCWithHostedZone",
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    },
+                    {
+                        "Action": "logs:CreateLogGroup",
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    },
+                    {
+                        "Action": [
+                            "logs:CreateLogStream",
+                            "logs:DescribeLogStreams"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "arn:aws:logs:*:*:log-group:/aws/eks/*:*"
+                    },
+                    {
+                        "Action": "logs:PutLogEvents",
+                        "Effect": "Allow",
+                        "Resource": "arn:aws:logs:*:*:log-group:/aws/eks/*:*:*"
                     }
                 ],
                 "Version": "2012-10-17"
             },
             "PolicyId": "ANPAJFCNXU6HPGCIVXYDI",
             "PolicyName": "AmazonEKSServicePolicy",
-            "VersionId": "v2"
+            "VersionId": "v3"
         },
         "AmazonEKSWorkerNodePolicy": {
             "Document": {

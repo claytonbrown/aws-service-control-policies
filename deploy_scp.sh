@@ -2,7 +2,8 @@
 
 existing_policies=`aws organizations list-policies --filter SERVICE_CONTROL_POLICY`
 echo "$existing_policies" | jq -r '.Policies[].Name' | sort
-break;
+# echo "$existing_policies" > ./existing_policies.json
+
 
 for policy_file in Policies/*.json ; do
     policy=`basename $policy_file | sed s/.json//g`
@@ -25,7 +26,7 @@ for policy_file in Policies/*.json ; do
     echo "Policy Id:          ${policy_id}"
     if [ ! -z $policy_id ] ; then
         echo "$policy exists as $policy_id"
-        aws organizations update-policy --policy-id ${policy_id} --content file://$policy_file --name $name --description "$description" --output text #| jq .
+        # aws organizations update-policy --policy-id ${policy_id} --content file://$policy_file --name $name --description "$description" --output text #| jq .
         # grep POLICYSUMMARY
     else
         echo "$policy doesn't exist yet"

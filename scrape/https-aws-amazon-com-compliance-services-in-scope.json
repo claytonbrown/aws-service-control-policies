@@ -922,8 +922,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "as",
-                "autoscaling"
+                "autoscaling",
+                "as"
             ]
         },
         "AWS Backup": {
@@ -949,8 +949,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "cm",
-                "certificatemanager"
+                "certificatemanager",
+                "cm"
             ]
         },
         "AWS Certificate Manager (ACM)": {
@@ -958,10 +958,10 @@
                 "pci"
             ],
             "search_terms": [
-                "cm",
                 "acm",
+                "certificatemanageracm",
                 "certificatemanager",
-                "certificatemanageracm"
+                "cm"
             ]
         },
         "AWS CloudFormation": {
@@ -1072,9 +1072,9 @@
             ],
             "search_terms": [
                 "directoryserviceexcludingsimpleadandadconnector",
+                "ds",
                 "excludingsimpleadandadconnector",
-                "directoryservice",
-                "ds"
+                "directoryservice"
             ]
         },
         "AWS Directory Service [Excludes Simple Active Directory": {
@@ -1082,9 +1082,9 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
+                "dsesad",
                 "directoryservice[excludessimpleactivedirectory",
-                "directoryserviceexcludessimpleactivedirectory",
-                "dsesad"
+                "directoryserviceexcludessimpleactivedirectory"
             ]
         },
         "AWS Directory Service [Excludes Simple Active Directory]": {
@@ -1093,9 +1093,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
+                "dsesad",
                 "directoryservice[excludessimpleactivedirectory]",
-                "directoryserviceexcludessimpleactivedirectory",
-                "dsesad"
+                "directoryserviceexcludessimpleactivedirectory"
             ]
         },
         "AWS Directory Service for Microsoft and AD Connector": {
@@ -1103,8 +1103,8 @@
                 "pci"
             ],
             "search_terms": [
-                "directoryserviceformicrosoftandadconnector",
-                "dsfmaac"
+                "dsfmaac",
+                "directoryserviceformicrosoftandadconnector"
             ]
         },
         "AWS Elastic Beanstalk": {
@@ -1112,8 +1112,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "elasticbeanstalk",
-                "eb"
+                "eb",
+                "elasticbeanstalk"
             ]
         },
         "AWS Elastic Load Balancing (ELB)": {
@@ -1132,8 +1132,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "elementalmediaconnect",
-                "em"
+                "em",
+                "elementalmediaconnect"
             ]
         },
         "AWS Elemental MediaConvert": {
@@ -1150,8 +1150,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "elementalmedialive",
-                "em"
+                "em",
+                "elementalmedialive"
             ]
         },
         "AWS Firewall Manager": {
@@ -1160,8 +1160,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "firewallmanager",
-                "fm"
+                "fm",
+                "firewallmanager"
             ]
         },
         "AWS Global Accelerator": {
@@ -1169,8 +1169,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "globalaccelerator",
-                "ga"
+                "ga",
+                "globalaccelerator"
             ]
         },
         "AWS Glue": {
@@ -1194,9 +1194,9 @@
                 "k-isms"
             ],
             "search_terms": [
+                "identityaccessmanagementiam",
                 "iam",
-                "identity&accessmanagement",
-                "identityaccessmanagementiam"
+                "identity&accessmanagement"
             ]
         },
         "AWS Identity and Access Management (IAM)": {
@@ -1205,10 +1205,10 @@
                 "irap-protected"
             ],
             "search_terms": [
+                "iaam",
                 "iam",
                 "identityandaccessmanagement",
-                "identityandaccessmanagementiam",
-                "iaam"
+                "identityandaccessmanagementiam"
             ]
         },
         "AWS Import/Export": {
@@ -1227,8 +1227,8 @@
             ],
             "search_terms": [
                 "coreanddevicemanagement",
-                "iot",
-                "iotcoreanddevicemanagement"
+                "iotcoreanddevicemanagement",
+                "iot"
             ]
         },
         "AWS IoT Core": {
@@ -1237,8 +1237,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "ic",
-                "iotcore"
+                "iotcore",
+                "ic"
             ]
         },
         "AWS IoT Core [includes Device Management ]": {
@@ -1246,9 +1246,9 @@
                 "pci"
             ],
             "search_terms": [
-                "icidm",
+                "iotcoreincludesdevicemanagement",
                 "iotcore[includesdevicemanagement]",
-                "iotcoreincludesdevicemanagement"
+                "icidm"
             ]
         },
         "AWS IoT Device Management": {
@@ -1286,8 +1286,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "keymanagementservice",
-                "kms"
+                "kms",
+                "keymanagementservice"
             ]
         },
         "AWS Key Management Service (KMS)": {
@@ -1295,9 +1295,9 @@
                 "mtcs"
             ],
             "search_terms": [
-                "keymanagementservice",
+                "keymanagementservicekms",
                 "kms",
-                "keymanagementservicekms"
+                "keymanagementservice"
             ]
         },
         "AWS Lambda": {
@@ -1313,9 +1313,9 @@
                 "mtcs"
             ],
             "search_terms": [
+                "lambdaedge",
                 "lambda@edge",
-                "le",
-                "lambdaedge"
+                "le"
             ]
         },
         "AWS Managed Services": {
@@ -1342,8 +1342,8 @@
             ],
             "search_terms": [
                 "opsworkscmincludeschefautomatepuppetenterprise",
-                "opsworkscm[includeschefautomate,puppetenterprise]",
-                "ocicape"
+                "ocicape",
+                "opsworkscm[includeschefautomate,puppetenterprise]"
             ]
         },
         "AWS OpsWorks Stacks": {
@@ -1351,8 +1351,8 @@
                 "mtcs"
             ],
             "search_terms": [
-                "os",
-                "opsworksstacks"
+                "opsworksstacks",
+                "os"
             ]
         },
         "AWS OpsWorks [Excludes Chef Automate and Puppet Enterprise]": {
@@ -1371,8 +1371,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "ofca",
-                "opsworksforchefautomate"
+                "opsworksforchefautomate",
+                "ofca"
             ]
         },
         "AWS OpsWorks for Puppet Enterprise": {
@@ -1389,9 +1389,9 @@
                 "hipaa-baa"
             ],
             "search_terms": [
+                "opsworks\u00a0stack",
                 "os",
-                "opsworksstack",
-                "opsworks\u00a0stack"
+                "opsworksstack"
             ]
         },
         "AWS Organizations": {
@@ -1416,8 +1416,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "secretsmanager",
-                "sm"
+                "sm",
+                "secretsmanager"
             ]
         },
         "AWS Security Hub": {
@@ -1425,8 +1425,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "sh",
-                "securityhub"
+                "securityhub",
+                "sh"
             ]
         },
         "AWS Server Migration Service": {
@@ -1444,9 +1444,9 @@
                 "fedramp-high-govcloud"
             ],
             "search_terms": [
-                "sms",
                 "servermigrationservicesms",
-                "servermigrationservice"
+                "servermigrationservice",
+                "sms"
             ]
         },
         "AWS Serverless Application Repository": {
@@ -1454,8 +1454,8 @@
                 "pci"
             ],
             "search_terms": [
-                "serverlessapplicationrepository",
-                "sar"
+                "sar",
+                "serverlessapplicationrepository"
             ]
         },
         "AWS Serverless Application\u00a0Respository": {
@@ -1464,8 +1464,8 @@
             ],
             "search_terms": [
                 "serverlessapplication\u00a0respository",
-                "sar",
-                "serverlessapplicationrespository"
+                "serverlessapplicationrespository",
+                "sar"
             ]
         },
         "AWS Service Catalog": {
@@ -1493,8 +1493,8 @@
                 "fedramp-high-govcloud"
             ],
             "search_terms": [
-                "shieldadvanced",
-                "sa"
+                "sa",
+                "shieldadvanced"
             ]
         },
         "AWS Snowball": {
@@ -1559,10 +1559,10 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "systemsmanager",
-                "sm",
                 "ssm",
-                "systemsmanagerssm"
+                "systemsmanagerssm",
+                "systemsmanager",
+                "sm"
             ]
         },
         "AWS Systems Manager (previously Amazon EC2 Systems Manager)": {
@@ -1570,10 +1570,10 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "systemsmanagerpreviouslyecsystemsmanager",
                 "systemsmanager",
+                "previouslyec2systemsmanager",
                 "sm",
-                "previouslyec2systemsmanager"
+                "systemsmanagerpreviouslyecsystemsmanager"
             ]
         },
         "AWS Transfer for SFTP": {
@@ -1581,8 +1581,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "tfs",
-                "transferforsftp"
+                "transferforsftp",
+                "tfs"
             ]
         },
         "AWS Trusted Advisor": {
@@ -1591,8 +1591,8 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "trustedadvisor",
-                "ta"
+                "ta",
+                "trustedadvisor"
             ]
         },
         "AWS VM Import/Export": {
@@ -1600,8 +1600,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "vmimportexport",
-                "vie"
+                "vie",
+                "vmimportexport"
             ]
         },
         "AWS WAF": {
@@ -1618,9 +1618,9 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "waf",
+                "webapplicationfirewallwaf",
                 "webapplicationfirewall",
-                "webapplicationfirewallwaf"
+                "waf"
             ]
         },
         "AWS Web Application Firewall (WAF) Regional": {
@@ -1630,8 +1630,8 @@
             ],
             "search_terms": [
                 "webapplicationfirewallwafregional",
-                "waf",
-                "webapplicationfirewall"
+                "webapplicationfirewall",
+                "waf"
             ]
         },
         "AWS X-Ray": {
@@ -1640,8 +1640,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "x-ray",
                 "xr",
+                "x-ray",
                 "xray"
             ]
         },
@@ -1679,9 +1679,9 @@
                 "dod-cc-srg-il5-govcloud"
             ],
             "search_terms": [
+                "aurora",
                 "mysql",
-                "auroramysql",
-                "aurora"
+                "auroramysql"
             ]
         },
         "Amazon Aurora (MySQL,PostgreSQL)": {
@@ -1700,9 +1700,9 @@
                 "fedramp-high-govcloud"
             ],
             "search_terms": [
+                "aurorapostgres",
                 "postgres",
-                "aurora",
-                "aurorapostgres"
+                "aurora"
             ]
         },
         "Amazon Auto Scaling": {
@@ -1710,8 +1710,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "as",
-                "autoscaling"
+                "autoscaling",
+                "as"
             ]
         },
         "Amazon Cloud Directory": {
@@ -1719,8 +1719,8 @@
                 "mtcs"
             ],
             "search_terms": [
-                "cd",
-                "clouddirectory"
+                "clouddirectory",
+                "cd"
             ]
         },
         "Amazon CloudDirectory": {
@@ -1764,8 +1764,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "cloudwatchevents",
-                "ce"
+                "ce",
+                "cloudwatchevents"
             ]
         },
         "Amazon CloudWatch Logs": {
@@ -1773,8 +1773,8 @@
                 "mtcs"
             ],
             "search_terms": [
-                "cloudwatchlogs",
-                "cl"
+                "cl",
+                "cloudwatchlogs"
             ]
         },
         "Amazon CloudWatch [Excludes CloudWatch Events]": {
@@ -1783,9 +1783,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
+                "cloudwatchexcludescloudwatchevents",
                 "cece",
-                "cloudwatch[excludescloudwatchevents]",
-                "cloudwatchexcludescloudwatchevents"
+                "cloudwatch[excludescloudwatchevents]"
             ]
         },
         "Amazon Cognito": {
@@ -1829,8 +1829,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "documentdbwithmongodbcompatibility",
                 "withmongodbcompatibility",
+                "documentdbwithmongodbcompatibility",
                 "documentdb"
             ]
         },
@@ -1849,8 +1849,8 @@
             ],
             "search_terms": [
                 "ec2containerservice",
-                "ecs",
-                "eccontainerserviceecs"
+                "eccontainerserviceecs",
+                "ecs"
             ]
         },
         "Amazon EMR": {
@@ -1875,9 +1875,9 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "redis",
+                "elasticacheredis",
                 "elasticache",
-                "elasticacheredis"
+                "redis"
             ]
         },
         "Amazon ElastiCache for Redis": {
@@ -1885,8 +1885,8 @@
                 "pci"
             ],
             "search_terms": [
-                "elasticacheforredis",
-                "efr"
+                "efr",
+                "elasticacheforredis"
             ]
         },
         "Amazon Elastic Block Store": {
@@ -1894,8 +1894,8 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "ebs",
-                "elasticblockstore"
+                "elasticblockstore",
+                "ebs"
             ]
         },
         "Amazon Elastic Block Store (EBS)": {
@@ -1903,9 +1903,9 @@
                 "ens-high"
             ],
             "search_terms": [
+                "elasticblockstore",
                 "ebs",
-                "elasticblockstoreebs",
-                "elasticblockstore"
+                "elasticblockstoreebs"
             ]
         },
         "Amazon Elastic Compute Cloud (EC2)": {
@@ -1913,10 +1913,10 @@
                 "ens-high"
             ],
             "search_terms": [
-                "ec2",
-                "elasticcomputecloud",
+                "elasticcomputecloudec",
                 "ecc",
-                "elasticcomputecloudec"
+                "elasticcomputecloud",
+                "ec2"
             ]
         },
         "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]": {
@@ -1928,9 +1928,9 @@
             ],
             "search_terms": [
                 "ecc",
-                "ec2",
                 "elasticcomputecloudecincludesallinstancetypes",
-                "elasticcomputecloud"
+                "elasticcomputecloud",
+                "ec2"
             ]
         },
         "Amazon Elastic Container Registery (ECR)": {
@@ -1939,8 +1939,8 @@
             ],
             "search_terms": [
                 "ecr",
-                "elasticcontainerregisteryecr",
-                "elasticcontainerregistery"
+                "elasticcontainerregistery",
+                "elasticcontainerregisteryecr"
             ]
         },
         "Amazon Elastic Container Registry": {
@@ -1948,8 +1948,8 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "elasticcontainerregistry",
-                "ecr"
+                "ecr",
+                "elasticcontainerregistry"
             ]
         },
         "Amazon Elastic Container Registry (ECR)": {
@@ -1958,9 +1958,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "elasticcontainerregistry",
+                "ecr",
                 "elasticcontainerregistryecr",
-                "ecr"
+                "elasticcontainerregistry"
             ]
         },
         "Amazon Elastic Container Service (ECS)": {
@@ -1969,9 +1969,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "ecs",
+                "elasticcontainerservice",
                 "elasticcontainerserviceecs",
-                "elasticcontainerservice"
+                "ecs"
             ]
         },
         "Amazon Elastic Container Service (ECS) [both Fargate and EC2 launch types]": {
@@ -1979,9 +1979,9 @@
                 "ens-high"
             ],
             "search_terms": [
+                "elasticcontainerservice",
                 "elasticcontainerserviceecsbothfargateandeclaunchtypes",
-                "ecs",
-                "elasticcontainerservice"
+                "ecs"
             ]
         },
         "Amazon Elastic Container Service for Kubernetes": {
@@ -1998,10 +1998,10 @@
                 "pci"
             ],
             "search_terms": [
-                "ecsfk",
-                "elasticcontainerserviceforkubernetes",
                 "eks",
-                "elasticcontainerserviceforkuberneteseks"
+                "elasticcontainerserviceforkuberneteseks",
+                "ecsfk",
+                "elasticcontainerserviceforkubernetes"
             ]
         },
         "Amazon Elastic File System": {
@@ -2018,9 +2018,9 @@
                 "ens-high"
             ],
             "search_terms": [
-                "elasticfilesystem",
                 "elasticfilesystemefs",
-                "efs"
+                "efs",
+                "elasticfilesystem"
             ]
         },
         "Amazon Elastic MapReduce": {
@@ -2028,9 +2028,9 @@
                 "ens-high"
             ],
             "search_terms": [
-                "elasticmapreduce",
                 "emr",
-                "em"
+                "em",
+                "elasticmapreduce"
             ]
         },
         "Amazon Elastic MapReduce (EMR)": {
@@ -2039,10 +2039,10 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "emr",
-                "elasticmapreduce",
+                "elasticmapreduceemr",
                 "em",
-                "elasticmapreduceemr"
+                "elasticmapreduce",
+                "emr"
             ]
         },
         "Amazon Elasticache": {
@@ -2068,8 +2068,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "elasticsearch",
                 "elasticsearchservice",
+                "elasticsearch",
                 "es"
             ]
         },
@@ -2121,8 +2121,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "ka",
-                "kinesisanalytics"
+                "kinesisanalytics",
+                "ka"
             ]
         },
         "Amazon Kinesis Data Analytics": {
@@ -2130,8 +2130,8 @@
                 "pci"
             ],
             "search_terms": [
-                "kinesisdataanalytics",
-                "kda"
+                "kda",
+                "kinesisdataanalytics"
             ]
         },
         "Amazon Kinesis Data Firehose": {
@@ -2159,8 +2159,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "kinesisfirehose",
-                "kf"
+                "kf",
+                "kinesisfirehose"
             ]
         },
         "Amazon Kinesis Video Streams": {
@@ -2169,8 +2169,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "kinesisvideostreams",
-                "kvs"
+                "kvs",
+                "kinesisvideostreams"
             ]
         },
         "Amazon MQ": {
@@ -2245,9 +2245,9 @@
                 "mtcs"
             ],
             "search_terms": [
+                "rdsmariadb",
                 "mariadb",
-                "rds",
-                "rdsmariadb"
+                "rds"
             ]
         },
         "Amazon RDS (MySQL)": {
@@ -2256,9 +2256,9 @@
                 "fedramp-high-govcloud"
             ],
             "search_terms": [
-                "rds",
+                "mysql",
                 "rdsmysql",
-                "mysql"
+                "rds"
             ]
         },
         "Amazon RDS (MySQL, Oracle)": {
@@ -2267,8 +2267,8 @@
             ],
             "search_terms": [
                 "mysql,oracle",
-                "rds",
-                "rdsmysqloracle"
+                "rdsmysqloracle",
+                "rds"
             ]
         },
         "Amazon RDS (Oracle)": {
@@ -2277,8 +2277,8 @@
                 "fedramp-high-govcloud"
             ],
             "search_terms": [
-                "oracle",
                 "rds",
+                "oracle",
                 "rdsoracle"
             ]
         },
@@ -2288,8 +2288,8 @@
             ],
             "search_terms": [
                 "rdspostgres",
-                "rds",
-                "postgres"
+                "postgres",
+                "rds"
             ]
         },
         "Amazon RDS (SQL Server)": {
@@ -2297,9 +2297,9 @@
                 "mtcs"
             ],
             "search_terms": [
-                "rds",
                 "rdssqlserver",
-                "sqlserver"
+                "sqlserver",
+                "rds"
             ]
         },
         "Amazon Redshift": {
@@ -2334,9 +2334,9 @@
                 "pci"
             ],
             "search_terms": [
+                "relationaldatabaseservicerdsincludesaurora",
                 "relationaldatabaseservice",
-                "rds",
-                "relationaldatabaseservicerdsincludesaurora"
+                "rds"
             ]
         },
         "Amazon Relational Database Service (RDS)": {
@@ -2346,8 +2346,8 @@
             ],
             "search_terms": [
                 "relationaldatabaseservice",
-                "rds",
-                "relationaldatabaseservicerds"
+                "relationaldatabaseservicerds",
+                "rds"
             ]
         },
         "Amazon Relational Database Service (RDS) [Including Amazon Aurora]": {
@@ -2395,8 +2395,8 @@
             ],
             "search_terms": [
                 "sagemaker[excludingpublicworkforceandvendorworkforce]",
-                "sagemakerexcludingpublicworkforceandvendorworkforce",
-                "sepwavw"
+                "sepwavw",
+                "sagemakerexcludingpublicworkforceandvendorworkforce"
             ]
         },
         "Amazon Simple Email Service": {
@@ -2404,8 +2404,8 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "simpleemailservice",
-                "ses"
+                "ses",
+                "simpleemailservice"
             ]
         },
         "Amazon Simple Email Service (SES)": {
@@ -2414,9 +2414,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "simpleemailserviceses",
+                "ses",
                 "simpleemailservice",
-                "ses"
+                "simpleemailserviceses"
             ]
         },
         "Amazon Simple Notification Service": {
@@ -2424,8 +2424,8 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "sns",
-                "simplenotificationservice"
+                "simplenotificationservice",
+                "sns"
             ]
         },
         "Amazon Simple Notification Service (SNS)": {
@@ -2434,9 +2434,9 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "sns",
+                "simplenotificationservice",
                 "simplenotificationservicesns",
-                "simplenotificationservice"
+                "sns"
             ]
         },
         "Amazon Simple Queue Service": {
@@ -2444,8 +2444,8 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "simplequeueservice",
-                "sqs"
+                "sqs",
+                "simplequeueservice"
             ]
         },
         "Amazon Simple Queue Service (SQS)": {
@@ -2453,9 +2453,9 @@
                 "ens-high"
             ],
             "search_terms": [
-                "simplequeueservice",
                 "sqs",
-                "simplequeueservicesqs"
+                "simplequeueservicesqs",
+                "simplequeueservice"
             ]
         },
         "Amazon Simple Storage Service (S3)": {
@@ -2464,9 +2464,9 @@
             ],
             "search_terms": [
                 "simplestorageservices",
-                "s3",
                 "simplestorageservice",
-                "sss"
+                "sss",
+                "s3"
             ]
         },
         "Amazon Simple Workflow": {
@@ -2474,8 +2474,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "simpleworkflow",
-                "sw"
+                "sw",
+                "simpleworkflow"
             ]
         },
         "Amazon Simple Workflow Service": {
@@ -2484,8 +2484,8 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "simpleworkflowservice",
-                "sws"
+                "sws",
+                "simpleworkflowservice"
             ]
         },
         "Amazon Simple Workflow Service (SWF)": {
@@ -2493,9 +2493,9 @@
                 "ens-high"
             ],
             "search_terms": [
-                "simpleworkflowservice",
                 "sws",
                 "swf",
+                "simpleworkflowservice",
                 "simpleworkflowserviceswf"
             ]
         },
@@ -2505,8 +2505,8 @@
                 "c5-frankfurt"
             ],
             "search_terms": [
-                "simpledb",
-                "sdb"
+                "sdb",
+                "simpledb"
             ]
         },
         "Amazon Transcribe": {
@@ -2540,8 +2540,8 @@
             ],
             "search_terms": [
                 "virtualprivatecloud",
-                "virtualprivatecloudvpc",
-                "vpc"
+                "vpc",
+                "virtualprivatecloudvpc"
             ]
         },
         "Amazon WorkDocs": {
@@ -2586,8 +2586,8 @@
                 "dod-cc-srg-il5-govcloud"
             ],
             "search_terms": [
-                "as",
-                "autoscaling"
+                "autoscaling",
+                "as"
             ]
         },
         "Elastic Load Balancing": {
@@ -2604,8 +2604,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "vmimportexport",
-                "vie"
+                "vie",
+                "vmimportexport"
             ]
         },
         "VM Import/Export [referenced in the SOC report as AWS Import/Export]": {
@@ -2613,9 +2613,9 @@
                 "soc-1-2-3"
             ],
             "search_terms": [
-                "vmimportexport[referencedinthesocreportasimportexport]",
+                "vieritsraie",
                 "vmimportexportreferencedinthesocreportasimportexport",
-                "vieritsraie"
+                "vmimportexport[referencedinthesocreportasimportexport]"
             ]
         }
     }

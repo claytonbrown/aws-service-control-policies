@@ -13325,9 +13325,9 @@
         },
         "condition-keys": [
             "",
-            "aws:RequestTag/tag-key",
+            "aws:TagKeys",
             "elasticloadbalancing:ResourceTag/tag-key",
-            "aws:TagKeys"
+            "aws:RequestTag/tag-key"
         ],
         "resource-types": {
             "listener": {
@@ -13562,9 +13562,9 @@
         },
         "condition-keys": [
             "",
-            "aws:RequestTag/tag-key",
+            "aws:TagKeys",
             "elasticloadbalancing:ResourceTag/tag-key",
-            "aws:TagKeys"
+            "aws:RequestTag/tag-key"
         ],
         "resource-types": {
             "listener": {
@@ -19027,9 +19027,9 @@
         },
         "condition-keys": [
             "",
-            "aws:TagKeys",
             "iotanalytics:ResourceTag/${TagKey}",
-            "aws:RequestTag/${TagKey}"
+            "aws:RequestTag/${TagKey}",
+            "aws:TagKeys"
         ],
         "resource-types": {
             "channel": {
@@ -32603,8 +32603,8 @@
         },
         "condition-keys": [
             "",
-            "aws:TagKeys",
-            "aws:RequestTag/${TagKey}"
+            "aws:RequestTag/${TagKey}",
+            "aws:TagKeys"
         ],
         "resource-types": {
             "server": {
