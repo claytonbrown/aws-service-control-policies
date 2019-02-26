@@ -1,0 +1,1 @@
+Generated ALLOW SCP for Service : Manage Amazon API Gateway 

@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONWORKDOCSALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "workdocs:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

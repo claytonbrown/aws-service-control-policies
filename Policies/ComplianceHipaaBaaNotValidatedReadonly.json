@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtHIPAABAANOTVALIDATEDREADONLY-Deny",
+            "Sid": "StmtHIPAABAANOTVALIDATEDREADONLYDeny",
             "Effect": "Deny",
             "Action": [],
             "Resource": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "Sid": "StmtHIPAABAANOTVALIDATEDREADONLY-Accept",
+            "Sid": "StmtHIPAABAANOTVALIDATEDREADONLYAccept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

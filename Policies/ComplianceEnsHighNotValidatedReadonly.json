@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtENSHIGHNOTVALIDATEDREADONLY-Deny",
+            "Sid": "StmtENSHIGHNOTVALIDATEDREADONLYDeny",
             "Effect": "Deny",
             "Action": [],
             "Resource": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "Sid": "StmtENSHIGHNOTVALIDATEDREADONLY-Accept",
+            "Sid": "StmtENSHIGHNOTVALIDATEDREADONLYAccept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

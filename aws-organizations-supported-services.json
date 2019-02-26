@@ -1,0 +1,832 @@
+[
+  {
+    "serviceName": "ec2",
+    "serviceDisplayName": "EC2",
+    "serviceKeyName": "Amazon EC2"
+  },
+  {
+    "serviceName": "sumerian",
+    "serviceDisplayName": "Sumerian",
+    "serviceKeyName": "Amazon Sumerian"
+  },
+  {
+    "serviceName": "sms-voice",
+    "serviceDisplayName": "Pinpoint SMS Voice",
+    "serviceKeyName": "Amazon Pinpoint SMS and Voice Service"
+  },
+  {
+    "serviceName": "comprehend",
+    "serviceDisplayName": "Comprehend",
+    "serviceKeyName": "Amazon Comprehend"
+  },
+  {
+    "serviceName": "xray",
+    "serviceDisplayName": "X-Ray",
+    "serviceKeyName": "AWS X-Ray"
+  },
+  {
+    "serviceName": "sns",
+    "serviceDisplayName": "SNS",
+    "serviceKeyName": "Amazon SNS"
+  },
+  {
+    "serviceName": "groundtruthlabeling",
+    "serviceDisplayName": "GroundTruth Labeling",
+    "serviceKeyName": "Amazon GroundTruth Labeling"
+  },
+  {
+    "serviceName": "mediaconnect",
+    "serviceDisplayName": "MediaConnect",
+    "serviceKeyName": "AWS Elemental MediaConnect"
+  },
+  {
+    "serviceName": "robomaker",
+    "serviceDisplayName": "RoboMaker",
+    "serviceKeyName": "AWS RoboMaker"
+  },
+  {
+    "serviceName": "macie",
+    "serviceDisplayName": "Macie",
+    "serviceKeyName": "Amazon Macie"
+  },
+  {
+    "serviceName": "rekognition",
+    "serviceDisplayName": "Rekognition",
+    "serviceKeyName": "Amazon Rekognition"
+  },
+  {
+    "serviceName": "sts",
+    "serviceDisplayName": "STS",
+    "serviceKeyName": "AWS Security Token Service"
+  },
+  {
+    "serviceName": "aws-portal",
+    "serviceDisplayName": "Billing",
+    "serviceKeyName": "AWS Billing"
+  },
+  {
+    "serviceName": "shield",
+    "serviceDisplayName": "Shield",
+    "serviceKeyName": "AWS Shield"
+  },
+  {
+    "serviceName": "appstream",
+    "serviceDisplayName": "AppStream 2.0",
+    "serviceKeyName": "Amazon AppStream 2.0"
+  },
+  {
+    "serviceName": "firehose",
+    "serviceDisplayName": "Firehose",
+    "serviceKeyName": "Amazon Kinesis Firehose"
+  },
+  {
+    "serviceName": "elasticloadbalancing",
+    "serviceDisplayName": "ELB v2",
+    "serviceKeyName": "Elastic Load Balancing V2"
+  },
+  {
+    "serviceName": "ssmmessages",
+    "serviceDisplayName": "SSM Messages",
+    "serviceKeyName": "Amazon Session Manager Message Gateway Service"
+  },
+  {
+    "serviceName": "transcribe",
+    "serviceDisplayName": "Transcribe",
+    "serviceKeyName": "Amazon Transcribe"
+  },
+  {
+    "serviceName": "fsx",
+    "serviceDisplayName": "FSx",
+    "serviceKeyName": "Amazon FSx"
+  },
+  {
+    "serviceName": "cognito-sync",
+    "serviceDisplayName": "Cognito Sync",
+    "serviceKeyName": "Amazon Cognito Sync"
+  },
+  {
+    "serviceName": "workdocs",
+    "serviceDisplayName": "WorkDocs",
+    "serviceKeyName": "Amazon WorkDocs"
+  },
+  {
+    "serviceName": "artifact",
+    "serviceDisplayName": "Artifact",
+    "serviceKeyName": "AWS Artifact"
+  },
+  {
+    "serviceName": "aws-marketplace-management",
+    "serviceDisplayName": "Marketplace Portal",
+    "serviceKeyName": "AWS Marketplace Management Portal"
+  },
+  {
+    "serviceName": "cloudhsm",
+    "serviceDisplayName": "CloudHSM",
+    "serviceKeyName": "AWS CloudHSM"
+  },
+  {
+    "serviceName": "mgh",
+    "serviceDisplayName": "Migration Hub",
+    "serviceKeyName": "AWS Migration Hub"
+  },
+  {
+    "serviceName": "ecs",
+    "serviceDisplayName": "Elastic Container Service",
+    "serviceKeyName": "Amazon Elastic Container Service"
+  },
+  {
+    "serviceName": "ses",
+    "serviceDisplayName": "SES",
+    "serviceKeyName": "Amazon SES"
+  },
+  {
+    "serviceName": "es",
+    "serviceDisplayName": "Elasticsearch Service",
+    "serviceKeyName": "Amazon Elasticsearch Service"
+  },
+  {
+    "serviceName": "resource-groups",
+    "serviceDisplayName": "Resource Groups",
+    "serviceKeyName": "AWS Resource Groups"
+  },
+  {
+    "serviceName": "inspector",
+    "serviceDisplayName": "Inspector",
+    "serviceKeyName": "Amazon Inspector"
+  },
+  {
+    "serviceName": "lightsail",
+    "serviceDisplayName": "Lightsail",
+    "serviceKeyName": "Amazon Lightsail"
+  },
+  {
+    "serviceName": "application-autoscaling",
+    "serviceDisplayName": "Application Auto Scaling",
+    "serviceKeyName": "Application Auto Scaling"
+  },
+  {
+    "serviceName": "iotanalytics",
+    "serviceDisplayName": "IoT Analytics",
+    "serviceKeyName": "AWS IoT Analytics"
+  },
+  {
+    "serviceName": "wam",
+    "serviceDisplayName": "WAM",
+    "serviceKeyName": "Amazon WorkSpaces Application Manager"
+  },
+  {
+    "serviceName": "mediapackage",
+    "serviceDisplayName": "MediaPackage",
+    "serviceKeyName": "AWS Elemental MediaPackage"
+  },
+  {
+    "serviceName": "importexport",
+    "serviceDisplayName": "Import/Export",
+    "serviceKeyName": "AWS Import Export Disk Service"
+  },
+  {
+    "serviceName": "license-manager",
+    "serviceDisplayName": "License Manager",
+    "serviceKeyName": "AWS License Manager"
+  },
+  {
+    "serviceName": "iam",
+    "serviceDisplayName": "IAM",
+    "serviceKeyName": "Identity And Access Management"
+  },
+  {
+    "serviceName": "waf-regional",
+    "serviceDisplayName": "WAF Regional",
+    "serviceKeyName": "AWS WAF Regional"
+  },
+  {
+    "serviceName": "sso-directory",
+    "serviceDisplayName": "SSO Directory",
+    "serviceKeyName": "AWS SSO Directory"
+  },
+  {
+    "serviceName": "mobiletargeting",
+    "serviceDisplayName": "Pinpoint",
+    "serviceKeyName": "Amazon Pinpoint"
+  },
+  {
+    "serviceName": "apigateway",
+    "serviceDisplayName": "API Gateway",
+    "serviceKeyName": "Manage Amazon API Gateway"
+  },
+  {
+    "serviceName": "secretsmanager",
+    "serviceDisplayName": "Secrets Manager",
+    "serviceKeyName": "AWS Secrets Manager"
+  },
+  {
+    "serviceName": "tag",
+    "serviceDisplayName": "Resource Group Tagging",
+    "serviceKeyName": "Amazon Resource Group Tagging API"
+  },
+  {
+    "serviceName": "rds",
+    "serviceDisplayName": "RDS",
+    "serviceKeyName": "Amazon RDS"
+  },
+  {
+    "serviceName": "dlm",
+    "serviceDisplayName": "Data Lifecycle Manager",
+    "serviceKeyName": "Amazon Data Lifecycle Manager"
+  },
+  {
+    "serviceName": "aws-marketplace",
+    "serviceDisplayName": "Marketplace Metering",
+    "serviceKeyName": "AWS Marketplace Metering Service"
+  },
+  {
+    "serviceName": "snowball",
+    "serviceDisplayName": "Snowball",
+    "serviceKeyName": "AWS Snowball"
+  },
+  {
+    "serviceName": "discovery",
+    "serviceDisplayName": "Application Discovery",
+    "serviceKeyName": "Application Discovery"
+  },
+  {
+    "serviceName": "quicksight",
+    "serviceDisplayName": "QuickSight",
+    "serviceKeyName": "Amazon QuickSight"
+  },
+  {
+    "serviceName": "a4b",
+    "serviceDisplayName": "Alexa for Business",
+    "serviceKeyName": "Alexa for Business"
+  },
+  {
+    "serviceName": "elasticfilesystem",
+    "serviceDisplayName": "EFS",
+    "serviceKeyName": "Amazon Elastic File System"
+  },
+  {
+    "serviceName": "ds",
+    "serviceDisplayName": "Directory Service",
+    "serviceKeyName": "AWS Directory Service"
+  },
+  {
+    "serviceName": "s3",
+    "serviceDisplayName": "S3",
+    "serviceKeyName": "Amazon S3"
+  },
+  {
+    "serviceName": "glue",
+    "serviceDisplayName": "Glue",
+    "serviceKeyName": "AWS Glue"
+  },
+  {
+    "serviceName": "elasticache",
+    "serviceDisplayName": "ElastiCache",
+    "serviceKeyName": "Amazon ElastiCache"
+  },
+  {
+    "serviceName": "guardduty",
+    "serviceDisplayName": "GuardDuty",
+    "serviceKeyName": "Amazon GuardDuty"
+  },
+  {
+    "serviceName": "cloud9",
+    "serviceDisplayName": "Cloud9",
+    "serviceKeyName": "AWS Cloud9"
+  },
+  {
+    "serviceName": "signer",
+    "serviceDisplayName": "Signer",
+    "serviceKeyName": "AWS Code Signing for Amazon FreeRTOS"
+  },
+  {
+    "serviceName": "freertos",
+    "serviceDisplayName": "FreeRTOS",
+    "serviceKeyName": "Amazon FreeRTOS"
+  },
+  {
+    "serviceName": "machinelearning",
+    "serviceDisplayName": "Machine Learning",
+    "serviceKeyName": "Amazon Machine Learning"
+  },
+  {
+    "serviceName": "opsworks",
+    "serviceDisplayName": "OpsWorks",
+    "serviceKeyName": "AWS OpsWorks"
+  },
+  {
+    "serviceName": "config",
+    "serviceDisplayName": "Config",
+    "serviceKeyName": "AWS Config"
+  },
+  {
+    "serviceName": "iotevents",
+    "serviceDisplayName": "IoT Events",
+    "serviceKeyName": "AWS IoT Events"
+  },
+  {
+    "serviceName": "devicefarm",
+    "serviceDisplayName": "Device Farm",
+    "serviceKeyName": "AWS Device Farm"
+  },
+  {
+    "serviceName": "kms",
+    "serviceDisplayName": "KMS",
+    "serviceKeyName": "AWS Key Management Service"
+  },
+  {
+    "serviceName": "lex",
+    "serviceDisplayName": "Lex",
+    "serviceKeyName": "Amazon Lex"
+  },
+  {
+    "serviceName": "neptune-db",
+    "serviceDisplayName": "Neptune",
+    "serviceKeyName": "Amazon Neptune"
+  },
+  {
+    "serviceName": "health",
+    "serviceDisplayName": "Health",
+    "serviceKeyName": "AWS Health APIs and Notifications"
+  },
+  {
+    "serviceName": "amplify",
+    "serviceDisplayName": "Amplify",
+    "serviceKeyName": "AWS Amplify"
+  },
+  {
+    "serviceName": "lambda",
+    "serviceDisplayName": "Lambda",
+    "serviceKeyName": "AWS Lambda"
+  },
+  {
+    "serviceName": "pricing",
+    "serviceDisplayName": "Price List",
+    "serviceKeyName": "AWS Price List"
+  },
+  {
+    "serviceName": "cloudtrail",
+    "serviceDisplayName": "CloudTrail",
+    "serviceKeyName": "AWS CloudTrail"
+  },
+  {
+    "serviceName": "transfer",
+    "serviceDisplayName": "Transfer",
+    "serviceKeyName": "AWS Transfer for SFTP"
+  },
+  {
+    "serviceName": "cloudwatch",
+    "serviceDisplayName": "CloudWatch",
+    "serviceKeyName": "Amazon CloudWatch"
+  },
+  {
+    "serviceName": "fms",
+    "serviceDisplayName": "Firewall Manager",
+    "serviceKeyName": "AWS Firewall Manager"
+  },
+  {
+    "serviceName": "support",
+    "serviceDisplayName": "Support",
+    "serviceKeyName": "AWS Support"
+  },
+  {
+    "serviceName": "kinesisanalytics",
+    "serviceDisplayName": "Kinesis Analytics",
+    "serviceKeyName": "Amazon Kinesis Analytics"
+  },
+  {
+    "serviceName": "autoscaling",
+    "serviceDisplayName": "EC2 Auto Scaling",
+    "serviceKeyName": "Amazon EC2 Auto Scaling"
+  },
+  {
+    "serviceName": "eks",
+    "serviceDisplayName": "EKS",
+    "serviceKeyName": "Amazon Elastic Container Service for Kubernetes"
+  },
+  {
+    "serviceName": "deeplens",
+    "serviceDisplayName": "DeepLens",
+    "serviceKeyName": "AWS DeepLens"
+  },
+  {
+    "serviceName": "opsworks-cm",
+    "serviceDisplayName": "OpsworksCM",
+    "serviceKeyName": "AWS OpsWorks Configuration Management"
+  },
+  {
+    "serviceName": "waf",
+    "serviceDisplayName": "WAF",
+    "serviceKeyName": "AWS WAF"
+  },
+  {
+    "serviceName": "aws-marketplace",
+    "serviceDisplayName": "Marketplace",
+    "serviceKeyName": "AWS Marketplace"
+  },
+  {
+    "serviceName": "mechanicalturk",
+    "serviceDisplayName": "MechanicalTurk",
+    "serviceKeyName": "Amazon Mechanical Turk"
+  },
+  {
+    "serviceName": "connect",
+    "serviceDisplayName": "Connect",
+    "serviceKeyName": "Amazon Connect"
+  },
+  {
+    "serviceName": "codebuild",
+    "serviceDisplayName": "CodeBuild",
+    "serviceKeyName": "AWS CodeBuild"
+  },
+  {
+    "serviceName": "iot",
+    "serviceDisplayName": "IoT",
+    "serviceKeyName": "AWS IoT"
+  },
+  {
+    "serviceName": "acm",
+    "serviceDisplayName": "Certificate Manager",
+    "serviceKeyName": "AWS Certificate Manager"
+  },
+  {
+    "serviceName": "execute-api",
+    "serviceDisplayName": "ExecuteAPI",
+    "serviceKeyName": "Amazon API Gateway"
+  },
+  {
+    "serviceName": "kafka",
+    "serviceDisplayName": "MSK",
+    "serviceKeyName": "Amazon Managed Streaming for Kafka"
+  },
+  {
+    "serviceName": "dms",
+    "serviceDisplayName": "DMS",
+    "serviceKeyName": "AWS Database Migration Service"
+  },
+  {
+    "serviceName": "sms",
+    "serviceDisplayName": "ServerMigrationService",
+    "serviceKeyName": "AWS Server Migration Service"
+  },
+  {
+    "serviceName": "sagemaker",
+    "serviceDisplayName": "SageMaker",
+    "serviceKeyName": "Amazon SageMaker"
+  },
+  {
+    "serviceName": "storagegateway",
+    "serviceDisplayName": "Storage Gateway",
+    "serviceKeyName": "Amazon Storage Gateway"
+  },
+  {
+    "serviceName": "route53",
+    "serviceDisplayName": "Route 53",
+    "serviceKeyName": "Amazon Route 53"
+  },
+  {
+    "serviceName": "datapipeline",
+    "serviceDisplayName": "Data Pipeline",
+    "serviceKeyName": "Data Pipeline"
+  },
+  {
+    "serviceName": "ecr",
+    "serviceDisplayName": "EC2 Container Registry",
+    "serviceKeyName": "Amazon EC2 Container Registry"
+  },
+  {
+    "serviceName": "dax",
+    "serviceDisplayName": "DynamoDBAccelerator",
+    "serviceKeyName": "Amazon DynamoDB Accelerator (DAX)"
+  },
+  {
+    "serviceName": "medialive",
+    "serviceDisplayName": "MediaLive",
+    "serviceKeyName": "AWS Elemental MediaLive"
+  },
+  {
+    "serviceName": "elasticbeanstalk",
+    "serviceDisplayName": "Elastic Beanstalk",
+    "serviceKeyName": "AWS Elastic Beanstalk"
+  },
+  {
+    "serviceName": "iot1click",
+    "serviceDisplayName": "IoT 1-Click",
+    "serviceKeyName": "AWS IoT 1-Click"
+  },
+  {
+    "serviceName": "codecommit",
+    "serviceDisplayName": "CodeCommit",
+    "serviceKeyName": "AWS CodeCommit"
+  },
+  {
+    "serviceName": "servicecatalog",
+    "serviceDisplayName": "Service Catalog",
+    "serviceKeyName": "AWS Service Catalog"
+  },
+  {
+    "serviceName": "directconnect",
+    "serviceDisplayName": "Direct Connect",
+    "serviceKeyName": "AWS Direct Connect"
+  },
+  {
+    "serviceName": "sso",
+    "serviceDisplayName": "SSO",
+    "serviceKeyName": "AWS SSO"
+  },
+  {
+    "serviceName": "cognito-identity",
+    "serviceDisplayName": "Cognito Identity",
+    "serviceKeyName": "Amazon Cognito Identity"
+  },
+  {
+    "serviceName": "gamelift",
+    "serviceDisplayName": "GameLift",
+    "serviceKeyName": "Amazon GameLift"
+  },
+  {
+    "serviceName": "kinesis",
+    "serviceDisplayName": "Kinesis",
+    "serviceKeyName": "Amazon Kinesis"
+  },
+  {
+    "serviceName": "route53domains",
+    "serviceDisplayName": "Route53 Domains",
+    "serviceKeyName": "Amazon Route53 Domains"
+  },
+  {
+    "serviceName": "workmail",
+    "serviceDisplayName": "WorkMail",
+    "serviceKeyName": "Amazon WorkMail"
+  },
+  {
+    "serviceName": "codestar",
+    "serviceDisplayName": "CodeStar",
+    "serviceKeyName": "AWS CodeStar"
+  },
+  {
+    "serviceName": "clouddirectory",
+    "serviceDisplayName": "Cloud Directory",
+    "serviceKeyName": "Amazon Cloud Directory"
+  },
+  {
+    "serviceName": "translate",
+    "serviceDisplayName": "Translate",
+    "serviceKeyName": "Amazon Translate"
+  },
+  {
+    "serviceName": "events",
+    "serviceDisplayName": "CloudWatch Events",
+    "serviceKeyName": "Amazon CloudWatch Events"
+  },
+  {
+    "serviceName": "serverlessrepo",
+    "serviceDisplayName": "Serverless Application Repository",
+    "serviceKeyName": "AWS Serverless Application Repository"
+  },
+  {
+    "serviceName": "pi",
+    "serviceDisplayName": "Performance Insights",
+    "serviceKeyName": "AWS Performance Insights"
+  },
+  {
+    "serviceName": "appsync",
+    "serviceDisplayName": "AppSync",
+    "serviceKeyName": "AWS AppSync"
+  },
+  {
+    "serviceName": "cloudsearch",
+    "serviceDisplayName": "CloudSearch",
+    "serviceKeyName": "Amazon CloudSearch"
+  },
+  {
+    "serviceName": "securityhub",
+    "serviceDisplayName": "SecurityHub",
+    "serviceKeyName": "AWS Security Hub"
+  },
+  {
+    "serviceName": "ce",
+    "serviceDisplayName": "Cost Explorer Service",
+    "serviceKeyName": "AWS Cost Explorer Service"
+  },
+  {
+    "serviceName": "mediaconvert",
+    "serviceDisplayName": "MediaConvert",
+    "serviceKeyName": "AWS Elemental MediaConvert"
+  },
+  {
+    "serviceName": "autoscaling-plans",
+    "serviceDisplayName": "Auto Scaling",
+    "serviceKeyName": "AWS Auto Scaling"
+  },
+  {
+    "serviceName": "logs",
+    "serviceDisplayName": "CloudWatch Logs",
+    "serviceKeyName": "Amazon CloudWatch Logs"
+  },
+  {
+    "serviceName": "states",
+    "serviceDisplayName": "Step Functions",
+    "serviceKeyName": "AWS Step Functions"
+  },
+  {
+    "serviceName": "acm-pca",
+    "serviceDisplayName": "Certificate Manager Private Certificate Authority",
+    "serviceKeyName": "AWS Certificate Manager Private Certificate Authority"
+  },
+  {
+    "serviceName": "servicediscovery",
+    "serviceDisplayName": "Cloud Map",
+    "serviceKeyName": "AWS Cloud Map"
+  },
+  {
+    "serviceName": "cloudformation",
+    "serviceDisplayName": "CloudFormation",
+    "serviceKeyName": "AWS CloudFormation"
+  },
+  {
+    "serviceName": "trustedadvisor",
+    "serviceDisplayName": "Trusted Advisor",
+    "serviceKeyName": "AWS Trusted Advisor"
+  },
+  {
+    "serviceName": "sdb",
+    "serviceDisplayName": "SimpleDB",
+    "serviceKeyName": "Amazon SimpleDB"
+  },
+  {
+    "serviceName": "elasticloadbalancing",
+    "serviceDisplayName": "ELB",
+    "serviceKeyName": "Elastic Load Balancing"
+  },
+  {
+    "serviceName": "polly",
+    "serviceDisplayName": "Polly",
+    "serviceKeyName": "Amazon Polly"
+  },
+  {
+    "serviceName": "elastictranscoder",
+    "serviceDisplayName": "Elastic Transcoder",
+    "serviceKeyName": "Amazon Elastic Transcoder"
+  },
+  {
+    "serviceName": "mobilehub",
+    "serviceDisplayName": "Mobile Hub",
+    "serviceKeyName": "AWS Mobile Hub"
+  },
+  {
+    "serviceName": "cur",
+    "serviceDisplayName": "Cost and Usage Report",
+    "serviceKeyName": "AWS Cost and Usage Report"
+  },
+  {
+    "serviceName": "workspaces",
+    "serviceDisplayName": "WorkSpaces",
+    "serviceKeyName": "Amazon WorkSpaces"
+  },
+  {
+    "serviceName": "chime",
+    "serviceDisplayName": "Chime",
+    "serviceKeyName": "Amazon Chime"
+  },
+  {
+    "serviceName": "swf",
+    "serviceDisplayName": "SWF",
+    "serviceKeyName": "Amazon Simple Workflow Service"
+  },
+  {
+    "serviceName": "codepipeline",
+    "serviceDisplayName": "CodePipeline",
+    "serviceKeyName": "AWS CodePipeline"
+  },
+  {
+    "serviceName": "mq",
+    "serviceDisplayName": "MQ",
+    "serviceKeyName": "Amazon MQ"
+  },
+  {
+    "serviceName": "dynamodb",
+    "serviceDisplayName": "DynamoDB",
+    "serviceKeyName": "Amazon DynamoDB"
+  },
+  {
+    "serviceName": "batch",
+    "serviceDisplayName": "Batch",
+    "serviceKeyName": "AWS Batch"
+  },
+  {
+    "serviceName": "sqs",
+    "serviceDisplayName": "SQS",
+    "serviceKeyName": "Amazon SQS"
+  },
+  {
+    "serviceName": "comprehendmedical",
+    "serviceDisplayName": "ComprehendMedical",
+    "serviceKeyName": "Comprehend Medical"
+  },
+  {
+    "serviceName": "kinesisvideo",
+    "serviceDisplayName": "Kinesis Video Streams",
+    "serviceKeyName": "Amazon Kinesis Video Streams"
+  },
+  {
+    "serviceName": "cloudfront",
+    "serviceDisplayName": "CloudFront",
+    "serviceKeyName": "Amazon CloudFront"
+  },
+  {
+    "serviceName": "ec2messages",
+    "serviceDisplayName": "EC2 Messages",
+    "serviceKeyName": "Amazon Message Delivery Service"
+  },
+  {
+    "serviceName": "glacier",
+    "serviceDisplayName": "Glacier",
+    "serviceKeyName": "Amazon Glacier"
+  },
+  {
+    "serviceName": "route53resolver",
+    "serviceDisplayName": "Route 53 Resolver",
+    "serviceKeyName": "Amazon Route 53 Resolver"
+  },
+  {
+    "serviceName": "textract",
+    "serviceDisplayName": "Textract",
+    "serviceKeyName": "Amazon Textract"
+  },
+  {
+    "serviceName": "elasticmapreduce",
+    "serviceDisplayName": "EMR",
+    "serviceKeyName": "Amazon Elastic MapReduce"
+  },
+  {
+    "serviceName": "budgets",
+    "serviceDisplayName": "Budget",
+    "serviceKeyName": "AWS Budget Service"
+  },
+  {
+    "serviceName": "wellarchitected",
+    "serviceDisplayName": "Well-Architected Tool",
+    "serviceKeyName": "AWS Well-Architected Tool"
+  },
+  {
+    "serviceName": "ssm",
+    "serviceDisplayName": "Systems Manager",
+    "serviceKeyName": "AWS Systems Manager"
+  },
+  {
+    "serviceName": "codedeploy",
+    "serviceDisplayName": "CodeDeploy",
+    "serviceKeyName": "AWS CodeDeploy"
+  },
+  {
+    "serviceName": "organizations",
+    "serviceDisplayName": "Organizations",
+    "serviceKeyName": "AWS Organizations"
+  },
+  {
+    "serviceName": "redshift",
+    "serviceDisplayName": "Redshift",
+    "serviceKeyName": "Amazon Redshift"
+  },
+  {
+    "serviceName": "greengrass",
+    "serviceDisplayName": "Greengrass",
+    "serviceKeyName": "AWS Greengrass"
+  },
+  {
+    "serviceName": "aws-marketplace",
+    "serviceDisplayName": "Private Marketplace",
+    "serviceKeyName": "AWS Private Marketplace"
+  },
+  {
+    "serviceName": "mobileanalytics",
+    "serviceDisplayName": "Mobile Analytics",
+    "serviceKeyName": "Amazon Mobile Analytics"
+  },
+  {
+    "serviceName": "globalaccelerator",
+    "serviceDisplayName": "GlobalAccelerator",
+    "serviceKeyName": "Global Accelerator"
+  },
+  {
+    "serviceName": "cognito-idp",
+    "serviceDisplayName": "Cognito User Pools",
+    "serviceKeyName": "Amazon Cognito User Pools"
+  },
+  {
+    "serviceName": "athena",
+    "serviceDisplayName": "Athena",
+    "serviceKeyName": "Amazon Athena"
+  },
+  {
+    "serviceName": "mediastore",
+    "serviceDisplayName": "MediaStore",
+    "serviceKeyName": "AWS Elemental MediaStore"
+  },
+  {
+    "serviceName": "ram",
+    "serviceDisplayName": "Resource Access Manager",
+    "serviceKeyName": "AWS Resource Access Manager"
+  }
+]

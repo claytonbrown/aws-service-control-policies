@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONMESSAGEDELIVERYSERVICEALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "ec2messages:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

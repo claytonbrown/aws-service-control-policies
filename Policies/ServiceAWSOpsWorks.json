@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAWSOPSWORKSALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "opsworks:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

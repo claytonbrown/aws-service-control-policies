@@ -2,15 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtC5FRANKFURTNOTVALIDATEDREADONLY-Deny",
-            "Effect": "Deny",
-            "Action": [],
-            "Resource": [
-                "*"
-            ]
-        },
-        {
-            "Sid": "StmtC5FRANKFURTNOTVALIDATEDREADONLY-Accept",
+            "Sid": "StmtC5FRANKFURTNOTVALIDATEDREADONLYAccept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

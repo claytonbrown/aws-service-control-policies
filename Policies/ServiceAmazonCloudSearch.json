@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONCLOUDSEARCHALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "cloudsearch:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAWSIOT1CLICKALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "iot1click:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

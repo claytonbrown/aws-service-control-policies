@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONCOMPREHENDALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "comprehend:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

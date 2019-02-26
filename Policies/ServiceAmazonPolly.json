@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONPOLLYALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "polly:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAWSTRANSFERFORSFTPALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "transfer:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

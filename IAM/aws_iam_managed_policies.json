@@ -169,7 +169,6 @@
         "AWSMigrationHubSMSAccess": "arn:aws:iam::aws:policy/service-role/AWSMigrationHubSMSAccess",
         "AWSMobileHub_FullAccess": "arn:aws:iam::aws:policy/AWSMobileHub_FullAccess",
         "AWSMobileHub_ReadOnly": "arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly",
-        "AWSMobileHub_ServiceUseOnly": "arn:aws:iam::aws:policy/service-role/AWSMobileHub_ServiceUseOnly",
         "AWSOpsWorksCMInstanceProfileRole": "arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole",
         "AWSOpsWorksCMServiceRole": "arn:aws:iam::aws:policy/service-role/AWSOpsWorksCMServiceRole",
         "AWSOpsWorksCloudWatchLogs": "arn:aws:iam::aws:policy/AWSOpsWorksCloudWatchLogs",
@@ -323,7 +322,6 @@
         "AmazonKinesisReadOnlyAccess": "arn:aws:iam::aws:policy/AmazonKinesisReadOnlyAccess",
         "AmazonKinesisVideoStreamsFullAccess": "arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsFullAccess",
         "AmazonKinesisVideoStreamsReadOnlyAccess": "arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess",
-        "AmazonLexBotPolicy": "arn:aws:iam::aws:policy/aws-service-role/AmazonLexBotPolicy",
         "AmazonLexFullAccess": "arn:aws:iam::aws:policy/AmazonLexFullAccess",
         "AmazonLexReadOnly": "arn:aws:iam::aws:policy/AmazonLexReadOnly",
         "AmazonLexRunBotsOnly": "arn:aws:iam::aws:policy/AmazonLexRunBotsOnly",
@@ -460,6 +458,7 @@
         "IAMSelfManageServiceSpecificCredentials": "arn:aws:iam::aws:policy/IAMSelfManageServiceSpecificCredentials",
         "IAMUserChangePassword": "arn:aws:iam::aws:policy/IAMUserChangePassword",
         "IAMUserSSHKeys": "arn:aws:iam::aws:policy/IAMUserSSHKeys",
+        "IsengardControllerPolicy": "arn:aws:iam::aws:policy/aws-service-role/IsengardControllerPolicy",
         "KafkaServiceRolePolicy": "arn:aws:iam::aws:policy/aws-service-role/KafkaServiceRolePolicy",
         "LexBotPolicy": "arn:aws:iam::aws:policy/aws-service-role/LexBotPolicy",
         "LexChannelPolicy": "arn:aws:iam::aws:policy/aws-service-role/LexChannelPolicy",
@@ -5831,6 +5830,15 @@
                     },
                     {
                         "Action": [
+                            "tag:GetResources"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": [
+                            "*"
+                        ]
+                    },
+                    {
+                        "Action": [
                             "s3:CreateBucket"
                         ],
                         "Effect": "Allow",
@@ -5938,7 +5946,7 @@
             },
             "PolicyId": "ANPAJNZGDEOD7MISOVSVI",
             "PolicyName": "AWSGlueConsoleFullAccess",
-            "VersionId": "v11"
+            "VersionId": "v12"
         },
         "AWSGlueConsoleSageMakerNotebookFullAccess": {
             "Document": {
@@ -8413,276 +8421,6 @@
             "PolicyName": "AWSMobileHub_ReadOnly",
             "VersionId": "v10"
         },
-        "AWSMobileHub_ServiceUseOnly": {
-            "Document": {
-                "Statement": [
-                    {
-                        "Action": [
-                            "cloudformation:CreateUploadBucket",
-                            "cloudformation:ListStacks",
-                            "cloudformation:ValidateTemplate",
-                            "cloudfront:CreateDistribution",
-                            "cloudfront:DeleteDistribution",
-                            "cloudfront:GetDistribution",
-                            "cloudfront:GetDistributionConfig",
-                            "cloudfront:TagResource",
-                            "cloudfront:UpdateDistribution",
-                            "cognito-identity:CreateIdentityPool",
-                            "cognito-identity:UpdateIdentityPool",
-                            "cognito-identity:DeleteIdentityPool",
-                            "cognito-identity:SetIdentityPoolRoles",
-                            "cognito-idp:CreateUserPool",
-                            "dynamodb:CreateTable",
-                            "dynamodb:DeleteTable",
-                            "dynamodb:DescribeTable",
-                            "dynamodb:TagResource",
-                            "dynamodb:UpdateTable",
-                            "iam:AddClientIDToOpenIDConnectProvider",
-                            "iam:CreateOpenIDConnectProvider",
-                            "iam:GetOpenIDConnectProvider",
-                            "iam:ListOpenIDConnectProviders",
-                            "iam:CreateSAMLProvider",
-                            "iam:GetSAMLProvider",
-                            "iam:ListSAMLProvider",
-                            "iam:UpdateSAMLProvider",
-                            "lambda:CreateFunction",
-                            "lambda:DeleteFunction",
-                            "lambda:GetFunction",
-                            "mobileanalytics:CreateApp",
-                            "mobileanalytics:DeleteApp",
-                            "sns:CreateTopic",
-                            "sns:DeleteTopic",
-                            "sns:ListPlatformApplications",
-                            "ec2:DescribeSecurityGroups",
-                            "ec2:DescribeSubnets",
-                            "ec2:DescribeVpcs",
-                            "lex:PutIntent",
-                            "lex:GetIntent",
-                            "lex:GetIntents",
-                            "lex:PutSlotType",
-                            "lex:GetSlotType",
-                            "lex:GetSlotTypes",
-                            "lex:PutBot",
-                            "lex:GetBot",
-                            "lex:GetBots",
-                            "lex:GetBotAlias",
-                            "lex:GetBotAliases"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "sns:CreatePlatformApplication",
-                            "sns:DeletePlatformApplication",
-                            "sns:GetPlatformApplicationAttributes",
-                            "sns:SetPlatformApplicationAttributes"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:sns:*:*:app/*_MOBILEHUB_*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "s3:CreateBucket",
-                            "s3:DeleteBucket",
-                            "s3:DeleteBucketPolicy",
-                            "s3:DeleteBucketWebsite",
-                            "s3:ListBucket",
-                            "s3:ListBucketVersions",
-                            "s3:GetBucketLocation",
-                            "s3:GetBucketVersioning",
-                            "s3:PutBucketVersioning",
-                            "s3:PutBucketWebsite",
-                            "s3:PutBucketPolicy",
-                            "s3:PutBucketTagging",
-                            "s3:PutBucketCORS",
-                            "s3:SetBucketCrossOriginConfiguration"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:s3:::*-userfiles-mobilehub-*",
-                            "arn:aws:s3:::*-contentdelivery-mobilehub-*",
-                            "arn:aws:s3:::*-hosting-mobilehub-*",
-                            "arn:aws:s3:::*-deployments-mobilehub-*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "s3:DeleteObject",
-                            "s3:DeleteVersion",
-                            "s3:DeleteObjectVersion",
-                            "s3:GetObject",
-                            "s3:GetObjectVersion",
-                            "s3:PutObject",
-                            "s3:PutObjectAcl"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:s3:::*-userfiles-mobilehub-*/*",
-                            "arn:aws:s3:::*-contentdelivery-mobilehub-*/*",
-                            "arn:aws:s3:::*-hosting-mobilehub-*/*",
-                            "arn:aws:s3:::*-deployments-mobilehub-*/*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "lambda:AddPermission",
-                            "lambda:CreateAlias",
-                            "lambda:DeleteAlias",
-                            "lambda:UpdateAlias",
-                            "lambda:GetFunctionConfiguration",
-                            "lambda:GetPolicy",
-                            "lambda:RemovePermission",
-                            "lambda:UpdateFunctionCode",
-                            "lambda:UpdateFunctionConfiguration"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:lambda:*:*:function:*-mobilehub-*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "iam:CreateRole",
-                            "iam:DeleteRole",
-                            "iam:DeleteRolePolicy",
-                            "iam:GetRole",
-                            "iam:GetRolePolicy",
-                            "iam:ListRolePolicies",
-                            "iam:PassRole",
-                            "iam:PutRolePolicy",
-                            "iam:UpdateAssumeRolePolicy",
-                            "iam:AttachRolePolicy",
-                            "iam:DetachRolePolicy"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:iam::*:role/*_unauth_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/*_auth_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/*_consolepush_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/*_lambdaexecutionrole_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/*_smsverification_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/*_botexecutionrole_MOBILEHUB_*",
-                            "arn:aws:iam::*:role/pinpoint-events",
-                            "arn:aws:iam::*:role/service-role/pinpoint-events",
-                            "arn:aws:iam::*:role/MOBILEHUB-*-lambdaexecution*",
-                            "arn:aws:iam::*:role/MobileHub_Service_Role"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "iam:CreateServiceLinkedRole",
-                            "iam:GetRole"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:iam::*:role/aws-service-role/lex.amazonaws.com/AWSServiceRoleForLexBots"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "logs:CreateLogGroup",
-                            "logs:CreateLogStream",
-                            "logs:PutLogEvents"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:logs:*:*:log-group:/aws/mobilehub/*:log-stream:*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "iam:ListAttachedRolePolicies"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:iam::*:role/MobileHub_Service_Role"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "cloudformation:CreateStack",
-                            "cloudformation:DeleteStack",
-                            "cloudformation:DescribeStacks",
-                            "cloudformation:DescribeStackEvents",
-                            "cloudformation:DescribeStackResource",
-                            "cloudformation:GetTemplate",
-                            "cloudformation:ListStackResources",
-                            "cloudformation:UpdateStack"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:cloudformation:*:*:stack/MOBILEHUB-*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "apigateway:DELETE",
-                            "apigateway:GET",
-                            "apigateway:HEAD",
-                            "apigateway:OPTIONS",
-                            "apigateway:PATCH",
-                            "apigateway:POST",
-                            "apigateway:PUT"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:apigateway:*::/restapis*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "apigateway:GET",
-                            "apigateway:HEAD",
-                            "apigateway:OPTIONS"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:apigateway:*::/domainnames*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "cognito-idp:DeleteUserPool",
-                            "cognito-idp:DescribeUserPool",
-                            "cognito-idp:CreateUserPoolClient",
-                            "cognito-idp:DescribeUserPoolClient",
-                            "cognito-idp:DeleteUserPoolClient"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:cognito-idp:*:*:userpool/*"
-                        ]
-                    },
-                    {
-                        "Action": [
-                            "mobiletargeting:UpdateApnsChannel",
-                            "mobiletargeting:UpdateApnsSandboxChannel",
-                            "mobiletargeting:UpdateEmailChannel",
-                            "mobiletargeting:UpdateGcmChannel",
-                            "mobiletargeting:UpdateSmsChannel",
-                            "mobiletargeting:DeleteApnsChannel",
-                            "mobiletargeting:DeleteApnsSandboxChannel",
-                            "mobiletargeting:DeleteEmailChannel",
-                            "mobiletargeting:DeleteGcmChannel",
-                            "mobiletargeting:DeleteSmsChannel"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "arn:aws:mobiletargeting:*:*:apps/*/channels/*"
-                        ]
-                    }
-                ],
-                "Version": "2012-10-17"
-            },
-            "PolicyId": "ANPAIUHPQXBDZUWOP3PSK",
-            "PolicyName": "AWSMobileHub_ServiceUseOnly",
-            "VersionId": "v27"
-        },
         "AWSOpsWorksCMInstanceProfileRole": {
             "Document": {
                 "Statement": [
@@ -8804,7 +8542,8 @@
                     },
                     {
                         "Action": [
-                            "ec2:TerminateInstances"
+                            "ec2:TerminateInstances",
+                            "ec2:RebootInstances"
                         ],
                         "Condition": {
                             "StringLike": {
@@ -8814,6 +8553,16 @@
                         "Effect": "Allow",
                         "Resource": [
                             "*"
+                        ]
+                    },
+                    {
+                        "Action": [
+                            "opsworks-cm:DeleteServer",
+                            "opsworks-cm:StartMaintenance"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": [
+                            "arn:aws:opsworks-cm:*:*:server/*"
                         ]
                     },
                     {
@@ -8845,7 +8594,7 @@
             },
             "PolicyId": "ANPAJ6I6MPGJE62URSHCO",
             "PolicyName": "AWSOpsWorksCMServiceRole",
-            "VersionId": "v7"
+            "VersionId": "v8"
         },
         "AWSOpsWorksCloudWatchLogs": {
             "Document": {
@@ -10085,9 +9834,11 @@
                         "Action": [
                             "lambda:CreateAlias",
                             "lambda:CreateFunction",
+                            "lambda:GetFunction",
+                            "lambda:ListVersionsByFunction",
                             "lambda:UpdateFunctionCode",
                             "lambda:PublishVersion",
-                            "lambda:ListVersionsByFunction"
+                            "lambda:UpdateAlias"
                         ],
                         "Effect": "Allow",
                         "Resource": "arn:aws:lambda:*:*:function:AWSIoTSiteWise*"
@@ -10115,7 +9866,7 @@
             },
             "PolicyId": "ANPAJGQU4DZIQP6HLYQPE",
             "PolicyName": "AWSServiceRoleForIoTSiteWise",
-            "VersionId": "v2"
+            "VersionId": "v3"
         },
         "AWSShieldDRTAccessPolicy": {
             "Document": {
@@ -10140,7 +9891,8 @@
                             "arn:aws:elasticloadbalancing:*:*:*",
                             "arn:aws:cloudfront::*:*",
                             "arn:aws:route53:::hostedzone/*",
-                            "arn:aws:cloudwatch:*:*:*:*"
+                            "arn:aws:cloudwatch:*:*:*:*",
+                            "arn:aws:globalaccelerator::*:*"
                         ],
                         "Sid": "DRTAccessProtectedResources"
                     },
@@ -10169,7 +9921,7 @@
             },
             "PolicyId": "ANPAJWNCSZ4PARLO37VVY",
             "PolicyName": "AWSShieldDRTAccessPolicy",
-            "VersionId": "v2"
+            "VersionId": "v3"
         },
         "AWSStepFunctionsConsoleFullAccess": {
             "Document": {
@@ -12147,13 +11899,45 @@
                         "Resource": [
                             "arn:aws:s3:::athena-examples*"
                         ]
+                    },
+                    {
+                        "Action": [
+                            "s3:ListBucket",
+                            "s3:GetBucketLocation",
+                            "s3:ListAllMyBuckets"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": [
+                            "*"
+                        ]
+                    },
+                    {
+                        "Action": [
+                            "sns:ListTopics",
+                            "sns:GetTopicAttributes"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": [
+                            "*"
+                        ]
+                    },
+                    {
+                        "Action": [
+                            "cloudwatch:PutMetricAlarm",
+                            "cloudwatch:DescribeAlarms",
+                            "cloudwatch:DeleteAlarms"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": [
+                            "*"
+                        ]
                     }
                 ],
                 "Version": "2012-10-17"
             },
             "PolicyId": "ANPAIPJMLMD4C7RYZ6XCK",
             "PolicyName": "AmazonAthenaFullAccess",
-            "VersionId": "v4"
+            "VersionId": "v5"
         },
         "AmazonChimeFullAccess": {
             "Document": {
@@ -12342,6 +12126,7 @@
                             "cognito-identity:List*",
                             "cognito-idp:Describe*",
                             "cognito-idp:AdminGetUser",
+                            "cognito-idp:AdminList*",
                             "cognito-idp:List*",
                             "cognito-sync:Describe*",
                             "cognito-sync:Get*",
@@ -12358,7 +12143,7 @@
             },
             "PolicyId": "ANPAJBFTRZD2GQGJHSVQK",
             "PolicyName": "AmazonCognitoReadOnly",
-            "VersionId": "v2"
+            "VersionId": "v3"
         },
         "AmazonConnectFullAccess": {
             "Document": {
@@ -13687,13 +13472,23 @@
                         "Resource": [
                             "*"
                         ]
+                    },
+                    {
+                        "Action": "iam:CreateServiceLinkedRole",
+                        "Condition": {
+                            "StringLike": {
+                                "iam:AWSServiceName": "ec2.application-autoscaling.amazonaws.com"
+                            }
+                        },
+                        "Effect": "Allow",
+                        "Resource": "arn:aws:iam::*:role/aws-service-role/ec2.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_EC2SpotFleetRequest"
                     }
                 ],
                 "Version": "2012-10-17"
             },
             "PolicyId": "ANPAIMFFRMIOBGDP2TAVE",
             "PolicyName": "AmazonEC2SpotFleetAutoscaleRole",
-            "VersionId": "v2"
+            "VersionId": "v3"
         },
         "AmazonEC2SpotFleetRole": {
             "Document": {
@@ -15615,25 +15410,6 @@
             },
             "PolicyId": "ANPAJDS2DKUCYTEA7M6UA",
             "PolicyName": "AmazonKinesisVideoStreamsReadOnlyAccess",
-            "VersionId": "v1"
-        },
-        "AmazonLexBotPolicy": {
-            "Document": {
-                "Statement": [
-                    {
-                        "Action": [
-                            "polly:SynthesizeSpeech"
-                        ],
-                        "Effect": "Allow",
-                        "Resource": [
-                            "*"
-                        ]
-                    }
-                ],
-                "Version": "2012-10-17"
-            },
-            "PolicyId": "ANPAI6JDATUYJVRFRJYWS",
-            "PolicyName": "AmazonLexBotPolicy",
             "VersionId": "v1"
         },
         "AmazonLexFullAccess": {
@@ -20136,7 +19912,8 @@
                             "waf-regional:ListResourcesForWebACL",
                             "waf-regional:AssociateWebACL",
                             "waf-regional:DisassociateWebACL",
-                            "elasticloadbalancing:SetWebACL"
+                            "elasticloadbalancing:SetWebACL",
+                            "apigateway:SetWebACL"
                         ],
                         "Effect": "Allow",
                         "Resource": [
@@ -20144,7 +19921,8 @@
                             "arn:aws:waf-regional:*:*:webacl/*",
                             "arn:aws:waf:*:*:rulegroup/*",
                             "arn:aws:waf-regional:*:*:rulegroup/*",
-                            "arn:aws:elasticloadbalancing:*:*:loadbalancer/app/*"
+                            "arn:aws:elasticloadbalancing:*:*:loadbalancer/app/*",
+                            "arn:aws:apigateway:*::/restapis/*/stages/*"
                         ]
                     },
                     {
@@ -20234,13 +20012,30 @@
                         "Resource": [
                             "*"
                         ]
+                    },
+                    {
+                        "Action": [
+                            "shield:CreateProtection",
+                            "shield:DeleteProtection",
+                            "shield:DescribeProtection",
+                            "shield:ListProtections",
+                            "shield:ListAttacks",
+                            "shield:CreateSubscription",
+                            "shield:DescribeSubscription",
+                            "shield:GetSubscriptionState",
+                            "shield:DescribeDRTAccess",
+                            "shield:DescribeEmergencyContactSettings",
+                            "shield:UpdateEmergencyContactSettings"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
                     }
                 ],
                 "Version": "2012-10-17"
             },
             "PolicyId": "ANPAI62NTGYJB446ACUEA",
             "PolicyName": "FMSServiceRolePolicy",
-            "VersionId": "v5"
+            "VersionId": "v6"
         },
         "FSxDeleteServiceLinkedRoleAccess": {
             "Document": {
@@ -20420,6 +20215,94 @@
             "PolicyId": "ANPAJTSHUA4UXGXU7ANUA",
             "PolicyName": "IAMUserSSHKeys",
             "VersionId": "v1"
+        },
+        "IsengardControllerPolicy": {
+            "Document": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "iam:AddUserToGroup",
+                            "iam:AttachGroupPolicy",
+                            "iam:AttachRolePolicy",
+                            "iam:AttachUserPolicy",
+                            "iam:CreateAccessKey",
+                            "iam:CreateAccountAlias",
+                            "iam:CreateGroup",
+                            "iam:CreateLoginProfile",
+                            "iam:CreatePolicy",
+                            "iam:CreatePolicyVersion",
+                            "iam:CreateRole",
+                            "iam:CreateUser",
+                            "iam:DeleteAccessKey",
+                            "iam:DeleteAccountAlias",
+                            "iam:DeleteGroup",
+                            "iam:DeleteGroupPolicy",
+                            "iam:DeleteLoginProfile",
+                            "iam:DeletePolicy",
+                            "iam:DeletePolicyVersion",
+                            "iam:DeleteRole",
+                            "iam:DeleteRolePolicy",
+                            "iam:DeleteUser",
+                            "iam:DeleteUserPolicy",
+                            "iam:DetachGroupPolicy",
+                            "iam:DetachRolePolicy",
+                            "iam:DetachUserPolicy",
+                            "iam:GenerateCredentialReport",
+                            "iam:GenerateServiceLastAccessedDetails",
+                            "iam:GetAccessKeyLastUsed",
+                            "iam:GetAccountAuthorizationDetails",
+                            "iam:GetAccountPasswordPolicy",
+                            "iam:GetAccountSummary",
+                            "iam:GetCredentialReport",
+                            "iam:GetGroup",
+                            "iam:GetGroupPolicy",
+                            "iam:GetPolicy",
+                            "iam:GetPolicyVersion",
+                            "iam:GetRole",
+                            "iam:GetRolePolicy",
+                            "iam:GetServiceLastAccessedDetails",
+                            "iam:GetServiceLastAccessedDetailsWithEntities",
+                            "iam:GetUser",
+                            "iam:GetUserPolicy",
+                            "iam:ListAccessKeys",
+                            "iam:ListAccountAliases",
+                            "iam:ListAttachedGroupPolicies",
+                            "iam:ListAttachedRolePolicies",
+                            "iam:ListAttachedUserPolicies",
+                            "iam:ListEntitiesForPolicy",
+                            "iam:ListGroupPolicies",
+                            "iam:ListGroups",
+                            "iam:ListGroupsForUser",
+                            "iam:ListPolicies",
+                            "iam:ListPoliciesGrantingServiceAccess",
+                            "iam:ListPolicyVersions",
+                            "iam:ListRolePolicies",
+                            "iam:ListRoles",
+                            "iam:ListUserPolicies",
+                            "iam:ListUsers",
+                            "iam:PutGroupPolicy",
+                            "iam:PutRolePolicy",
+                            "iam:PutUserPolicy",
+                            "iam:RemoveUserFromGroup",
+                            "iam:UpdateAccessKey",
+                            "iam:UpdateAssumeRolePolicy",
+                            "iam:UpdateGroup",
+                            "iam:UpdateUser",
+                            "iam:UpdateRole",
+                            "sts:AssumeRole",
+                            "sts:GetSessionToken",
+                            "s3:GetAccountPublicAccessBlock",
+                            "s3:PutAccountPublicAccessBlock"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "PolicyId": "ANPAIRRTBA6SMZSYUY762",
+            "PolicyName": "IsengardControllerPolicy",
+            "VersionId": "v4"
         },
         "KafkaServiceRolePolicy": {
             "Document": {

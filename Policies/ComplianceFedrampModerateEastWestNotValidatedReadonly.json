@@ -2,7 +2,7 @@
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "StmtFEDRAMPMODERATEEASTWESTNOTVALIDATEDREADONLY-Deny",
+            "Sid": "StmtFEDRAMPMODERATEEASTWESTNOTVALIDATEDREADONLYDeny",
             "Effect": "Deny",
             "Action": [],
             "Resource": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "Sid": "StmtFEDRAMPMODERATEEASTWESTNOTVALIDATEDREADONLY-Accept",
+            "Sid": "StmtFEDRAMPMODERATEEASTWESTNOTVALIDATEDREADONLYAccept",
             "Effect": "Accept",
             "Action": [
                 "alexaforbusiness:Get*",

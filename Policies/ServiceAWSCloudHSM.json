@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAWSCLOUDHSMALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "cloudhsm:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}

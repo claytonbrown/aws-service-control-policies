@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "StmtSVCAMAZONAPPSTREAM20ALLOW",
+            "Effect": "Allow",
+            "Action": [
+                "appstream:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
