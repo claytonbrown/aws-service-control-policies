@@ -1,0 +1,3996 @@
+{
+    "aws-cf-resource-compliance": {
+        "any": [],
+        "none": []
+    },
+    "aws-compliance": {
+        "any": [],
+        "dod-cc-srg-il2-east-west": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearchService",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDeepLearningAMIs",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "dod-cc-srg-il2-govcloud": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearchService",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDeepLearningAMIs",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "dod-cc-srg-il4-govcloud": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearchService",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDeepLearningAMIs",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "dod-cc-srg-il5-govcloud": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearchService",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDeepLearningAMIs",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "dublin": [
+            "AmazonAthena",
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonConnect",
+            "AmazonDynamoDB",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonEMR",
+            "AmazonGlacier",
+            "AmazonInspector",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMQ",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationDatabaseService",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonSimpleDB",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSFirewallManager",
+            "AWSIdentityAccessManagement",
+            "AWSImportExport",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorks",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "FormoreinformationseeCloudComputingComplianceControlsCatalog"
+        ],
+        "ens-high": [
+            "AmazonAPIGateway",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticContainerService",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonGlacier",
+            "AmazonRedshift",
+            "AmazonRDS",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkSpaces",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSSnowball",
+            "AWSStorageGateway",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "fedramp-high-govcloud": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearch",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonMacie",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManager",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "AWSWAF",
+            "ElasticLoadBalancing"
+        ],
+        "fedramp-moderate-east-west": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonAurora",
+            "AmazonAurora",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearch",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonMacie",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManager",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSShieldAdvanced",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "AWSWAF",
+            "ElasticLoadBalancing"
+        ],
+        "frankfurt": [
+            "AmazonAthena",
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonConnect",
+            "AmazonDynamoDB",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonEMR",
+            "AmazonGlacier",
+            "AmazonInspector",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMQ",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationDatabaseService",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonSimpleDB",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSFirewallManager",
+            "AWSIdentityAccessManagement",
+            "AWSImportExport",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorks",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "FormoreinformationseeCloudComputingComplianceControlsCatalog"
+        ],
+        "hipaa-baa": [
+            "AmazonAthena",
+            "AmazonAPIGateway",
+            "AmazonAppStream20",
+            "AmazonAurora",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonCloudWatchSDKMetrics",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticsearchService",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGuardDuty",
+            "AmazonGlacier",
+            "AmazonInspector",
+            "AmazonKinesisAnalytics",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisFirehose",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonManagedStreamingforApacheKafka",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRDS",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflow",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkSpaces",
+            "AWSAmplifyConsole",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudHSM",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSElementalMediaConvert",
+            "AWSElementalMediaLive",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSGreengrass",
+            "AWSIoT",
+            "AWSIoTEvents",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorksforChefAutomate",
+            "AWSOpsWorksforPuppetEnterprise",
+            "AWSOpsWorksStack",
+            "AWSOrganizations",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSSecurityHub",
+            "AWSServerlessApplicationRespository",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSVMImportExport",
+            "AWSXRay",
+            "AWSWAF",
+            "ElasticLoadBalancing"
+        ],
+        "irap-protected": [
+            "AmazonAPIGateway",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonEC2ContainerService",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonElasticache",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3TransferAcceleration",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSIdentityandAccessManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLambdaEdge",
+            "AWSOrganizations",
+            "AWSShield",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "AWSWebApplicationFirewall",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing"
+        ],
+        "irap-unclassified": [
+            "AmazonAPIGateway",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonEC2ContainerService",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonElasticache",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3TransferAcceleration",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSIdentityandAccessManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLambdaEdge",
+            "AWSOrganizations",
+            "AWSShield",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "AWSWebApplicationFirewall",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing"
+        ],
+        "iso": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElasticFileSystem",
+            "AmazonElasticsearchService",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataAnalytics",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPinpoint",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleDB",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSSecurityHub",
+            "AWSServerMigrationService",
+            "AWSServerlessApplicationRepository",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport",
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonElasticFileSystem",
+            "AmazonElasticsearchService",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataAnalytics",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPolly",
+            "AmazonQuicksight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleDB",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSAppSync",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorksStacks",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSServerlessApplicationRepository",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport",
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonMacie",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "ElasticLoadBalancing",
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonComprehend",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonElastiCache",
+            "AmazonElasticsearchService",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLicenseManager",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "VMImportExport",
+            "AmazonAthena",
+            "AmazonAPIGateway",
+            "AmazonAppStream20",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchEvents",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticsearchService",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGuardDuty",
+            "AmazonGlacier",
+            "AmazonInspector",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkSpaces",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudHSM",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSElementalMediaConvert",
+            "AWSElementalMediaLive",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIoT",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOrganizations",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSSecurityHub",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "AmazonAPIGateway",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSIdentityandAccessManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSOrganizations",
+            "AWSShield",
+            "AWSStepFunctions",
+            "AWSSystemsManager",
+            "AWSTrustedAdvisor",
+            "AWSWebApplicationFirewall",
+            "AWSWebApplicationFirewall",
+            "ElasticLoadBalancing",
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerService",
+            "AmazonElasticMapReduce",
+            "AmazonKinesisDataStreams",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonSimpleDB",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSCodePipeline",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSIdentityandAccessManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSOpsWorksStacks",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport",
+            "AmazonAthena",
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonConnect",
+            "AmazonDynamoDB",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonGlacier",
+            "AmazonInspector",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMQ",
+            "AmazonPolly",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRoute53",
+            "AmazonSageMaker",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonSimpleDB",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSFirewallManager",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "AmazonAPIGateway",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonGlacier",
+            "AmazonRedshift",
+            "AmazonRoute53",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSElasticBeanstalk",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "ElasticLoadBalancing",
+            "VMImportExport",
+            "AmazonAPIGateway",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticContainerService",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticFileSystem",
+            "AmazonElasticMapReduce",
+            "AmazonGlacier",
+            "AmazonRedshift",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkSpaces",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSSnowball",
+            "AWSStorageGateway",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "k-isms": [
+            "AmazonAPIGateway",
+            "AmazonAurora",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonEC2AutoScaling",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonGlacier",
+            "AmazonRedshift",
+            "AmazonRDS",
+            "AmazonRoute53",
+            "AmazonS3TransferAcceleration",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AWSCloudFormation",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSElasticBeanstalk",
+            "AWSIdentityAccessManagement",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLambdaEdge",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSWAF",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "mtcs-seoul": [
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistery",
+            "AmazonElasticContainerService",
+            "AmazonElasticMapReduce",
+            "AmazonKinesisDataStreams",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSimpleDB",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSCodePipeline",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSOpsWorksStacks",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "LambdaEdge",
+            "VMImportExport"
+        ],
+        "mtcs-singapore": [
+            "AmazonAPIGateway",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonDynamoDB",
+            "AmazonElastiCache",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistery",
+            "AmazonElasticContainerService",
+            "AmazonElasticMapReduce",
+            "AmazonKinesisDataStreams",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSimpleDB",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSBatch",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSCodePipeline",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSOpsWorksStacks",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "LambdaEdge",
+            "VMImportExport"
+        ],
+        "none": [],
+        "pci": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatchLogs",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElastiCacheforRedis",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticMapReduce",
+            "AmazonElasticFileSystem",
+            "AmazonElasticsearchService",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGlacier",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataAnalytics",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPolly",
+            "AmazonQuicksight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3TransferAcceleration",
+            "AmazonSageMaker",
+            "AmazonSimpleDB",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranscribe",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkSpaces",
+            "AWSAutoScaling",
+            "AWSAppSync",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryServiceforMicrosoftandADConnector",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIoTGreengrass",
+            "AWSIdentityAccessManagement",
+            "AWSIoTCore",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSLambdaEdge",
+            "AWSManagedServices",
+            "AWSOpsWorksCM",
+            "AWSOpsWorksStacks",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSServerlessApplicationRepository",
+            "AWSServerMigrationService",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "sdks": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElasticFileSystem",
+            "AmazonElastiCacheforRedis",
+            "AmazonElasticsearchService",
+            "AmazonEMR",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataAnalytics",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPinpoint",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleDB",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAmplifyConsole",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorks",
+            "AWSOpsWorksforChefAutomateorAWSOpsWorksforPuppetEnterprise",
+            "AWSOrganizations",
+            "AWSResourceGroups",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSSecurityHub",
+            "AWSServerMigrationService",
+            "AWSServerlessApplicationRepository",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "soc-1-2-3": [
+            "AmazonAPIGateway",
+            "AmazonAthena",
+            "AmazonCloudDirectory",
+            "AmazonCloudFront",
+            "AmazonCloudWatch",
+            "AmazonCognito",
+            "AmazonComprehend",
+            "AmazonConnect",
+            "AmazonDocumentDB",
+            "AmazonDynamoDB",
+            "AmazonElasticBlockStore",
+            "AmazonElasticComputeCloud",
+            "AmazonElasticContainerRegistry",
+            "AmazonElasticContainerService",
+            "AmazonElasticContainerServiceforKubernetes",
+            "AmazonElasticFileSystem",
+            "AmazonElastiCacheforRedis",
+            "AmazonElasticsearchService",
+            "AmazonEMR",
+            "AmazonFreeRTOS",
+            "AmazonFSx",
+            "AmazonGuardDuty",
+            "AmazonInspector",
+            "AmazonKinesisDataAnalytics",
+            "AmazonKinesisDataFirehose",
+            "AmazonKinesisDataStreams",
+            "AmazonKinesisVideoStreams",
+            "AmazonMacie",
+            "AmazonMQ",
+            "AmazonNeptune",
+            "AmazonPinpoint",
+            "AmazonPolly",
+            "AmazonQuickSight",
+            "AmazonRedshift",
+            "AmazonRekognition",
+            "AmazonRelationalDatabaseService",
+            "AmazonRoute53",
+            "AmazonS3Glacier",
+            "AmazonSageMaker",
+            "AmazonSimpleDB",
+            "AmazonSimpleEmailService",
+            "AmazonSimpleNotificationService",
+            "AmazonSimpleQueueService",
+            "AmazonSimpleStorageService",
+            "AmazonSimpleWorkflowService",
+            "AmazonTranslate",
+            "AmazonVirtualPrivateCloud",
+            "AmazonWorkDocs",
+            "AmazonWorkLink",
+            "AmazonWorkMail",
+            "AmazonWorkSpaces",
+            "AWSAmplifyConsole",
+            "AWSAppSync",
+            "AWSAutoScaling",
+            "AWSBackup",
+            "AWSBatch",
+            "AWSCertificateManager",
+            "AWSCloudFormation",
+            "AWSCloudHSM",
+            "AWSCloudTrail",
+            "AWSCodeBuild",
+            "AWSCodeCommit",
+            "AWSCodeDeploy",
+            "AWSConfig",
+            "AWSDatabaseMigrationService",
+            "AWSDataSync",
+            "AWSDirectConnect",
+            "AWSDirectoryService",
+            "AWSElasticBeanstalk",
+            "AWSElementalMediaConnect",
+            "AWSFirewallManager",
+            "AWSGlobalAccelerator",
+            "AWSGlue",
+            "AWSIdentityandAccessManagement",
+            "AWSIoTCore",
+            "AWSIoTDeviceManagement",
+            "AWSIoTGreengrass",
+            "AWSKeyManagementService",
+            "AWSLambda",
+            "AWSManagedServices",
+            "AWSOpsWorks",
+            "AWSOpsWorksforChefAutomateorAWSOpsWorksforPuppetEnterprise",
+            "AWSOrganizations",
+            "AWSResourceGroups",
+            "AWSRoboMaker",
+            "AWSSecretsManager",
+            "AWSSecurityHub",
+            "AWSServerMigrationService",
+            "AWSServerlessApplicationRepository",
+            "AWSServiceCatalog",
+            "AWSShield",
+            "AWSSnowball",
+            "AWSSnowballEdge",
+            "AWSSnowmobile",
+            "AWSStepFunctions",
+            "AWSStorageGateway",
+            "AWSSystemsManager",
+            "AWSTransferforSFTP",
+            "AWSWAF",
+            "AWSXRay",
+            "ElasticLoadBalancing",
+            "VMImportExport"
+        ],
+        "unmatched": {}
+    },
+    "links": {
+        "labels": {
+            "": "https://aws.amazon.com/lambda/edge",
+            "AWS": "https://aws.amazon.com/autoscaling",
+            "AWS ": "https://aws.amazon.com/greengrass",
+            "AWS Amplify Console": "https://aws.amazon.com/amplify/console",
+            "AWS AppSync": "https://aws.amazon.com/appsync",
+            "AWS Backup": "https://aws.amazon.com/backup",
+            "AWS Batch": "https://aws.amazon.com/batch",
+            "AWS Certificate Manager": "https://aws.amazon.com/certificate-manager",
+            "AWS CloudFormation": "https://aws.amazon.com/cloudformation",
+            "AWS CloudHSM": "https://aws.amazon.com/cloudhsm",
+            "AWS CloudTrail": "https://aws.amazon.com/cloudtrail",
+            "AWS CodeBuild": "https://aws.amazon.com/codebuild",
+            "AWS CodeCommit": "https://aws.amazon.com/codecommit",
+            "AWS CodeDeploy": "https://aws.amazon.com/codedeploy",
+            "AWS CodePipeline": "https://aws.amazon.com/codepipeline",
+            "AWS Config": "https://aws.amazon.com/config",
+            "AWS DataSync": "https://aws.amazon.com/datasync",
+            "AWS Database Migration Service": "https://aws.amazon.com/dms",
+            "AWS Deep Learning AMIs": "https://aws.amazon.com/machine-learning/amis",
+            "AWS Direct Connect": "https://aws.amazon.com/directconnect",
+            "AWS Directory Service": "https://aws.amazon.com/directoryservice",
+            "AWS Documentation": "https://aws.amazon.com/documentation",
+            "AWS Elastic Beanstalk": "https://aws.amazon.com/elasticbeanstalk",
+            "AWS Elemental MediaConnect": "https://aws.amazon.com/mediaconnect",
+            "AWS Elemental MediaConvert": "https://aws.amazon.com/mediaconvert",
+            "AWS Elemental MediaLive": "https://aws.amazon.com/medialive",
+            "AWS Firewall Manager": "https://aws.amazon.com/firewall-manager",
+            "AWS Global Accelerator": "https://aws.amazon.com/global-accelerator",
+            "AWS Glue": "https://aws.amazon.com/glue",
+            "AWS Identity ": "https://aws.amazon.com/iam",
+            "AWS IoT Events": "https://aws.amazon.com/iot-events",
+            "AWS Key Management Service": "https://aws.amazon.com/kms",
+            "AWS Lambda": "https://aws.amazon.com/lambda",
+            "AWS License Manager": "https://aws.amazon.com/license-manager",
+            "AWS Managed Services": "https://aws.amazon.com/managed-services",
+            "AWS OpsWorks": "https://aws.amazon.com/opsworks",
+            "AWS OpsWorks Stacks": "https://aws.amazon.com/opsworks/stacks",
+            "AWS Organizations": "https://aws.amazon.com/organizations",
+            "AWS RoboMaker": "https://aws.amazon.com/robomaker",
+            "AWS S": "https://aws.amazon.com/systems-manager",
+            "AWS Security Hub": "https://aws.amazon.com/security-hub",
+            "AWS Server Migration Service": "https://aws.amazon.com/server-migration-service",
+            "AWS Serverless Application": "https://aws.amazon.com/serverless/serverlessrepo",
+            "AWS Service Catalog": "https://aws.amazon.com/servicecatalog",
+            "AWS Shield": "https://aws.amazon.com/shield",
+            "AWS Snowball": "https://aws.amazon.com/snowball",
+            "AWS Snowball Edge": "https://aws.amazon.com/snowball-edge",
+            "AWS Snowmobile": "https://aws.amazon.com/snowmobile",
+            "AWS Step Functions": "https://aws.amazon.com/step-functions",
+            "AWS Storage Gateway": "https://aws.amazon.com/storagegateway",
+            "AWS Transfer for SFTP": "https://aws.amazon.com/sftp",
+            "AWS Trusted Advisor": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor",
+            "AWS W": "https://aws.amazon.com/waf",
+            "AWS X-Ray": "https://aws.amazon.com/xray",
+            "Amazon ": "https://aws.amazon.com/glacier1",
+            "Amazon API Gateway": "https://aws.amazon.com/api-gateway",
+            "Amazon AppStream 2.0": "https://aws.amazon.com/appstream2",
+            "Amazon Athena": "https://aws.amazon.com/athena",
+            "Amazon Aurora": "https://aws.amazon.com/rds/aurora",
+            "Amazon Aurora (": "https://aws.amazon.com/aurora",
+            "Amazon Cloud": "https://aws.amazon.com/cloud-directory",
+            "Amazon CloudFront": "https://aws.amazon.com/cloudfront",
+            "Amazon Cognito": "https://aws.amazon.com/cognito",
+            "Amazon Comprehend": "https://aws.amazon.com/comprehend",
+            "Amazon Comprehend [Medical]": "https://aws.amazon.com/comprehend/medical",
+            "Amazon Connect": "https://aws.amazon.com/connect",
+            "Amazon DocumentDB (with MongoDB compatibility)": "https://aws.amazon.com/documentdb",
+            "Amazon DynamoDB": "https://aws.amazon.com/dynamodb",
+            "Amazon E": "https://aws.amazon.com/emr",
+            "Amazon EC2 Auto Scaling": "https://aws.amazon.com/ec2/autoscaling",
+            "Amazon ElastiCache": "https://aws.amazon.com/elasticache",
+            "Amazon ElastiCache\u00a0for Redis": "https://aws.amazon.com/elasticache/redis",
+            "Amazon Elastic Block Store": "https://aws.amazon.com/ebs",
+            "Amazon Elastic Compute Cloud (": "https://aws.amazon.com/ec2",
+            "Amazon Elastic Container Regist": "https://aws.amazon.com/ecr",
+            "Amazon Elastic Container Service for Kubernetes": "https://aws.amazon.com/eks",
+            "Amazon Elastic File System": "https://aws.amazon.com/efs",
+            "Amazon Elasticache": "https://aws.amazon.com/glacier",
+            "Amazon Elasticsearch": "https://aws.amazon.com/elasticsearch-service",
+            "Amazon FSx": "https://aws.amazon.com/fsx",
+            "Amazon FreeRTOS": "https://aws.amazon.com/freertos",
+            "Amazon GuardDuty": "https://aws.amazon.com/guardduty",
+            "Amazon Inspector": "https://aws.amazon.com/inspector",
+            "Amazon Kinesis ": "https://aws.amazon.com/kinesis/data-firehose",
+            "Amazon Kinesis Analytics": "https://aws.amazon.com/kinesis/data-analytics",
+            "Amazon Kinesis Data ": "https://aws.amazon.com/kinesis/data-streams",
+            "Amazon Kinesis Video Streams": "https://aws.amazon.com/kinesis/video-streams",
+            "Amazon MQ": "https://aws.amazon.com/amazon-mq",
+            "Amazon Macie": "https://aws.amazon.com/macie",
+            "Amazon Managed Streaming for Apache Kafka (Amazon MSK)": "https://aws.amazon.com/msk",
+            "Amazon Neptune": "https://aws.amazon.com/neptune",
+            "Amazon Pinpoint": "https://aws.amazon.com/pinpoint",
+            "Amazon Polly": "https://aws.amazon.com/polly",
+            "Amazon Quick": "https://aws.amazon.com/quicksight",
+            "Amazon R": "https://aws.amazon.com/rds/sqlserver",
+            "Amazon Redshift": "https://aws.amazon.com/redshift",
+            "Amazon Rekognition": "https://aws.amazon.com/rekognition",
+            "Amazon Relational Database Service (RDS) for Oracle": "https://aws.amazon.com/rds/oracle",
+            "Amazon Route 53": "https://aws.amazon.com/route53",
+            "Amazon SageMaker": "https://aws.amazon.com/sagemaker",
+            "Amazon Simple Email Service": "https://aws.amazon.com/ses",
+            "Amazon Simple Notification Service": "https://aws.amazon.com/sns",
+            "Amazon Simple Queue Service": "https://aws.amazon.com/sqs",
+            "Amazon Simple Storage Service (": "https://aws.amazon.com/s3",
+            "Amazon Simple Workflow": "https://aws.amazon.com/swf",
+            "Amazon SimpleDB": "https://aws.amazon.com/simpledb",
+            "Amazon Transcribe": "https://aws.amazon.com/transcribe",
+            "Amazon Translate": "https://aws.amazon.com/translate",
+            "Amazon Virtual Private Cloud": "https://aws.amazon.com/vpc",
+            "Amazon WorkDocs": "https://aws.amazon.com/workdocs",
+            "Amazon WorkLink": "https://aws.amazon.com/worklink",
+            "Amazon WorkMail": "https://aws.amazon.com/workmail",
+            "Amazon WorkSpaces": "https://aws.amazon.com/workspaces",
+            "Assurance Programs": "https://aws.amazon.com/compliance/programs",
+            "Cloud Computing Compliance Controls Catalog (C5)": "https://aws.amazon.com/compliance/bsi-c5",
+            "Cloud Security": "https://aws.amazon.com/security",
+            "Compliance": "https://aws.amazon.com/compliance",
+            "DoD CC": "https://aws.amazon.com/compliance/dod",
+            "ENS High": "https://aws.amazon.com/compliance/esquema-nacional-de-seguridad",
+            "Elastic Load Balancing": "https://aws.amazon.com/elasticloadbalancing",
+            "FedRAMP": "https://aws.amazon.com/compliance/fedramp",
+            "Go to the full list of services covered under our ISO certificates": "https://aws.amazon.com/compliance/iso-certified",
+            "HIPAA BAA": "https://aws.amazon.com/compliance/hipaa-compliance",
+            "K-ISMS": "https://aws.amazon.com/compliance/k-isms",
+            "Latest News": "https://aws.amazon.com/compliance/compliance-latest-news",
+            "MTCS": "https://aws.amazon.com/compliance/aws-multitiered-cloud-security-standard-certification",
+            "PCI": "https://aws.amazon.com/compliance/pci-dss-level-1-faqs",
+            "Resources": "https://aws.amazon.com/compliance/resources",
+            "SOC 1,2,3": "https://aws.amazon.com/compliance/soc-faqs",
+            "Testimonials": "https://aws.amazon.com/compliance/testimonials",
+            "shared responsibility": "https://aws.amazon.com/compliance/shared-responsibility-model"
+        },
+        "urls": {
+            "https://aws.amazon.com/amazon-mq": [
+                "Amazon MQ"
+            ],
+            "https://aws.amazon.com/amplify/console": [
+                "AWS Amplify Console"
+            ],
+            "https://aws.amazon.com/api-gateway": [
+                "Amazon API Gateway"
+            ],
+            "https://aws.amazon.com/appstream2": [
+                "Amazon AppStream 2.0"
+            ],
+            "https://aws.amazon.com/appsync": [
+                "AWS AppSync"
+            ],
+            "https://aws.amazon.com/athena": [
+                "Amazon Athena"
+            ],
+            "https://aws.amazon.com/aurora": [
+                "Amazon Aurora (MySQL)",
+                "Amazon Aurora (PostgreSQL)"
+            ],
+            "https://aws.amazon.com/autoscaling": [
+                "AWS Auto Scaling",
+                "AWS\u00a0Auto Scaling"
+            ],
+            "https://aws.amazon.com/backup": [
+                "AWS Backup"
+            ],
+            "https://aws.amazon.com/batch": [
+                "AWS Batch"
+            ],
+            "https://aws.amazon.com/certificate-manager": [
+                "AWS Certificate Manager\u00a0(ACM)",
+                "AWS Certificate Manager (ACM)",
+                "AWS Certificate Manager"
+            ],
+            "https://aws.amazon.com/cloud-directory": [
+                "Amazon Cloud Directory",
+                "Amazon CloudDirectory"
+            ],
+            "https://aws.amazon.com/cloudformation": [
+                "AWS CloudFormation"
+            ],
+            "https://aws.amazon.com/cloudfront": [
+                "Amazon CloudFront",
+                "Amazon CloudFront (including AWS Lamba@Edge)"
+            ],
+            "https://aws.amazon.com/cloudhsm": [
+                "AWS CloudHSM"
+            ],
+            "https://aws.amazon.com/cloudtrail": [
+                "AWS CloudTrail"
+            ],
+            "https://aws.amazon.com/codebuild": [
+                "AWS CodeBuild"
+            ],
+            "https://aws.amazon.com/codecommit": [
+                "AWS CodeCommit"
+            ],
+            "https://aws.amazon.com/codedeploy": [
+                "AWS CodeDeploy"
+            ],
+            "https://aws.amazon.com/codepipeline": [
+                "AWS CodePipeline"
+            ],
+            "https://aws.amazon.com/cognito": [
+                "Amazon Cognito"
+            ],
+            "https://aws.amazon.com/compliance": [
+                "Compliance"
+            ],
+            "https://aws.amazon.com/compliance/aws-multitiered-cloud-security-standard-certification": [
+                "MTCS"
+            ],
+            "https://aws.amazon.com/compliance/bsi-c5": [
+                "Cloud Computing Compliance Controls Catalog (C5)"
+            ],
+            "https://aws.amazon.com/compliance/compliance-latest-news": [
+                "Latest News"
+            ],
+            "https://aws.amazon.com/compliance/contact": [
+                "Need to connect with an AWS business representative?",
+                "Contact Us"
+            ],
+            "https://aws.amazon.com/compliance/dod": [
+                "DoD CC\u00a0SRG IL2 (East/West)",
+                "DoD CC\u00a0SRG IL2 (GovCloud)",
+                "DoD CC\u00a0SRG IL4\u00a0(GovCloud)",
+                "DoD CC SRG\u00a0IL5 (GovCloud)"
+            ],
+            "https://aws.amazon.com/compliance/esquema-nacional-de-seguridad": [
+                "ENS High"
+            ],
+            "https://aws.amazon.com/compliance/fedramp": [
+                "FedRAMP Moderate\u00a0(East/West)",
+                "FedRAMP\u00a0High\u00a0(GovCloud)"
+            ],
+            "https://aws.amazon.com/compliance/hipaa-compliance": [
+                "HIPAA BAA"
+            ],
+            "https://aws.amazon.com/compliance/iso-certified": [
+                "Go to the full list of services covered under our ISO certificates"
+            ],
+            "https://aws.amazon.com/compliance/k-isms": [
+                "K-ISMS"
+            ],
+            "https://aws.amazon.com/compliance/pci-dss-level-1-faqs": [
+                "PCI"
+            ],
+            "https://aws.amazon.com/compliance/programs": [
+                "Assurance Programs"
+            ],
+            "https://aws.amazon.com/compliance/resources": [
+                "Resources"
+            ],
+            "https://aws.amazon.com/compliance/shared-responsibility-model": [
+                "shared responsibility"
+            ],
+            "https://aws.amazon.com/compliance/soc-faqs": [
+                "SOC 1,2,3"
+            ],
+            "https://aws.amazon.com/compliance/testimonials": [
+                "Testimonials"
+            ],
+            "https://aws.amazon.com/comprehend": [
+                "Amazon Comprehend"
+            ],
+            "https://aws.amazon.com/comprehend/medical": [
+                "Amazon Comprehend [Medical]"
+            ],
+            "https://aws.amazon.com/config": [
+                "AWS Config"
+            ],
+            "https://aws.amazon.com/connect": [
+                "Amazon Connect"
+            ],
+            "https://aws.amazon.com/datasync": [
+                "AWS DataSync"
+            ],
+            "https://aws.amazon.com/directconnect": [
+                "AWS Direct Connect"
+            ],
+            "https://aws.amazon.com/directoryservice": [
+                "AWS Directory Service",
+                "AWS Directory Service for Microsoft and AD Connector",
+                "AWS Directory Service (excluding Simple AD and AD Connector)"
+            ],
+            "https://aws.amazon.com/dms": [
+                "AWS Database Migration Service\u00a0(AWS DMS)",
+                "AWS Database Migration Service",
+                "AWS Database Migration Service (DMS)"
+            ],
+            "https://aws.amazon.com/documentation": [
+                "AWS Documentation"
+            ],
+            "https://aws.amazon.com/documentdb": [
+                "Amazon DocumentDB (with MongoDB compatibility)"
+            ],
+            "https://aws.amazon.com/dynamodb": [
+                "Amazon DynamoDB"
+            ],
+            "https://aws.amazon.com/ebs": [
+                "Amazon Elastic Block Store\u00a0(Amazon EBS)",
+                "Amazon Elastic Block Store (EBS)",
+                "Amazon Elastic Block Store (Amazon EBS)"
+            ],
+            "https://aws.amazon.com/ec2": [
+                "Amazon Elastic Compute Cloud (Amazon EC2)",
+                "Amazon Elastic Compute Cloud (EC2)",
+                "Amazon Elastic Compute Cloud (EC2)\u00a0[includes all instance types]"
+            ],
+            "https://aws.amazon.com/ec2/autoscaling": [
+                "Amazon EC2 Auto Scaling"
+            ],
+            "https://aws.amazon.com/ec2/vm-import": [
+                "VM Import/Export",
+                "AWS VM Import/Export",
+                "AWS Import/Export"
+            ],
+            "https://aws.amazon.com/ecr": [
+                "Amazon Elastic Container Registry\u00a0(Amazon ECR)",
+                "Amazon Elastic Container Registry (ECR)",
+                "Amazon Elastic Container Registry",
+                "Amazon Elastic Container Registery (Amazon ECR)"
+            ],
+            "https://aws.amazon.com/ecs": [
+                "Amazon Elastic Container Service",
+                "Amazon Elastic Container Service (ECS)",
+                "Amazon EC2 Container Service (ECS)",
+                "Amazon Elastic Container Service (Amazon ECS)"
+            ],
+            "https://aws.amazon.com/efs": [
+                "Amazon Elastic File System\u00a0(Amazon EFS)",
+                "Amazon Elastic File System (EFS)",
+                "Amazon Elastic File System"
+            ],
+            "https://aws.amazon.com/eks": [
+                "Amazon Elastic Container Service for Kubernetes (Amazon EKS)",
+                "Amazon Elastic Container Service for Kubernetes (EKS)",
+                "Amazon Elastic Container Service for Kubernetes"
+            ],
+            "https://aws.amazon.com/elasticache": [
+                "Amazon ElastiCache for Redis",
+                "Amazon ElastiCache",
+                "Amazon ElastiCache (Redis)"
+            ],
+            "https://aws.amazon.com/elasticache/redis": [
+                "Amazon ElastiCache\u00a0for Redis"
+            ],
+            "https://aws.amazon.com/elasticbeanstalk": [
+                "AWS Elastic Beanstalk"
+            ],
+            "https://aws.amazon.com/elasticloadbalancing": [
+                "Elastic Load Balancing",
+                "Elastic Load Balancing (ELB)"
+            ],
+            "https://aws.amazon.com/elasticsearch-service": [
+                "Amazon Elasticsearch Service",
+                "Amazon Elasticsearch"
+            ],
+            "https://aws.amazon.com/emr": [
+                "Amazon EMR",
+                "Amazon Elastic MapReduce",
+                "Amazon Elastic MapReduce (EMR)"
+            ],
+            "https://aws.amazon.com/firewall-manager": [
+                "AWS Firewall Manager"
+            ],
+            "https://aws.amazon.com/freertos": [
+                "Amazon FreeRTOS"
+            ],
+            "https://aws.amazon.com/fsx": [
+                "Amazon FSx"
+            ],
+            "https://aws.amazon.com/glacier": [
+                "Amazon Elasticache"
+            ],
+            "https://aws.amazon.com/glacier1": [
+                "Amazon S3 Glacier",
+                "Amazon Glacier"
+            ],
+            "https://aws.amazon.com/global-accelerator": [
+                "AWS Global Accelerator"
+            ],
+            "https://aws.amazon.com/glue": [
+                "AWS Glue"
+            ],
+            "https://aws.amazon.com/greengrass": [
+                "AWS IoT Greengrass",
+                "AWS Greengrass"
+            ],
+            "https://aws.amazon.com/guardduty": [
+                "Amazon GuardDuty"
+            ],
+            "https://aws.amazon.com/iam": [
+                "AWS Identity and Access Management (IAM)",
+                "AWS Identity & Access Management (IAM)"
+            ],
+            "https://aws.amazon.com/inspector": [
+                "Amazon Inspector"
+            ],
+            "https://aws.amazon.com/iot-core": [
+                "AWS IoT Core",
+                "Core"
+            ],
+            "https://aws.amazon.com/iot-device-management": [
+                "AWS IoT Device Management",
+                "Device Management",
+                "AWS IoT Device Manager",
+                "Device"
+            ],
+            "https://aws.amazon.com/iot-events": [
+                "AWS IoT Events"
+            ],
+            "https://aws.amazon.com/kinesis/data-analytics": [
+                "Amazon Kinesis Analytics"
+            ],
+            "https://aws.amazon.com/kinesis/data-firehose": [
+                "Amazon Kinesis Data Firehose",
+                "Amazon Kinesis Firehose"
+            ],
+            "https://aws.amazon.com/kinesis/data-streams": [
+                "Amazon Kinesis Data Analytics",
+                "Amazon Kinesis Data Streams"
+            ],
+            "https://aws.amazon.com/kinesis/video-streams": [
+                "Amazon Kinesis Video Streams"
+            ],
+            "https://aws.amazon.com/kms": [
+                "AWS Key Management Service\u00a0(AWS KMS)",
+                "AWS Key Management Service",
+                "AWS Key Management Service (KMS)",
+                "AWS Key Management Service (AWS KMS)"
+            ],
+            "https://aws.amazon.com/lambda": [
+                "AWS Lambda"
+            ],
+            "https://aws.amazon.com/lambda/edge": [
+                "AWS Lambda@Edge",
+                "Lambda@Edge"
+            ],
+            "https://aws.amazon.com/license-manager": [
+                "AWS License Manager"
+            ],
+            "https://aws.amazon.com/machine-learning/amis": [
+                "AWS Deep Learning AMIs"
+            ],
+            "https://aws.amazon.com/macie": [
+                "Amazon Macie"
+            ],
+            "https://aws.amazon.com/managed-services": [
+                "AWS Managed Services"
+            ],
+            "https://aws.amazon.com/mediaconnect": [
+                "AWS Elemental MediaConnect"
+            ],
+            "https://aws.amazon.com/mediaconvert": [
+                "AWS Elemental MediaConvert"
+            ],
+            "https://aws.amazon.com/medialive": [
+                "AWS Elemental MediaLive"
+            ],
+            "https://aws.amazon.com/msk": [
+                "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+            ],
+            "https://aws.amazon.com/neptune": [
+                "Amazon Neptune"
+            ],
+            "https://aws.amazon.com/opsworks": [
+                "AWS OpsWorks",
+                "AWS OpsWorks\u00a0Stack"
+            ],
+            "https://aws.amazon.com/opsworks/chefautomate": [
+                "AWS OpsWorks for Chef Automate",
+                "AWS OpsWorks CM",
+                "Chef Automate"
+            ],
+            "https://aws.amazon.com/opsworks/puppetenterprise": [
+                "AWS OpsWorks for Puppet Enterprise",
+                "Puppet Enterprise"
+            ],
+            "https://aws.amazon.com/opsworks/stacks": [
+                "AWS OpsWorks Stacks"
+            ],
+            "https://aws.amazon.com/organizations": [
+                "AWS Organizations"
+            ],
+            "https://aws.amazon.com/pinpoint": [
+                "Amazon Pinpoint"
+            ],
+            "https://aws.amazon.com/polly": [
+                "Amazon Polly"
+            ],
+            "https://aws.amazon.com/premiumsupport/technology/trusted-advisor": [
+                "AWS Trusted Advisor"
+            ],
+            "https://aws.amazon.com/quicksight": [
+                "Amazon QuickSight",
+                "Amazon Quicksight"
+            ],
+            "https://aws.amazon.com/rds": [
+                "Amazon Relational Database Service (Amazon RDS)",
+                "Amazon Relational Database Service (RDS",
+                "Amazon Relational Database Service (RDS)",
+                "Amazon Relation Database Service",
+                "Amazon RDS"
+            ],
+            "https://aws.amazon.com/rds/aurora": [
+                "Amazon Aurora",
+                "Amazon Aurora (Postgres)",
+                "Amazon Aurora (MySQL,PostgreSQL)"
+            ],
+            "https://aws.amazon.com/rds/mariadb": [
+                "Amazon RDS (MariaDB)",
+                "Amazon Relational Database Service (RDS) for MariaDB"
+            ],
+            "https://aws.amazon.com/rds/mysql": [
+                "Amazon RDS (MySQL)",
+                "Amazon RDS (Oracle)",
+                "Amazon Relational Database Service (RDS) for MySQL",
+                "Amazon RDS (MySQL, Oracle)"
+            ],
+            "https://aws.amazon.com/rds/oracle": [
+                "Amazon Relational Database Service (RDS) for Oracle"
+            ],
+            "https://aws.amazon.com/rds/postgresql": [
+                "Amazon RDS (Postgres)",
+                "Amazon Relational Database Service (RDS) for PostgreSQL"
+            ],
+            "https://aws.amazon.com/rds/sqlserver": [
+                "Amazon RDS (SQL Server)",
+                "Amazon Relational Database Service (RDS) for SQL Server"
+            ],
+            "https://aws.amazon.com/redshift": [
+                "Amazon Redshift"
+            ],
+            "https://aws.amazon.com/rekognition": [
+                "Amazon Rekognition"
+            ],
+            "https://aws.amazon.com/robomaker": [
+                "AWS RoboMaker"
+            ],
+            "https://aws.amazon.com/route53": [
+                "Amazon Route 53"
+            ],
+            "https://aws.amazon.com/s3": [
+                "Amazon Simple Storage Service (Amazon S3)",
+                "Amazon Simple Storage Service (S3)"
+            ],
+            "https://aws.amazon.com/sagemaker": [
+                "Amazon SageMaker",
+                "Amazon SageMaker [excluding Public Workforce and Vendor Workforce]"
+            ],
+            "https://aws.amazon.com/security": [
+                "Cloud Security"
+            ],
+            "https://aws.amazon.com/security-hub": [
+                "AWS Security Hub"
+            ],
+            "https://aws.amazon.com/server-migration-service": [
+                "AWS Server Migration Service (AWS SMS)",
+                "AWS Server Migration Service (SMS)",
+                "AWS Server Migration Service"
+            ],
+            "https://aws.amazon.com/serverless/serverlessrepo": [
+                "AWS Serverless Application Repository",
+                "AWS Serverless Application\u00a0Respository"
+            ],
+            "https://aws.amazon.com/servicecatalog": [
+                "AWS Service Catalog"
+            ],
+            "https://aws.amazon.com/ses": [
+                "Amazon Simple Email Service\u00a0(Amazon SES)",
+                "Amazon Simple Email Service (SES)"
+            ],
+            "https://aws.amazon.com/sftp": [
+                "AWS Transfer for SFTP"
+            ],
+            "https://aws.amazon.com/shield": [
+                "AWS Shield",
+                "AWS Shield Advanced"
+            ],
+            "https://aws.amazon.com/simpledb": [
+                "Amazon SimpleDB"
+            ],
+            "https://aws.amazon.com/snowball": [
+                "AWS Snowball"
+            ],
+            "https://aws.amazon.com/snowball-edge": [
+                "AWS Snowball Edge"
+            ],
+            "https://aws.amazon.com/snowmobile": [
+                "AWS Snowmobile"
+            ],
+            "https://aws.amazon.com/sns": [
+                "Amazon Simple Notification Service\u00a0(Amazon SNS)",
+                "Amazon Simple Notification Service (SNS)",
+                "Amazon Simple Notification Service (Amazon SNS)"
+            ],
+            "https://aws.amazon.com/sqs": [
+                "Amazon Simple Queue Service\u00a0(Amazon SQS)",
+                "Amazon Simple Queue Service (SQS)",
+                "Amazon Simple Queue Service (Amazon SQS)"
+            ],
+            "https://aws.amazon.com/step-functions": [
+                "AWS Step Functions"
+            ],
+            "https://aws.amazon.com/storagegateway": [
+                "AWS Storage Gateway"
+            ],
+            "https://aws.amazon.com/swf": [
+                "Amazon Simple Workflow Service\u00a0(Amazon SWF)",
+                "Amazon Simple Workflow Service (SWF)",
+                "Amazon Simple Workflow",
+                "Amazon Simple Workflow Service",
+                "Amazon Simple Workflow Service (Amazon SWF)"
+            ],
+            "https://aws.amazon.com/systems-manager": [
+                "AWS Secrets Manager",
+                "AWS Systems Manager",
+                "AWS Systems Manager (previously Amazon EC2 Systems Manager)",
+                "AWS Systems Manager (SSM)"
+            ],
+            "https://aws.amazon.com/transcribe": [
+                "Amazon Transcribe"
+            ],
+            "https://aws.amazon.com/translate": [
+                "Amazon Translate"
+            ],
+            "https://aws.amazon.com/vpc": [
+                "Amazon Virtual Private Cloud\u00a0(Amazon VPC)",
+                "Amazon Virtual Private Cloud (VPC)",
+                "Amazon Virtual Private Cloud (Amazon VPC)"
+            ],
+            "https://aws.amazon.com/waf": [
+                "AWS WAF",
+                "AWS Web Application Firewall (WAF)"
+            ],
+            "https://aws.amazon.com/workdocs": [
+                "Amazon WorkDocs"
+            ],
+            "https://aws.amazon.com/worklink": [
+                "Amazon WorkLink"
+            ],
+            "https://aws.amazon.com/workmail": [
+                "Amazon WorkMail"
+            ],
+            "https://aws.amazon.com/workspaces": [
+                "Amazon WorkSpaces"
+            ],
+            "https://aws.amazon.com/xray": [
+                "AWS X-Ray"
+            ]
+        }
+    },
+    "products": {},
+    "services": {
+        "AWSAmplifyConsole": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsamplifyconsole"
+            ]
+        },
+        "AWSAppSync": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsappsync"
+            ]
+        },
+        "AWSAutoScaling": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsautoscaling"
+            ]
+        },
+        "AWSBackup": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsbackup"
+            ]
+        },
+        "AWSBatch": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsbatch"
+            ]
+        },
+        "AWSCertificateManager": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awscertificatemanager"
+            ]
+        },
+        "AWSCloudFormation": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awscloudformation"
+            ]
+        },
+        "AWSCloudHSM": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awscloudhsm"
+            ]
+        },
+        "AWSCloudTrail": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awscloudtrail"
+            ]
+        },
+        "AWSCodeBuild": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awscodebuild"
+            ]
+        },
+        "AWSCodeCommit": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awscodecommit"
+            ]
+        },
+        "AWSCodeDeploy": {
+            "compliance": [
+                "iso",
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "awscodedeploy"
+            ]
+        },
+        "AWSCodePipeline": {
+            "compliance": [
+                "iso",
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "awscodepipeline"
+            ]
+        },
+        "AWSConfig": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awsconfig"
+            ]
+        },
+        "AWSDataSync": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsdatasync"
+            ]
+        },
+        "AWSDatabaseMigrationService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awsdatabasemigrationservice"
+            ]
+        },
+        "AWSDeepLearningAMIs": {
+            "compliance": [
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud"
+            ],
+            "search_terms": [
+                "awsdeeplearningamis"
+            ]
+        },
+        "AWSDirectConnect": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awsdirectconnect"
+            ]
+        },
+        "AWSDirectoryService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awsdirectoryservice"
+            ]
+        },
+        "AWSDirectoryServiceforMicrosoftandADConnector": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "awsdirectoryserviceformicrosoftandadconnector"
+            ]
+        },
+        "AWSElasticBeanstalk": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awselasticbeanstalk"
+            ]
+        },
+        "AWSElementalMediaConnect": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awselementalmediaconnect"
+            ]
+        },
+        "AWSElementalMediaConvert": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awselementalmediaconvert"
+            ]
+        },
+        "AWSElementalMediaLive": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awselementalmedialive"
+            ]
+        },
+        "AWSFirewallManager": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsfirewallmanager"
+            ]
+        },
+        "AWSGlobalAccelerator": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsglobalaccelerator"
+            ]
+        },
+        "AWSGlue": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsglue"
+            ]
+        },
+        "AWSGreengrass": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsgreengrass"
+            ]
+        },
+        "AWSIdentityAccessManagement": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "awsidentityaccessmanagement"
+            ]
+        },
+        "AWSIdentityandAccessManagement": {
+            "compliance": [
+                "iso",
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "awsidentityandaccessmanagement"
+            ]
+        },
+        "AWSImportExport": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsimportexport"
+            ]
+        },
+        "AWSIoT": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsiot"
+            ]
+        },
+        "AWSIoTCore": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsiotcore"
+            ]
+        },
+        "AWSIoTDeviceManagement": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsiotdevicemanagement"
+            ]
+        },
+        "AWSIoTDeviceManager": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "awsiotdevicemanager"
+            ]
+        },
+        "AWSIoTEvents": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsiotevents"
+            ]
+        },
+        "AWSIoTGreengrass": {
+            "compliance": [
+                "iso",
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud"
+            ],
+            "search_terms": [
+                "awsiotgreengrass"
+            ]
+        },
+        "AWSKeyManagementService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awskeymanagementservice"
+            ]
+        },
+        "AWSLambda": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awslambda"
+            ]
+        },
+        "AWSLambdaEdge": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "awslambdaedge"
+            ]
+        },
+        "AWSLicenseManager": {
+            "compliance": [
+                "iso",
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud"
+            ],
+            "search_terms": [
+                "awslicensemanager"
+            ]
+        },
+        "AWSManagedServices": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsmanagedservices"
+            ]
+        },
+        "AWSOpsWorks": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsopsworks"
+            ]
+        },
+        "AWSOpsWorksCM": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "awsopsworkscm"
+            ]
+        },
+        "AWSOpsWorksStack": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsopsworksstack"
+            ]
+        },
+        "AWSOpsWorksStacks": {
+            "compliance": [
+                "iso",
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "awsopsworksstacks"
+            ]
+        },
+        "AWSOpsWorksforChefAutomate": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsopsworksforchefautomate"
+            ]
+        },
+        "AWSOpsWorksforChefAutomateorAWSOpsWorksforPuppetEnterprise": {
+            "compliance": [
+                "sdks",
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "awsopsworksforchefautomateorawsopsworksforpuppetenterprise"
+            ]
+        },
+        "AWSOpsWorksforPuppetEnterprise": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsopsworksforpuppetenterprise"
+            ]
+        },
+        "AWSOrganizations": {
+            "compliance": [
+                "iso",
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "awsorganizations"
+            ]
+        },
+        "AWSResourceGroups": {
+            "compliance": [
+                "sdks",
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "awsresourcegroups"
+            ]
+        },
+        "AWSRoboMaker": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsrobomaker"
+            ]
+        },
+        "AWSSecretsManager": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awssecretsmanager"
+            ]
+        },
+        "AWSSecurityHub": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awssecurityhub"
+            ]
+        },
+        "AWSServerMigrationService": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsservermigrationservice"
+            ]
+        },
+        "AWSServerlessApplicationRepository": {
+            "compliance": [
+                "iso",
+                "pci"
+            ],
+            "search_terms": [
+                "awsserverlessapplicationrepository"
+            ]
+        },
+        "AWSServerlessApplicationRespository": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsserverlessapplicationrespository"
+            ]
+        },
+        "AWSServiceCatalog": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsservicecatalog"
+            ]
+        },
+        "AWSShield": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsshield"
+            ]
+        },
+        "AWSShieldAdvanced": {
+            "compliance": [
+                "fedramp-moderate-east-west"
+            ],
+            "search_terms": [
+                "awsshieldadvanced"
+            ]
+        },
+        "AWSSnowball": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awssnowball"
+            ]
+        },
+        "AWSSnowballEdge": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awssnowballedge"
+            ]
+        },
+        "AWSSnowmobile": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awssnowmobile"
+            ]
+        },
+        "AWSStepFunctions": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsstepfunctions"
+            ]
+        },
+        "AWSStorageGateway": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "awsstoragegateway"
+            ]
+        },
+        "AWSSystemsManager": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "awssystemsmanager"
+            ]
+        },
+        "AWSTransferforSFTP": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awstransferforsftp"
+            ]
+        },
+        "AWSTrustedAdvisor": {
+            "compliance": [
+                "iso",
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "awstrustedadvisor"
+            ]
+        },
+        "AWSVMImportExport": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "awsvmimportexport"
+            ]
+        },
+        "AWSWAF": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "awswaf"
+            ]
+        },
+        "AWSWebApplicationFirewall": {
+            "compliance": [
+                "iso",
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "awswebapplicationfirewall"
+            ]
+        },
+        "AWSXRay": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "awsxray"
+            ]
+        },
+        "AmazonAPIGateway": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonapigateway"
+            ]
+        },
+        "AmazonAppStream20": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonappstream",
+                "amazonappstream20"
+            ]
+        },
+        "AmazonAthena": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonathena"
+            ]
+        },
+        "AmazonAurora": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazonaurora"
+            ]
+        },
+        "AmazonCloudDirectory": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonclouddirectory"
+            ]
+        },
+        "AmazonCloudFront": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazoncloudfront"
+            ]
+        },
+        "AmazonCloudWatch": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazoncloudwatch"
+            ]
+        },
+        "AmazonCloudWatchEvents": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazoncloudwatchevents"
+            ]
+        },
+        "AmazonCloudWatchLogs": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazoncloudwatchlogs"
+            ]
+        },
+        "AmazonCloudWatchSDKMetrics": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazoncloudwatchsdkmetrics"
+            ]
+        },
+        "AmazonCognito": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazoncognito"
+            ]
+        },
+        "AmazonComprehend": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazoncomprehend"
+            ]
+        },
+        "AmazonConnect": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonconnect"
+            ]
+        },
+        "AmazonDocumentDB": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazondocumentdb"
+            ]
+        },
+        "AmazonDynamoDB": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazondynamodb"
+            ]
+        },
+        "AmazonEC2AutoScaling": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazonec2autoscaling",
+                "amazonecautoscaling"
+            ]
+        },
+        "AmazonEC2ContainerService": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "amazonec2containerservice",
+                "amazoneccontainerservice"
+            ]
+        },
+        "AmazonEMR": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonemr"
+            ]
+        },
+        "AmazonElastiCache": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticache"
+            ]
+        },
+        "AmazonElastiCacheforRedis": {
+            "compliance": [
+                "pci"
+            ],
+            "search_terms": [
+                "amazonelasticacheforredis"
+            ]
+        },
+        "AmazonElasticBlockStore": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticblockstore"
+            ]
+        },
+        "AmazonElasticComputeCloud": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticcomputecloud"
+            ]
+        },
+        "AmazonElasticContainerRegistery": {
+            "compliance": [
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "amazonelasticcontainerregistery"
+            ]
+        },
+        "AmazonElasticContainerRegistry": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonelasticcontainerregistry"
+            ]
+        },
+        "AmazonElasticContainerService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticcontainerservice"
+            ]
+        },
+        "AmazonElasticContainerServiceforKubernetes": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonelasticcontainerserviceforkubernetes"
+            ]
+        },
+        "AmazonElasticFileSystem": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticfilesystem"
+            ]
+        },
+        "AmazonElasticMapReduce": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonelasticmapreduce"
+            ]
+        },
+        "AmazonElasticache": {
+            "compliance": [
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "amazonelasticache"
+            ]
+        },
+        "AmazonElasticsearch": {
+            "compliance": [
+                "fedramp-moderate-east-west",
+                "fedramp-high-govcloud"
+            ],
+            "search_terms": [
+                "amazonelasticsearch"
+            ]
+        },
+        "AmazonElasticsearchService": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonelasticsearchservice"
+            ]
+        },
+        "AmazonFSx": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonfsx"
+            ]
+        },
+        "AmazonFreeRTOS": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonfreertos"
+            ]
+        },
+        "AmazonGlacier": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonglacier"
+            ]
+        },
+        "AmazonGuardDuty": {
+            "compliance": [
+                "iso",
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "amazonguardduty"
+            ]
+        },
+        "AmazonInspector": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazoninspector"
+            ]
+        },
+        "AmazonKinesisAnalytics": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonkinesisanalytics"
+            ]
+        },
+        "AmazonKinesisDataAnalytics": {
+            "compliance": [
+                "iso",
+                "pci"
+            ],
+            "search_terms": [
+                "amazonkinesisdataanalytics"
+            ]
+        },
+        "AmazonKinesisDataFirehose": {
+            "compliance": [
+                "iso",
+                "irap-unclassified",
+                "irap-protected"
+            ],
+            "search_terms": [
+                "amazonkinesisdatafirehose"
+            ]
+        },
+        "AmazonKinesisDataStreams": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonkinesisdatastreams"
+            ]
+        },
+        "AmazonKinesisFirehose": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonkinesisfirehose"
+            ]
+        },
+        "AmazonKinesisVideoStreams": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonkinesisvideostreams"
+            ]
+        },
+        "AmazonMQ": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonmq"
+            ]
+        },
+        "AmazonMacie": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonmacie"
+            ]
+        },
+        "AmazonManagedStreamingforApacheKafka": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonmanagedstreamingforapachekafka"
+            ]
+        },
+        "AmazonNeptune": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonneptune"
+            ]
+        },
+        "AmazonPinpoint": {
+            "compliance": [
+                "iso",
+                "sdks",
+                "soc-1-2-3"
+            ],
+            "search_terms": [
+                "amazonpinpoint"
+            ]
+        },
+        "AmazonPolly": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonpolly"
+            ]
+        },
+        "AmazonQuickSight": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonquicksight"
+            ]
+        },
+        "AmazonQuicksight": {
+            "compliance": [
+                "iso",
+                "pci"
+            ],
+            "search_terms": [
+                "amazonquicksight"
+            ]
+        },
+        "AmazonRDS": {
+            "compliance": [
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonrds"
+            ]
+        },
+        "AmazonRedshift": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonredshift"
+            ]
+        },
+        "AmazonRekognition": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonrekognition"
+            ]
+        },
+        "AmazonRelationDatabaseService": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonrelationdatabaseservice"
+            ]
+        },
+        "AmazonRelationalDatabaseService": {
+            "compliance": [
+                "iso",
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "amazonrelationaldatabaseservice"
+            ]
+        },
+        "AmazonRoute53": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazonroute53",
+                "amazonroute"
+            ]
+        },
+        "AmazonS3Glacier": {
+            "compliance": [
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "amazonsglacier",
+                "amazons3glacier"
+            ]
+        },
+        "AmazonS3TransferAcceleration": {
+            "compliance": [
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazonstransferacceleration",
+                "amazons3transferacceleration"
+            ]
+        },
+        "AmazonSageMaker": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonsagemaker"
+            ]
+        },
+        "AmazonSimpleDB": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonsimpledb"
+            ]
+        },
+        "AmazonSimpleEmailService": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonsimpleemailservice"
+            ]
+        },
+        "AmazonSimpleNotificationService": {
+            "compliance": [
+                "iso",
+                "k-isms"
+            ],
+            "search_terms": [
+                "amazonsimplenotificationservice"
+            ]
+        },
+        "AmazonSimpleQueueService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonsimplequeueservice"
+            ]
+        },
+        "AmazonSimpleStorageService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonsimplestorageservice"
+            ]
+        },
+        "AmazonSimpleWorkflow": {
+            "compliance": [
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonsimpleworkflow"
+            ]
+        },
+        "AmazonSimpleWorkflowService": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonsimpleworkflowservice"
+            ]
+        },
+        "AmazonTranscribe": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazontranscribe"
+            ]
+        },
+        "AmazonTranslate": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazontranslate"
+            ]
+        },
+        "AmazonVirtualPrivateCloud": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonvirtualprivatecloud"
+            ]
+        },
+        "AmazonWorkDocs": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonworkdocs"
+            ]
+        },
+        "AmazonWorkLink": {
+            "compliance": [
+                "iso",
+                "hipaa-baa"
+            ],
+            "search_terms": [
+                "amazonworklink"
+            ]
+        },
+        "AmazonWorkMail": {
+            "compliance": [
+                "iso",
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "amazonworkmail"
+            ]
+        },
+        "AmazonWorkSpaces": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "amazonworkspaces"
+            ]
+        },
+        "ElasticLoadBalancing": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "elasticloadbalancing"
+            ]
+        },
+        "FormoreinformationseeCloudComputingComplianceControlsCatalog": {
+            "compliance": [
+                "dublin",
+                "frankfurt"
+            ],
+            "search_terms": [
+                "formoreinformationseecloudcomputingcompliancecontrolscatalog"
+            ]
+        },
+        "LambdaEdge": {
+            "compliance": [
+                "mtcs-singapore",
+                "mtcs-seoul"
+            ],
+            "search_terms": [
+                "lambdaedge"
+            ]
+        },
+        "VMImportExport": {
+            "compliance": [
+                "iso",
+                "ens-high"
+            ],
+            "search_terms": [
+                "vmimportexport"
+            ]
+        }
+    }
+}
