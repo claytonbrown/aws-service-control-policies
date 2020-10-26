@@ -123,6 +123,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -167,6 +168,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -195,8 +197,10 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Personal Health Dashboard",
             "AWS PrivateLink",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -229,6 +233,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -273,6 +278,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -301,8 +307,10 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Personal Health Dashboard",
             "AWS PrivateLink",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -335,6 +343,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -379,6 +388,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -407,8 +417,10 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Personal Health Dashboard",
             "AWS PrivateLink",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -441,6 +453,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -485,6 +498,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -513,8 +527,10 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Personal Health Dashboard",
             "AWS PrivateLink",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -547,6 +563,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -591,6 +608,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -619,8 +637,10 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Personal Health Dashboard",
             "AWS PrivateLink",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -760,6 +780,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -830,7 +851,10 @@
             "AWS License Manager",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Outposts",
+            "AWS Personal Health Dashboard",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -866,6 +890,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -936,7 +961,10 @@
             "AWS License Manager",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Outposts",
+            "AWS Personal Health Dashboard",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -972,6 +1000,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
@@ -1042,7 +1071,10 @@
             "AWS License Manager",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Opsworks",
             "AWS Outposts",
+            "AWS Personal Health Dashboard",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -1140,8 +1172,9 @@
             "AWS Batch",
             "AWS Certificate Manager",
             "AWS Cloud Map",
-            "AWS CloudHSM",
+            "AWS CloudEndure",
             "AWS CloudFormation",
+            "AWS CloudHSM",
             "AWS CloudTrail",
             "AWS CodeBuild",
             "AWS CodeCommit",
@@ -1197,25 +1230,27 @@
             "Amazon AppStream 20",
             "Amazon Athena",
             "Amazon Aurora",
+            "Amazon Chime",
             "Amazon Cloud Directory",
             "Amazon CloudFront",
             "Amazon CloudWatch",
-            "Amazon CloudWatch Events",
-            "Amazon CloudWatch SDK Metrics",
             "Amazon Cognito",
+            "Amazon Comprehend",
             "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DocumentDB",
             "Amazon DynamoDB",
+            "Amazon EC2 Auto Scaling",
             "Amazon Elastic Block Store",
             "Amazon Elastic Compute Cloud",
             "Amazon Elastic Container Registry",
             "Amazon Elastic Container Service",
-            "Amazon Elastic Container Service for Kubernetes",
             "Amazon Elastic File System",
+            "Amazon Elastic Kubernetes Service",
             "Amazon ElastiCache for Redis",
             "Amazon Elasticsearch Service",
-            "Amazon EMR",
+            "Amazon Elastic MapReduce",
+            "Amazon Forecast",
             "Amazon FreeRTOS",
             "Amazon FSx",
             "Amazon GuardDuty",
@@ -1245,16 +1280,17 @@
             "Amazon Simple Queue Service",
             "Amazon Simple Storage Service",
             "Amazon Simple Workflow Service",
+            "Amazon SimpleDB",
+            "Amazon Textract",
             "Amazon Transcribe",
             "Amazon Translate",
             "Amazon Virtual Private Cloud",
             "Amazon WorkDocs",
-            "Amazon WorkSpaces",
             "Amazon WorkLink",
+            "Amazon WorkMail",
+            "Amazon WorkSpaces",
             "AWS Amplify",
-            "AWS Amplify Console",
             "AWS AppSync",
-            "AWS Auto Scaling",
             "AWS Backup",
             "AWS Batch",
             "AWS Certificate Manager",
@@ -1276,17 +1312,17 @@
             "AWS Elemental MediaConnect",
             "AWS Elemental MediaConvert",
             "AWS Elemental MediaLive",
-            "AWS Fargate",
             "AWS Firewall Manager",
             "AWS Global Accelerator",
             "AWS Glue",
             "AWS Identity and Access Management",
             "AWS IoT Core",
+            "AWS IoT Device Management",
+            "AWS IoT Events",
             "AWS IoT Greengrass",
             "AWS IoT Things Graph",
-            "AWS Key Management Service",
+            "AWS Key Management Servic",
             "AWS Lambda",
-            "AWS LambdaEdge",
             "AWS Managed Services",
             "AWS OpsWorks for Chef Automate",
             "AWS OpsWorks for Puppet Enterprise",
@@ -1305,8 +1341,8 @@
             "AWS Step Functions",
             "AWS Storage Gateway",
             "AWS Systems Manager",
-            "AWS Transfer for SFTP",
-            "AWS WAF",
+            "AWS Transfer Family",
+            "AWS Web Application Firewall",
             "AWS XRay",
             "Elastic Load Balancing",
             "VM ImportExport"
@@ -1637,6 +1673,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon Elastic Block Store",
@@ -1694,6 +1731,7 @@
             "AWS Managed Services",
             "AWS Organizations",
             "AWS Outposts",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -1720,6 +1758,7 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon Comprehend",
+            "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DynamoDB",
             "Amazon Elastic Block Store",
@@ -1754,6 +1793,7 @@
             "Amazon WorkSpaces",
             "AWS Backup",
             "AWS Batch",
+            "AWS Certificate Manager",
             "AWS CloudFormation",
             "AWS CloudHSM",
             "AWS CloudTrail",
@@ -1778,6 +1818,7 @@
             "AWS Outposts",
             "AWS Managed Services",
             "AWS Organizations",
+            "AWS Resource Groups",
             "AWS Secrets Manager",
             "AWS Security Hub",
             "AWS Server Migration Service",
@@ -1856,8 +1897,9 @@
             "AWS Backup",
             "AWS Batch",
             "AWS Certificate Manager",
-            "AWS CloudHSM",
+            "AWS CloudEndure",
             "AWS CloudFormation",
+            "AWS CloudHSM",
             "AWS CloudTrail",
             "AWS CodeBuild",
             "AWS CodeCommit",
@@ -2206,7 +2248,6 @@
             "Amazon CloudWatch Logs",
             "Amazon Cognito",
             "Amazon DynamoDB",
-            "Amazon ElastiCache",
             "Amazon Elastic Block Store",
             "Amazon Elastic Compute Cloud",
             "Amazon Elastic Container Registry",
@@ -2214,7 +2255,6 @@
             "Amazon Elastic Container Service for Kubernetes",
             "Amazon Elastic File System",
             "Amazon Elastic MapReduce",
-            "Amazon Glacier",
             "Amazon GuardDuty",
             "Amazon Kinesis Data Analytics",
             "Amazon Kinesis Data Firehose",
@@ -2440,11 +2480,12 @@
             "Amazon API Gateway",
             "Amazon AppStream 20",
             "Amazon Athena",
+            "Amazon Chime",
             "Amazon Cloud Directory",
             "Amazon CloudFront",
             "Amazon CloudWatch",
-            "Amazon CloudWatch Events",
             "Amazon Cognito",
+            "Amazon Comprehend",
             "Amazon Comprehend Medical",
             "Amazon Connect",
             "Amazon DocumentDB",
@@ -2453,9 +2494,10 @@
             "Amazon Elastic Compute Cloud",
             "Amazon Elastic Container Registry",
             "Amazon Elastic Container Service",
-            "Amazon Elastic Container Service for Kubernetes",
             "Amazon Elastic File System",
             "Amazon Elasticsearch Service",
+            "Amazon Elastic MapReduce",
+            "Amazon Forecast",
             "Amazon FreeRTOS",
             "Amazon FSx",
             "Amazon GuardDuty",
@@ -2482,15 +2524,16 @@
             "Amazon Simple Queue Service",
             "Amazon Simple Storage Service",
             "Amazon Simple Workflow Service",
+            "Amazon SimpleDB",
+            "Amazon Textract",
             "Amazon Transcribe",
             "Amazon Translate",
             "Amazon Virtual Private Cloud",
             "Amazon WorkDocs",
-            "Amazon WorkSpaces",
             "Amazon WorkLink",
-            "AWS Amplify Console",
+            "Amazon WorkMail",
+            "Amazon WorkSpaces",
             "AWS AppSync",
-            "AWS Auto Scaling",
             "AWS Backup",
             "AWS Batch",
             "AWS Certificate Manager",
@@ -2516,8 +2559,8 @@
             "AWS Global Accelerator",
             "AWS Glue",
             "AWS Identity and Access Management",
+            "AWS IoT Events",
             "AWS IoT Greengrass",
-            "AWS Key Management Service",
             "AWS Lambda",
             "AWS Managed Services",
             "AWS OpsWorks Stacks",
@@ -2535,7 +2578,7 @@
             "AWS Step Functions",
             "AWS Storage Gateway",
             "AWS Systems Manager",
-            "AWS Transfer for SFTP",
+            "AWS Web Application Firewall",
             "AWS XRay",
             "Elastic Load Balancing",
             "VM ImportExport"
@@ -2550,7 +2593,7 @@
             "Amazon Cognito",
             "Amazon DynamoDB",
             "Amazon EC2 Auto Scaling",
-            "Amazon ElastiCache",
+            "Amazon ElastiCache for Redis",
             "Amazon Elastic Block Store",
             "Amazon Elastic Compute Cloud",
             "Amazon Elastic Container Registry",
@@ -2558,7 +2601,6 @@
             "Amazon Elastic Container Service for Kubernetes",
             "Amazon Elastic File System",
             "Amazon Elastic MapReduce",
-            "Amazon Glacier",
             "Amazon GuardDuty",
             "Amazon Kinesis Data Analytics",
             "Amazon Kinesis Data Firehose",
@@ -2566,6 +2608,7 @@
             "Amazon Redshift",
             "Amazon Relational Database Service",
             "Amazon Route 53",
+            "Amazon S3 Glacier",
             "Amazon S3 Transfer Acceleration",
             "Amazon SageMaker",
             "Amazon Simple Notification Service",
@@ -4335,6 +4378,7 @@
         "AWS IoT Greengrass": "greengrass",
         "AWS IoT Things Graph": "iot-things-graph",
         "AWS IoT\u00a0Device\u00a0Management": "iot-device-management",
+        "AWS Key Management Servic (KMS)": "kms",
         "AWS Key Management Service": "kms",
         "AWS Key Management Service (AWS KMS)": "kms",
         "AWS Key Management Service (KMS)": "kms",
@@ -4351,6 +4395,7 @@
         "AWS OpsWorks for Chef Automate": "chefautomate",
         "AWS OpsWorks for Puppet Enterprise": "puppetenterprise",
         "AWS OpsWorks\u00a0Stack": "opsworks",
+        "AWS Opsworks": "opsworks",
         "AWS Organizations": "organizations",
         "AWS Outposts": "outposts",
         "AWS Personal Health Dashboard": "personal-health-dashboard",
@@ -4378,7 +4423,7 @@
         "AWS Systems Manager (previously Amazon EC2 Systems Manager)": "systems-manager",
         "AWS Systems Manager\u00a0[feature of EC2]": "systems-manager",
         "AWS Transfer Family": "aws-transfer-family",
-        "AWS Transfer for SFTP": "sftp",
+        "AWS Transfer for SFTP": "aws-transfer-family",
         "AWS Transit Gateway": "transit-gateway",
         "AWS Transit Gateway [feature of Amazon VPC]": "transit-gateway",
         "AWS Transit Gateway\u00a0[feature of VPC]": "transit-gateway",
@@ -4460,11 +4505,13 @@
         "Amazon Kinesis Data Analytics": "data-analytics",
         "Amazon Kinesis Data Firehose": "data-firehose",
         "Amazon Kinesis Data Streams": "streams",
+        "Amazon Kinesis Data Streams (KDS)": "streams",
         "Amazon Kinesis Firehose": "data-firehose",
         "Amazon Kinesis Video Streams": "video-streams",
         "Amazon Lex": "lex",
         "Amazon MQ": "amazon-mq",
         "Amazon Macie": "macie",
+        "Amazon Managed Streaming for Apache Kafka": "msk",
         "Amazon Managed Streaming for Apache Kafka (Amazon MSK)": "msk",
         "Amazon Managed Streaming for Apache Kafka (MSK)": "msk",
         "Amazon Managed Streaming for Kafka (Amazon MSK)": "msk",
@@ -4497,9 +4544,9 @@
         "Amazon Simple Email Service (Amazon SES)": "ses",
         "Amazon Simple Email Service (SES)": "ses",
         "Amazon Simple Email Service\u00a0(Amazon SES)": "ses",
-        "Amazon Simple Notification Service": "map",
+        "Amazon Simple Notification Service": "sns",
         "Amazon Simple Notification Service (Amazon SNS)": "sns",
-        "Amazon Simple Notification Service (SNS)": "sns",
+        "Amazon Simple Notification Service (SNS)": "map",
         "Amazon Simple Notification Service\u00a0(Amazon SNS)": "sns",
         "Amazon Simple Queue Service": "sqs",
         "Amazon Simple Queue Service (Amazon SQS)": "sqs",
@@ -4529,6 +4576,8 @@
         "Chef Automate": "chefautomate",
         "Cloud Computing Compliance Controls Catalog (C5)": "bsi-c5",
         "Cloud Security": "security",
+        "CloudEndure Disaster Recovery": "cloudendure-disaster-recovery",
+        "CloudEndure Migration": "cloudendure-migration",
         "Compliance": "compliance",
         "Contact Us": "contact",
         "Core": "iot-core",
@@ -4550,6 +4599,7 @@
         "HIPAA BAA": "hipaa-compliance",
         "HITRUST CSF": "hitrust",
         "K-ISMS": "k-isms",
+        "Lambda@Edge": "edge",
         "Latest News": "compliance-latest-news",
         "MTCS": "aws-multitiered-cloud-security-standard-certification",
         "Managed AWS Landing Zone (MALz) [feature of AWS Managed Services]": "aws-managed-services-now-offers-managed-landing-zones",
@@ -4567,7 +4617,7 @@
     },
     "links": {
         "labels": {
-            "": "https://aws.amazon.com/compliance/dod",
+            "": "https://aws.amazon.com/cloudendure-disaster-recovery",
             "AWS": "https://aws.amazon.com/systems-manager",
             "AWS ": "https://aws.amazon.com/greengrass",
             "AWS Amplify": "https://aws.amazon.com/amplify",
@@ -4581,7 +4631,6 @@
             "AWS Certificate Manager": "https://aws.amazon.com/certificate-manager",
             "AWS Chatbot": "https://aws.amazon.com/chatbot",
             "AWS Cloud Map": "https://aws.amazon.com/cloud-map",
-            "AWS CloudEndure": "https://aws.amazon.com/cloudendure-disaster-recovery",
             "AWS CloudFormation": "https://aws.amazon.com/cloudformation",
             "AWS CloudHSM": "https://aws.amazon.com/cloudhsm",
             "AWS CloudTrail": "https://aws.amazon.com/cloudtrail",
@@ -4610,13 +4659,12 @@
             "AWS IoT Analytics": "https://aws.amazon.com/iot-analytics",
             "AWS IoT Events": "https://aws.amazon.com/iot-events",
             "AWS IoT Things Graph": "https://aws.amazon.com/iot-things-graph",
-            "AWS Key Management Service": "https://aws.amazon.com/kms",
+            "AWS Key Management Servic": "https://aws.amazon.com/kms",
             "AWS Lake Formation": "https://aws.amazon.com/lake-formation",
             "AWS Lambda": "https://aws.amazon.com/lambda",
-            "AWS Lambda@Edge": "https://aws.amazon.com/lambda/edge",
             "AWS License Manager": "https://aws.amazon.com/license-manager",
             "AWS Managed Services": "https://aws.amazon.com/managed-services",
-            "AWS OpsWorks": "https://aws.amazon.com/opsworks",
+            "AWS Ops": "https://aws.amazon.com/opsworks",
             "AWS OpsWorks Stacks": "https://aws.amazon.com/opsworks/stacks",
             "AWS Organizations": "https://aws.amazon.com/organizations",
             "AWS Outposts": "https://aws.amazon.com/outposts",
@@ -4635,8 +4683,7 @@
             "AWS Step Functions": "https://aws.amazon.com/step-functions",
             "AWS Storage Gateway": "https://aws.amazon.com/storagegateway",
             "AWS Systems Manager": "https://aws.amazon.com/ec2/systems-manager",
-            "AWS Transfer Family": "https://aws.amazon.com/aws-transfer-family",
-            "AWS Transfer for SFTP": "https://aws.amazon.com/sftp",
+            "AWS Transfer ": "https://aws.amazon.com/aws-transfer-family",
             "AWS Transit Gateway": "https://aws.amazon.com/transit-gateway",
             "AWS Trusted Advisor": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor",
             "AWS X-Ray": "https://aws.amazon.com/xray",
@@ -4700,7 +4747,8 @@
             "Amazon S3 Glacier": "https://aws.amazon.com/glacier",
             "Amazon SageMaker": "https://aws.amazon.com/sagemaker",
             "Amazon Simple Email Service": "https://aws.amazon.com/ses",
-            "Amazon Simple Notification Service": "https://aws.amazon.com/map",
+            "Amazon Simple Notification Service": "https://aws.amazon.com/sns",
+            "Amazon Simple Notification Service (SNS)": "https://aws.amazon.com/map",
             "Amazon Simple Queue Service": "https://aws.amazon.com/sqs",
             "Amazon Simple Storage Service": "https://aws.amazon.com/s3",
             "Amazon Simple Workflow Service": "https://aws.amazon.com/swf",
@@ -4716,6 +4764,7 @@
             "Assurance Programs": "https://aws.amazon.com/compliance/programs",
             "Cloud Computing Compliance Controls Catalog (C5)": "https://aws.amazon.com/compliance/bsi-c5",
             "Cloud Security": "https://aws.amazon.com/security",
+            "CloudEndure Migration": "https://aws.amazon.com/cloudendure-migration",
             "Compliance": "https://aws.amazon.com/compliance",
             "ENS High": "https://aws.amazon.com/compliance/esquema-nacional-de-seguridad",
             "Elastic Load Balanc": "https://aws.amazon.com/elasticloadbalancing",
@@ -4777,6 +4826,7 @@
                 "AWS Auto Scaling"
             ],
             "https://aws.amazon.com/aws-transfer-family": [
+                "AWS Transfer for SFTP",
                 "AWS Transfer Family"
             ],
             "https://aws.amazon.com/backup": [
@@ -4803,7 +4853,11 @@
                 "AWS Cloud Map"
             ],
             "https://aws.amazon.com/cloudendure-disaster-recovery": [
+                "CloudEndure Disaster Recovery",
                 "AWS CloudEndure"
+            ],
+            "https://aws.amazon.com/cloudendure-migration": [
+                "CloudEndure Migration"
             ],
             "https://aws.amazon.com/cloudformation": [
                 "AWS CloudFormation"
@@ -5113,7 +5167,8 @@
                 "Amazon Kinesis Firehose"
             ],
             "https://aws.amazon.com/kinesis/streams": [
-                "Amazon Kinesis Data Streams"
+                "Amazon Kinesis Data Streams",
+                "Amazon Kinesis Data Streams (KDS)"
             ],
             "https://aws.amazon.com/kinesis/video-streams": [
                 "Amazon Kinesis Video Streams"
@@ -5123,7 +5178,8 @@
                 "AWS Key Management Service",
                 "AWS Key Management Service (KMS)",
                 "AWS Key Management Service\u00a0(KMS)",
-                "AWS Key Management Service (AWS KMS)"
+                "AWS Key Management Service (AWS KMS)",
+                "AWS Key Management Servic (KMS)"
             ],
             "https://aws.amazon.com/lake-formation": [
                 "AWS Lake Formation"
@@ -5132,7 +5188,8 @@
                 "AWS Lambda"
             ],
             "https://aws.amazon.com/lambda/edge": [
-                "AWS Lambda@Edge"
+                "AWS Lambda@Edge",
+                "Lambda@Edge"
             ],
             "https://aws.amazon.com/lex": [
                 "Amazon Lex"
@@ -5147,7 +5204,7 @@
                 "AWS Managed Services"
             ],
             "https://aws.amazon.com/map": [
-                "Amazon Simple Notification Service"
+                "Amazon Simple Notification Service (SNS)"
             ],
             "https://aws.amazon.com/mediaconnect": [
                 "AWS Elemental MediaConnect"
@@ -5161,13 +5218,15 @@
             "https://aws.amazon.com/msk": [
                 "Amazon Managed Streaming for Kafka (Amazon MSK)",
                 "Amazon Managed Streaming for Apache Kafka (MSK)",
-                "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+                "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+                "Amazon Managed Streaming for Apache Kafka"
             ],
             "https://aws.amazon.com/neptune": [
                 "Amazon Neptune"
             ],
             "https://aws.amazon.com/opsworks": [
                 "AWS OpsWorks",
+                "AWS Opsworks",
                 "AWS OpsWorks\u00a0Stack"
             ],
             "https://aws.amazon.com/opsworks/chefautomate": [
@@ -5289,9 +5348,6 @@
                 "Amazon Simple Email Service (Amazon SES)",
                 "Amazon Simple Email Service"
             ],
-            "https://aws.amazon.com/sftp": [
-                "AWS Transfer for SFTP"
-            ],
             "https://aws.amazon.com/shield": [
                 "AWS Shield",
                 "AWS Shield (Standard and Advanced)"
@@ -5313,8 +5369,8 @@
             ],
             "https://aws.amazon.com/sns": [
                 "Amazon Simple Notification Service\u00a0(Amazon SNS)",
-                "Amazon Simple Notification Service (SNS)",
-                "Amazon Simple Notification Service (Amazon SNS)"
+                "Amazon Simple Notification Service (Amazon SNS)",
+                "Amazon Simple Notification Service"
             ],
             "https://aws.amazon.com/sqs": [
                 "Amazon Simple Queue Service\u00a0(Amazon SQS)",
@@ -5922,7 +5978,8 @@
                 "AWS Key Management Service",
                 "AWS Key Management Service (KMS)",
                 "AWS Key Management Service\u00a0(KMS)",
-                "AWS Key Management Service (AWS KMS)"
+                "AWS Key Management Service (AWS KMS)",
+                "AWS Key Management Servic (KMS)"
             ],
             "info": "https://aws.amazon.com/kms",
             "label": "AWS Key Management Service (KMS)"
@@ -5982,7 +6039,8 @@
             "aliases": [
                 "Amazon Managed Streaming for Kafka (Amazon MSK)",
                 "Amazon Managed Streaming for Apache Kafka (MSK)",
-                "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+                "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+                "Amazon Managed Streaming for Apache Kafka"
             ],
             "info": "https://aws.amazon.com/msk",
             "label": "Amazon Managed Streaming for Kafka (Amazon MSK)"
@@ -5993,6 +6051,7 @@
         "opsworks": {
             "aliases": [
                 "AWS OpsWorks",
+                "AWS Opsworks",
                 "AWS OpsWorks\u00a0Stack"
             ],
             "info": "https://aws.amazon.com/opsworks",
@@ -6161,8 +6220,8 @@
         "sns": {
             "aliases": [
                 "Amazon Simple Notification Service\u00a0(Amazon SNS)",
-                "Amazon Simple Notification Service (SNS)",
-                "Amazon Simple Notification Service (Amazon SNS)"
+                "Amazon Simple Notification Service (Amazon SNS)",
+                "Amazon Simple Notification Service"
             ],
             "info": "https://aws.amazon.com/sns",
             "label": "Amazon Simple Notification Service (SNS)"
@@ -6288,11 +6347,12 @@
         "AWS Amplify Console": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "sdks",
+                "ospar"
             ],
             "search_terms": [
-                "amplifyconsole",
-                "ac"
+                "ac",
+                "amplifyconsole"
             ]
         },
         "AWS App Mesh": {
@@ -6325,7 +6385,7 @@
         "AWS Auto Scaling": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "ens-high"
             ],
             "search_terms": [
                 "autoscaling",
@@ -6356,8 +6416,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "certificatemanager",
-                "cm"
+                "cm",
+                "certificatemanager"
             ]
         },
         "AWS Chatbot": {
@@ -6379,8 +6439,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "cloudmap",
-                "cm"
+                "cm",
+                "cloudmap"
             ]
         },
         "AWS CloudEndure": {
@@ -6484,8 +6544,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "controltower",
-                "ct"
+                "ct",
+                "controltower"
             ]
         },
         "AWS Data Exchange": {
@@ -6494,8 +6554,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "dataexchange",
-                "de"
+                "de",
+                "dataexchange"
             ]
         },
         "AWS Data Pipeline": {
@@ -6547,8 +6607,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "dc",
-                "directconnect"
+                "directconnect",
+                "dc"
             ]
         },
         "AWS Directory Service": {
@@ -6587,8 +6647,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elementalmediaconnect",
-                "em"
+                "em",
+                "elementalmediaconnect"
             ]
         },
         "AWS Elemental MediaConvert": {
@@ -6613,7 +6673,11 @@
         },
         "AWS Fargate": {
             "compliance": [
-                "hitrust-csf"
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud",
+                "dod-cc-srg-il6-aws-secret-region"
             ],
             "search_terms": [
                 "fargate"
@@ -6635,8 +6699,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "globalaccelerator",
-                "ga"
+                "ga",
+                "globalaccelerator"
             ]
         },
         "AWS Glue": {
@@ -6661,8 +6725,8 @@
                 "k-isms"
             ],
             "search_terms": [
-                "iam",
-                "identityaccessmanagement"
+                "identityaccessmanagement",
+                "iam"
             ]
         },
         "AWS Identity and Access Management": {
@@ -6695,8 +6759,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "iot1click",
-                "iotclick"
+                "iotclick",
+                "iot1click"
             ]
         },
         "AWS IoT Analytics": {
@@ -6710,8 +6774,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "ia",
-                "iotanalytics"
+                "iotanalytics",
+                "ia"
             ]
         },
         "AWS IoT Core": {
@@ -6725,23 +6789,17 @@
         },
         "AWS IoT Device Management": {
             "compliance": [
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
-                "iotdevicemanagement",
-                "idm"
+                "idm",
+                "iotdevicemanagement"
             ]
         },
         "AWS IoT Events": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "us-east-ohio",
-                "us-east-n-virginia",
-                "us-west-oregon",
-                "us-west-n-california",
-                "singapore",
-                "seoul"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "iotevents",
@@ -6763,14 +6821,24 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "itg",
-                "iotthingsgraph"
+                "iotthingsgraph",
+                "itg"
+            ]
+        },
+        "AWS Key Management Servic": {
+            "compliance": [
+                "hitrust-csf"
+            ],
+            "search_terms": [
+                "keymanagementservic",
+                "kms"
             ]
         },
         "AWS Key Management Service": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "sdks",
+                "ospar"
             ],
             "search_terms": [
                 "keymanagementservice",
@@ -6788,7 +6856,7 @@
         },
         "AWS LambdaEdge": {
             "compliance": [
-                "hitrust-csf"
+                "k-isms"
             ],
             "search_terms": [
                 "lambdaedge"
@@ -6830,8 +6898,8 @@
                 "pci"
             ],
             "search_terms": [
-                "opsworkscm",
-                "oc"
+                "oc",
+                "opsworkscm"
             ]
         },
         "AWS OpsWorks Stack": {
@@ -6839,8 +6907,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "os",
-                "opsworksstack"
+                "opsworksstack",
+                "os"
             ]
         },
         "AWS OpsWorks Stacks": {
@@ -6891,6 +6959,18 @@
                 "opsworksforpuppetenterprise"
             ]
         },
+        "AWS Opsworks": {
+            "compliance": [
+                "dod-cc-srg-il2-east-west",
+                "dod-cc-srg-il2-govcloud",
+                "dod-cc-srg-il4-govcloud",
+                "dod-cc-srg-il5-govcloud",
+                "dod-cc-srg-il6-aws-secret-region"
+            ],
+            "search_terms": [
+                "opsworks"
+            ]
+        },
         "AWS Organizations": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
@@ -6918,8 +6998,8 @@
                 "dod-cc-srg-il6-aws-secret-region"
             ],
             "search_terms": [
-                "phd",
-                "personalhealthdashboard"
+                "personalhealthdashboard",
+                "phd"
             ]
         },
         "AWS PrivateLink": {
@@ -6941,8 +7021,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "resourcegroups",
-                "rg"
+                "rg",
+                "resourcegroups"
             ]
         },
         "AWS RoboMaker": {
@@ -6960,8 +7040,8 @@
                 "pci"
             ],
             "search_terms": [
-                "sdkmetrics",
-                "sm"
+                "sm",
+                "sdkmetrics"
             ]
         },
         "AWS Secrets Manager": {
@@ -6990,8 +7070,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "servermigrationservice",
-                "sms"
+                "sms",
+                "servermigrationservice"
             ]
         },
         "AWS Serverless Application Repository": {
@@ -7000,8 +7080,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "serverlessapplicationrepository",
-                "sar"
+                "sar",
+                "serverlessapplicationrepository"
             ]
         },
         "AWS Serverless Application Respository": {
@@ -7057,8 +7137,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "snowballedge",
-                "se"
+                "se",
+                "snowballedge"
             ]
         },
         "AWS Snowmobile": {
@@ -7096,15 +7176,13 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "systemsmanager",
-                "sm"
+                "sm",
+                "systemsmanager"
             ]
         },
         "AWS Transfer Family": {
             "compliance": [
-                "se-rvices-programs",
-                "namespaces",
-                "irap-protected"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "transferfamily",
@@ -7114,11 +7192,12 @@
         "AWS Transfer for SFTP": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "sdks",
+                "ospar"
             ],
             "search_terms": [
-                "transferforsftp",
-                "tfs"
+                "tfs",
+                "transferforsftp"
             ]
         },
         "AWS Transit Gateway": {
@@ -7126,8 +7205,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "tg",
-                "transitgateway"
+                "transitgateway",
+                "tg"
             ]
         },
         "AWS Trusted Advisor": {
@@ -7136,8 +7215,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "ta",
-                "trustedadvisor"
+                "trustedadvisor",
+                "ta"
             ]
         },
         "AWS VM ImportExport": {
@@ -7145,13 +7224,14 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "vi",
-                "vmimportexport"
+                "vmimportexport",
+                "vi"
             ]
         },
         "AWS WAF": {
             "compliance": [
-                "hitrust-csf"
+                "sdks",
+                "ospar"
             ],
             "search_terms": [
                 "waf"
@@ -7160,13 +7240,11 @@
         "AWS Web Application Firewall": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "se-rvices-programs",
-                "namespaces",
-                "irap-protected"
+                "hitrust-csf"
             ],
             "search_terms": [
-                "webapplicationfirewall",
-                "waf"
+                "waf",
+                "webapplicationfirewall"
             ]
         },
         "AWS XRay": {
@@ -7183,8 +7261,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "alexaforbusiness",
-                "afb"
+                "afb",
+                "alexaforbusiness"
             ]
         },
         "Amazon API Gateway": {
@@ -7227,8 +7305,7 @@
         "Amazon Chime": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "chime"
@@ -7240,8 +7317,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "cd",
-                "clouddirectory"
+                "clouddirectory",
+                "cd"
             ]
         },
         "Amazon CloudFront": {
@@ -7265,7 +7342,7 @@
         "Amazon CloudWatch Events": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "ens-high"
             ],
             "search_terms": [
                 "ce",
@@ -7284,11 +7361,11 @@
         },
         "Amazon CloudWatch SDK Metrics": {
             "compliance": [
-                "hitrust-csf"
+                "hipaa-baa"
             ],
             "search_terms": [
-                "cloudwatchsdkmetrics",
-                "csm"
+                "csm",
+                "cloudwatchsdkmetrics"
             ]
         },
         "Amazon Cognito": {
@@ -7303,8 +7380,7 @@
         "Amazon Comprehend": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "comprehend"
@@ -7349,18 +7425,18 @@
         },
         "Amazon EC2 Auto Scaling": {
             "compliance": [
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
-                "ec2autoscaling",
                 "ecautoscaling",
-                "eas"
+                "eas",
+                "ec2autoscaling"
             ]
         },
         "Amazon EMR": {
             "compliance": [
-                "hitrust-csf"
+                "sdks",
+                "ospar"
             ],
             "search_terms": [
                 "emr"
@@ -7381,8 +7457,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticacheforredis",
-                "efr"
+                "efr",
+                "elasticacheforredis"
             ]
         },
         "Amazon Elastic Block Store": {
@@ -7428,11 +7504,11 @@
         "Amazon Elastic Container Service for Kubernetes": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "hitrust-csf"
+                "k-isms"
             ],
             "search_terms": [
-                "elasticcontainerserviceforkubernetes",
-                "ecsfk"
+                "ecsfk",
+                "elasticcontainerserviceforkubernetes"
             ]
         },
         "Amazon Elastic File System": {
@@ -7447,23 +7523,22 @@
         },
         "Amazon Elastic Kubernetes Service": {
             "compliance": [
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
-                "elastickubernetesservice",
-                "eks"
+                "eks",
+                "elastickubernetesservice"
             ]
         },
         "Amazon Elastic MapReduce": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "k-isms"
+                "hitrust-csf"
             ],
             "search_terms": [
-                "elasticmapreduce",
+                "em",
                 "emr",
-                "em"
+                "elasticmapreduce"
             ]
         },
         "Amazon Elasticache": {
@@ -7482,9 +7557,9 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticsearchservice",
+                "es",
                 "elasticsearch",
-                "es"
+                "elasticsearchservice"
             ]
         },
         "Amazon FSx": {
@@ -7514,15 +7589,14 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "ffwfs",
-                "fsxforwindowsfileserver"
+                "fsxforwindowsfileserver",
+                "ffwfs"
             ]
         },
         "Amazon Forecast": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "forecast"
@@ -7540,11 +7614,16 @@
         "Amazon Glacier": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "k-isms"
+                "us-east-ohio",
+                "us-east-n-virginia",
+                "us-west-oregon",
+                "us-west-n-california",
+                "singapore",
+                "seoul"
             ],
             "search_terms": [
-                "glacier",
-                "s3"
+                "s3",
+                "glacier"
             ]
         },
         "Amazon GuardDuty": {
@@ -7619,8 +7698,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "kvs",
-                "kinesisvideostreams"
+                "kinesisvideostreams",
+                "kvs"
             ]
         },
         "Amazon Lex": {
@@ -7666,8 +7745,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "managedstreamingforkafka",
-                "msfk"
+                "msfk",
+                "managedstreamingforkafka"
             ]
         },
         "Amazon Neptune": {
@@ -7717,8 +7796,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "quantumledgerdatabase",
-                "qld"
+                "qld",
+                "quantumledgerdatabase"
             ]
         },
         "Amazon QuickSight": {
@@ -7791,9 +7870,9 @@
                 "ens-high"
             ],
             "search_terms": [
-                "route53resolver",
                 "rr",
-                "routeresolver"
+                "routeresolver",
+                "route53resolver"
             ]
         },
         "Amazon S3 Glacier": {
@@ -7801,9 +7880,9 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sglacier",
                 "sg",
-                "s3glacier"
+                "s3glacier",
+                "sglacier"
             ]
         },
         "Amazon S3 Transfer Acceleration": {
@@ -7811,9 +7890,9 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sta",
+                "s3transferacceleration",
                 "stransferacceleration",
-                "s3transferacceleration"
+                "sta"
             ]
         },
         "Amazon SageMaker": {
@@ -7851,8 +7930,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "simplequeueservice",
-                "sqs"
+                "sqs",
+                "simplequeueservice"
             ]
         },
         "Amazon Simple Storage Service": {
@@ -7861,8 +7940,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sss",
-                "simplestorageservice"
+                "simplestorageservice",
+                "sss"
             ]
         },
         "Amazon Simple Workflow Service": {
@@ -7878,8 +7957,7 @@
         "Amazon SimpleDB": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "simpledb",
@@ -7889,8 +7967,7 @@
         "Amazon Textract": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "sdks",
-                "ospar"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "textract"
@@ -7920,8 +7997,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "vpc",
-                "virtualprivatecloud"
+                "virtualprivatecloud",
+                "vpc"
             ]
         },
         "Amazon WorkDocs": {
@@ -7945,7 +8022,7 @@
         "Amazon WorkMail": {
             "compliance": [
                 "iso-9001-27001-27017-27018",
-                "c5"
+                "hitrust-csf"
             ],
             "search_terms": [
                 "workmail"
@@ -8007,8 +8084,8 @@
                 "fedramp-not-in-scope"
             ],
             "search_terms": [
-                "managedlandingzone",
-                "mlz"
+                "mlz",
+                "managedlandingzone"
             ]
         },
         "VM ImportExport": {
@@ -8017,8 +8094,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "vi",
-                "vmimportexport"
+                "vmimportexport",
+                "vi"
             ]
         }
     }
