@@ -993,6 +993,11 @@
             "actions": {}
         }
     },
+    "s3onoutposts": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "sagemaker": {
         "iam": {
             "actions": {}
@@ -1121,6 +1126,11 @@
         }
     },
     "textract": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "timestream": {
         "iam": {
             "actions": {}
         }
