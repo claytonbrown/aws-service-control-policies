@@ -28004,13 +28004,22 @@
                             "arn:aws:lambda:*:*:function:LaunchWizard*",
                             "arn:aws:s3:::launchwizard*"
                         ]
+                    },
+                    {
+                        "Action": [
+                            "dynamodb:CreateTable",
+                            "dynamodb:DescribeTable",
+                            "dynamodb:DeleteTable"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "arn:aws:dynamodb:*:*:table/LaunchWizard*"
                     }
                 ],
                 "Version": "2012-10-17"
             },
             "PolicyId": "ANPAZKAPJZG4ABPQ7BLC2",
             "PolicyName": "AmazonLaunchWizard_Fullaccess",
-            "VersionId": "v4"
+            "VersionId": "v5"
         },
         "AmazonLexBotPolicy": {
             "Document": {
