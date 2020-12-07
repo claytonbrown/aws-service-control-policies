@@ -401,6 +401,46 @@
     "actions": {
         "onboarding_ok": false
     },
+    "activate": {
+        "Actions": [
+            "CreateForm",
+            "GetAccountContact",
+            "GetContentInfo",
+            "GetCosts",
+            "GetCredits",
+            "GetMemberInfo",
+            "GetProgram",
+            "PutMemberInfo"
+        ],
+        "HasResource": false,
+        "StringPrefix": "activate",
+        "onboarding_ok": false
+    },
+    "airflow": {
+        "ARNFormat": "arn:aws:<serviceName>:<region>:<account>:<resourceType>/<resourceName>",
+        "ARNRegex": "^arn:aws:airflow:.+",
+        "Actions": [
+            "CreateCliToken",
+            "CreateEnvironment",
+            "CreateWebLoginToken",
+            "DeleteEnvironment",
+            "GetEnvironment",
+            "ListEnvironments",
+            "ListTagsForResource",
+            "PublishMetrics",
+            "TagResource",
+            "UntagResource",
+            "UpdateEnvironment"
+        ],
+        "HasResource": true,
+        "StringPrefix": "airflow",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
+        "onboarding_ok": false
+    },
     "alexaforbusiness": {
         "alias": "alexaforbusiness",
         "compliance": [
@@ -473,6 +513,8 @@
         "cdk_support": true,
         "compliance": [
             "iso-9001-27001-27017-27018",
+            "sdks",
+            "soc-1-2-3",
             "ens-high",
             "hitrust-csf"
         ],
@@ -528,6 +570,39 @@
         ],
         "service_name": "amplify",
         "url": "https://aws.amazon.com/amplify/"
+    },
+    "amplifybackend": {
+        "ARNFormat": "arn:aws:amplifybackend:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:amplifybackend:.+:.+:.+",
+        "Actions": [
+            "CloneBackend",
+            "CreateBackend",
+            "CreateBackendAPI",
+            "CreateBackendAuth",
+            "CreateBackendConfig",
+            "CreateToken",
+            "DeleteBackend",
+            "DeleteBackendAPI",
+            "DeleteBackendAuth",
+            "DeleteToken",
+            "GenerateBackendAPIModels",
+            "GetBackend",
+            "GetBackendAPI",
+            "GetBackendAPIModels",
+            "GetBackendAuth",
+            "GetBackendJob",
+            "GetToken",
+            "ListBackendJobs",
+            "RemoveAllBackends",
+            "RemoveBackendConfig",
+            "UpdateBackendAPI",
+            "UpdateBackendAuth",
+            "UpdateBackendConfig",
+            "UpdateBackendJob"
+        ],
+        "HasResource": true,
+        "StringPrefix": "amplifybackend",
+        "onboarding_ok": false
     },
     "api.detective": {
         "defaults": {
@@ -1038,9 +1113,9 @@
             "AWS::ApiGateway::VpcLink"
         ],
         "search_terms": [
-            "apigateway",
+            "ag",
             "api-gateway",
-            "ag"
+            "apigateway"
         ],
         "service_name": "api-gateway",
         "url": "https://aws.amazon.com/api-gateway/"
@@ -1095,8 +1170,8 @@
         "onboarding_ok": false,
         "product_label": " AWS App2Container",
         "search_terms": [
-            "app2container",
-            "appcontainer"
+            "appcontainer",
+            "app2container"
         ],
         "service_name": "app2container",
         "url": "https://aws.amazon.com/app2container/"
@@ -1385,9 +1460,9 @@
         "product_label": " AWS Application Discovery Service",
         "search_terms": [
             "applicationdiscoveryservice",
+            "application-discovery-service",
             "ads",
-            "applicationdiscovery",
-            "application-discovery-service"
+            "applicationdiscovery"
         ],
         "service_name": "application-discovery-service",
         "url": "https://aws.amazon.com/application-discovery/"
@@ -2029,8 +2104,8 @@
         "product_label": " Amazon Augmented AI",
         "search_terms": [
             "augmented-ai",
-            "aa",
-            "augmentedai"
+            "augmentedai",
+            "aa"
         ],
         "service_name": "augmented-ai",
         "url": "https://aws.amazon.com/augmented-ai/"
@@ -2244,9 +2319,9 @@
             "AWS::AutoScaling::ScheduledAction"
         ],
         "search_terms": [
-            "as",
             "autoscaling",
-            "auto-scaling"
+            "auto-scaling",
+            "as"
         ],
         "service_name": "auto-scaling",
         "url": "https://aws.amazon.com/autoscaling/"
@@ -2355,6 +2430,29 @@
         "StringPrefix": "aws-portal",
         "onboarding_ok": false
     },
+    "aws-transfer-family": {
+        "compliance": [
+            "sdks",
+            "pci",
+            "hipaa-baa",
+            "us-east-ohio",
+            "us-east-n-virginia",
+            "us-west-oregon",
+            "us-west-n-california",
+            "singapore",
+            "seoul",
+            "c5",
+            "ens-high",
+            "ospar"
+        ],
+        "compliance_ok": true,
+        "namespace": "aws-transfer-family",
+        "onboarding_ok": false,
+        "search_terms": [
+            "transferfamily",
+            "tf"
+        ]
+    },
     "awsconnector": {
         "ARNFormat": "arn:aws:<serviceName>:<region>:<account-id>:<resource-type>/<resource_name>",
         "ARNRegex": "^arn:aws:<serviceName>:.+:.+:.+",
@@ -2374,9 +2472,9 @@
         "product_label": " Reserved Instance Reporting",
         "search_terms": [
             "awscostmanagementreservedinstancereporting",
-            "reserved-instance-reporting",
+            "reservedinstancereporting",
             "rir",
-            "reservedinstancereporting"
+            "reserved-instance-reporting"
         ],
         "service_name": "reserved-instance-reporting",
         "url": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/"
@@ -2388,9 +2486,9 @@
         "product_label": " AWS Transfer Family",
         "search_terms": [
             "transferfamily",
+            "transfer-family",
             "awstransferfamily",
-            "tf",
-            "transfer-family"
+            "tf"
         ],
         "service_name": "transfer-family",
         "url": "https://aws.amazon.com/aws-transfer-family/"
@@ -2399,6 +2497,7 @@
         "ARNFormat": "arn:<partition>:backup:<region>:<account-id>:<resource-type>:<resource_name>",
         "ARNRegex": "^arn:${Partition}:backup:.+:.+:.+",
         "Actions": [
+            "CopyFromBackupVault",
             "CopyIntoBackupVault",
             "CreateBackupPlan",
             "CreateBackupSelection",
@@ -2412,6 +2511,7 @@
             "DescribeBackupJob",
             "DescribeBackupVault",
             "DescribeCopyJob",
+            "DescribeGlobalSettings",
             "DescribeProtectedResource",
             "DescribeRecoveryPoint",
             "DescribeRegionSettings",
@@ -2446,6 +2546,7 @@
             "TagResource",
             "UntagResource",
             "UpdateBackupPlan",
+            "UpdateGlobalSettings",
             "UpdateRecoveryPointLifecycle",
             "UpdateRegionSettings"
         ],
@@ -2485,7 +2586,9 @@
         "conditionKeys": [
             "aws:RequestTag/${TagKey}",
             "aws:ResourceTag/${TagKey}",
-            "aws:TagKeys"
+            "aws:TagKeys",
+            "backup:CopyTargetOrgPaths",
+            "backup:CopyTargets"
         ],
         "description": "Centralized backup across AWS services",
         "endpoints": {
@@ -2938,10 +3041,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Cloud Development Kit (CDK)",
         "search_terms": [
-            "clouddevelopmentkit",
-            "cdk",
+            "cloud-development-kit",
             "clouddevelopmentkitcdk",
-            "cloud-development-kit"
+            "cdk",
+            "clouddevelopmentkit"
         ],
         "service_name": "cloud-development-kit",
         "url": "https://aws.amazon.com/cdk/"
@@ -3266,11 +3369,15 @@
             "CreateBotMembership",
             "CreateCDRBucket",
             "CreateMeeting",
+            "CreateMeetingDialOut",
             "CreateMeetingWithAttendees",
             "CreatePhoneNumberOrder",
             "CreateProxySession",
             "CreateRoom",
             "CreateRoomMembership",
+            "CreateSipMediaApplication",
+            "CreateSipMediaApplicationCall",
+            "CreateSipRule",
             "CreateUser",
             "CreateVoiceConnector",
             "CreateVoiceConnectorGroup",
@@ -3288,6 +3395,8 @@
             "DeleteProxySession",
             "DeleteRoom",
             "DeleteRoomMembership",
+            "DeleteSipMediaApplication",
+            "DeleteSipRule",
             "DeleteVoiceConnector",
             "DeleteVoiceConnectorEmergencyCallingConfiguration",
             "DeleteVoiceConnectorGroup",
@@ -3319,6 +3428,9 @@
             "GetProxySession",
             "GetRetentionSettings",
             "GetRoom",
+            "GetSipMediaApplication",
+            "GetSipMediaApplicationLoggingConfiguration",
+            "GetSipRule",
             "GetTelephonyLimits",
             "GetUser",
             "GetUserActivityReportData",
@@ -3357,6 +3469,8 @@
             "ListProxySessions",
             "ListRoomMemberships",
             "ListRooms",
+            "ListSipMediaApplications",
+            "ListSipRules",
             "ListTagsForResource",
             "ListUsers",
             "ListVoiceConnectorGroups",
@@ -3365,6 +3479,7 @@
             "LogoutUser",
             "PutEventsConfiguration",
             "PutRetentionSettings",
+            "PutSipMediaApplicationLoggingConfiguration",
             "PutVoiceConnectorEmergencyCallingConfiguration",
             "PutVoiceConnectorLoggingConfiguration",
             "PutVoiceConnectorOrigination",
@@ -3404,6 +3519,8 @@
             "UpdateProxySession",
             "UpdateRoom",
             "UpdateRoomMembership",
+            "UpdateSipMediaApplication",
+            "UpdateSipRule",
             "UpdateSupportedLicenses",
             "UpdateUser",
             "UpdateUserLicenses",
@@ -3492,8 +3609,8 @@
         "product_label": " AWS Command Line Interface",
         "search_terms": [
             "command-line-interface",
-            "cli",
-            "commandlineinterface"
+            "commandlineinterface",
+            "cli"
         ],
         "service_name": "command-line-interface",
         "url": "https://aws.amazon.com/cli/"
@@ -3592,8 +3709,8 @@
             "AWS::Cloud9::EnvironmentEC2"
         ],
         "search_terms": [
-            "cloud",
-            "cloud9"
+            "cloud9",
+            "cloud"
         ],
         "service_name": "cloud9",
         "url": "https://aws.amazon.com/cloud9/"
@@ -3743,8 +3860,8 @@
         "onboarding_ok": false,
         "product_label": " CloudEndure Migration",
         "search_terms": [
-            "cloudenduremigration",
             "cloudendure-migration",
+            "cloudenduremigration",
             "cm"
         ],
         "service_name": "cloudendure-migration",
@@ -4582,37 +4699,15 @@
         "StringPrefix": "cloudwatch",
         "alias": "cloudwatch",
         "aliases": [
-            "Amazon CloudWatch"
+            "Amazon CloudWatch",
+            "Amazon CloudWatch Events [includes Amazon EventBridge]",
+            "Amazon CloudWatch SDK Metrics for Enterprise Support"
         ],
         "cdk_support": true,
         "compliance": [
             "iso-9001-27001-27017-27018",
             "sdks",
-            "soc-1-2-3",
-            "pci",
-            "fedramp-moderate-east-west",
-            "fedramp-high-govcloud",
-            "fedramp-not-in-scope",
-            "dod-cc-srg-il2-east-west",
-            "dod-cc-srg-il2-govcloud",
-            "dod-cc-srg-il4-govcloud",
-            "dod-cc-srg-il5-govcloud",
-            "dod-cc-srg-il6-aws-secret-region",
-            "hipaa-baa",
-            "se-rvices-programs",
-            "namespaces",
-            "irap-protected",
-            "us-east-ohio",
-            "us-east-n-virginia",
-            "us-west-oregon",
-            "us-west-n-california",
-            "singapore",
-            "seoul",
-            "c5",
-            "k-isms",
-            "ens-high",
-            "ospar",
-            "hitrust-csf"
+            "soc-1-2-3"
         ],
         "compliance_ok": true,
         "conditionKeys": [
@@ -4872,17 +4967,25 @@
             "ListPackages",
             "ListRepositories",
             "ListRepositoriesInDomain",
+            "ListTagsForResource",
             "PublishPackageVersion",
             "PutDomainPermissionsPolicy",
             "PutPackageMetadata",
             "PutRepositoryPermissionsPolicy",
             "ReadFromRepository",
+            "TagResource",
+            "UntagResource",
             "UpdatePackageVersionsStatus",
             "UpdateRepository"
         ],
         "HasResource": true,
         "StringPrefix": "codeartifact",
         "alias": "codeartifact",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
         "description": "Secure, scalable, and cost-effective artifact management for software development",
         "endpoints": {
             "ap-northeast-1": {},
@@ -6517,6 +6620,7 @@
             "DescribeEndpoint",
             "DescribeEntitiesDetectionJob",
             "DescribeEntityRecognizer",
+            "DescribeEventsDetectionJob",
             "DescribeKeyPhrasesDetectionJob",
             "DescribePiiEntitiesDetectionJob",
             "DescribeSentimentDetectionJob",
@@ -6533,6 +6637,7 @@
             "ListEndpoints",
             "ListEntitiesDetectionJobs",
             "ListEntityRecognizers",
+            "ListEventsDetectionJobs",
             "ListKeyPhrasesDetectionJobs",
             "ListPiiEntitiesDetectionJobs",
             "ListSentimentDetectionJobs",
@@ -6541,12 +6646,14 @@
             "StartDocumentClassificationJob",
             "StartDominantLanguageDetectionJob",
             "StartEntitiesDetectionJob",
+            "StartEventsDetectionJob",
             "StartKeyPhrasesDetectionJob",
             "StartPiiEntitiesDetectionJob",
             "StartSentimentDetectionJob",
             "StartTopicsDetectionJob",
             "StopDominantLanguageDetectionJob",
             "StopEntitiesDetectionJob",
+            "StopEventsDetectionJob",
             "StopKeyPhrasesDetectionJob",
             "StopPiiEntitiesDetectionJob",
             "StopSentimentDetectionJob",
@@ -6725,6 +6832,7 @@
             "ExportAutoScalingGroupRecommendations",
             "ExportEC2InstanceRecommendations",
             "GetAutoScalingGroupRecommendations",
+            "GetEBSVolumeRecommendations",
             "GetEC2InstanceRecommendations",
             "GetEC2RecommendationProjectedMetrics",
             "GetEnrollmentStatus",
@@ -6956,33 +7064,54 @@
         "ARNFormat": "arn:${Partition}:connect:${Region}:${Account}:instance/${InstanceId}",
         "ARNRegex": "^arn:${Partition}:connect:.+:.+:instance/.+",
         "Actions": [
+            "AssociateApprovedOrigin",
+            "AssociateInstanceStorageConfig",
+            "AssociateLambdaFunction",
+            "AssociateLexBot",
             "AssociateRoutingProfileQueues",
+            "AssociateSecurityKey",
             "CreateContactFlow",
             "CreateInstance",
             "CreateRoutingProfile",
             "CreateUser",
+            "CreateUserHierarchyGroup",
+            "DeleteInstance",
             "DeleteUser",
+            "DeleteUserHierarchyGroup",
             "DescribeContactFlow",
             "DescribeInstance",
+            "DescribeInstanceAttribute",
+            "DescribeInstanceStorageConfig",
             "DescribeRoutingProfile",
             "DescribeUser",
             "DescribeUserHierarchyGroup",
             "DescribeUserHierarchyStructure",
             "DestroyInstance",
+            "DisassociateApprovedOrigin",
+            "DisassociateInstanceStorageConfig",
+            "DisassociateLambdaFunction",
+            "DisassociateLexBot",
             "DisassociateRoutingProfileQueues",
+            "DisassociateSecurityKey",
             "GetContactAttributes",
             "GetCurrentMetricData",
             "GetFederationToken",
             "GetFederationTokens",
             "GetMetricData",
+            "ListApprovedOrigins",
             "ListContactFlows",
             "ListHoursOfOperations",
+            "ListInstanceAttributes",
+            "ListInstanceStorageConfigs",
             "ListInstances",
+            "ListLambdaFunctions",
+            "ListLexBots",
             "ListPhoneNumbers",
             "ListPrompts",
             "ListQueues",
             "ListRoutingProfileQueues",
             "ListRoutingProfiles",
+            "ListSecurityKeys",
             "ListSecurityProfiles",
             "ListTagsForResource",
             "ListUserHierarchyGroups",
@@ -6992,6 +7121,7 @@
             "StartChatContact",
             "StartContactRecording",
             "StartOutboundVoiceContact",
+            "StartTaskContact",
             "StopContact",
             "StopContactRecording",
             "SuspendContactRecording",
@@ -7000,11 +7130,15 @@
             "UpdateContactAttributes",
             "UpdateContactFlowContent",
             "UpdateContactFlowName",
+            "UpdateInstanceAttribute",
+            "UpdateInstanceStorageConfig",
             "UpdateRoutingProfileConcurrency",
             "UpdateRoutingProfileDefaultOutboundQueue",
             "UpdateRoutingProfileName",
             "UpdateRoutingProfileQueues",
             "UpdateUserHierarchy",
+            "UpdateUserHierarchyGroupName",
+            "UpdateUserHierarchyStructure",
             "UpdateUserIdentityInfo",
             "UpdateUserPhoneConfig",
             "UpdateUserRoutingProfile",
@@ -7047,7 +7181,9 @@
         "conditionKeys": [
             "aws:RequestTag/${TagKey}",
             "aws:ResourceTag/${TagKey}",
-            "aws:TagKeys"
+            "aws:TagKeys",
+            "connect:AttributeType",
+            "connect:StorageResourceType"
         ],
         "description": "Cloud-based Contact Center",
         "endpoints": {
@@ -7074,20 +7210,6 @@
         "service_name": "connect",
         "url": "https://aws.amazon.com/connect/"
     },
-    "connectcontactlens": {
-        "alias": "connectcontactlens",
-        "description": "Contact center analytics powered by ML",
-        "onboarding_ok": false,
-        "product_label": " Contact Lens for Amazon Connect",
-        "search_terms": [
-            "connectcontactlens",
-            "clfc",
-            "contactlensforconnect",
-            "contact-lens-for-connect"
-        ],
-        "service_name": "contact-lens-for-connect",
-        "url": "https://aws.amazon.com/connect/contact-lens/"
-    },
     "connectorservice": {
         "iam": {
             "actions": {}
@@ -7107,10 +7229,10 @@
         "search_terms": [
             "amplifyconsole",
             "ac",
-            "console",
             "mc",
             "managementconsole",
-            "management-console"
+            "management-console",
+            "console"
         ],
         "service_name": "management-console",
         "url": "https://aws.amazon.com/console/"
@@ -7121,9 +7243,9 @@
         "onboarding_ok": false,
         "product_label": " AWS Console Mobile Application",
         "search_terms": [
-            "consolemobileapplication",
             "consolemobile",
             "console-mobile-application",
+            "consolemobileapplication",
             "cma"
         ],
         "service_name": "console-mobile-application",
@@ -7228,8 +7350,8 @@
         "namespace": "data-analytics",
         "onboarding_ok": false,
         "search_terms": [
-            "kda",
-            "kinesisdataanalytics"
+            "kinesisdataanalytics",
+            "kda"
         ]
     },
     "data-firehose": {
@@ -7301,6 +7423,7 @@
         "Actions": [
             "AddTagsToResource",
             "ApplyPendingMaintenanceAction",
+            "CancelReplicationTaskAssessmentRun",
             "CreateEndpoint",
             "CreateEventSubscription",
             "CreateReplicationInstance",
@@ -7312,7 +7435,9 @@
             "DeleteReplicationInstance",
             "DeleteReplicationSubnetGroup",
             "DeleteReplicationTask",
+            "DeleteReplicationTaskAssessmentRun",
             "DescribeAccountAttributes",
+            "DescribeApplicableIndividualAssessments",
             "DescribeCertificates",
             "DescribeConnections",
             "DescribeEndpointTypes",
@@ -7326,6 +7451,8 @@
             "DescribeReplicationInstances",
             "DescribeReplicationSubnetGroups",
             "DescribeReplicationTaskAssessmentResults",
+            "DescribeReplicationTaskAssessmentRuns",
+            "DescribeReplicationTaskIndividualAssessments",
             "DescribeReplicationTasks",
             "DescribeSchemas",
             "DescribeTableStatistics",
@@ -7342,6 +7469,7 @@
             "RemoveTagsFromResource",
             "StartReplicationTask",
             "StartReplicationTaskAssessment",
+            "StartReplicationTaskAssessmentRun",
             "StopReplicationTask",
             "TestConnection"
         ],
@@ -7349,7 +7477,7 @@
         "StringPrefix": "dms",
         "alias": "dms",
         "aliases": [
-            "AWS Database Migration Service\u00a0(AWS DMS)",
+            "AWS Database Migration Service\u00a0(DMS)",
             "AWS Database Migration Service",
             "AWS Database Migration Se",
             "rvic",
@@ -7617,9 +7745,9 @@
         "product_label": " AWS Data Exchange",
         "regions_ok": true,
         "search_terms": [
-            "de",
+            "dataexchange",
             "data-exchange",
-            "dataexchange"
+            "de"
         ],
         "service_name": "data-exchange",
         "url": "https://aws.amazon.com/data-exchange/"
@@ -7717,11 +7845,11 @@
             "AWS::DataPipeline::Pipeline"
         ],
         "search_terms": [
+            "dp",
             "datapipeline",
             "dp",
             "datapipeline",
-            "data-pipeline",
-            "dp"
+            "data-pipeline"
         ],
         "service_name": "data-pipeline",
         "url": "https://aws.amazon.com/datapipeline/"
@@ -8272,6 +8400,41 @@
         "service_name": "device-farm",
         "url": "https://aws.amazon.com/device-farm/"
     },
+    "devopsguru": {
+        "ARNFormat": "arn:aws:devops-guru:<region>:<account-id>:",
+        "ARNRegex": "^arn:aws:devops-guru:.+:.+:",
+        "Actions": [
+            "AddNotificationChannel",
+            "DescribeAccountHealth",
+            "DescribeAccountOverview",
+            "DescribeAnomaly",
+            "DescribeInsight",
+            "DescribeResourceCollectionHealth",
+            "DescribeServiceIntegration",
+            "GetResourceCollection",
+            "ListAnomaliesForInsight",
+            "ListEvents",
+            "ListInsights",
+            "ListNotificationChannels",
+            "ListRecommendations",
+            "PutFeedback",
+            "RemoveNotificationChannel",
+            "SearchInsights",
+            "UpdateResourceCollection",
+            "UpdateServiceIntegration"
+        ],
+        "HasResource": true,
+        "StringPrefix": "devops-guru",
+        "alias": "devopsguru",
+        "description": "ML-powered cloud operations service",
+        "onboarding_ok": false,
+        "product_label": " Amazon DevOps Guru",
+        "search_terms": [
+            "devops-guru"
+        ],
+        "service_name": "devops-guru",
+        "url": "https://aws.amazon.com/devops-guru/"
+    },
     "directconnect": {
         "ARNFormat": "arn:${Partition}:directconnect:${Region}:${Account}:${ResourceType}/${ResourceId}",
         "ARNRegex": "^arn:${Partition}:directconnect:.+",
@@ -8447,8 +8610,8 @@
         "product_label": " AWS Direct Connect",
         "regions_ok": true,
         "search_terms": [
-            "dc",
             "direct-connect",
+            "dc",
             "directconnect"
         ],
         "service_name": "direct-connect",
@@ -8715,9 +8878,9 @@
             "ds",
             "directoryservice",
             "ds",
+            "directory-service",
             "directoryservice",
-            "ds",
-            "directory-service"
+            "ds"
         ],
         "service_name": "directory-service",
         "url": "https://aws.amazon.com/directoryservice/"
@@ -8953,8 +9116,8 @@
         "product_label": " Amazon DocumentDB (with MongoDB compatibility)",
         "search_terms": [
             "documentdb",
-            "documentdb",
             "documentdbwithmongodbcompatibility",
+            "documentdb",
             "withmongodbcompatibility"
         ],
         "service_name": "documentdb",
@@ -8999,6 +9162,10 @@
             "ListStreams",
             "ListTables",
             "ListTagsOfResource",
+            "PartiQLDelete",
+            "PartiQLInsert",
+            "PartiQLSelect",
+            "PartiQLUpdate",
             "PurchaseReservedCapacityOfferings",
             "PutItem",
             "Query",
@@ -9056,6 +9223,7 @@
         "conditionKeys": [
             "dynamodb:Attributes",
             "dynamodb:EnclosingOperation",
+            "dynamodb:FullTableScan",
             "dynamodb:LeadingKeys",
             "dynamodb:ReturnConsumedCapacity",
             "dynamodb:ReturnValues",
@@ -9221,6 +9389,7 @@
             "AssociateAddress",
             "AssociateClientVpnTargetNetwork",
             "AssociateDhcpOptions",
+            "AssociateEnclaveCertificateIamRole",
             "AssociateIamInstanceProfile",
             "AssociateRouteTable",
             "AssociateSubnetCidrBlock",
@@ -9485,6 +9654,7 @@
             "DisableVpcClassicLinkDnsSupport",
             "DisassociateAddress",
             "DisassociateClientVpnTargetNetwork",
+            "DisassociateEnclaveCertificateIamRole",
             "DisassociateIamInstanceProfile",
             "DisassociateRouteTable",
             "DisassociateSubnetCidrBlock",
@@ -9502,6 +9672,7 @@
             "ExportClientVpnClientConfiguration",
             "ExportImage",
             "ExportTransitGatewayRoutes",
+            "GetAssociatedEnclaveCertificateIamRoles",
             "GetCapacityReservationUsage",
             "GetCoipPoolUsage",
             "GetConsoleOutput",
@@ -9626,8 +9797,8 @@
         "StringPrefix": "ec2",
         "alias": "vpc",
         "aliases": [
-            "Amazon Elastic Compute Cloud (Amazon EC2)",
             "Amazon Elastic Compute Cloud (EC2)",
+            "Amazon Elastic Compute Cloud (Amazon EC2)",
             "Amazon Elastic Compute Cloud"
         ],
         "cdk_support": true,
@@ -9670,13 +9841,18 @@
             "aws:TagKeys",
             "ec2:AccepterVpc",
             "ec2:AssociatePublicIpAddress",
+            "ec2:Attribute/${AttributeName}",
             "ec2:AuthenticationType",
             "ec2:AuthorizedService",
             "ec2:AuthorizedUser",
             "ec2:AutoPlacement",
             "ec2:AvailabilityZone",
+            "ec2:ClientRootCertificateChainArn",
+            "ec2:CloudwatchLogGroupArn",
+            "ec2:CloudwatchLogStreamArn",
             "ec2:CreateAction",
             "ec2:DPDTimeoutSeconds",
+            "ec2:DirectoryArn",
             "ec2:EbsOptimized",
             "ec2:ElasticGpuType",
             "ec2:Encrypted",
@@ -9721,6 +9897,8 @@
             "ec2:RoleDelivery",
             "ec2:RootDeviceType",
             "ec2:RoutingType",
+            "ec2:SamlProviderArn",
+            "ec2:ServerCertificateArn",
             "ec2:SnapshotTime",
             "ec2:SourceInstanceARN",
             "ec2:Subnet",
@@ -9922,10 +10100,10 @@
         "onboarding_ok": false,
         "product_label": " Amazon EC2 Auto Scaling",
         "search_terms": [
-            "eas",
             "ecautoscaling",
-            "ec2-auto-scaling",
-            "ec2autoscaling"
+            "eas",
+            "ec2autoscaling",
+            "ec2-auto-scaling"
         ],
         "service_name": "ec2-auto-scaling",
         "url": "https://aws.amazon.com/ec2/autoscaling/"
@@ -9970,20 +10148,55 @@
         "StringPrefix": "ec2messages",
         "onboarding_ok": false
     },
+    "ecr-public": {
+        "ARNFormat": "arn:aws:ecr-public::<account_id>:<repository_or_registry>/<repository_name_or_registry_id>",
+        "ARNRegex": "^arn:aws:ecr-public::.+",
+        "Actions": [
+            "BatchCheckLayerAvailability",
+            "BatchDeleteImage",
+            "CompleteLayerUpload",
+            "CreateRepository",
+            "DeleteRepository",
+            "DeleteRepositoryPolicy",
+            "DescribeImageTags",
+            "DescribeImages",
+            "DescribeRegistries",
+            "DescribeRepositories",
+            "GetAuthorizationToken",
+            "GetRegistryCatalogData",
+            "GetRepositoryCatalogData",
+            "GetRepositoryPolicy",
+            "InitiateLayerUpload",
+            "PutImage",
+            "PutRegistryCatalogData",
+            "PutRepositoryCatalogData",
+            "SetRepositoryPolicy",
+            "UploadLayerPart"
+        ],
+        "HasResource": true,
+        "StringPrefix": "ecr-public",
+        "onboarding_ok": false
+    },
     "eks": {
         "ARNFormat": "arn:aws:eks:<region>:<account_ID>:<resource_type>/<relative_ID>",
         "ARNRegex": "^arn:aws:eks:.+",
         "Actions": [
+            "AccessKubernetesApi",
+            "CreateAddon",
             "CreateCluster",
             "CreateFargateProfile",
             "CreateNodegroup",
+            "DeleteAddon",
             "DeleteCluster",
             "DeleteFargateProfile",
             "DeleteNodegroup",
+            "DescribeAddon",
+            "DescribeAddonVersions",
             "DescribeCluster",
             "DescribeFargateProfile",
             "DescribeNodegroup",
             "DescribeUpdate",
+            "ListAddons",
             "ListClusters",
             "ListFargateProfiles",
             "ListNodegroups",
@@ -9991,6 +10204,7 @@
             "ListUpdates",
             "TagResource",
             "UntagResource",
+            "UpdateAddon",
             "UpdateClusterConfig",
             "UpdateClusterVersion",
             "UpdateNodegroupConfig",
@@ -10000,32 +10214,24 @@
         "StringPrefix": "eks",
         "alias": "eks",
         "aliases": [
-            "Amazon Elastic Container Service for Kubernetes (Amazon EKS)",
-            "Amazon Elastic Container Service for Kubernetes (EKS)",
             "Amazon Elastic Kubernetes Service (EKS)",
+            "Amazon Elastic Container Service for Kubernetes (EKS)",
             "Amazon Elastic Container Service for Kubernetes",
             "Amazon\u00a0Elastic Container Service for Kubernetes (Amazon EKS)",
             "Amazon Elastic Kubernetes Service"
         ],
         "cdk_support": true,
         "compliance": [
-            "iso-9001-27001-27017-27018",
             "sdks",
-            "fedramp-moderate-east-west",
-            "fedramp-high-govcloud",
-            "fedramp-not-in-scope",
-            "dod-cc-srg-il2-east-west",
-            "dod-cc-srg-il2-govcloud",
-            "dod-cc-srg-il4-govcloud",
-            "dod-cc-srg-il5-govcloud",
-            "dod-cc-srg-il6-aws-secret-region",
-            "se-rvices-programs",
-            "namespaces",
-            "irap-protected",
-            "c5",
-            "ens-high",
-            "ospar",
-            "hitrust-csf"
+            "pci",
+            "hipaa-baa",
+            "us-east-ohio",
+            "us-east-n-virginia",
+            "us-west-oregon",
+            "us-west-n-california",
+            "singapore",
+            "seoul",
+            "k-isms"
         ],
         "compliance_ok": true,
         "conditionKeys": [
@@ -10124,12 +10330,42 @@
         ],
         "search_terms": [
             "elastickubernetesserviceeks",
+            "elastic-kubernetes-service",
             "eks",
-            "elastickubernetesservice",
-            "elastic-kubernetes-service"
+            "elastickubernetesservice"
         ],
         "service_name": "elastic-kubernetes-service",
         "url": "https://aws.amazon.com/eks/"
+    },
+    "ekseksanywhere": {
+        "alias": "ekseksanywhere",
+        "description": "Kubernetes on your infrastructure",
+        "onboarding_ok": false,
+        "product_label": " Amazon EKS Anywhere (Coming Soon)",
+        "search_terms": [
+            "ea",
+            "eksanywhere",
+            "comingsoon",
+            "eks-anywhere",
+            "eksanywherecomingsoon",
+            "ekseksanywhere"
+        ],
+        "service_name": "eks-anywhere",
+        "url": "https://aws.amazon.com/eks/eks-anywhere/"
+    },
+    "ekseksdistro": {
+        "alias": "ekseksdistro",
+        "description": "Run consistent Kubernetes clusters",
+        "onboarding_ok": false,
+        "product_label": " Amazon EKS Distro",
+        "search_terms": [
+            "eksdistro",
+            "ekseksdistro",
+            "eks-distro",
+            "ed"
+        ],
+        "service_name": "eks-distro",
+        "url": "https://aws.amazon.com/eks/eks-distro/"
     },
     "elasticache": {
         "ARNFormat": "arn:<partition>:elasticache:<region>:<account-id>:<resource-type>:<resource_name>",
@@ -10509,9 +10745,9 @@
             "AWS::ElasticBeanstalk::Environment"
         ],
         "search_terms": [
+            "eb",
             "elastic-beanstalk",
-            "elasticbeanstalk",
-            "eb"
+            "elasticbeanstalk"
         ],
         "service_name": "elastic-beanstalk",
         "url": "https://aws.amazon.com/elasticbeanstalk/"
@@ -10592,15 +10828,18 @@
             "CompleteLayerUpload",
             "CreateRepository",
             "DeleteLifecyclePolicy",
+            "DeleteRegistryPolicy",
             "DeleteRepository",
             "DeleteRepositoryPolicy",
             "DescribeImageScanFindings",
             "DescribeImages",
+            "DescribeRegistry",
             "DescribeRepositories",
             "GetAuthorizationToken",
             "GetDownloadUrlForLayer",
             "GetLifecyclePolicy",
             "GetLifecyclePolicyPreview",
+            "GetRegistryPolicy",
             "GetRepositoryPolicy",
             "InitiateLayerUpload",
             "ListImages",
@@ -10609,6 +10848,9 @@
             "PutImageScanningConfiguration",
             "PutImageTagMutability",
             "PutLifecyclePolicy",
+            "PutRegistryPolicy",
+            "PutReplicationConfiguration",
+            "ReplicateImage",
             "SetRepositoryPolicy",
             "StartImageScan",
             "StartLifecyclePolicyPreview",
@@ -10620,9 +10862,8 @@
         "StringPrefix": "ecr",
         "alias": "ecr",
         "aliases": [
-            "Amazon Elastic Container Registry\u00a0(Amazon ECR)",
-            "Amazon Elastic Container Registry (ECR)",
             "Amazon Elastic Container Registry\u00a0(ECR)",
+            "Amazon Elastic Container Registry (ECR)",
             "Amazon Elastic Container Registry (Amazon ECR)",
             "Amazon Elastic Container Registry"
         ],
@@ -11199,10 +11440,10 @@
         "search_terms": [
             "efs",
             "elasticfilesystem",
-            "elastic-file-system",
-            "elasticfilesystemefs",
             "efs",
-            "elasticfilesystem"
+            "elasticfilesystem",
+            "elastic-file-system",
+            "elasticfilesystemefs"
         ],
         "service_name": "elastic-file-system",
         "url": "https://aws.amazon.com/efs/"
@@ -11265,10 +11506,10 @@
         "StringPrefix": "elasticloadbalancing",
         "alias": "elasticloadbalancing",
         "aliases": [
+            "Elastic Load Balancing (ELB)",
             "Elastic Load Balancing",
             "Elastic Load Balancer [feature of EC2]",
-            "Elastic Load Balancing [feature of EC2]",
-            "Elastic Load Balancing (ELB)"
+            "Elastic Load Balancing [feature of EC2]"
         ],
         "cdk_support": true,
         "compliance": [
@@ -11429,9 +11670,9 @@
             "AWS::ElasticLoadBalancing::LoadBalancer"
         ],
         "search_terms": [
+            "elastic-load-balancing",
             "elb",
-            "elasticloadbalancing",
-            "elastic-load-balancing"
+            "elasticloadbalancing"
         ],
         "service_name": "elastic-load-balancing",
         "url": "https://aws.amazon.com/elasticloadbalancing/"
@@ -11527,21 +11768,18 @@
         "alias": "elasticmapreduce",
         "cdk_support": true,
         "compliance": [
-            "iso-9001-27001-27017-27018",
             "sdks",
-            "pci",
-            "hipaa-baa",
-            "se-rvices-programs",
-            "namespaces",
-            "irap-protected",
-            "us-east-ohio",
-            "us-east-n-virginia",
-            "us-west-oregon",
-            "us-west-n-california",
-            "singapore",
-            "seoul",
-            "k-isms",
-            "hitrust-csf"
+            "fedramp-moderate-east-west",
+            "fedramp-high-govcloud",
+            "fedramp-not-in-scope",
+            "dod-cc-srg-il2-east-west",
+            "dod-cc-srg-il2-govcloud",
+            "dod-cc-srg-il4-govcloud",
+            "dod-cc-srg-il5-govcloud",
+            "dod-cc-srg-il6-aws-secret-region",
+            "c5",
+            "ens-high",
+            "ospar"
         ],
         "compliance_ok": true,
         "conditionKeys": [
@@ -11683,9 +11921,7 @@
             "AWS::EMR::Step"
         ],
         "search_terms": [
-            "emr",
-            "emr",
-            "elasticmapreduce"
+            "emr"
         ],
         "service_name": "emr",
         "url": "https://aws.amazon.com/elasticmapreduce/"
@@ -11865,11 +12101,34 @@
         "regions_ok": true,
         "search_terms": [
             "elastictranscoder",
-            "elastic-transcoder",
-            "et"
+            "et",
+            "elastic-transcoder"
         ],
         "service_name": "elastic-transcoder",
         "url": "https://aws.amazon.com/elastictranscoder/"
+    },
+    "elemental-support-cases": {
+        "ARNFormat": "arn:aws:elemental-support-cases:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:elemental-support-cases:.+:.+:.+",
+        "Actions": [
+            "CreateCase",
+            "GetCase",
+            "GetCases",
+            "UpdateCase"
+        ],
+        "HasResource": false,
+        "StringPrefix": "elemental-support-cases",
+        "onboarding_ok": false
+    },
+    "elemental-support-content": {
+        "ARNFormat": "arn:aws:elemental-support-content:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:elemental-support-content:.+:.+:.+",
+        "Actions": [
+            "Query"
+        ],
+        "HasResource": false,
+        "StringPrefix": "elemental-support-content",
+        "onboarding_ok": false
     },
     "elementalactivations": {
         "ARNFormat": "arn:aws:elemental-activations:<region>:<account-id>:<resource-type>/<resource_name>",
@@ -12190,10 +12449,12 @@
         "ARNFormat": "arn:${Partition}:medialive:${Region}:${Account}:${ResourceType}:${ResourcePath}",
         "ARNRegex": "^arn:${Partition}:medialive:.+",
         "Actions": [
+            "AcceptInputDeviceTransfer",
             "BatchDelete",
             "BatchStart",
             "BatchStop",
             "BatchUpdateSchedule",
+            "CancelInputDeviceTransfer",
             "CreateChannel",
             "CreateInput",
             "CreateInputSecurityGroup",
@@ -12218,6 +12479,7 @@
             "DescribeReservation",
             "DescribeSchedule",
             "ListChannels",
+            "ListInputDeviceTransfers",
             "ListInputDevices",
             "ListInputSecurityGroups",
             "ListInputs",
@@ -12227,10 +12489,12 @@
             "ListReservations",
             "ListTagsForResource",
             "PurchaseOffering",
+            "RejectInputDeviceTransfer",
             "StartChannel",
             "StartMultiplex",
             "StopChannel",
             "StopMultiplex",
+            "TransferInputDevice",
             "UpdateChannel",
             "UpdateChannelClass",
             "UpdateInput",
@@ -12574,13 +12838,17 @@
         "conditionKeys": [
             "aws:RequestTag/${TagKey}",
             "aws:ResourceTag/${TagKey}",
+            "aws:SourceAccount",
+            "aws:SourceArn",
             "aws:TagKeys",
             "events:ManagedBy",
             "events:TargetArn",
+            "events:creatorAccount",
             "events:detail-type",
             "events:detail.eventTypeCode",
             "events:detail.service",
             "events:detail.userIdentity.principalId",
+            "events:eventBusInvocation",
             "events:source"
         ],
         "endpoints": {
@@ -13042,24 +13310,28 @@
             "CreateForecast",
             "CreateForecastExportJob",
             "CreatePredictor",
+            "CreatePredictorBacktestExportJob",
             "DeleteDataset",
             "DeleteDatasetGroup",
             "DeleteDatasetImportJob",
             "DeleteForecast",
             "DeleteForecastExportJob",
             "DeletePredictor",
+            "DeletePredictorBacktestExportJob",
             "DescribeDataset",
             "DescribeDatasetGroup",
             "DescribeDatasetImportJob",
             "DescribeForecast",
             "DescribeForecastExportJob",
             "DescribePredictor",
+            "DescribePredictorBacktestExportJob",
             "GetAccuracyMetrics",
             "ListDatasetGroups",
             "ListDatasetImportJobs",
             "ListDatasets",
             "ListForecastExportJobs",
             "ListForecasts",
+            "ListPredictorBacktestExportJobs",
             "ListPredictors",
             "ListTagsForResource",
             "QueryForecast",
@@ -13196,8 +13468,8 @@
         "product_label": " Amazon Fraud Detector",
         "search_terms": [
             "frauddetector",
-            "fraud-detector",
-            "fd"
+            "fd",
+            "fraud-detector"
         ],
         "service_name": "fraud-detector",
         "url": "https://aws.amazon.com/fraud-detector/"
@@ -13373,10 +13645,10 @@
         "onboarding_ok": false,
         "product_label": " Amazon FSx for Lustre",
         "search_terms": [
-            "fsx-for-lustre",
+            "ffl",
             "fsxlustre",
-            "fsxforlustre",
-            "ffl"
+            "fsx-for-lustre",
+            "fsxforlustre"
         ],
         "service_name": "fsx-for-lustre",
         "url": "https://aws.amazon.com/fsx/lustre/"
@@ -13389,8 +13661,8 @@
         "search_terms": [
             "ffwfs",
             "fsxwindows",
-            "fsxforwindowsfileserver",
-            "fsx-for-windows-file-server"
+            "fsx-for-windows-file-server",
+            "fsxforwindowsfileserver"
         ],
         "service_name": "fsx-for-windows-file-server",
         "url": "https://aws.amazon.com/fsx/windows/"
@@ -13840,9 +14112,9 @@
             "AWS::GlobalAccelerator::Listener"
         ],
         "search_terms": [
-            "global-accelerator",
+            "globalaccelerator",
             "ga",
-            "globalaccelerator"
+            "global-accelerator"
         ],
         "service_name": "global-accelerator",
         "url": "https://aws.amazon.com/global-accelerator/"
@@ -13864,6 +14136,7 @@
             "BatchGetWorkflows",
             "BatchStopJobRun",
             "CancelMLTaskRun",
+            "CheckSchemaVersionValidity",
             "CreateClassifier",
             "CreateConnection",
             "CreateCrawler",
@@ -13872,6 +14145,8 @@
             "CreateJob",
             "CreateMLTransform",
             "CreatePartition",
+            "CreateRegistry",
+            "CreateSchema",
             "CreateScript",
             "CreateSecurityConfiguration",
             "CreateTable",
@@ -13886,7 +14161,10 @@
             "DeleteJob",
             "DeleteMLTransform",
             "DeletePartition",
+            "DeleteRegistry",
             "DeleteResourcePolicy",
+            "DeleteSchema",
+            "DeleteSchemaVersions",
             "DeleteSecurityConfiguration",
             "DeleteTable",
             "DeleteTableVersion",
@@ -13920,7 +14198,12 @@
             "GetPartition",
             "GetPartitions",
             "GetPlan",
+            "GetRegistry",
             "GetResourcePolicy",
+            "GetSchema",
+            "GetSchemaByDefinition",
+            "GetSchemaVersion",
+            "GetSchemaVersionsDiff",
             "GetSecurityConfiguration",
             "GetSecurityConfigurations",
             "GetTable",
@@ -13941,11 +14224,18 @@
             "ListDevEndpoints",
             "ListJobs",
             "ListMLTransforms",
+            "ListRegistries",
+            "ListSchemaVersions",
+            "ListSchemas",
             "ListTriggers",
             "ListWorkflows",
             "PutDataCatalogEncryptionSettings",
             "PutResourcePolicy",
+            "PutSchemaVersionMetadata",
             "PutWorkflowRunProperties",
+            "QuerySchemaVersionMetadata",
+            "RegisterSchemaVersion",
+            "RemoveSchemaVersionMetadata",
             "ResetJobBookmark",
             "SearchTables",
             "StartCrawler",
@@ -13971,6 +14261,8 @@
             "UpdateJob",
             "UpdateMLTransform",
             "UpdatePartition",
+            "UpdateRegistry",
+            "UpdateSchema",
             "UpdateTable",
             "UpdateTrigger",
             "UpdateUserDefinedFunction",
@@ -14019,7 +14311,7 @@
             "aws:ResourceTag/${TagKey}",
             "aws:TagKeys"
         ],
-        "description": "Prepare and Load Data",
+        "description": "Simple, scalable, and serverless data integration",
         "endpoints": {
             "ap-east-1": {},
             "ap-northeast-1": {},
@@ -14447,9 +14739,9 @@
             "AWS::GroundStation::MissionProfile"
         ],
         "search_terms": [
+            "ground-station",
             "groundstation",
-            "gs",
-            "ground-station"
+            "gs"
         ],
         "service_name": "ground-station",
         "url": "https://aws.amazon.com/ground-station/"
@@ -14733,10 +15025,22 @@
         "ARNRegex": "^arn:aws:honeycode:.+:.+:.+",
         "Actions": [
             "ApproveTeamAssociation",
+            "BatchCreateTableRows",
+            "BatchDeleteTableRows",
+            "BatchUpdateTableRows",
+            "BatchUpsertTableRows",
+            "CreateTenant",
+            "DescribeTableDataImportJob",
             "GetScreenData",
             "InvokeScreenAutomation",
+            "ListTableColumns",
+            "ListTableRows",
+            "ListTables",
             "ListTeamAssociations",
-            "RejectTeamAssociation"
+            "ListTenants",
+            "QueryTableRows",
+            "RejectTeamAssociation",
+            "StartTableDataImportJob"
         ],
         "HasResource": true,
         "StringPrefix": "honeycode",
@@ -14756,6 +15060,22 @@
         ],
         "service_name": "honeycode",
         "url": "https://www.honeycode.aws/"
+    },
+    "https:pages.awscloud.comamazonecsanywherepreview.html": {
+        "alias": "https:pages.awscloud.comamazonecsanywherepreview.html",
+        "description": "ECS on your infrastructure",
+        "onboarding_ok": false,
+        "product_label": " Amazon ECS Anywhere (Coming Soon)",
+        "search_terms": [
+            "ea",
+            "https:pages.awscloud.comamazonecsanywherepreview.html",
+            "comingsoon",
+            "ecsanywhere",
+            "ecs-anywhere",
+            "ecsanywherecomingsoon"
+        ],
+        "service_name": "ecs-anywhere",
+        "url": "https://pages.awscloud.com/AmazonECSAnywherePreview.html"
     },
     "iam": {
         "ARNFormat": "arn:aws:iam::<namespace>:<relative-id>",
@@ -15037,9 +15357,9 @@
             "AWS::IAM::UserToGroupAddition"
         ],
         "search_terms": [
+            "identity-access-management",
             "iam",
             "identity&accessmanagement",
-            "identity-access-management",
             "identityaccessmanagement"
         ],
         "service_name": "identity-access-management",
@@ -15218,7 +15538,7 @@
         "alias": "inferentia",
         "description": "Machine learning inference chip",
         "onboarding_ok": false,
-        "product_label": " Amazon Inferentia",
+        "product_label": " AWS Inferentia",
         "search_terms": [
             "inferentia"
         ],
@@ -15851,10 +16171,10 @@
             "AWS::IoT1Click::Project"
         ],
         "search_terms": [
+            "iot1-click",
             "iotclick",
             "iot1click",
             "ic",
-            "iot1-click",
             "iot-1-click"
         ],
         "service_name": "iot-1-click",
@@ -15969,8 +16289,8 @@
             "AWS::IoTAnalytics::Pipeline"
         ],
         "search_terms": [
-            "iotanalytics",
             "ia",
+            "iotanalytics",
             "iot-analytics"
         ],
         "service_name": "iot-analytics",
@@ -15982,9 +16302,9 @@
         "onboarding_ok": false,
         "product_label": " AWS IoT Button",
         "search_terms": [
+            "iotbutton",
             "iot-button",
-            "ib",
-            "iotbutton"
+            "ib"
         ],
         "service_name": "iot-button",
         "url": "https://aws.amazon.com/iot/button/"
@@ -16155,8 +16475,8 @@
             "AWS::IoTEvents::Input"
         ],
         "search_terms": [
-            "ie",
             "iotevents",
+            "ie",
             "iot-events"
         ],
         "service_name": "iot-events",
@@ -16343,9 +16663,9 @@
         "onboarding_ok": false,
         "product_label": " AWS IoT SiteWise",
         "search_terms": [
+            "is",
             "iotsitewise",
-            "iot-sitewise",
-            "is"
+            "iot-sitewise"
         ],
         "service_name": "iot-sitewise",
         "url": "https://aws.amazon.com/iot-sitewise/"
@@ -16633,10 +16953,9 @@
         "StringPrefix": "kms",
         "alias": "kms",
         "aliases": [
-            "AWS Key Management Service\u00a0(AWS KMS)",
+            "AWS Key Management Service\u00a0(KMS)",
             "AWS Key Management Service",
             "AWS Key Management Service (KMS)",
-            "AWS Key Management Service\u00a0(KMS)",
             "AWS Key Management Service (AWS KMS)",
             "AWS Key Management Servic (KMS)"
         ],
@@ -17275,11 +17594,14 @@
             "AddLayerVersionPermission",
             "AddPermission",
             "CreateAlias",
+            "CreateCodeSigningConfig",
             "CreateEventSourceMapping",
             "CreateFunction",
             "DeleteAlias",
+            "DeleteCodeSigningConfig",
             "DeleteEventSourceMapping",
             "DeleteFunction",
+            "DeleteFunctionCodeSigningConfig",
             "DeleteFunctionConcurrency",
             "DeleteFunctionEventInvokeConfig",
             "DeleteLayerVersion",
@@ -17288,8 +17610,10 @@
             "EnableReplication",
             "GetAccountSettings",
             "GetAlias",
+            "GetCodeSigningConfig",
             "GetEventSourceMapping",
             "GetFunction",
+            "GetFunctionCodeSigningConfig",
             "GetFunctionConcurrency",
             "GetFunctionConfiguration",
             "GetFunctionEventInvokeConfig",
@@ -17300,9 +17624,11 @@
             "InvokeAsync",
             "InvokeFunction",
             "ListAliases",
+            "ListCodeSigningConfigs",
             "ListEventSourceMappings",
             "ListFunctionEventInvokeConfigs",
             "ListFunctions",
+            "ListFunctionsByCodeSigningConfig",
             "ListLayerVersions",
             "ListLayers",
             "ListProvisionedConcurrencyConfigs",
@@ -17310,6 +17636,7 @@
             "ListVersionsByFunction",
             "PublishLayerVersion",
             "PublishVersion",
+            "PutFunctionCodeSigningConfig",
             "PutFunctionConcurrency",
             "PutFunctionEventInvokeConfig",
             "PutProvisionedConcurrencyConfig",
@@ -17318,8 +17645,10 @@
             "TagResource",
             "UntagResource",
             "UpdateAlias",
+            "UpdateCodeSigningConfig",
             "UpdateEventSourceMapping",
             "UpdateFunctionCode",
+            "UpdateFunctionCodeSigningConfig",
             "UpdateFunctionConfiguration",
             "UpdateFunctionEventInvokeConfig"
         ],
@@ -17361,6 +17690,7 @@
         ],
         "compliance_ok": true,
         "conditionKeys": [
+            "lambda:CodeSigningConfigArn",
             "lambda:FunctionArn",
             "lambda:Layer",
             "lambda:Principal",
@@ -17586,17 +17916,41 @@
         "ARNFormat": "arn:aws:license-manager:<region>:<account-id>:<resourceType>/<resourceId>",
         "ARNRegex": "^arn:aws:license-manager:.+:.+:.+",
         "Actions": [
+            "AcceptGrant",
+            "CheckInLicense",
+            "CheckoutBorrowLicense",
+            "CheckoutLicense",
+            "CreateGrant",
+            "CreateGrantVersion",
+            "CreateLicense",
             "CreateLicenseConfiguration",
+            "CreateLicenseVersion",
+            "CreateToken",
+            "DeleteGrant",
+            "DeleteLicense",
             "DeleteLicenseConfiguration",
+            "DeleteToken",
+            "ExtendLicenseConsumption",
+            "GetAccessToken",
+            "GetGrant",
+            "GetLicense",
             "GetLicenseConfiguration",
+            "GetLicenseUsage",
             "GetServiceSettings",
             "ListAssociationsForLicenseConfiguration",
+            "ListDistributedGrants",
             "ListFailuresForLicenseConfigurationOperations",
             "ListLicenseConfigurations",
             "ListLicenseSpecificationsForResource",
+            "ListLicenseVersions",
+            "ListLicenses",
+            "ListReceivedGrants",
+            "ListReceivedLicensess",
             "ListResourceInventory",
             "ListTagsForResource",
+            "ListTokens",
             "ListUsageForLicenseConfiguration",
+            "RejectGrant",
             "TagResource",
             "UntagResource",
             "UpdateLicenseConfiguration",
@@ -17861,6 +18215,62 @@
         "service_name": "lightsail",
         "url": "https://aws.amazon.com/lightsail/"
     },
+    "lookoutforequipment": {
+        "alias": "lookoutforequipment",
+        "description": "Detect abnormal behavior by analyzing sensor data",
+        "onboarding_ok": false,
+        "product_label": " Amazon Lookout for Equipment (Preview)",
+        "search_terms": [
+            "preview",
+            "lookout-for-equipment",
+            "lfe",
+            "lookoutforequipment",
+            "lookoutforequipmentpreview"
+        ],
+        "service_name": "lookout-for-equipment",
+        "url": "https://aws.amazon.com/lookout-for-equipment/"
+    },
+    "lookoutforvision": {
+        "alias": "lookoutforvision",
+        "description": "Spot product defects using computer vision",
+        "onboarding_ok": false,
+        "product_label": " Amazon Lookout for Vision",
+        "search_terms": [
+            "lfv",
+            "lookoutforvision",
+            "lookout-for-vision"
+        ],
+        "service_name": "lookout-for-vision",
+        "url": "https://aws.amazon.com/lookout-for-vision/"
+    },
+    "lookoutvision": {
+        "ARNFormat": "arn:aws:lookoutvision:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:lookoutvision:.+:.+:.+",
+        "Actions": [
+            "CreateDataset",
+            "CreateModel",
+            "CreateProject",
+            "DeleteDataset",
+            "DeleteModel",
+            "DeleteProject",
+            "DescribeDataset",
+            "DescribeModel",
+            "DescribeProject",
+            "DescribeTrialDetection",
+            "DetectAnomalies",
+            "ListDatasetEntries",
+            "ListModels",
+            "ListProjects",
+            "ListTrialDetections",
+            "StartModel",
+            "StartTrialDetection",
+            "StopModel",
+            "UpdateDatasetEntries"
+        ],
+        "HasResource": true,
+        "StringPrefix": "lookoutvision",
+        "onboarding_ok": false
+    },
     "lumberyard": {
         "alias": "lumberyard",
         "description": "A Free Cross-platform 3D Game Engine with Full Source, Integrated with AWS and Twitch",
@@ -17881,8 +18291,8 @@
         "compliance_ok": true,
         "onboarding_ok": false,
         "search_terms": [
-            "fsxforlustre",
-            "ffl"
+            "ffl",
+            "fsxforlustre"
         ]
     },
     "machinelearning": {
@@ -17936,10 +18346,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Deep Learning AMIs",
         "search_terms": [
-            "dla",
-            "deep-learning-amis",
+            "deeplearningamis",
             "machinelearningamis",
-            "deeplearningamis"
+            "deep-learning-amis",
+            "dla"
         ],
         "service_name": "deep-learning-amis",
         "url": "https://aws.amazon.com/machine-learning/amis/"
@@ -17950,10 +18360,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Deep Learning Containers",
         "search_terms": [
-            "deep-learning-containers",
-            "dlc",
             "deeplearningcontainers",
-            "machinelearningcontainers"
+            "machinelearningcontainers",
+            "dlc",
+            "deep-learning-containers"
         ],
         "service_name": "deep-learning-containers",
         "url": "https://aws.amazon.com/machine-learning/containers/"
@@ -18290,15 +18700,16 @@
     "managedstreamingforapachekafka": {
         "alias": "msk",
         "aliases": [
-            "Amazon Managed Streaming for Kafka (Amazon MSK)",
+            "Amazon Managed Streaming for Apache Kafka",
             "Amazon Managed Streaming for Apache Kafka (MSK)",
             "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
-            "Amazon Managed Streaming for Apache Kafka"
+            "Amazon Managed Streaming for Kafka (Amazon MSK)"
         ],
         "cdk_support": true,
         "compliance": [
             "iso-9001-27001-27017-27018",
             "sdks",
+            "soc-1-2-3",
             "pci",
             "hipaa-baa",
             "hitrust-csf"
@@ -18348,6 +18759,19 @@
         ],
         "service_name": "managed-streaming-for-apache-kafka",
         "url": "https://aws.amazon.com/msk/"
+    },
+    "managedworkflowsforapacheairflow": {
+        "alias": "managedworkflowsforapacheairflow",
+        "description": "Highly available, secure, and managed workflow orchestration",
+        "onboarding_ok": false,
+        "product_label": " Amazon Managed Workflows for Apache Airflow",
+        "search_terms": [
+            "managed-workflows-for-apache-airflow",
+            "mwfaa",
+            "managedworkflowsforapacheairflow"
+        ],
+        "service_name": "managed-workflows-for-apache-airflow",
+        "url": "https://aws.amazon.com/managed-workflows-for-apache-airflow/"
     },
     "marketplace": {
         "Actions": [
@@ -18574,11 +18998,11 @@
         "onboarding_ok": false,
         "product_label": " Migration Evaluator (formerly TSO Logic)",
         "search_terms": [
-            "migration-evaluator",
-            "migrationevaluatorformerlytsologic",
-            "migrationevaluator",
             "formerlytsologic",
-            "me"
+            "migrationevaluatorformerlytsologic",
+            "me",
+            "migrationevaluator",
+            "migration-evaluator"
         ],
         "service_name": "migration-evaluator",
         "url": "https://aws.amazon.com/migration-evaluator/"
@@ -18744,6 +19168,40 @@
         "onboarding_ok": false,
         "regions_ok": true
     },
+    "monitron": {
+        "ARNFormat": "arn:aws:monitron:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:monitron:.+:.+:.+",
+        "Actions": [
+            "AssociateProjectAdminUser",
+            "CreateProject",
+            "DeleteProject",
+            "DisassociateProjectAdminUser",
+            "GetProject",
+            "GetProjectAdminUser",
+            "ListProjectAdminUsers",
+            "ListProjects",
+            "ListTagsForResource",
+            "TagResource",
+            "UntagResource",
+            "UpdateProject"
+        ],
+        "HasResource": true,
+        "StringPrefix": "monitron",
+        "alias": "monitron",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
+        "description": "End-to-end system for equipment monitoring",
+        "onboarding_ok": false,
+        "product_label": " Amazon Monitron",
+        "search_terms": [
+            "monitron"
+        ],
+        "service_name": "monitron",
+        "url": "https://aws.amazon.com/monitron/"
+    },
     "mq": {
         "ARNFormat": "arn:${Partition}:mq:<region>:<account>:.+",
         "ARNRegex": "^arn:${Partition}:mq:.+",
@@ -18892,10 +19350,10 @@
         "onboarding_ok": false,
         "product_label": " Apache MXNet on AWS",
         "search_terms": [
-            "apachemxnetonaws",
+            "amoa",
             "mxnet",
             "apache-mxnet-on-aws",
-            "amoa"
+            "apachemxnetonaws"
         ],
         "service_name": "apache-mxnet-on-aws",
         "url": "https://aws.amazon.com/mxnet/"
@@ -19093,6 +19551,57 @@
         ],
         "service_name": "neptune",
         "url": "https://aws.amazon.com/neptune/"
+    },
+    "networkfirewall": {
+        "ARNFormat": "arn:aws:network-firewall:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:network-firewall:.+:.+:.+",
+        "Actions": [
+            "AssociateFirewallPolicy",
+            "AssociateSubnets",
+            "CreateFirewall",
+            "CreateFirewallPolicy",
+            "CreateRuleGroup",
+            "DeleteFirewall",
+            "DeleteFirewallPolicy",
+            "DeleteResourcePolicy",
+            "DeleteRuleGroup",
+            "DescribeFirewall",
+            "DescribeFirewallPolicy",
+            "DescribeLoggingConfiguration",
+            "DescribeResourcePolicy",
+            "DescribeRuleGroup",
+            "DisassociateSubnets",
+            "ListFirewallPolicies",
+            "ListFirewalls",
+            "ListRuleGroups",
+            "ListTagsForResource",
+            "PutResourcePolicy",
+            "TagResource",
+            "UntagResource",
+            "UpdateFirewallDeleteProtection",
+            "UpdateFirewallDescription",
+            "UpdateFirewallPolicy",
+            "UpdateFirewallPolicyChangeProtection",
+            "UpdateLoggingConfiguration",
+            "UpdateRuleGroup",
+            "UpdateSubnetChangeProtection"
+        ],
+        "HasResource": true,
+        "StringPrefix": "network-firewall",
+        "alias": "networkfirewall",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
+        "description": "Network security to protect your VPCs",
+        "onboarding_ok": false,
+        "product_label": " AWS Network Firewall",
+        "search_terms": [
+            "network-firewall"
+        ],
+        "service_name": "network-firewall",
+        "url": "https://aws.amazon.com/network-firewall/"
     },
     "networkmanager": {
         "ARNFormat": "arn:aws:networkmanager::<account-id>:<resource-type>/<resource_name>",
@@ -19344,20 +19853,15 @@
         "StringPrefix": "opsworks",
         "alias": "opsworks",
         "aliases": [
-            "AWS OpsWorks",
             "AWS Opsworks",
-            "AWS OpsWorks\u00a0Stack"
+            "AWS OpsWorks\u00a0Stack",
+            "AWS OpsWorks"
         ],
         "cdk_support": true,
         "compliance": [
-            "fedramp-moderate-east-west",
-            "fedramp-high-govcloud",
-            "fedramp-not-in-scope",
-            "dod-cc-srg-il2-east-west",
-            "dod-cc-srg-il2-govcloud",
-            "dod-cc-srg-il4-govcloud",
-            "dod-cc-srg-il5-govcloud",
-            "dod-cc-srg-il6-aws-secret-region"
+            "sdks",
+            "c5",
+            "ospar"
         ],
         "compliance_ok": true,
         "description": "Automate Operations with Chef and Puppet",
@@ -19676,12 +20180,12 @@
         "onboarding_ok": false,
         "product_label": " AWS Distro for OpenTelemetry (Preview)",
         "search_terms": [
-            "dfo",
-            "otel",
-            "distro-for-opentelemetry",
-            "distroforopentelemetry",
             "preview",
-            "distroforopentelemetrypreview"
+            "distroforopentelemetry",
+            "dfo",
+            "distroforopentelemetrypreview",
+            "distro-for-opentelemetry",
+            "otel"
         ],
         "service_name": "distro-for-opentelemetry",
         "url": "https://aws.amazon.com/otel/"
@@ -19784,16 +20288,82 @@
         "service_name": "outposts",
         "url": "https://aws.amazon.com/outposts/"
     },
+    "panorama": {
+        "ARNFormat": "arn:${Partition}:panorama:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
+        "ARNRegex": "^arn:${Partition}:panorama:.+:.+:.+",
+        "Actions": [
+            "CreateApp",
+            "CreateAppDeployment",
+            "CreateAppVersion",
+            "CreateDataSource",
+            "CreateDeploymentConfiguration",
+            "CreateDevice",
+            "CreateDeviceUpdate",
+            "CreateInputs",
+            "CreateModel",
+            "CreateStreams",
+            "DeleteApp",
+            "DeleteAppVersion",
+            "DeleteDataSource",
+            "DeleteDevice",
+            "DeleteModel",
+            "DescribeApp",
+            "DescribeAppDeployment",
+            "DescribeAppVersion",
+            "DescribeDataSource",
+            "DescribeDevice",
+            "DescribeDeviceUpdate",
+            "DescribeModel",
+            "DescribeSoftware",
+            "GetDeploymentConfiguration",
+            "GetInputs",
+            "GetStreams",
+            "GetWebSocketURL",
+            "ListAppDeploymentOperations",
+            "ListAppVersions",
+            "ListApps",
+            "ListDataSources",
+            "ListDeploymentConfigurations",
+            "ListDeviceUpdates",
+            "ListDevices",
+            "ListModels",
+            "ListTagsForResource",
+            "TagResource",
+            "UntagResource",
+            "UpdateApp",
+            "UpdateAppConfiguration",
+            "UpdateDataSource",
+            "UpdateDevice"
+        ],
+        "HasResource": true,
+        "StringPrefix": "panorama",
+        "alias": "panorama",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
+        "description": "Improve operations with computer vision at the edge",
+        "onboarding_ok": false,
+        "product_label": " AWS Panorama (Preview)",
+        "search_terms": [
+            "panoramapreview",
+            "preview",
+            "panorama"
+        ],
+        "service_name": "panorama",
+        "url": "https://aws.amazon.com/panorama/"
+    },
     "partnersdqp": {
         "alias": "partnersdqp",
         "description": "Curated catalog of AWS-compatible IoT hardware",
         "onboarding_ok": false,
         "product_label": " AWS Partner Device Catalog",
         "search_terms": [
-            "partner-device-catalog",
             "partnersdqp",
-            "pdc",
-            "partnerdevicecatalog"
+            "partner-device-catalog",
+            "partnerdevicecatalog",
+            "pdc"
         ],
         "service_name": "partner-device-catalog",
         "url": "https://aws.amazon.com/partners/dqp/"
@@ -19818,12 +20388,12 @@
         "onboarding_ok": false,
         "product_label": " AWS Personal Health Dashboard",
         "search_terms": [
+            "phd",
+            "premiumsupportphd",
             "personal-health-dashboard",
             "personalhealthdashboard",
             "phd",
-            "premiumsupportphd",
-            "personalhealthdashboard",
-            "phd"
+            "personalhealthdashboard"
         ],
         "service_name": "personal-health-dashboard",
         "url": "https://aws.amazon.com/premiumsupport/phd/"
@@ -20121,7 +20691,7 @@
         "onboarding_ok": false
     },
     "polly": {
-        "ARNFormat": "arn:aws:polly:<region>:<accountID>:<relative-id>",
+        "ARNFormat": "arn:aws:polly:<region>:<accountID>:lexicon/<relative-id>",
         "ARNRegex": "^arn:aws:polly::.+",
         "Actions": [
             "DeleteLexicon",
@@ -20303,10 +20873,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Personal Health Dashboard",
         "search_terms": [
-            "personal-health-dashboard",
-            "personalhealthdashboard",
             "phd",
-            "premiumsupportphd"
+            "premiumsupportphd",
+            "personal-health-dashboard",
+            "personalhealthdashboard"
         ],
         "service_name": "personal-health-dashboard",
         "url": "https://aws.amazon.com/premiumsupport/phd/"
@@ -20344,6 +20914,48 @@
         },
         "onboarding_ok": false
     },
+    "profile": {
+        "ARNFormat": "arn:aws:profile:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:profile:.+:.+:.+",
+        "Actions": [
+            "AddProfileKey",
+            "CreateDomain",
+            "CreateProfile",
+            "DeleteDomain",
+            "DeleteIntegration",
+            "DeleteProfile",
+            "DeleteProfileKey",
+            "DeleteProfileObject",
+            "DeleteProfileObjectType",
+            "GetDomain",
+            "GetIntegration",
+            "GetProfileObjectType",
+            "GetProfileObjectTypeTemplate",
+            "ListAccountIntegrations",
+            "ListDomains",
+            "ListIntegrations",
+            "ListProfileObjectTypeTemplates",
+            "ListProfileObjectTypes",
+            "ListProfileObjects",
+            "ListTagsForResource",
+            "PutIntegration",
+            "PutProfileObject",
+            "PutProfileObjectType",
+            "SearchProfiles",
+            "TagResource",
+            "UntagResource",
+            "UpdateDomain",
+            "UpdateProfile"
+        ],
+        "HasResource": true,
+        "StringPrefix": "profile",
+        "conditionKeys": [
+            "aws:RequestTag/${TagKey}",
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
+        "onboarding_ok": false
+    },
     "projects.iot1click": {
         "endpoints": {
             "ap-northeast-1": {},
@@ -20357,6 +20969,72 @@
         "onboarding_ok": false,
         "regions_ok": true
     },
+    "proton": {
+        "ARNFormat": "arn:aws:proton:<region>:<account-id>:<resource-type>/<resource_name>",
+        "ARNRegex": "^arn:aws:proton:.+:.+:.+",
+        "Actions": [
+            "CreateEnvironment",
+            "CreateEnvironmentTemplate",
+            "CreateEnvironmentTemplateMajorVersion",
+            "CreateEnvironmentTemplateMinorVersion",
+            "CreateService",
+            "CreateServiceTemplate",
+            "CreateServiceTemplateMajorVersion",
+            "CreateServiceTemplateMinorVersion",
+            "DeleteAccountRoles",
+            "DeleteEnvironment",
+            "DeleteEnvironmentTemplate",
+            "DeleteEnvironmentTemplateMajorVersion",
+            "DeleteEnvironmentTemplateMinorVersion",
+            "DeleteService",
+            "DeleteServiceTemplate",
+            "DeleteServiceTemplateMajorVersion",
+            "DeleteServiceTemplateMinorVersion",
+            "GetAccountRoles",
+            "GetEnvironment",
+            "GetEnvironmentTemplate",
+            "GetEnvironmentTemplateMajorVersion",
+            "GetEnvironmentTemplateMinorVersion",
+            "GetService",
+            "GetServiceInstance",
+            "GetServiceTemplate",
+            "GetServiceTemplateMajorVersion",
+            "GetServiceTemplateMinorVersion",
+            "ListEnvironmentTemplateMajorVersions",
+            "ListEnvironmentTemplateMinorVersions",
+            "ListEnvironmentTemplates",
+            "ListEnvironments",
+            "ListServiceInstances",
+            "ListServiceTemplateMajorVersions",
+            "ListServiceTemplateMinorVersions",
+            "ListServiceTemplates",
+            "ListServices",
+            "UpdateAccountRoles",
+            "UpdateEnvironment",
+            "UpdateEnvironmentTemplate",
+            "UpdateEnvironmentTemplateMajorVersion",
+            "UpdateEnvironmentTemplateMinorVersion",
+            "UpdateService",
+            "UpdateServiceInstance",
+            "UpdateServicePipeline",
+            "UpdateServiceTemplate",
+            "UpdateServiceTemplateMajorVersion",
+            "UpdateServiceTemplateMinorVersion"
+        ],
+        "HasResource": true,
+        "StringPrefix": "proton",
+        "alias": "proton",
+        "description": "Automated management for container and serverless deployment",
+        "onboarding_ok": false,
+        "product_label": " AWS Proton (Preview)",
+        "search_terms": [
+            "protonpreview",
+            "preview",
+            "proton"
+        ],
+        "service_name": "proton",
+        "url": "https://aws.amazon.com/proton/"
+    },
     "puppetenterprise": {
         "compliance": [
             "hitrust-csf"
@@ -20364,8 +21042,8 @@
         "compliance_ok": true,
         "onboarding_ok": false,
         "search_terms": [
-            "ofpe",
-            "opsworksforpuppetenterprise"
+            "opsworksforpuppetenterprise",
+            "ofpe"
         ]
     },
     "purchase-orders": {
@@ -20391,10 +21069,10 @@
         "onboarding_ok": false,
         "product_label": " PyTorch on AWS",
         "search_terms": [
-            "pytorch",
             "pytorch-on-aws",
-            "pytorchonaws",
-            "poa"
+            "poa",
+            "pytorch",
+            "pytorchonaws"
         ],
         "service_name": "pytorch-on-aws",
         "url": "https://aws.amazon.com/pytorch/"
@@ -20495,8 +21173,8 @@
             "qld",
             "quantumledgerdatabaseqldb",
             "qldb",
-            "quantum-ledger-database",
-            "quantumledgerdatabase"
+            "quantumledgerdatabase",
+            "quantum-ledger-database"
         ],
         "service_name": "quantum-ledger-database",
         "url": "https://aws.amazon.com/qldb/"
@@ -20788,8 +21466,8 @@
         "StringPrefix": "rds",
         "alias": "rds",
         "aliases": [
-            "Amazon Relational Database Service (RDS",
             "Amazon Relational Database Service (RDS)",
+            "Amazon Relational Database Service (RDS",
             "Amazon Relational Database Service",
             "Amazon Relational Database\u00a0Service"
         ],
@@ -20980,6 +21658,10 @@
         ],
         "HasResource": false,
         "StringPrefix": "rds-data",
+        "conditionKeys": [
+            "aws:ResourceTag/${TagKey}",
+            "aws:TagKeys"
+        ],
         "onboarding_ok": false
     },
     "rds-db": {
@@ -20991,6 +21673,22 @@
         "HasResource": true,
         "StringPrefix": "rds-db",
         "onboarding_ok": false
+    },
+    "rdsauroraserverless": {
+        "alias": "rdsauroraserverless",
+        "description": "Instantly scale to >100,000 transactions per second",
+        "onboarding_ok": false,
+        "product_label": " Amazon Aurora Serverless v2 (Preview)",
+        "search_terms": [
+            "rdsauroraserverless",
+            "preview",
+            "auroraserverlessvpreview",
+            "asv",
+            "auroraserverlessv2",
+            "aurora-serverless-v2"
+        ],
+        "service_name": "aurora-serverless-v2",
+        "url": "https://aws.amazon.com/rds/aurora/serverless/"
     },
     "rdsdataapi": {
         "iam": {
@@ -21010,10 +21708,10 @@
         "onboarding_ok": false,
         "product_label": " Amazon RDS on VMware",
         "search_terms": [
+            "rdsvmware",
             "rds-on-vmware",
-            "rov",
             "rdsonvmware",
-            "rdsvmware"
+            "rov"
         ],
         "service_name": "rds-on-vmware",
         "url": "https://aws.amazon.com/rds/vmware/"
@@ -21882,6 +22580,20 @@
         "service_name": "robomaker",
         "url": "https://aws.amazon.com/robomaker/"
     },
+    "rosa": {
+        "alias": "rosa",
+        "description": "Managed Red Hat OpenShift clusters",
+        "onboarding_ok": false,
+        "product_label": " Red Hat OpenShift Service on AWS",
+        "search_terms": [
+            "rhosoa",
+            "redhatopenshiftserviceonaws",
+            "rosa",
+            "red-hat-openshift-service-on-aws"
+        ],
+        "service_name": "red-hat-openshift-service-on-aws",
+        "url": "https://aws.amazon.com/rosa/"
+    },
     "route53": {
         "ARNFormat": "arn:aws:route53:::<resource>/<id>",
         "ARNRegex": "^arn:aws:route53:::.+",
@@ -22054,8 +22766,8 @@
         ],
         "search_terms": [
             "route",
-            "route53",
-            "route-53"
+            "route-53",
+            "route53"
         ],
         "service_name": "route-53",
         "url": "https://aws.amazon.com/route53/"
@@ -22303,6 +23015,8 @@
             "DeleteObjectTagging",
             "DeleteObjectVersion",
             "DeleteObjectVersionTagging",
+            "DeleteStorageLensConfiguration",
+            "DeleteStorageLensConfigurationTagging",
             "DescribeJob",
             "GetAccelerateConfiguration",
             "GetAccessPoint",
@@ -22341,6 +23055,9 @@
             "GetObjectVersionTagging",
             "GetObjectVersionTorrent",
             "GetReplicationConfiguration",
+            "GetStorageLensConfiguration",
+            "GetStorageLensConfigurationTagging",
+            "GetStorageLensDashboard",
             "ListAccessPoints",
             "ListAllMyBuckets",
             "ListBucket",
@@ -22348,6 +23065,7 @@
             "ListBucketVersions",
             "ListJobs",
             "ListMultipartUploadParts",
+            "ListStorageLensConfigurations",
             "ObjectOwnerOverrideToBucketOwner",
             "PutAccelerateConfiguration",
             "PutAccessPointPolicy",
@@ -22378,6 +23096,8 @@
             "PutObjectVersionAcl",
             "PutObjectVersionTagging",
             "PutReplicationConfiguration",
+            "PutStorageLensConfiguration",
+            "PutStorageLensConfigurationTagging",
             "ReplicateDelete",
             "ReplicateObject",
             "ReplicateTags",
@@ -22389,8 +23109,8 @@
         "StringPrefix": "s3",
         "alias": "glacier1",
         "aliases": [
-            "Amazon Simple Storage Service (Amazon S3)",
             "Amazon Simple Storage Service (S3)",
+            "Amazon Simple Storage Service (Amazon S3)",
             "Amazon Simple Storage Service"
         ],
         "cdk_support": true,
@@ -22982,20 +23702,25 @@
         "ARNFormat": "arn:aws:sagemaker:<region>:<account-id>:<resource-type>/<resource_name>",
         "ARNRegex": "^arn:${Partition}:sagemaker:.+",
         "Actions": [
+            "AddAssociation",
             "AddTags",
             "AssociateTrialComponent",
             "BatchGetMetrics",
             "BatchPutMetrics",
+            "CreateAction",
             "CreateAlgorithm",
             "CreateApp",
             "CreateAppImageConfig",
+            "CreateArtifact",
             "CreateAutoMLJob",
             "CreateCodeRepository",
             "CreateCompilationJob",
+            "CreateContext",
             "CreateDomain",
             "CreateEndpoint",
             "CreateEndpointConfig",
             "CreateExperiment",
+            "CreateFeatureGroup",
             "CreateFlowDefinition",
             "CreateHumanTaskUi",
             "CreateHyperParameterTuningJob",
@@ -23004,12 +23729,15 @@
             "CreateLabelingJob",
             "CreateModel",
             "CreateModelPackage",
+            "CreateModelPackageGroup",
             "CreateMonitoringSchedule",
             "CreateNotebookInstance",
             "CreateNotebookInstanceLifecycleConfig",
+            "CreatePipeline",
             "CreatePresignedDomainUrl",
             "CreatePresignedNotebookInstanceUrl",
             "CreateProcessingJob",
+            "CreateProject",
             "CreateTrainingJob",
             "CreateTransformJob",
             "CreateTrial",
@@ -23017,39 +23745,53 @@
             "CreateUserProfile",
             "CreateWorkforce",
             "CreateWorkteam",
+            "DeleteAction",
             "DeleteAlgorithm",
             "DeleteApp",
             "DeleteAppImageConfig",
+            "DeleteArtifact",
+            "DeleteAssociation",
             "DeleteCodeRepository",
+            "DeleteContext",
             "DeleteDomain",
             "DeleteEndpoint",
             "DeleteEndpointConfig",
             "DeleteExperiment",
+            "DeleteFeatureGroup",
             "DeleteFlowDefinition",
             "DeleteHumanLoop",
             "DeleteImage",
             "DeleteImageVersion",
             "DeleteModel",
             "DeleteModelPackage",
+            "DeleteModelPackageGroup",
+            "DeleteModelPackageGroupPolicy",
             "DeleteMonitoringSchedule",
             "DeleteNotebookInstance",
             "DeleteNotebookInstanceLifecycleConfig",
+            "DeletePipeline",
+            "DeleteProject",
+            "DeleteRecord",
             "DeleteTags",
             "DeleteTrial",
             "DeleteTrialComponent",
             "DeleteUserProfile",
             "DeleteWorkforce",
             "DeleteWorkteam",
+            "DescribeAction",
             "DescribeAlgorithm",
             "DescribeApp",
             "DescribeAppImageConfig",
+            "DescribeArtifact",
             "DescribeAutoMLJob",
             "DescribeCodeRepository",
             "DescribeCompilationJob",
+            "DescribeContext",
             "DescribeDomain",
             "DescribeEndpoint",
             "DescribeEndpointConfig",
             "DescribeExperiment",
+            "DescribeFeatureGroup",
             "DescribeFlowDefinition",
             "DescribeHumanLoop",
             "DescribeHumanTaskUi",
@@ -23059,10 +23801,15 @@
             "DescribeLabelingJob",
             "DescribeModel",
             "DescribeModelPackage",
+            "DescribeModelPackageGroup",
             "DescribeMonitoringSchedule",
             "DescribeNotebookInstance",
             "DescribeNotebookInstanceLifecycleConfig",
+            "DescribePipeline",
+            "DescribePipelineDefinitionForExecution",
+            "DescribePipelineExecution",
             "DescribeProcessingJob",
+            "DescribeProject",
             "DescribeSubscribedWorkteam",
             "DescribeTrainingJob",
             "DescribeTransformJob",
@@ -23071,20 +23818,30 @@
             "DescribeUserProfile",
             "DescribeWorkforce",
             "DescribeWorkteam",
+            "DisableSagemakerServicecatalogPortfolio",
             "DisassociateTrialComponent",
+            "EnableSagemakerServicecatalogPortfolio",
+            "GetModelPackageGroupPolicy",
+            "GetRecord",
+            "GetSagemakerServicecatalogPortfolioStatus",
             "GetSearchSuggestions",
             "InvokeEndpoint",
+            "ListActions",
             "ListAlgorithms",
             "ListAppImageConfigs",
             "ListApps",
+            "ListArtifacts",
+            "ListAssociations",
             "ListAutoMLJobs",
             "ListCandidatesForAutoMLJob",
             "ListCodeRepositories",
             "ListCompilationJobs",
+            "ListContexts",
             "ListDomains",
             "ListEndpointConfigs",
             "ListEndpoints",
             "ListExperiments",
+            "ListFeatureGroups",
             "ListFlowDefinitions",
             "ListHumanLoops",
             "ListHumanTaskUis",
@@ -23093,13 +23850,19 @@
             "ListImages",
             "ListLabelingJobs",
             "ListLabelingJobsForWorkteam",
+            "ListModelPackageGroups",
             "ListModelPackages",
             "ListModels",
             "ListMonitoringExecutions",
             "ListMonitoringSchedules",
             "ListNotebookInstanceLifecycleConfigs",
             "ListNotebookInstances",
+            "ListPipelineExecutionSteps",
+            "ListPipelineExecutions",
+            "ListPipelineParametersForExecution",
+            "ListPipelines",
             "ListProcessingJobs",
+            "ListProjects",
             "ListSubscribedWorkteams",
             "ListTags",
             "ListTrainingJobs",
@@ -23110,11 +23873,14 @@
             "ListUserProfiles",
             "ListWorkforces",
             "ListWorkteams",
+            "PutModelPackageGroupPolicy",
+            "PutRecord",
             "RenderUiTemplate",
             "Search",
             "StartHumanLoop",
             "StartMonitoringSchedule",
             "StartNotebookInstance",
+            "StartPipelineExecution",
             "StopAutoMLJob",
             "StopCompilationJob",
             "StopHumanLoop",
@@ -23122,19 +23888,26 @@
             "StopLabelingJob",
             "StopMonitoringSchedule",
             "StopNotebookInstance",
+            "StopPipelineExecution",
             "StopProcessingJob",
             "StopTrainingJob",
             "StopTransformJob",
+            "UpdateAction",
             "UpdateAppImageConfig",
+            "UpdateArtifact",
             "UpdateCodeRepository",
+            "UpdateContext",
             "UpdateDomain",
             "UpdateEndpoint",
             "UpdateEndpointWeightsAndCapacities",
             "UpdateExperiment",
             "UpdateImage",
+            "UpdateModelPackage",
             "UpdateMonitoringSchedule",
             "UpdateNotebookInstance",
             "UpdateNotebookInstanceLifecycleConfig",
+            "UpdatePipeline",
+            "UpdatePipelineExecution",
             "UpdateTrial",
             "UpdateTrialComponent",
             "UpdateUserProfile",
@@ -23187,6 +23960,9 @@
             "sagemaker:AppNetworkAccessType",
             "sagemaker:DirectInternetAccess",
             "sagemaker:DomainSharingOutputKmsKey",
+            "sagemaker:FeatureGroupOfflineStoreKmsKey",
+            "sagemaker:FeatureGroupOfflineStoreS3Uri",
+            "sagemaker:FeatureGroupOnlineStoreKmsKey",
             "sagemaker:FileSystemAccessMode",
             "sagemaker:FileSystemDirectoryPath",
             "sagemaker:FileSystemId",
@@ -23262,6 +24038,19 @@
         "service_name": "sagemaker",
         "url": "https://aws.amazon.com/sagemaker/"
     },
+    "sagemakerdatawrangler": {
+        "alias": "sagemakerdatawrangler",
+        "description": "The fastest way to prepare data for ML",
+        "onboarding_ok": false,
+        "product_label": " Amazon SageMaker Data Wrangler",
+        "search_terms": [
+            "sdw",
+            "sagemakerdatawrangler",
+            "sagemaker-data-wrangler"
+        ],
+        "service_name": "sagemaker-data-wrangler",
+        "url": "https://aws.amazon.com/sagemaker/data-wrangler/"
+    },
     "sagemakergroundtruth": {
         "alias": "sagemakergroundtruth",
         "description": "Build accurate ML training datasets",
@@ -23269,8 +24058,8 @@
         "product_label": " Amazon SageMaker Ground Truth",
         "search_terms": [
             "sagemaker-ground-truth",
-            "sgt",
-            "sagemakergroundtruth"
+            "sagemakergroundtruth",
+            "sgt"
         ],
         "service_name": "sagemaker-ground-truth",
         "url": "https://aws.amazon.com/sagemaker/groundtruth/"
@@ -23315,9 +24104,9 @@
         "product_label": " Savings Plans",
         "regions_ok": true,
         "search_terms": [
-            "sp",
             "savingsplans",
-            "savings-plans"
+            "savings-plans",
+            "sp"
         ],
         "service_name": "savings-plans",
         "url": "https://aws.amazon.com/savingsplans/"
@@ -23338,6 +24127,7 @@
             "DescribeDiscoverer",
             "DescribeRegistry",
             "DescribeSchema",
+            "ExportSchema",
             "GetCodeBindingSource",
             "GetDiscoveredSchema",
             "GetResourcePolicy",
@@ -23593,14 +24383,17 @@
             "DeleteMembers",
             "DescribeActionTargets",
             "DescribeHub",
+            "DescribeOrganizationConfiguration",
             "DescribeProducts",
             "DescribeStandards",
             "DescribeStandardsControls",
             "DisableImportFindingsForProduct",
+            "DisableOrganizationAdminAccount",
             "DisableSecurityHub",
             "DisassociateFromMasterAccount",
             "DisassociateMembers",
             "EnableImportFindingsForProduct",
+            "EnableOrganizationAdminAccount",
             "EnableSecurityHub",
             "GetEnabledStandards",
             "GetFindings",
@@ -23613,12 +24406,14 @@
             "ListEnabledProductsForImport",
             "ListInvitations",
             "ListMembers",
+            "ListOrganizationAdminAccounts",
             "ListTagsForResource",
             "TagResource",
             "UntagResource",
             "UpdateActionTarget",
             "UpdateFindings",
             "UpdateInsight",
+            "UpdateOrganizationConfiguration",
             "UpdateSecurityHubConfiguration",
             "UpdateStandardsControl"
         ],
@@ -23762,9 +24557,9 @@
             "AWS::SecurityHub::Hub"
         ],
         "search_terms": [
+            "security-hub",
             "securityhub",
-            "sh",
-            "security-hub"
+            "sh"
         ],
         "service_name": "security-hub",
         "url": "https://aws.amazon.com/security-hub/"
@@ -24363,8 +25158,8 @@
             "AWS::ServiceCatalog::TagOptionAssociation"
         ],
         "search_terms": [
-            "service-catalog",
             "sc",
+            "service-catalog",
             "servicecatalog"
         ],
         "service_name": "service-catalog",
@@ -24608,7 +25403,7 @@
         "StringPrefix": "ses",
         "alias": "ses",
         "aliases": [
-            "Amazon Simple Email Service\u00a0(Amazon SES)",
+            "Amazon Simple Email Service\u00a0(SES)",
             "Amazon Simple Email Service (SES)",
             "Amazon Simple Email Service (Amazon SES)",
             "Amazon Simple Email Service"
@@ -24655,10 +25450,10 @@
         "onboarding_ok": false,
         "product_label": " Amazon Simple Email Service (SES)",
         "search_terms": [
-            "ses",
-            "simpleemailservice",
+            "simple-email-service",
             "simpleemailserviceses",
-            "simple-email-service"
+            "simpleemailservice",
+            "ses"
         ],
         "service_name": "simple-email-service",
         "url": "https://aws.amazon.com/ses/"
@@ -24755,15 +25550,20 @@
         "ARNFormat": "arn:aws:signer:<region>::<signer_resource_path>",
         "ARNRegex": "^arn:aws:signer:.+",
         "Actions": [
+            "AddProfilePermission",
             "CancelSigningProfile",
             "DescribeSigningJob",
             "GetSigningPlatform",
             "GetSigningProfile",
+            "ListProfilePermissions",
             "ListSigningJobs",
             "ListSigningPlatforms",
             "ListSigningProfiles",
             "ListTagsForResource",
             "PutSigningProfile",
+            "RemoveProfilePermission",
+            "RevokeSignature",
+            "RevokeSigningProfile",
             "StartSigningJob",
             "TagResource",
             "UntagResource"
@@ -24773,7 +25573,8 @@
         "conditionKeys": [
             "aws:RequestTag/${TagKey}",
             "aws:ResourceTag/${TagKey}",
-            "aws:TagKeys"
+            "aws:TagKeys",
+            "signer:ProfileVersion"
         ],
         "onboarding_ok": false
     },
@@ -24917,7 +25718,7 @@
         "HasResource": true,
         "StringPrefix": "swf",
         "aliases": [
-            "Amazon Simple Workflow Service\u00a0(Amazon SWF)",
+            "Amazon Simple Workflow Service\u00a0(SWF)",
             "Amazon Simple Workflow Service (SWF)",
             "Amazon Simple Workflow Service",
             "Amazon Simple Workflow Service (Amazon SWF)"
@@ -25071,10 +25872,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Snow Family",
         "search_terms": [
+            "snow-family",
             "snow",
-            "sf",
             "snowfamily",
-            "snow-family"
+            "sf"
         ],
         "service_name": "snow-family",
         "url": "https://aws.amazon.com/snow/"
@@ -25368,7 +26169,7 @@
         "StringPrefix": "sns",
         "alias": "sns",
         "aliases": [
-            "Amazon Simple Notification Service\u00a0(Amazon SNS)",
+            "Amazon Simple Notification Service\u00a0(SNS)",
             "Amazon Simple Notification Service (Amazon SNS)",
             "Amazon Simple Notification Service"
         ],
@@ -25530,9 +26331,9 @@
         ],
         "search_terms": [
             "simplenotificationservice",
+            "simple-notification-service",
             "sns",
-            "simplenotificationservicesns",
-            "simple-notification-service"
+            "simplenotificationservicesns"
         ],
         "service_name": "simple-notification-service",
         "url": "https://aws.amazon.com/sns/"
@@ -25566,7 +26367,7 @@
         "StringPrefix": "sqs",
         "alias": "sqs",
         "aliases": [
-            "Amazon Simple Queue Service\u00a0(Amazon SQS)",
+            "Amazon Simple Queue Service\u00a0(SQS)",
             "Amazon Simple Queue Service (SQS)",
             "Amazon Simple Queue Service (Amazon SQS)",
             "Amazon Simple Queue Service"
@@ -25726,8 +26527,8 @@
         ],
         "search_terms": [
             "simplequeueservicesqs",
-            "sqs",
             "simple-queue-service",
+            "sqs",
             "simplequeueservice"
         ],
         "service_name": "simple-queue-service",
@@ -25754,6 +26555,7 @@
             "CreateAccountAssignment",
             "CreateApplicationInstance",
             "CreateApplicationInstanceCertificate",
+            "CreateInstanceAccessControlAttributeConfiguration",
             "CreateManagedApplicationInstance",
             "CreatePermissionSet",
             "CreateProfile",
@@ -25762,12 +26564,14 @@
             "DeleteApplicationInstance",
             "DeleteApplicationInstanceCertificate",
             "DeleteInlinePolicyFromPermissionSet",
+            "DeleteInstanceAccessControlAttributeConfiguration",
             "DeleteManagedApplicationInstance",
             "DeletePermissionSet",
             "DeletePermissionsPolicy",
             "DeleteProfile",
             "DescribeAccountAssignmentCreationStatus",
             "DescribeAccountAssignmentDeletionStatus",
+            "DescribeInstanceAccessControlAttributeConfiguration",
             "DescribePermissionSet",
             "DescribePermissionSetProvisioningStatus",
             "DescribePermissionsPolicies",
@@ -25822,6 +26626,7 @@
             "UpdateApplicationInstanceServiceProviderConfiguration",
             "UpdateApplicationInstanceStatus",
             "UpdateDirectoryAssociation",
+            "UpdateInstanceAccessControlAttributeConfiguration",
             "UpdateManagedApplicationInstanceStatus",
             "UpdatePermissionSet",
             "UpdateProfile",
@@ -25876,10 +26681,10 @@
             "AWS::SSO::PermissionSet"
         ],
         "search_terms": [
-            "sso",
-            "single-sign-on",
+            "singlesign-on",
             "singlesignon",
-            "singlesign-on"
+            "single-sign-on",
+            "sso"
         ],
         "service_name": "single-sign-on",
         "url": "https://aws.amazon.com/single-sign-on/"
@@ -25890,6 +26695,7 @@
         "Actions": [
             "AddMemberToGroup",
             "CompleteVirtualMfaDeviceRegistration",
+            "CompleteWebAuthnDeviceRegistration",
             "CreateAlias",
             "CreateBearerToken",
             "CreateExternalIdPConfigurationForDirectory",
@@ -25925,8 +26731,10 @@
             "SearchGroups",
             "SearchUsers",
             "StartVirtualMfaDeviceRegistration",
+            "StartWebAuthnDeviceRegistration",
             "UpdateExternalIdPConfigurationForDirectory",
             "UpdateGroup",
+            "UpdateMfaDeviceForUser",
             "UpdatePassword",
             "UpdateUser",
             "VerifyEmail"
@@ -25975,6 +26783,7 @@
             "SendTaskHeartbeat",
             "SendTaskSuccess",
             "StartExecution",
+            "StartSyncExecution",
             "StopExecution",
             "TagResource",
             "UntagResource",
@@ -27024,9 +27833,9 @@
         "onboarding_ok": false,
         "product_label": " TensorFlow on AWS",
         "search_terms": [
-            "toa",
-            "tensorflow",
             "tensorflowonaws",
+            "tensorflow",
+            "toa",
             "tensorflow-on-aws"
         ],
         "service_name": "tensorflow-on-aws",
@@ -27204,7 +28013,8 @@
         "compliance_ok": true,
         "conditionKeys": [
             "transcribe:OutputBucketName",
-            "transcribe:OutputEncryptionKMSKeyId"
+            "transcribe:OutputEncryptionKMSKeyId",
+            "transcribe:OutputKey"
         ],
         "defaults": {
             "protocols": [
@@ -27319,9 +28129,11 @@
             "DeleteServer",
             "DeleteSshPublicKey",
             "DeleteUser",
+            "DescribeSecurityPolicy",
             "DescribeServer",
             "DescribeUser",
             "ImportSshPublicKey",
+            "ListSecurityPolicies",
             "ListServers",
             "ListTagsForResource",
             "ListUsers",
@@ -27425,22 +28237,10 @@
         ]
     },
     "transferforsftp": {
-        "compliance": [
-            "iso-9001-27001-27017-27018",
-            "se-rvices-programs",
-            "namespaces",
-            "irap-protected",
-            "hitrust-csf"
-        ],
-        "compliance_ok": true,
         "iam": {
             "actions": {}
         },
-        "namespace": "aws-transfer-family",
-        "onboarding_ok": false,
-        "search_terms": [
-            "aws-transfer-family"
-        ]
+        "onboarding_ok": false
     },
     "transitgateway": {
         "alias": "transitgateway",
@@ -27461,15 +28261,20 @@
         "ARNFormat": "arn:${Partition}:translate:${Region}:${AccountId}:${ResourceType}/${ResourceName}",
         "ARNRegex": "^arn:${Partition}:translate:.+:.+:.+",
         "Actions": [
+            "CreateParallelData",
+            "DeleteParallelData",
             "DeleteTerminology",
             "DescribeTextTranslationJob",
+            "GetParallelData",
             "GetTerminology",
             "ImportTerminology",
+            "ListParallelData",
             "ListTerminologies",
             "ListTextTranslationJobs",
             "StartTextTranslationJob",
             "StopTextTranslationJob",
-            "TranslateText"
+            "TranslateText",
+            "UpdateParallelData"
         ],
         "HasResource": false,
         "StringPrefix": "translate",
@@ -27588,6 +28393,9 @@
             "ExcludeCheckItems",
             "GenerateReport",
             "IncludeCheckItems",
+            "ListAccountsForParent",
+            "ListOrganizationalUnitsForParent",
+            "ListRoots",
             "RefreshCheck",
             "SetAccountAccess",
             "SetOrganizationAccess",
@@ -27737,14 +28545,13 @@
         "alias": "waf",
         "aliases": [
             "AWS Firewall Manager",
+            "AWS Web Application Firewall (WAF)",
             "AWS WAF",
-            "AWS Web Application Firewall (WAF",
-            "AWS Web Application Firewall (WAF)"
+            "AWS Web Application Firewall (WAF"
         ],
         "cdk_support": true,
         "compliance": [
             "sdks",
-            "soc-1-2-3",
             "pci",
             "hipaa-baa",
             "us-east-ohio",
@@ -28365,10 +29172,10 @@
         "onboarding_ok": false,
         "product_label": " AWS Well-Architected Tool",
         "search_terms": [
-            "wellarchitectedtool",
-            "well-architectedtool",
             "wat",
-            "well-architected-tool"
+            "well-architected-tool",
+            "well-architectedtool",
+            "wellarchitectedtool"
         ],
         "service_name": "well-architected-tool",
         "url": "https://aws.amazon.com/well-architected-tool/"
@@ -28538,6 +29345,7 @@
             "ListWebsiteCertificateAuthorities",
             "RestoreDomainAccess",
             "RevokeDomainAccess",
+            "SearchEntity",
             "SignOutUser",
             "TagResource",
             "UntagResource",
@@ -28936,7 +29744,8 @@
         "StringPrefix": "xray",
         "alias": "xray",
         "aliases": [
-            "AWS X-Ray"
+            "AWS X-Ray",
+            "AWS X-RAY"
         ],
         "conditionKeys": [
             "aws:RequestTag/${TagKey}",
@@ -28979,9 +29788,9 @@
         "product_label": " AWS X-Ray",
         "regions_ok": true,
         "search_terms": [
-            "xray",
             "x-ray",
-            "xr"
+            "xr",
+            "xray"
         ],
         "service_name": "x-ray",
         "url": "https://aws.amazon.com/xray/"
