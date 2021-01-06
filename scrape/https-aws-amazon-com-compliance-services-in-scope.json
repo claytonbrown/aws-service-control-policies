@@ -6407,8 +6407,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "amplifyconsole",
-                "ac"
+                "ac",
+                "amplifyconsole"
             ]
         },
         "AWS App Mesh": {
@@ -6416,8 +6416,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "appmesh",
-                "am"
+                "am",
+                "appmesh"
             ]
         },
         "AWS AppSync": {
@@ -6471,8 +6471,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "certificatemanager",
-                "cm"
+                "cm",
+                "certificatemanager"
             ]
         },
         "AWS Chatbot": {
@@ -6494,8 +6494,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "cm",
-                "cloudmap"
+                "cloudmap",
+                "cm"
             ]
         },
         "AWS CloudEndure": {
@@ -6609,8 +6609,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "dataexchange",
-                "de"
+                "de",
+                "dataexchange"
             ]
         },
         "AWS Data Pipeline": {
@@ -6642,8 +6642,8 @@
                 "fedramp-not-in-scope"
             ],
             "search_terms": [
-                "dmsre",
-                "databasemigrationservice"
+                "databasemigrationservice",
+                "dmsre"
             ]
         },
         "AWS Database Migration Service": {
@@ -6682,8 +6682,8 @@
                 "pci"
             ],
             "search_terms": [
-                "dsfmaaac",
-                "directoryserviceformicrosoftadandadconnector"
+                "directoryserviceformicrosoftadandadconnector",
+                "dsfmaaac"
             ]
         },
         "AWS Elastic Beanstalk": {
@@ -6692,8 +6692,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "eb",
-                "elasticbeanstalk"
+                "elasticbeanstalk",
+                "eb"
             ]
         },
         "AWS Elemental MediaConnect": {
@@ -6702,8 +6702,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elementalmediaconnect",
-                "em"
+                "em",
+                "elementalmediaconnect"
             ]
         },
         "AWS Elemental MediaConvert": {
@@ -6722,8 +6722,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elementalmedialive",
-                "em"
+                "em",
+                "elementalmedialive"
             ]
         },
         "AWS Fargate": {
@@ -6754,8 +6754,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "globalaccelerator",
-                "ga"
+                "ga",
+                "globalaccelerator"
             ]
         },
         "AWS Glue": {
@@ -6790,8 +6790,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "identityandaccessmanagement",
-                "iaam"
+                "iaam",
+                "identityandaccessmanagement"
             ]
         },
         "AWS IoT": {
@@ -6814,8 +6814,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "iotclick",
-                "iot1click"
+                "iot1click",
+                "iotclick"
             ]
         },
         "AWS IoT Analytics": {
@@ -6829,8 +6829,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "ia",
-                "iotanalytics"
+                "iotanalytics",
+                "ia"
             ]
         },
         "AWS IoT Core": {
@@ -6838,8 +6838,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "iotcore",
-                "ic"
+                "ic",
+                "iotcore"
             ]
         },
         "AWS IoT Device Management": {
@@ -6847,8 +6847,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "iotdevicemanagement",
-                "idm"
+                "idm",
+                "iotdevicemanagement"
             ]
         },
         "AWS IoT Events": {
@@ -6857,8 +6857,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "iotevents",
-                "ie"
+                "ie",
+                "iotevents"
             ]
         },
         "AWS IoT Greengrass": {
@@ -6885,8 +6885,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "kms",
-                "keymanagementservic"
+                "keymanagementservic",
+                "kms"
             ]
         },
         "AWS Key Management Service": {
@@ -6896,8 +6896,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "kms",
-                "keymanagementservice"
+                "keymanagementservice",
+                "kms"
             ]
         },
         "AWS Lambda": {
@@ -7020,8 +7020,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "opsworksforpuppetenterprise",
-                "ofpe"
+                "ofpe",
+                "opsworksforpuppetenterprise"
             ]
         },
         "AWS Opsworks": {
@@ -7063,8 +7063,8 @@
                 "dod-cc-srg-il6-aws-secret-region"
             ],
             "search_terms": [
-                "phd",
-                "personalhealthdashboard"
+                "personalhealthdashboard",
+                "phd"
             ]
         },
         "AWS PrivateLink": {
@@ -7086,8 +7086,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "rg",
-                "resourcegroups"
+                "resourcegroups",
+                "rg"
             ]
         },
         "AWS RoboMaker": {
@@ -7115,8 +7115,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sm",
-                "secretsmanager"
+                "secretsmanager",
+                "sm"
             ]
         },
         "AWS Security Hub": {
@@ -7125,8 +7125,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "securityhub",
-                "sh"
+                "sh",
+                "securityhub"
             ]
         },
         "AWS Server Migration Service": {
@@ -7145,8 +7145,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "serverlessapplicationrepository",
-                "sar"
+                "sar",
+                "serverlessapplicationrepository"
             ]
         },
         "AWS Serverless Application Respository": {
@@ -7154,8 +7154,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "serverlessapplicationrespository",
-                "sar"
+                "sar",
+                "serverlessapplicationrespository"
             ]
         },
         "AWS Service Catalog": {
@@ -7164,8 +7164,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sc",
-                "servicecatalog"
+                "servicecatalog",
+                "sc"
             ]
         },
         "AWS Shield": {
@@ -7202,8 +7202,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "se",
-                "snowballedge"
+                "snowballedge",
+                "se"
             ]
         },
         "AWS Snowmobile": {
@@ -7221,8 +7221,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "stepfunctions",
-                "sf"
+                "sf",
+                "stepfunctions"
             ]
         },
         "AWS Storage Gateway": {
@@ -7241,8 +7241,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sm",
-                "systemsmanager"
+                "systemsmanager",
+                "sm"
             ]
         },
         "AWS Transfer Family": {
@@ -7261,8 +7261,8 @@
                 "ospar"
             ],
             "search_terms": [
-                "tfs",
-                "transferforsftp"
+                "transferforsftp",
+                "tfs"
             ]
         },
         "AWS Transit Gateway": {
@@ -7270,8 +7270,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "transitgateway",
-                "tg"
+                "tg",
+                "transitgateway"
             ]
         },
         "AWS Trusted Advisor": {
@@ -7280,8 +7280,8 @@
                 "ens-high"
             ],
             "search_terms": [
-                "ta",
-                "trustedadvisor"
+                "trustedadvisor",
+                "ta"
             ]
         },
         "AWS VM ImportExport": {
@@ -7308,8 +7308,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "waf",
-                "webapplicationfirewall"
+                "webapplicationfirewall",
+                "waf"
             ]
         },
         "AWS XRAY": {
@@ -7401,8 +7401,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "cd",
-                "clouddirectory"
+                "clouddirectory",
+                "cd"
             ]
         },
         "Amazon CloudFront": {
@@ -7487,8 +7487,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "comprehendmedical",
-                "cm"
+                "cm",
+                "comprehendmedical"
             ]
         },
         "Amazon Connect": {
@@ -7525,8 +7525,8 @@
             ],
             "search_terms": [
                 "ecautoscaling",
-                "eas",
-                "ec2autoscaling"
+                "ec2autoscaling",
+                "eas"
             ]
         },
         "Amazon EMR": {
@@ -7553,8 +7553,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticacheforredis",
-                "efr"
+                "efr",
+                "elasticacheforredis"
             ]
         },
         "Amazon Elastic Block Store": {
@@ -7563,8 +7563,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticblockstore",
-                "ebs"
+                "ebs",
+                "elasticblockstore"
             ]
         },
         "Amazon Elastic Compute Cloud": {
@@ -7573,8 +7573,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "ecc",
-                "elasticcomputecloud"
+                "elasticcomputecloud",
+                "ecc"
             ]
         },
         "Amazon Elastic Container Registry": {
@@ -7583,8 +7583,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticcontainerregistry",
-                "ecr"
+                "ecr",
+                "elasticcontainerregistry"
             ]
         },
         "Amazon Elastic Container Service": {
@@ -7612,8 +7612,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "efs",
-                "elasticfilesystem"
+                "elasticfilesystem",
+                "efs"
             ]
         },
         "Amazon Elastic Kubernetes Service": {
@@ -7632,9 +7632,9 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticmapreduce",
                 "emr",
-                "em"
+                "em",
+                "elasticmapreduce"
             ]
         },
         "Amazon Elasticache": {
@@ -7653,8 +7653,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elasticsearch",
                 "es",
+                "elasticsearch",
                 "elasticsearchservice"
             ]
         },
@@ -7674,8 +7674,8 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "ffl",
-                "fsxforlustre"
+                "fsxforlustre",
+                "ffl"
             ]
         },
         "Amazon FSx for Windows File Server": {
@@ -7685,8 +7685,8 @@
                 "irap-protected"
             ],
             "search_terms": [
-                "ffwfs",
-                "fsxforwindowsfileserver"
+                "fsxforwindowsfileserver",
+                "ffwfs"
             ]
         },
         "Amazon Forecast": {
@@ -7717,8 +7717,8 @@
                 "seoul"
             ],
             "search_terms": [
-                "glacier",
-                "s3"
+                "s3",
+                "glacier"
             ]
         },
         "Amazon GuardDuty": {
@@ -7762,8 +7762,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "kinesisdataanalytics",
-                "kda"
+                "kda",
+                "kinesisdataanalytics"
             ]
         },
         "Amazon Kinesis Data Firehose": {
@@ -7772,8 +7772,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "kinesisdatafirehose",
-                "kdf"
+                "kdf",
+                "kinesisdatafirehose"
             ]
         },
         "Amazon Kinesis Data Streams": {
@@ -7791,8 +7791,8 @@
                 "hipaa-baa"
             ],
             "search_terms": [
-                "kf",
-                "kinesisfirehose"
+                "kinesisfirehose",
+                "kf"
             ]
         },
         "Amazon Kinesis Video Streams": {
@@ -7801,8 +7801,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "kinesisvideostreams",
-                "kvs"
+                "kvs",
+                "kinesisvideostreams"
             ]
         },
         "Amazon Lex": {
@@ -7838,8 +7838,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "msfak",
-                "managedstreamingforapachekafka"
+                "managedstreamingforapachekafka",
+                "msfak"
             ]
         },
         "Amazon Managed Streaming for Kafka": {
@@ -7953,8 +7953,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "rds",
-                "relationaldatabaseservice"
+                "relationaldatabaseservice",
+                "rds"
             ]
         },
         "Amazon Route 53": {
@@ -7974,8 +7974,8 @@
             ],
             "search_terms": [
                 "routeresolver",
-                "rr",
-                "route53resolver"
+                "route53resolver",
+                "rr"
             ]
         },
         "Amazon S3 Glacier": {
@@ -7994,9 +7994,9 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sta",
                 "s3transferacceleration",
-                "stransferacceleration"
+                "stransferacceleration",
+                "sta"
             ]
         },
         "Amazon SageMaker": {
@@ -8024,8 +8024,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sns",
-                "simplenotificationservice"
+                "simplenotificationservice",
+                "sns"
             ]
         },
         "Amazon Simple Queue Service": {
@@ -8044,8 +8044,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sss",
-                "simplestorageservice"
+                "simplestorageservice",
+                "sss"
             ]
         },
         "Amazon Simple Workflow Service": {
@@ -8054,8 +8054,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "simpleworkflowservice",
-                "sws"
+                "sws",
+                "simpleworkflowservice"
             ]
         },
         "Amazon SimpleDB": {
@@ -8064,8 +8064,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "sdb",
-                "simpledb"
+                "simpledb",
+                "sdb"
             ]
         },
         "Amazon Textract": {
@@ -8101,8 +8101,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "virtualprivatecloud",
-                "vpc"
+                "vpc",
+                "virtualprivatecloud"
             ]
         },
         "Amazon WorkDocs": {
@@ -8158,8 +8158,8 @@
                 "hitrust-csf"
             ],
             "search_terms": [
-                "elb",
-                "elasticloadbalancing"
+                "elasticloadbalancing",
+                "elb"
             ]
         },
         "InterRegion VPC Peering": {
@@ -8169,8 +8169,8 @@
                 "fedramp-not-in-scope"
             ],
             "search_terms": [
-                "ivp",
-                "interregionvpcpeering"
+                "interregionvpcpeering",
+                "ivp"
             ]
         },
         "Managed AWS Landing Zone": {
@@ -8180,8 +8180,8 @@
                 "fedramp-not-in-scope"
             ],
             "search_terms": [
-                "mlz",
-                "managedlandingzone"
+                "managedlandingzone",
+                "mlz"
             ]
         },
         "VM ImportExport": {

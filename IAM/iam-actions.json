@@ -5,12 +5,22 @@
         }
     },
     "actions": {},
+    "activate": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "alexaforbusiness": {
         "iam": {
             "actions": {}
         }
     },
     "amplify": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "amplifyadmin": {
         "iam": {
             "actions": {}
         }
@@ -230,11 +240,6 @@
             "actions": {}
         }
     },
-    "codesigningforfreertos": {
-        "iam": {
-            "actions": {}
-        }
-    },
     "codestar": {
         "iam": {
             "actions": {}
@@ -286,6 +291,11 @@
         }
     },
     "connect": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "connectcustomerprofiles": {
         "iam": {
             "actions": {}
         }
@@ -360,6 +370,11 @@
             "actions": {}
         }
     },
+    "devopsguru": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "directconnect": {
         "iam": {
             "actions": {}
@@ -416,6 +431,11 @@
         }
     },
     "elasticcontainerregistry": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "elasticcontainerregistrypublic": {
         "iam": {
             "actions": {}
         }
@@ -510,6 +530,16 @@
             "actions": {}
         }
     },
+    "elementalsupportcases": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "elementalsupportcontent": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "eventbridge": {
         "iam": {
             "actions": {}
@@ -561,6 +591,11 @@
         }
     },
     "glue": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "gluedatabrew": {
         "iam": {
             "actions": {}
         }
@@ -741,6 +776,11 @@
             "actions": {}
         }
     },
+    "lookoutforvision": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "machinelearning": {
         "iam": {
             "actions": {}
@@ -767,6 +807,11 @@
         }
     },
     "managedstreamingforapachekafka": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "managedworkflowsforapacheairflow": {
         "iam": {
             "actions": {}
         }
@@ -831,6 +876,11 @@
             "actions": {}
         }
     },
+    "monitron": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "mq": {
         "iam": {
             "actions": {}
@@ -838,6 +888,11 @@
     },
     "name2stub": {},
     "neptune": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "networkfirewall": {
         "iam": {
             "actions": {}
         }
@@ -863,6 +918,11 @@
         }
     },
     "outposts": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "panorama": {
         "iam": {
             "actions": {}
         }
@@ -903,6 +963,11 @@
         }
     },
     "privatemarketplace": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "proton": {
         "iam": {
             "actions": {}
         }
@@ -1055,6 +1120,11 @@
         }
     },
     "shield": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "signer": {
         "iam": {
             "actions": {}
         }
