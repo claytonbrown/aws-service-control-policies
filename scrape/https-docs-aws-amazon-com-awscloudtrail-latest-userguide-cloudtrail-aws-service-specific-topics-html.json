@@ -21,8 +21,8 @@
         },
         "name": "AWS Billing and Cost Management",
         "search_terms": [
-            "billingandcostmanagement",
-            "bacm"
+            "bacm",
+            "billingandcostmanagement"
         ]
     },
     "acm": {
@@ -85,8 +85,8 @@
         },
         "name": "AWS Application Discovery Service",
         "search_terms": [
-            "applicationdiscoveryservice",
-            "ads"
+            "ads",
+            "applicationdiscoveryservice"
         ]
     },
     "appmesh": {
@@ -98,8 +98,8 @@
         },
         "name": "AWS App Mesh",
         "search_terms": [
-            "am",
-            "appmesh"
+            "appmesh",
+            "am"
         ]
     },
     "appstream2": {
@@ -136,8 +136,8 @@
         },
         "name": "AWS Resource Groups",
         "search_terms": [
-            "resourcegroups",
-            "rg"
+            "rg",
+            "resourcegroups"
         ]
     },
     "athena": {
@@ -152,6 +152,19 @@
             "athena"
         ]
     },
+    "auditmanager": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/audit-manager/latest/userguide/logging-using-cloudtrail.html",
+            "overview": "Logging AWS Audit Manager API calls with AWS CloudTrail",
+            "support_began": "12/07/2020",
+            "supported": "True"
+        },
+        "name": "AWS Audit Manager",
+        "search_terms": [
+            "am",
+            "auditmanager"
+        ]
+    },
     "autoscaling": {
         "cloutrail": {
             "documentation": "https://docs.aws.amazon.com/autoscaling/latest/userguide/logging-using-cloudtrail.html",
@@ -161,9 +174,9 @@
         },
         "name": "Amazon EC2 Auto Scaling",
         "search_terms": [
-            "ec2autoscaling",
+            "ecautoscaling",
             "eas",
-            "ecautoscaling"
+            "ec2autoscaling"
         ]
     },
     "backup": {
@@ -199,8 +212,8 @@
         },
         "name": "Amazon Cloud Directory",
         "search_terms": [
-            "cd",
-            "clouddirectory"
+            "clouddirectory",
+            "cd"
         ]
     },
     "chime": {
@@ -224,8 +237,8 @@
         },
         "name": "AWS Cloud9",
         "search_terms": [
-            "cloud",
-            "cloud9"
+            "cloud9",
+            "cloud"
         ]
     },
     "cloudformation": {
@@ -273,8 +286,8 @@
         },
         "name": "AWS Cloud Map",
         "search_terms": [
-            "cloudmap",
-            "cm"
+            "cm",
+            "cloudmap"
         ]
     },
     "cloudsearch": {
@@ -310,8 +323,8 @@
         },
         "name": "CloudWatch Logs",
         "search_terms": [
-            "cloudwatchlogs",
-            "cl"
+            "cl",
+            "cloudwatchlogs"
         ]
     },
     "codebuild": {
@@ -359,8 +372,8 @@
         },
         "name": "Amazon CodeGuru Reviewer",
         "search_terms": [
-            "cr",
-            "codegurureviewer"
+            "codegurureviewer",
+            "cr"
         ]
     },
     "codepipeline": {
@@ -421,8 +434,8 @@
         },
         "name": "Amazon Comprehend Medical",
         "search_terms": [
-            "comprehendmedical",
-            "cm"
+            "cm",
+            "comprehendmedical"
         ]
     },
     "config": {
@@ -458,8 +471,8 @@
         },
         "name": "AWS Control Tower",
         "search_terms": [
-            "controltower",
-            "ct"
+            "ct",
+            "controltower"
         ]
     },
     "datapipeline": {
@@ -521,8 +534,8 @@
         },
         "name": "AWS Direct Connect",
         "search_terms": [
-            "directconnect",
-            "dc"
+            "dc",
+            "directconnect"
         ]
     },
     "directoryservice": {
@@ -600,8 +613,8 @@
         },
         "name": "Amazon Virtual Private Cloud (Amazon VPC)",
         "search_terms": [
-            "virtualprivatecloudvpc",
             "vpc",
+            "virtualprivatecloudvpc",
             "virtualprivatecloud"
         ]
     },
@@ -615,8 +628,8 @@
         "name": "Amazon Elastic Container Registry (Amazon ECR)",
         "search_terms": [
             "elasticcontainerregistry",
-            "elasticcontainerregistryecr",
-            "ecr"
+            "ecr",
+            "elasticcontainerregistryecr"
         ]
     },
     "ecs": {
@@ -628,9 +641,9 @@
         },
         "name": "Amazon Elastic Container Service (Amazon ECS)",
         "search_terms": [
+            "elasticcontainerserviceecs",
             "elasticcontainerservice",
-            "ecs",
-            "elasticcontainerserviceecs"
+            "ecs"
         ]
     },
     "efs": {
@@ -642,8 +655,8 @@
         },
         "name": "Amazon Elastic File System (Amazon EFS)",
         "search_terms": [
-            "elasticfilesystem",
             "elasticfilesystemefs",
+            "elasticfilesystem",
             "efs"
         ]
     },
@@ -656,9 +669,9 @@
         },
         "name": "Amazon Elastic Kubernetes Service (Amazon EKS)",
         "search_terms": [
+            "eks",
             "elastickubernetesserviceeks",
-            "elastickubernetesservice",
-            "eks"
+            "elastickubernetesservice"
         ]
     },
     "elasticache": {
@@ -709,8 +722,8 @@
         },
         "name": "Amazon Elasticsearch Service",
         "search_terms": [
-            "elasticsearchservice",
             "elasticsearch",
+            "elasticsearchservice",
             "es"
         ]
     },
@@ -723,20 +736,21 @@
         },
         "name": "Amazon Elastic Transcoder",
         "search_terms": [
-            "elastictranscoder",
-            "et"
+            "et",
+            "elastictranscoder"
         ]
     },
     "emr": {
         "cloutrail": {
-            "documentation": "https://docs.aws.amazon.com/emr/latest/ManagementGuide/logging_emr_api_calls.html",
-            "overview": "Logging Amazon EMR API Calls in AWS CloudTrail",
-            "support_began": "04/04/2014",
+            "documentation": "https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/logging-using-cloudtrail.html",
+            "overview": "Logging Amazon EMR on EKS API calls using AWS CloudTrail",
+            "support_began": "12/09/2020",
             "supported": "True"
         },
-        "name": "Amazon EMR",
+        "name": "Amazon EMR on EKS",
         "search_terms": [
-            "emr"
+            "emroneks",
+            "eoe"
         ]
     },
     "firehose": {
@@ -789,8 +803,8 @@
         },
         "name": "Amazon FSx for Windows File Server",
         "search_terms": [
-            "fsxforwindowsfileserver",
-            "ffwfs"
+            "ffwfs",
+            "fsxforwindowsfileserver"
         ]
     },
     "gamelift": {
@@ -815,8 +829,8 @@
         "name": "Amazon S3 Glacier",
         "search_terms": [
             "sg",
-            "sglacier",
-            "s3glacier"
+            "s3glacier",
+            "sglacier"
         ]
     },
     "globalaccelerator": {
@@ -828,8 +842,8 @@
         },
         "name": "AWS Global Accelerator",
         "search_terms": [
-            "globalaccelerator",
-            "ga"
+            "ga",
+            "globalaccelerator"
         ]
     },
     "glue": {
@@ -846,15 +860,16 @@
     },
     "greengrass": {
         "cloutrail": {
-            "documentation": "https://docs.aws.amazon.com/greengrass/latest/developerguide/logging-using-cloudtrail.html",
-            "overview": "Logging AWS IoT Greengrass API Calls with AWS CloudTrail",
-            "support_began": "10/29/2018",
+            "documentation": "https://docs.aws.amazon.com/greengrass/v2/developerguide/logging-using-cloudtrail.html",
+            "overview": "Log AWS IoT Greengrass V2 API calls with AWS CloudTrail",
+            "support_began": "12/14/2020",
             "supported": "True"
         },
-        "name": "AWS IoT Greengrass",
+        "name": "AWS IoT Greengrass V2",
         "search_terms": [
-            "ig",
-            "iotgreengrass"
+            "iotgreengrassv2",
+            "iotgreengrassv",
+            "igv"
         ]
     },
     "groundstation": {
@@ -866,8 +881,8 @@
         },
         "name": "AWS Ground Station",
         "search_terms": [
-            "groundstation",
-            "gs"
+            "gs",
+            "groundstation"
         ]
     },
     "guardduty": {
@@ -891,8 +906,20 @@
         },
         "name": "AWS Personal Health Dashboard",
         "search_terms": [
-            "personalhealthdashboard",
-            "phd"
+            "phd",
+            "personalhealthdashboard"
+        ]
+    },
+    "healthlake": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/healthlake/latest/devguide/logging-using-cloudtrail.html",
+            "overview": "Logging Amazon HealthLake API calls with AWS CloudTrail",
+            "support_began": "12/07/2020",
+            "supported": "True"
+        },
+        "name": "Amazon HealthLake",
+        "search_terms": [
+            "healthlake"
         ]
     },
     "honeycode": {
@@ -917,8 +944,8 @@
         "name": "AWS Security Token Service (AWS STS)",
         "search_terms": [
             "sts",
-            "securitytokenservice",
-            "securitytokenservicests"
+            "securitytokenservicests",
+            "securitytokenservice"
         ]
     },
     "inspector": {
@@ -954,10 +981,10 @@
         },
         "name": "AWS IoT 1-Click",
         "search_terms": [
-            "iotclick",
             "iot1click",
-            "iot1-click",
-            "ic"
+            "ic",
+            "iotclick",
+            "iot1-click"
         ]
     },
     "iotanalytics": {
@@ -969,8 +996,8 @@
         },
         "name": "AWS IoT Analytics",
         "search_terms": [
-            "iotanalytics",
-            "ia"
+            "ia",
+            "iotanalytics"
         ]
     },
     "iotevents": {
@@ -995,8 +1022,8 @@
         },
         "name": "AWS IoT SiteWise",
         "search_terms": [
-            "iotsitewise",
-            "is"
+            "is",
+            "iotsitewise"
         ]
     },
     "ivs": {
@@ -1008,8 +1035,8 @@
         },
         "name": "Amazon Interactive Video Service",
         "search_terms": [
-            "interactivevideoservice",
-            "ivs"
+            "ivs",
+            "interactivevideoservice"
         ]
     },
     "kendra": {
@@ -1022,6 +1049,20 @@
         "name": "Amazon Kendra",
         "search_terms": [
             "kendra"
+        ]
+    },
+    "keyspaces": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/keyspaces/latest/devguide/logging-using-cloudtrail.html",
+            "overview": "Logging Amazon Keyspaces API calls with AWS CloudTrail",
+            "support_began": "01/13/2020",
+            "supported": "True"
+        },
+        "name": "Amazon Keyspaces (for Apache Cassandra)",
+        "search_terms": [
+            "keyspacesforapachecassandra",
+            "forapachecassandra",
+            "keyspaces"
         ]
     },
     "kinesis": {
@@ -1046,8 +1087,8 @@
         },
         "name": "Amazon Kinesis Data Analytics",
         "search_terms": [
-            "kinesisdataanalytics",
-            "kda"
+            "kda",
+            "kinesisdataanalytics"
         ]
     },
     "kinesisvideostreams": {
@@ -1072,9 +1113,9 @@
         },
         "name": "AWS Key Management Service (AWS KMS)",
         "search_terms": [
-            "keymanagementservicekms",
             "kms",
-            "keymanagementservice"
+            "keymanagementservice",
+            "keymanagementservicekms"
         ]
     },
     "lambda": {
@@ -1110,8 +1151,34 @@
         },
         "name": "AWS License Manager ",
         "search_terms": [
-            "licensemanager",
-            "lm"
+            "lm",
+            "licensemanager"
+        ]
+    },
+    "location": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/location/latest/developerguide/logging-using-cloudtrail.html",
+            "overview": "Logging and monitoring with AWS CloudTrail",
+            "support_began": "12/15/2020",
+            "supported": "True"
+        },
+        "name": "Amazon Location Service",
+        "search_terms": [
+            "locationservice",
+            "ls"
+        ]
+    },
+    "lookoutforequipment": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/monitoring-automated-manual.html",
+            "overview": "Monitoring Amazon Lookout for Equipment calls with AWS CloudTrail",
+            "support_began": "12/01/2020",
+            "supported": "True"
+        },
+        "name": "Amazon Lookout for Equipment",
+        "search_terms": [
+            "lookoutforequipment",
+            "lfe"
         ]
     },
     "lookoutforvision": {
@@ -1148,8 +1215,8 @@
         },
         "name": "Amazon Machine Learning",
         "search_terms": [
-            "ml",
-            "machinelearning"
+            "machinelearning",
+            "ml"
         ]
     },
     "macie": {
@@ -1173,8 +1240,8 @@
         },
         "name": "AWS Managed Services ",
         "search_terms": [
-            "ms",
-            "managedservices"
+            "managedservices",
+            "ms"
         ]
     },
     "marketplace": {
@@ -1190,19 +1257,6 @@
             "marketplacemeteringservice"
         ]
     },
-    "mcs": {
-        "cloutrail": {
-            "documentation": "https://docs.aws.amazon.com/mcs/latest/devguide/logging-using-cloudtrail.html",
-            "overview": "Logging Amazon Managed Cassandra Service API Calls with AWS CloudTrail",
-            "support_began": "01/13/2020",
-            "supported": "True"
-        },
-        "name": "Amazon Managed Apache Cassandra Service",
-        "search_terms": [
-            "managedapachecassandraservice",
-            "macs"
-        ]
-    },
     "mediaconnect": {
         "cloutrail": {
             "documentation": "https://docs.aws.amazon.com/mediaconnect/latest/ug/logging-using-cloudtrail.html",
@@ -1212,8 +1266,8 @@
         },
         "name": "AWS Elemental MediaConnect",
         "search_terms": [
-            "em",
-            "elementalmediaconnect"
+            "elementalmediaconnect",
+            "em"
         ]
     },
     "mediaconvert": {
@@ -1238,8 +1292,8 @@
         },
         "name": "AWS Elemental MediaLive",
         "search_terms": [
-            "em",
-            "elementalmedialive"
+            "elementalmedialive",
+            "em"
         ]
     },
     "mediapackage": {
@@ -1251,8 +1305,8 @@
         },
         "name": "AWS Elemental MediaPackage",
         "search_terms": [
-            "em",
-            "elementalmediapackage"
+            "elementalmediapackage",
+            "em"
         ]
     },
     "mediastore": {
@@ -1264,8 +1318,8 @@
         },
         "name": "AWS Elemental MediaStore",
         "search_terms": [
-            "em",
-            "elementalmediastore"
+            "elementalmediastore",
+            "em"
         ]
     },
     "mediatailor": {
@@ -1303,8 +1357,8 @@
         },
         "name": "AWS Mobile Hub",
         "search_terms": [
-            "mobilehub",
-            "mh"
+            "mh",
+            "mobilehub"
         ]
     },
     "mq": {
@@ -1415,8 +1469,8 @@
         },
         "name": "Amazon Pinpoint SMS and Voice API",
         "search_terms": [
-            "pinpointsmsandvoiceapi",
-            "psava"
+            "psava",
+            "pinpointsmsandvoiceapi"
         ]
     },
     "polly": {
@@ -1440,8 +1494,8 @@
         },
         "name": "Amazon Quantum Ledger Database (Amazon QLDB)",
         "search_terms": [
-            "quantumledgerdatabaseqldb",
             "qld",
+            "quantumledgerdatabaseqldb",
             "quantumledgerdatabase",
             "qldb"
         ]
@@ -1468,8 +1522,8 @@
         "name": "AWS Resource Access Manager (AWS RAM)",
         "search_terms": [
             "resourceaccessmanagerram",
-            "ram",
-            "resourceaccessmanager"
+            "resourceaccessmanager",
+            "ram"
         ]
     },
     "rds": {
@@ -1481,8 +1535,8 @@
         },
         "name": "Amazon RDS Performance Insights",
         "search_terms": [
-            "rpi",
-            "rdsperformanceinsights"
+            "rdsperformanceinsights",
+            "rpi"
         ]
     },
     "redshift": {
@@ -1530,8 +1584,8 @@
         },
         "name": "Amazon Route\u00c2\u00a053",
         "search_terms": [
-            "route\u00e2",
-            "route\u00e2\u00a053"
+            "route\u00e2\u00a053",
+            "route\u00e2"
         ]
     },
     "s3": {
@@ -1581,8 +1635,8 @@
         },
         "name": "AWS Security Hub",
         "search_terms": [
-            "securityhub",
-            "sh"
+            "sh",
+            "securityhub"
         ]
     },
     "serverlessrepo": {
@@ -1620,8 +1674,8 @@
         },
         "name": "AWS Service Catalog",
         "search_terms": [
-            "servicecatalog",
-            "sc"
+            "sc",
+            "servicecatalog"
         ]
     },
     "ses": {
@@ -1633,9 +1687,9 @@
         },
         "name": "Amazon Simple Email Service (Amazon SES)",
         "search_terms": [
-            "simpleemailservice",
             "ses",
-            "simpleemailserviceses"
+            "simpleemailserviceses",
+            "simpleemailservice"
         ]
     },
     "simplequeueservice": {
@@ -1647,9 +1701,9 @@
         },
         "name": "Amazon Simple Queue Service (Amazon SQS)",
         "search_terms": [
-            "simplequeueservicesqs",
             "sqs",
-            "simplequeueservice"
+            "simplequeueservice",
+            "simplequeueservicesqs"
         ]
     },
     "singlesignon": {
@@ -1661,10 +1715,10 @@
         },
         "name": "AWS Single Sign-On (AWS SSO)",
         "search_terms": [
-            "sso",
-            "singlesignon",
             "singlesignonsso",
-            "singlesign-on"
+            "singlesignon",
+            "singlesign-on",
+            "sso"
         ]
     },
     "snowball": {
@@ -1689,23 +1743,9 @@
         },
         "name": "Amazon Simple Notification Service (Amazon SNS)",
         "search_terms": [
-            "sns",
+            "simplenotificationservicesns",
             "simplenotificationservice",
-            "simplenotificationservicesns"
-        ]
-    },
-    "ssm": {
-        "cloutrail": {
-            "documentation": "https://docs.aws.amazon.com/ssm/latest/APIReference/logging-using-cloudtrail.html",
-            "overview": "Log Systems Manager API Calls with AWS CloudTrail",
-            "support_began": "11/13/2013",
-            "supported": "True"
-        },
-        "name": "AWS Systems Manager (Systems Manager)",
-        "search_terms": [
-            "systemsmanager",
-            "systemsmanagersystemsmanager",
-            "sm"
+            "sns"
         ]
     },
     "stepfunctions": {
@@ -1717,8 +1757,8 @@
         },
         "name": "AWS Step Functions",
         "search_terms": [
-            "sf",
-            "stepfunctions"
+            "stepfunctions",
+            "sf"
         ]
     },
     "storagegateway": {
@@ -1743,8 +1783,8 @@
         },
         "name": "AWS Trusted Advisor",
         "search_terms": [
-            "trustedadvisor",
-            "ta"
+            "ta",
+            "trustedadvisor"
         ]
     },
     "swf": {
@@ -1756,10 +1796,23 @@
         },
         "name": "Amazon Simple Workflow Service (Amazon SWF)",
         "search_terms": [
-            "simpleworkflowserviceswf",
-            "sws",
             "simpleworkflowservice",
-            "swf"
+            "sws",
+            "swf",
+            "simpleworkflowserviceswf"
+        ]
+    },
+    "systemsmanager": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/systems-manager/latest/userguide/monitoring-cloudtrail-logs.html",
+            "overview": "Logging AWS Systems Manager API Calls with AWS CloudTrail",
+            "support_began": "11/13/2013",
+            "supported": "True"
+        },
+        "name": "AWS Systems Manager",
+        "search_terms": [
+            "sm",
+            "systemsmanager"
         ]
     },
     "textract": {
@@ -1783,8 +1836,8 @@
         },
         "name": "AWS IoT Things Graph",
         "search_terms": [
-            "iotthingsgraph",
-            "itg"
+            "itg",
+            "iotthingsgraph"
         ]
     },
     "transcribe": {
@@ -1833,8 +1886,8 @@
         },
         "name": "AWS Transit Gateway",
         "search_terms": [
-            "tg",
-            "transitgateway"
+            "transitgateway",
+            "tg"
         ]
     },
     "waf": {
@@ -1847,6 +1900,20 @@
         "name": "AWS WAF",
         "search_terms": [
             "waf"
+        ]
+    },
+    "wellarchitected": {
+        "cloutrail": {
+            "documentation": "https://docs.aws.amazon.com/wellarchitected/latest/userguide/logging-using-cloudtrail.html",
+            "overview": "Logging AWS WA Tool API Calls with AWS CloudTrail",
+            "support_began": "12/15/2020",
+            "supported": "True"
+        },
+        "name": "AWS Well-Architected Tool",
+        "search_terms": [
+            "well-architectedtool",
+            "wellarchitectedtool",
+            "wat"
         ]
     },
     "workdocs": {
@@ -1906,9 +1973,9 @@
         },
         "name": "AWS X-Ray",
         "search_terms": [
-            "xr",
             "x-ray",
-            "xray"
+            "xray",
+            "xr"
         ]
     }
 }

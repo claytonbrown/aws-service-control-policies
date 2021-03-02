@@ -4,9 +4,9 @@
         "description": "Empower your Organization with Alexa",
         "product_label": " Alexa for Business",
         "search_terms": [
-            "alexa-for-business",
+            "afb",
             "alexaforbusiness",
-            "afb"
+            "alexa-for-business"
         ],
         "service_name": "alexa-for-business",
         "url": "https://aws.amazon.com/alexaforbusiness/"
@@ -16,8 +16,8 @@
         "description": "Managed Message Broker Service",
         "product_label": " Amazon MQ",
         "search_terms": [
-            "mq",
-            "amazonmq"
+            "amazonmq",
+            "mq"
         ],
         "service_name": "mq",
         "url": "https://aws.amazon.com/amazon-mq/"
@@ -49,8 +49,8 @@
         "description": "Containerize and migrate existing applications",
         "product_label": " AWS App2Container",
         "search_terms": [
-            "app2container",
-            "appcontainer"
+            "appcontainer",
+            "app2container"
         ],
         "service_name": "app2container",
         "url": "https://aws.amazon.com/app2container/"
@@ -84,8 +84,8 @@
         "product_label": " AWS App Mesh",
         "search_terms": [
             "am",
-            "appmesh",
-            "app-mesh"
+            "app-mesh",
+            "appmesh"
         ],
         "service_name": "app-mesh",
         "url": "https://aws.amazon.com/app-mesh/"
@@ -95,10 +95,10 @@
         "description": "Stream Desktop Applications Securely to a Browser",
         "product_label": " Amazon AppStream 2.0",
         "search_terms": [
-            "appstream",
-            "appstream2",
             "appstream2.0",
-            "appstream-2-0"
+            "appstream2",
+            "appstream-2-0",
+            "appstream"
         ],
         "service_name": "appstream-2-0",
         "url": "https://aws.amazon.com/appstream2/"
@@ -139,8 +139,8 @@
         "product_label": " AWS Audit Manager",
         "search_terms": [
             "am",
-            "auditmanager",
-            "audit-manager"
+            "audit-manager",
+            "auditmanager"
         ],
         "service_name": "audit-manager",
         "url": "https://aws.amazon.com/audit-manager/"
@@ -162,9 +162,9 @@
         "description": "Scale Multiple Resources to Meet Demand",
         "product_label": " AWS Auto Scaling",
         "search_terms": [
+            "auto-scaling",
             "autoscaling",
-            "as",
-            "auto-scaling"
+            "as"
         ],
         "service_name": "auto-scaling",
         "url": "https://aws.amazon.com/autoscaling/"
@@ -174,8 +174,8 @@
         "description": "Set Custom Cost and Usage Budgets",
         "product_label": " AWS Budgets",
         "search_terms": [
-            "budgets",
-            "awscostmanagementawsbudgets"
+            "awscostmanagementawsbudgets",
+            "budgets"
         ],
         "service_name": "budgets",
         "url": "https://aws.amazon.com/aws-cost-management/aws-budgets/"
@@ -185,10 +185,10 @@
         "description": "Access Comprehensive Cost and Usage Information",
         "product_label": " AWS Cost and Usage Report",
         "search_terms": [
-            "caur",
-            "cost-and-usage-report",
+            "costandusagereport",
             "awscostmanagementawscostandusagereporting",
-            "costandusagereport"
+            "cost-and-usage-report",
+            "caur"
         ],
         "service_name": "cost-and-usage-report",
         "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/"
@@ -198,10 +198,10 @@
         "description": "Analyze Your AWS Cost and Usage",
         "product_label": " AWS Cost Explorer",
         "search_terms": [
-            "cost-explorer",
             "ce",
             "costexplorer",
-            "awscostmanagementawscostexplorer"
+            "awscostmanagementawscostexplorer",
+            "cost-explorer"
         ],
         "service_name": "cost-explorer",
         "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/"
@@ -211,10 +211,10 @@
         "description": "Dive Deeper into Your Reserved Instances (RIs)",
         "product_label": " Reserved Instance Reporting",
         "search_terms": [
-            "rir",
-            "awscostmanagementreservedinstancereporting",
             "reserved-instance-reporting",
-            "reservedinstancereporting"
+            "rir",
+            "reservedinstancereporting",
+            "awscostmanagementreservedinstancereporting"
         ],
         "service_name": "reserved-instance-reporting",
         "url": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/"
@@ -224,10 +224,10 @@
         "description": "Fully managed SFTP, FTPS, and FTP service",
         "product_label": " AWS Transfer Family",
         "search_terms": [
-            "transferfamily",
             "tf",
-            "transfer-family",
-            "awstransferfamily"
+            "transferfamily",
+            "awstransferfamily",
+            "transfer-family"
         ],
         "service_name": "transfer-family",
         "url": "https://aws.amazon.com/aws-transfer-family/"
@@ -280,9 +280,9 @@
         "description": "Provision, Manage, and Deploy SSL/TLS Certificates",
         "product_label": " AWS Certificate Manager",
         "search_terms": [
+            "certificatemanager",
             "cm",
-            "certificate-manager",
-            "certificatemanager"
+            "certificate-manager"
         ],
         "service_name": "certificate-manager",
         "url": "https://aws.amazon.com/certificate-manager/"
@@ -335,9 +335,9 @@
         "description": "Highly automated disaster recovery",
         "product_label": " CloudEndure Disaster Recovery",
         "search_terms": [
+            "cloudendure-disaster-recovery",
             "cloudenduredisasterrecovery",
-            "cdr",
-            "cloudendure-disaster-recovery"
+            "cdr"
         ],
         "service_name": "cloudendure-disaster-recovery",
         "url": "https://aws.amazon.com/cloudendure-disaster-recovery/"
@@ -347,9 +347,9 @@
         "description": "Automate your mass migration to AWS",
         "product_label": " CloudEndure Migration",
         "search_terms": [
+            "cloudenduremigration",
             "cm",
-            "cloudendure-migration",
-            "cloudenduremigration"
+            "cloudendure-migration"
         ],
         "service_name": "cloudendure-migration",
         "url": "https://aws.amazon.com/cloudendure-migration/"
@@ -389,8 +389,8 @@
         "description": "Application resource registry for microservices",
         "product_label": " AWS Cloud Map",
         "search_terms": [
-            "cloudmap",
             "cm",
+            "cloudmap",
             "cloud-map"
         ],
         "service_name": "cloud-map",
@@ -405,6 +405,16 @@
         ],
         "service_name": "cloudsearch",
         "url": "https://aws.amazon.com/cloudsearch/"
+    },
+    "cloudshell": {
+        "alias": "cloudshell",
+        "description": "Browser-based shell environment",
+        "product_label": " AWS CloudShell",
+        "search_terms": [
+            "cloudshell"
+        ],
+        "service_name": "cloudshell",
+        "url": "https://aws.amazon.com/cloudshell/"
     },
     "cloudtrail": {
         "alias": "cloudtrail",
@@ -522,8 +532,8 @@
         "product_label": " AWS Compute Optimizer",
         "search_terms": [
             "co",
-            "computeoptimizer",
-            "compute-optimizer"
+            "compute-optimizer",
+            "computeoptimizer"
         ],
         "service_name": "compute-optimizer",
         "url": "https://aws.amazon.com/compute-optimizer/"
@@ -553,10 +563,10 @@
         "description": "Web-based user interface",
         "product_label": " AWS Management Console",
         "search_terms": [
-            "managementconsole",
             "mc",
+            "management-console",
             "console",
-            "management-console"
+            "managementconsole"
         ],
         "service_name": "management-console",
         "url": "https://aws.amazon.com/console/"
@@ -567,12 +577,23 @@
         "product_label": " AWS Console Mobile Application",
         "search_terms": [
             "console-mobile-application",
-            "consolemobile",
+            "cma",
             "consolemobileapplication",
-            "cma"
+            "consolemobile"
         ],
         "service_name": "console-mobile-application",
         "url": "https://aws.amazon.com/console/mobile/"
+    },
+    "containerscopilot": {
+        "alias": "containerscopilot",
+        "description": "Easily deploy and operate containerized applications",
+        "product_label": " AWS Copilot",
+        "search_terms": [
+            "copilot",
+            "containerscopilot"
+        ],
+        "service_name": "copilot",
+        "url": "https://aws.amazon.com/containers/copilot/"
     },
     "controltower": {
         "alias": "controltower",
@@ -580,8 +601,8 @@
         "product_label": " AWS Control Tower",
         "search_terms": [
             "controltower",
-            "control-tower",
-            "ct"
+            "ct",
+            "control-tower"
         ],
         "service_name": "control-tower",
         "url": "https://aws.amazon.com/controltower/"
@@ -601,9 +622,9 @@
         "description": "Find, subscribe to, and use third-party data in the cloud",
         "product_label": " AWS Data Exchange",
         "search_terms": [
+            "dataexchange",
             "de",
-            "data-exchange",
-            "dataexchange"
+            "data-exchange"
         ],
         "service_name": "data-exchange",
         "url": "https://aws.amazon.com/data-exchange/"
@@ -613,9 +634,9 @@
         "description": "Orchestration Service for Periodic, Data-driven Workflows",
         "product_label": " AWS Data Pipeline",
         "search_terms": [
-            "dp",
             "data-pipeline",
-            "datapipeline"
+            "datapipeline",
+            "dp"
         ],
         "service_name": "data-pipeline",
         "url": "https://aws.amazon.com/datapipeline/"
@@ -676,8 +697,8 @@
         "product_label": " AWS Device Farm",
         "search_terms": [
             "df",
-            "device-farm",
-            "devicefarm"
+            "devicefarm",
+            "device-farm"
         ],
         "service_name": "device-farm",
         "url": "https://aws.amazon.com/device-farm/"
@@ -687,9 +708,9 @@
         "description": "ML-powered cloud operations service",
         "product_label": " Amazon DevOps Guru",
         "search_terms": [
-            "devops-guru",
+            "devopsguru",
             "dg",
-            "devopsguru"
+            "devops-guru"
         ],
         "service_name": "devops-guru",
         "url": "https://aws.amazon.com/devops-guru/"
@@ -700,8 +721,8 @@
         "product_label": " AWS Direct Connect",
         "search_terms": [
             "dc",
-            "direct-connect",
-            "directconnect"
+            "directconnect",
+            "direct-connect"
         ],
         "service_name": "direct-connect",
         "url": "https://aws.amazon.com/directconnect/"
@@ -724,8 +745,8 @@
         "product_label": " AWS Database Migration Service",
         "search_terms": [
             "database-migration-service",
-            "dms",
-            "databasemigrationservice"
+            "databasemigrationservice",
+            "dms"
         ],
         "service_name": "database-migration-service",
         "url": "https://aws.amazon.com/dms/"
@@ -736,8 +757,8 @@
         "product_label": " Amazon DocumentDB (with MongoDB compatibility)",
         "search_terms": [
             "documentdbwithmongodbcompatibility",
-            "documentdb",
-            "withmongodbcompatibility"
+            "withmongodbcompatibility",
+            "documentdb"
         ],
         "service_name": "documentdb",
         "url": "https://aws.amazon.com/documentdb/"
@@ -757,9 +778,9 @@
         "description": "EC2 block storage volumes",
         "product_label": " Amazon Elastic Block Store (EBS)",
         "search_terms": [
-            "elastic-block-store",
-            "elasticblockstoreebs",
             "ebs",
+            "elasticblockstoreebs",
+            "elastic-block-store",
             "elasticblockstore"
         ],
         "service_name": "elastic-block-store",
@@ -770,8 +791,8 @@
         "description": "Virtual Servers in the Cloud",
         "product_label": " Amazon EC2",
         "search_terms": [
-            "ec2",
-            "ec"
+            "ec",
+            "ec2"
         ],
         "service_name": "ec2",
         "url": "https://aws.amazon.com/ec2/"
@@ -806,10 +827,10 @@
         "description": "Highly secure, reliable, and scalable way to run containers",
         "product_label": " Amazon Elastic Container Service (ECS)",
         "search_terms": [
-            "elastic-container-service",
             "elasticcontainerserviceecs",
-            "elasticcontainerservice",
-            "ecs"
+            "elastic-container-service",
+            "ecs",
+            "elasticcontainerservice"
         ],
         "service_name": "elastic-container-service",
         "url": "https://aws.amazon.com/ecs/"
@@ -832,10 +853,10 @@
         "description": "The most trusted way to run Kubernetes",
         "product_label": " Amazon Elastic Kubernetes Service (EKS)",
         "search_terms": [
-            "eks",
             "elastickubernetesserviceeks",
-            "elastic-kubernetes-service",
-            "elastickubernetesservice"
+            "elastickubernetesservice",
+            "eks",
+            "elastic-kubernetes-service"
         ],
         "service_name": "elastic-kubernetes-service",
         "url": "https://aws.amazon.com/eks/"
@@ -845,12 +866,12 @@
         "description": "Kubernetes on your infrastructure",
         "product_label": " Amazon EKS Anywhere (Coming Soon)",
         "search_terms": [
-            "eksanywhere",
-            "ea",
             "comingsoon",
+            "eksanywhere",
             "eksanywherecomingsoon",
+            "ekseksanywhere",
             "eks-anywhere",
-            "ekseksanywhere"
+            "ea"
         ],
         "service_name": "eks-anywhere",
         "url": "https://aws.amazon.com/eks/eks-anywhere/"
@@ -860,9 +881,9 @@
         "description": "Run consistent Kubernetes clusters",
         "product_label": " Amazon EKS Distro",
         "search_terms": [
-            "eks-distro",
             "ed",
             "ekseksdistro",
+            "eks-distro",
             "eksdistro"
         ],
         "service_name": "eks-distro",
@@ -884,8 +905,8 @@
         "product_label": " AWS Elastic Beanstalk",
         "search_terms": [
             "elastic-beanstalk",
-            "elasticbeanstalk",
-            "eb"
+            "eb",
+            "elasticbeanstalk"
         ],
         "service_name": "elastic-beanstalk",
         "url": "https://aws.amazon.com/elasticbeanstalk/"
@@ -896,8 +917,8 @@
         "product_label": " Amazon Elastic Inference",
         "search_terms": [
             "ei",
-            "elasticinference",
-            "elastic-inference"
+            "elastic-inference",
+            "elasticinference"
         ],
         "service_name": "elastic-inference",
         "url": "https://aws.amazon.com/elastic-inference/"
@@ -907,9 +928,9 @@
         "description": "Distribute incoming traffic across multiple targets",
         "product_label": " Elastic Load Balancing",
         "search_terms": [
-            "elastic-load-balancing",
             "elasticloadbalancing",
-            "elb"
+            "elb",
+            "elastic-load-balancing"
         ],
         "service_name": "elastic-load-balancing",
         "url": "https://aws.amazon.com/elasticloadbalancing/"
@@ -930,9 +951,9 @@
         "description": "Run and Scale Elasticsearch Clusters",
         "product_label": " Amazon Elasticsearch Service",
         "search_terms": [
+            "elasticsearchservice",
             "elasticsearch-service",
             "es",
-            "elasticsearchservice",
             "elasticsearch"
         ],
         "service_name": "elasticsearch-service",
@@ -944,8 +965,8 @@
         "product_label": " Amazon Elastic Transcoder",
         "search_terms": [
             "elastic-transcoder",
-            "et",
-            "elastictranscoder"
+            "elastictranscoder",
+            "et"
         ],
         "service_name": "elastic-transcoder",
         "url": "https://aws.amazon.com/elastictranscoder/"
@@ -956,9 +977,9 @@
         "product_label": " AWS Elemental Appliances & Software",
         "search_terms": [
             "elemental-appliances-software",
-            "eas",
             "elementalappliancessoftware",
-            "elementalappliances&software"
+            "elementalappliances&software",
+            "eas"
         ],
         "service_name": "elemental-appliances-software",
         "url": "https://aws.amazon.com/elemental-appliances-software/"
@@ -995,6 +1016,18 @@
         "service_name": "firewall-manager",
         "url": "https://aws.amazon.com/firewall-manager/"
     },
+    "fis": {
+        "alias": "fis",
+        "description": "Fully managed chaos engineering service",
+        "product_label": " AWS Fault Injection Simulator",
+        "search_terms": [
+            "faultinjectionsimulator",
+            "fis",
+            "fault-injection-simulator"
+        ],
+        "service_name": "fault-injection-simulator",
+        "url": "https://aws.amazon.com/fis/"
+    },
     "forecast": {
         "alias": "forecast",
         "description": "Increase forecast accuracy using machine learning",
@@ -1010,9 +1043,9 @@
         "description": "Detect more online fraud faster",
         "product_label": " Amazon Fraud Detector",
         "search_terms": [
-            "fd",
             "fraud-detector",
-            "frauddetector"
+            "frauddetector",
+            "fd"
         ],
         "service_name": "fraud-detector",
         "url": "https://aws.amazon.com/fraud-detector/"
@@ -1033,9 +1066,9 @@
         "product_label": " Amazon FSx for Lustre",
         "search_terms": [
             "fsx-for-lustre",
+            "ffl",
             "fsxforlustre",
-            "fsxlustre",
-            "ffl"
+            "fsxlustre"
         ],
         "service_name": "fsx-for-lustre",
         "url": "https://aws.amazon.com/fsx/lustre/"
@@ -1045,10 +1078,10 @@
         "description": "Fully managed Windows native file system",
         "product_label": " Amazon FSx for Windows File Server",
         "search_terms": [
-            "fsxforwindowsfileserver",
-            "ffwfs",
             "fsx-for-windows-file-server",
-            "fsxwindows"
+            "fsxforwindowsfileserver",
+            "fsxwindows",
+            "ffwfs"
         ],
         "service_name": "fsx-for-windows-file-server",
         "url": "https://aws.amazon.com/fsx/windows/"
@@ -1069,8 +1102,8 @@
         "product_label": " AWS Tools and SDKs",
         "search_terms": [
             "tools-and-sdks",
-            "tas",
             "gettingstartedtoolssdks",
+            "tas",
             "toolsandsdks"
         ],
         "service_name": "tools-and-sdks",
@@ -1081,10 +1114,10 @@
         "description": "Low-cost Archive Storage in the Cloud",
         "product_label": " Amazon S3 Glacier",
         "search_terms": [
-            "glacier1",
-            "sg",
             "sglacier",
+            "sg",
             "s3-glacier",
+            "glacier1",
             "s3glacier"
         ],
         "service_name": "s3-glacier",
@@ -1095,9 +1128,9 @@
         "description": "Improve application availability and performance",
         "product_label": " AWS Global Accelerator",
         "search_terms": [
+            "globalaccelerator",
             "ga",
-            "global-accelerator",
-            "globalaccelerator"
+            "global-accelerator"
         ],
         "service_name": "global-accelerator",
         "url": "https://aws.amazon.com/global-accelerator/"
@@ -1111,6 +1144,19 @@
         ],
         "service_name": "glue",
         "url": "https://aws.amazon.com/glue/"
+    },
+    "grafana": {
+        "alias": "grafana",
+        "description": "Powerful interactive data visualizations",
+        "product_label": " Amazon Managed Service for Grafana",
+        "search_terms": [
+            "managed-service-for-grafana",
+            "msfg",
+            "grafana",
+            "managedserviceforgrafana"
+        ],
+        "service_name": "managed-service-for-grafana",
+        "url": "https://aws.amazon.com/grafana/"
     },
     "greengrass": {
         "alias": "greengrass",
@@ -1149,12 +1195,12 @@
         "description": "ECS on your infrastructure",
         "product_label": " Amazon ECS Anywhere (Coming Soon)",
         "search_terms": [
-            "https:pages.awscloud.comamazonecsanywherepreview.html",
-            "ecs-anywhere",
-            "ea",
-            "ecsanywherecomingsoon",
             "comingsoon",
-            "ecsanywhere"
+            "ecsanywherecomingsoon",
+            "ecs-anywhere",
+            "https:pages.awscloud.comamazonecsanywherepreview.html",
+            "ecsanywhere",
+            "ea"
         ],
         "service_name": "ecs-anywhere",
         "url": "https://pages.awscloud.com/AmazonECSAnywherePreview.html"
@@ -1177,9 +1223,9 @@
         "description": "Securely manage access to services and resources",
         "product_label": " AWS Identity & Access Management",
         "search_terms": [
-            "iam",
             "identity-access-management",
             "identityaccessmanagement",
+            "iam",
             "identity&accessmanagement"
         ],
         "service_name": "identity-access-management",
@@ -1210,11 +1256,11 @@
         "description": "One Click Creation of an AWS Lambda Trigger",
         "product_label": " AWS IoT 1-Click",
         "search_terms": [
-            "iot1-click",
             "iotclick",
-            "iot-1-click",
             "ic",
-            "iot1click"
+            "iot-1-click",
+            "iot1click",
+            "iot1-click"
         ],
         "service_name": "iot-1-click",
         "url": "https://aws.amazon.com/iot-1-click/"
@@ -1225,8 +1271,8 @@
         "product_label": " AWS IoT Analytics",
         "search_terms": [
             "iot-analytics",
-            "iotanalytics",
-            "ia"
+            "ia",
+            "iotanalytics"
         ],
         "service_name": "iot-analytics",
         "url": "https://aws.amazon.com/iot-analytics/"
@@ -1237,8 +1283,8 @@
         "product_label": " AWS IoT Button",
         "search_terms": [
             "iot-button",
-            "iotbutton",
-            "ib"
+            "ib",
+            "iotbutton"
         ],
         "service_name": "iot-button",
         "url": "https://aws.amazon.com/iot/button/"
@@ -1260,8 +1306,8 @@
         "description": "Security Management for IoT Devices",
         "product_label": " AWS IoT Device Defender",
         "search_terms": [
-            "idd",
             "iotdevicedefender",
+            "idd",
             "iot-device-defender"
         ],
         "service_name": "iot-device-defender",
@@ -1272,8 +1318,8 @@
         "description": "Onboard, Organize, and Remotely Manage IoT Devices",
         "product_label": " AWS IoT Device Management",
         "search_terms": [
-            "iot-device-management",
             "idm",
+            "iot-device-management",
             "iotdevicemanagement"
         ],
         "service_name": "iot-device-management",
@@ -1285,8 +1331,8 @@
         "product_label": " AWS IoT Events",
         "search_terms": [
             "ie",
-            "iot-events",
-            "iotevents"
+            "iotevents",
+            "iot-events"
         ],
         "service_name": "iot-events",
         "url": "https://aws.amazon.com/iot-events/"
@@ -1296,9 +1342,9 @@
         "description": "IoT data collector and interpreter",
         "product_label": " AWS IoT SiteWise",
         "search_terms": [
+            "is",
             "iot-sitewise",
-            "iotsitewise",
-            "is"
+            "iotsitewise"
         ],
         "service_name": "iot-sitewise",
         "url": "https://aws.amazon.com/iot-sitewise/"
@@ -1308,9 +1354,9 @@
         "description": "Easily connect devices and web services",
         "product_label": " AWS IoT Things Graph",
         "search_terms": [
-            "itg",
+            "iot-things-graph",
             "iotthingsgraph",
-            "iot-things-graph"
+            "itg"
         ],
         "service_name": "iot-things-graph",
         "url": "https://aws.amazon.com/iot-things-graph/"
@@ -1342,9 +1388,9 @@
         "description": "Managed Cassandra-compatible database",
         "product_label": " Amazon Keyspaces (for Apache Cassandra)",
         "search_terms": [
-            "forapachecassandra",
+            "keyspacesforapachecassandra",
             "keyspaces",
-            "keyspacesforapachecassandra"
+            "forapachecassandra"
         ],
         "service_name": "keyspaces",
         "url": "https://aws.amazon.com/keyspaces/"
@@ -1364,8 +1410,8 @@
         "description": "Process and Analyze Video Streams",
         "product_label": " Amazon Kinesis Video Streams",
         "search_terms": [
-            "kinesis-video-streams",
             "kvs",
+            "kinesis-video-streams",
             "kinesisvideostreams"
         ],
         "service_name": "kinesis-video-streams",
@@ -1376,8 +1422,8 @@
         "description": "Managed Creation and Control of Encryption Keys",
         "product_label": " AWS Key Management Service",
         "search_terms": [
-            "keymanagementservice",
             "key-management-service",
+            "keymanagementservice",
             "kms"
         ],
         "service_name": "key-management-service",
@@ -1388,9 +1434,9 @@
         "description": "Build a secure data lake in days",
         "product_label": " AWS Lake Formation",
         "search_terms": [
-            "lake-formation",
             "lakeformation",
-            "lf"
+            "lf",
+            "lake-formation"
         ],
         "service_name": "lake-formation",
         "url": "https://aws.amazon.com/lake-formation/"
@@ -1421,8 +1467,8 @@
         "product_label": " AWS License Manager",
         "search_terms": [
             "lm",
-            "licensemanager",
-            "license-manager"
+            "license-manager",
+            "licensemanager"
         ],
         "service_name": "license-manager",
         "url": "https://aws.amazon.com/license-manager/"
@@ -1437,16 +1483,31 @@
         "service_name": "lightsail",
         "url": "https://aws.amazon.com/lightsail/"
     },
+    "location": {
+        "alias": "location",
+        "description": "Securely and easily add location data to applications",
+        "product_label": " Amazon Location Service (Preview)",
+        "search_terms": [
+            "location-service",
+            "locationservicepreview",
+            "location",
+            "ls",
+            "preview",
+            "locationservice"
+        ],
+        "service_name": "location-service",
+        "url": "https://aws.amazon.com/location/"
+    },
     "lookoutforequipment": {
         "alias": "lookoutforequipment",
         "description": "Detect abnormal behavior by analyzing sensor data",
         "product_label": " Amazon Lookout for Equipment (Preview)",
         "search_terms": [
-            "preview",
             "lookout-for-equipment",
-            "lookoutforequipmentpreview",
+            "lfe",
             "lookoutforequipment",
-            "lfe"
+            "lookoutforequipmentpreview",
+            "preview"
         ],
         "service_name": "lookout-for-equipment",
         "url": "https://aws.amazon.com/lookout-for-equipment/"
@@ -1456,9 +1517,9 @@
         "description": "Detect anomalies in metrics",
         "product_label": " Amazon Lookout for Metrics",
         "search_terms": [
+            "lookout-for-metrics",
             "lookoutformetrics",
-            "lfm",
-            "lookout-for-metrics"
+            "lfm"
         ],
         "service_name": "lookout-for-metrics",
         "url": "https://aws.amazon.com/lookout-for-metrics/"
@@ -1468,9 +1529,9 @@
         "description": "Spot product defects using computer vision",
         "product_label": " Amazon Lookout for Vision",
         "search_terms": [
-            "lookoutforvision",
+            "lfv",
             "lookout-for-vision",
-            "lfv"
+            "lookoutforvision"
         ],
         "service_name": "lookout-for-vision",
         "url": "https://aws.amazon.com/lookout-for-vision/"
@@ -1490,10 +1551,10 @@
         "description": "Quickly Start Deep Learning on EC2",
         "product_label": " AWS Deep Learning AMIs",
         "search_terms": [
-            "machinelearningamis",
             "deeplearningamis",
-            "dla",
-            "deep-learning-amis"
+            "machinelearningamis",
+            "deep-learning-amis",
+            "dla"
         ],
         "service_name": "deep-learning-amis",
         "url": "https://aws.amazon.com/machine-learning/amis/"
@@ -1503,10 +1564,10 @@
         "description": "Docker images for deep learning",
         "product_label": " AWS Deep Learning Containers",
         "search_terms": [
-            "deep-learning-containers",
             "dlc",
+            "deeplearningcontainers",
             "machinelearningcontainers",
-            "deeplearningcontainers"
+            "deep-learning-containers"
         ],
         "service_name": "deep-learning-containers",
         "url": "https://aws.amazon.com/machine-learning/containers/"
@@ -1538,9 +1599,9 @@
         "description": "Infrastructure operations management for AWS",
         "product_label": " AWS Managed Services",
         "search_terms": [
+            "managed-services",
             "managedservices",
-            "ms",
-            "managed-services"
+            "ms"
         ],
         "service_name": "managed-services",
         "url": "https://aws.amazon.com/managed-services/"
@@ -1562,10 +1623,10 @@
         "description": "Reliable and secure live video transport",
         "product_label": " AWS Elemental MediaConnect",
         "search_terms": [
-            "mediaconnect",
+            "elementalmediaconnect",
             "em",
-            "elemental-mediaconnect",
-            "elementalmediaconnect"
+            "mediaconnect",
+            "elemental-mediaconnect"
         ],
         "service_name": "elemental-mediaconnect",
         "url": "https://aws.amazon.com/mediaconnect/"
@@ -1576,8 +1637,8 @@
         "product_label": " AWS Elemental MediaConvert",
         "search_terms": [
             "elemental-mediaconvert",
-            "elementalmediaconvert",
             "em",
+            "elementalmediaconvert",
             "mediaconvert"
         ],
         "service_name": "elemental-mediaconvert",
@@ -1588,10 +1649,10 @@
         "description": "Convert Live Video Content",
         "product_label": " AWS Elemental MediaLive",
         "search_terms": [
-            "elementalmedialive",
+            "medialive",
             "em",
             "elemental-medialive",
-            "medialive"
+            "elementalmedialive"
         ],
         "service_name": "elemental-medialive",
         "url": "https://aws.amazon.com/medialive/"
@@ -1614,9 +1675,9 @@
         "description": "Media Storage and Simple HTTP Origin",
         "product_label": " AWS Elemental MediaStore",
         "search_terms": [
-            "elementalmediastore",
-            "em",
             "elemental-mediastore",
+            "em",
+            "elementalmediastore",
             "mediastore"
         ],
         "service_name": "elemental-mediastore",
@@ -1628,9 +1689,9 @@
         "product_label": " AWS Elemental MediaTailor",
         "search_terms": [
             "elementalmediatailor",
-            "mediatailor",
             "em",
-            "elemental-mediatailor"
+            "elemental-mediatailor",
+            "mediatailor"
         ],
         "service_name": "elemental-mediatailor",
         "url": "https://aws.amazon.com/mediatailor/"
@@ -1640,11 +1701,11 @@
         "description": "Create a business case for cloud migration",
         "product_label": " Migration Evaluator (formerly TSO Logic)",
         "search_terms": [
-            "migration-evaluator",
             "migrationevaluatorformerlytsologic",
-            "migrationevaluator",
+            "formerlytsologic",
             "me",
-            "formerlytsologic"
+            "migrationevaluator",
+            "migration-evaluator"
         ],
         "service_name": "migration-evaluator",
         "url": "https://aws.amazon.com/migration-evaluator/"
@@ -1654,9 +1715,9 @@
         "description": "Track Migrations from a Single Place",
         "product_label": " AWS Migration Hub",
         "search_terms": [
-            "migrationhub",
             "mh",
-            "migration-hub"
+            "migration-hub",
+            "migrationhub"
         ],
         "service_name": "migration-hub",
         "url": "https://aws.amazon.com/migration-hub/"
@@ -1676,10 +1737,10 @@
         "description": "Fully managed Apache Kafka service",
         "product_label": " Amazon Managed Streaming for Apache Kafka",
         "search_terms": [
+            "msfak",
             "msk",
             "managedstreamingforapachekafka",
-            "managed-streaming-for-apache-kafka",
-            "msfak"
+            "managed-streaming-for-apache-kafka"
         ],
         "service_name": "managed-streaming-for-apache-kafka",
         "url": "https://aws.amazon.com/msk/"
@@ -1689,10 +1750,10 @@
         "description": "Scalable, High-performance Deep Learning",
         "product_label": " Apache MXNet on AWS",
         "search_terms": [
-            "mxnet",
-            "apache-mxnet-on-aws",
             "apachemxnetonaws",
-            "amoa"
+            "amoa",
+            "apache-mxnet-on-aws",
+            "mxnet"
         ],
         "service_name": "apache-mxnet-on-aws",
         "url": "https://aws.amazon.com/mxnet/"
@@ -1713,8 +1774,8 @@
         "product_label": " AWS Network Firewall",
         "search_terms": [
             "network-firewall",
-            "nf",
-            "networkfirewall"
+            "networkfirewall",
+            "nf"
         ],
         "service_name": "network-firewall",
         "url": "https://aws.amazon.com/network-firewall/"
@@ -1744,12 +1805,12 @@
         "description": "Collect correlated metrics and traces",
         "product_label": " AWS Distro for OpenTelemetry (Preview)",
         "search_terms": [
-            "preview",
-            "otel",
-            "distroforopentelemetry",
-            "dfo",
             "distro-for-opentelemetry",
-            "distroforopentelemetrypreview"
+            "dfo",
+            "distroforopentelemetry",
+            "distroforopentelemetrypreview",
+            "otel",
+            "preview"
         ],
         "service_name": "distro-for-opentelemetry",
         "url": "https://aws.amazon.com/otel/"
@@ -1769,9 +1830,9 @@
         "description": "Improve operations with computer vision at the edge",
         "product_label": " AWS Panorama (Preview)",
         "search_terms": [
-            "panoramapreview",
             "panorama",
-            "preview"
+            "preview",
+            "panoramapreview"
         ],
         "service_name": "panorama",
         "url": "https://aws.amazon.com/panorama/"
@@ -1782,8 +1843,8 @@
         "product_label": " AWS Partner Device Catalog",
         "search_terms": [
             "pdc",
-            "partner-device-catalog",
             "partnersdqp",
+            "partner-device-catalog",
             "partnerdevicecatalog"
         ],
         "service_name": "partner-device-catalog",
@@ -1824,10 +1885,10 @@
         "description": "Personalized View of AWS Service Health",
         "product_label": " AWS Personal Health Dashboard",
         "search_terms": [
-            "personalhealthdashboard",
             "phd",
             "personal-health-dashboard",
-            "premiumsupportphd"
+            "premiumsupportphd",
+            "personalhealthdashboard"
         ],
         "service_name": "personal-health-dashboard",
         "url": "https://aws.amazon.com/premiumsupport/phd/"
@@ -1842,14 +1903,27 @@
         "service_name": "privatelink",
         "url": "https://aws.amazon.com/privatelink/"
     },
+    "prometheus": {
+        "alias": "prometheus",
+        "description": "Highly available, secure monitoring for containers",
+        "product_label": " Amazon Managed Service for Prometheus",
+        "search_terms": [
+            "prometheus",
+            "msfp",
+            "managedserviceforprometheus",
+            "managed-service-for-prometheus"
+        ],
+        "service_name": "managed-service-for-prometheus",
+        "url": "https://aws.amazon.com/prometheus/"
+    },
     "proton": {
         "alias": "proton",
         "description": "Automated management for container and serverless deployment",
         "product_label": " AWS Proton (Preview)",
         "search_terms": [
-            "preview",
+            "protonpreview",
             "proton",
-            "protonpreview"
+            "preview"
         ],
         "service_name": "proton",
         "url": "https://aws.amazon.com/proton/"
@@ -1859,10 +1933,10 @@
         "description": "Flexible open-source machine learning framework",
         "product_label": " PyTorch on AWS",
         "search_terms": [
-            "pytorchonaws",
+            "pytorch-on-aws",
             "pytorch",
-            "poa",
-            "pytorch-on-aws"
+            "pytorchonaws",
+            "poa"
         ],
         "service_name": "pytorch-on-aws",
         "url": "https://aws.amazon.com/pytorch/"
@@ -1872,11 +1946,11 @@
         "description": "Fully managed ledger database",
         "product_label": " Amazon Quantum Ledger Database (QLDB)",
         "search_terms": [
-            "qld",
-            "qldb",
             "quantumledgerdatabase",
             "quantum-ledger-database",
-            "quantumledgerdatabaseqldb"
+            "qld",
+            "quantumledgerdatabaseqldb",
+            "qldb"
         ],
         "service_name": "quantum-ledger-database",
         "url": "https://aws.amazon.com/qldb/"
@@ -1896,9 +1970,9 @@
         "description": "Simple, secure service to share AWS resources",
         "product_label": " AWS Resource Access Manager",
         "search_terms": [
-            "ram",
+            "resource-access-manager",
             "resourceaccessmanager",
-            "resource-access-manager"
+            "ram"
         ],
         "service_name": "resource-access-manager",
         "url": "https://aws.amazon.com/ram/"
@@ -1918,8 +1992,8 @@
         "description": "High Performance Managed Relational Database",
         "product_label": " Amazon Aurora",
         "search_terms": [
-            "aurora",
-            "rdsaurora"
+            "rdsaurora",
+            "aurora"
         ],
         "service_name": "aurora",
         "url": "https://aws.amazon.com/rds/aurora/"
@@ -1929,12 +2003,12 @@
         "description": "Instantly scale to >100,000 transactions per second",
         "product_label": " Amazon Aurora Serverless v2 (Preview)",
         "search_terms": [
-            "preview",
             "auroraserverlessv2",
-            "auroraserverlessvpreview",
-            "asv",
             "rdsauroraserverless",
-            "aurora-serverless-v2"
+            "asv",
+            "aurora-serverless-v2",
+            "auroraserverlessvpreview",
+            "preview"
         ],
         "service_name": "aurora-serverless-v2",
         "url": "https://aws.amazon.com/rds/aurora/serverless/"
@@ -1944,10 +2018,10 @@
         "description": "Automate on-premises database management",
         "product_label": " Amazon RDS on VMware",
         "search_terms": [
-            "rov",
-            "rdsonvmware",
             "rds-on-vmware",
-            "rdsvmware"
+            "rdsonvmware",
+            "rdsvmware",
+            "rov"
         ],
         "service_name": "rds-on-vmware",
         "url": "https://aws.amazon.com/rds/vmware/"
@@ -1988,9 +2062,9 @@
         "product_label": " Red Hat OpenShift Service on AWS",
         "search_terms": [
             "rosa",
-            "redhatopenshiftserviceonaws",
+            "red-hat-openshift-service-on-aws",
             "rhosoa",
-            "red-hat-openshift-service-on-aws"
+            "redhatopenshiftserviceonaws"
         ],
         "service_name": "red-hat-openshift-service-on-aws",
         "url": "https://aws.amazon.com/rosa/"
@@ -2001,8 +2075,8 @@
         "product_label": " Amazon Route 53",
         "search_terms": [
             "route",
-            "route-53",
-            "route53"
+            "route53",
+            "route-53"
         ],
         "service_name": "route-53",
         "url": "https://aws.amazon.com/route53/"
@@ -2012,11 +2086,11 @@
         "description": "Scalable Storage in the Cloud",
         "product_label": " Amazon Simple Storage Service (S3)",
         "search_terms": [
-            "sss",
-            "s3",
-            "simplestorageservices",
+            "simple-storage-service",
             "simplestorageservice",
-            "simple-storage-service"
+            "simplestorageservices",
+            "s3",
+            "sss"
         ],
         "service_name": "simple-storage-service",
         "url": "https://aws.amazon.com/s3/"
@@ -2036,9 +2110,9 @@
         "description": "The fastest way to prepare data for ML",
         "product_label": " Amazon SageMaker Data Wrangler",
         "search_terms": [
-            "sagemakerdatawrangler",
             "sdw",
-            "sagemaker-data-wrangler"
+            "sagemaker-data-wrangler",
+            "sagemakerdatawrangler"
         ],
         "service_name": "sagemaker-data-wrangler",
         "url": "https://aws.amazon.com/sagemaker/data-wrangler/"
@@ -2049,8 +2123,8 @@
         "product_label": " Amazon SageMaker Ground Truth",
         "search_terms": [
             "sagemakergroundtruth",
-            "sagemaker-ground-truth",
-            "sgt"
+            "sgt",
+            "sagemaker-ground-truth"
         ],
         "service_name": "sagemaker-ground-truth",
         "url": "https://aws.amazon.com/sagemaker/groundtruth/"
@@ -2072,9 +2146,9 @@
         "description": "Rotate, Manage, and Retrieve Secrets",
         "product_label": " AWS Secrets Manager",
         "search_terms": [
-            "secrets-manager",
             "secretsmanager",
-            "sm"
+            "sm",
+            "secrets-manager"
         ],
         "service_name": "secrets-manager",
         "url": "https://aws.amazon.com/secrets-manager/"
@@ -2084,9 +2158,9 @@
         "description": "Unified security and compliance center",
         "product_label": " AWS Security Hub",
         "search_terms": [
-            "sh",
+            "securityhub",
             "security-hub",
-            "securityhub"
+            "sh"
         ],
         "service_name": "security-hub",
         "url": "https://aws.amazon.com/security-hub/"
@@ -2097,9 +2171,9 @@
         "product_label": " AWS Serverless Application Repository",
         "search_terms": [
             "sar",
-            "serverlessrepo",
             "serverlessapplicationrepository",
-            "serverless-application-repository"
+            "serverless-application-repository",
+            "serverlessrepo"
         ],
         "service_name": "serverless-application-repository",
         "url": "https://aws.amazon.com/serverlessrepo/"
@@ -2109,8 +2183,8 @@
         "description": "Migrate On-Premises Servers to AWS",
         "product_label": " AWS Server Migration Service ",
         "search_terms": [
-            "server-migration-service",
             "sms",
+            "server-migration-service",
             "servermigrationservice"
         ],
         "service_name": "server-migration-service",
@@ -2121,9 +2195,9 @@
         "description": "Create and Use Standardized Products",
         "product_label": " AWS Service Catalog",
         "search_terms": [
+            "sc",
             "service-catalog",
-            "servicecatalog",
-            "sc"
+            "servicecatalog"
         ],
         "service_name": "service-catalog",
         "url": "https://aws.amazon.com/servicecatalog/"
@@ -2133,10 +2207,10 @@
         "description": "Email Sending and Receiving",
         "product_label": " Amazon Simple Email Service (SES)",
         "search_terms": [
-            "simple-email-service",
-            "simpleemailserviceses",
             "simpleemailservice",
-            "ses"
+            "simpleemailserviceses",
+            "ses",
+            "simple-email-service"
         ],
         "service_name": "simple-email-service",
         "url": "https://aws.amazon.com/ses/"
@@ -2156,10 +2230,10 @@
         "description": "Cloud Single Sign-On (SSO) Service",
         "product_label": " AWS Single Sign-On",
         "search_terms": [
-            "single-sign-on",
-            "sso",
             "singlesignon",
-            "singlesign-on"
+            "singlesign-on",
+            "sso",
+            "single-sign-on"
         ],
         "service_name": "single-sign-on",
         "url": "https://aws.amazon.com/single-sign-on/"
@@ -2169,10 +2243,10 @@
         "description": "Physical edge computing and storage devices for rugged or disconnected environments",
         "product_label": " AWS Snow Family",
         "search_terms": [
+            "snow",
             "snow-family",
             "sf",
-            "snowfamily",
-            "snow"
+            "snowfamily"
         ],
         "service_name": "snow-family",
         "url": "https://aws.amazon.com/snow/"
@@ -2182,10 +2256,10 @@
         "description": "Pub/sub, SMS, email, and mobile push notifications",
         "product_label": " Amazon Simple Notification Service (SNS)",
         "search_terms": [
-            "simplenotificationservice",
             "simple-notification-service",
+            "simplenotificationservicesns",
             "sns",
-            "simplenotificationservicesns"
+            "simplenotificationservice"
         ],
         "service_name": "simple-notification-service",
         "url": "https://aws.amazon.com/sns/"
@@ -2196,9 +2270,9 @@
         "product_label": " Amazon Simple Queue Service (SQS) ",
         "search_terms": [
             "sqs",
-            "simple-queue-service",
+            "simplequeueservicesqs",
             "simplequeueservice",
-            "simplequeueservicesqs"
+            "simple-queue-service"
         ],
         "service_name": "simple-queue-service",
         "url": "https://aws.amazon.com/sqs/"
@@ -2208,9 +2282,9 @@
         "description": "Coordination for distributed applications",
         "product_label": " AWS Step Functions",
         "search_terms": [
-            "sf",
+            "stepfunctions",
             "step-functions",
-            "stepfunctions"
+            "sf"
         ],
         "service_name": "step-functions",
         "url": "https://aws.amazon.com/step-functions/"
@@ -2242,9 +2316,9 @@
         "description": "Gain Operational Insights and Take Action",
         "product_label": " AWS Systems Manager",
         "search_terms": [
-            "systemsmanager",
+            "systems-manager",
             "sm",
-            "systems-manager"
+            "systemsmanager"
         ],
         "service_name": "systems-manager",
         "url": "https://aws.amazon.com/systems-manager/"
@@ -2254,9 +2328,9 @@
         "description": "Open-source Machine Intelligence Library",
         "product_label": " TensorFlow on AWS",
         "search_terms": [
-            "tensorflow-on-aws",
-            "toa",
             "tensorflowonaws",
+            "toa",
+            "tensorflow-on-aws",
             "tensorflow"
         ],
         "service_name": "tensorflow-on-aws",
@@ -2297,9 +2371,9 @@
         "description": "Easily scale VPC and account connections",
         "product_label": " AWS Transit Gateway",
         "search_terms": [
-            "transit-gateway",
+            "tg",
             "transitgateway",
-            "tg"
+            "transit-gateway"
         ],
         "service_name": "transit-gateway",
         "url": "https://aws.amazon.com/transit-gateway/"
@@ -2320,8 +2394,8 @@
         "product_label": " AWS Trusted Advisor",
         "search_terms": [
             "trustedadvisor",
-            "ta",
-            "trusted-advisor"
+            "trusted-advisor",
+            "ta"
         ],
         "service_name": "trusted-advisor",
         "url": "https://aws.amazon.com/trustedadvisor/"
@@ -2331,10 +2405,10 @@
         "description": "Build a Hybrid Cloud without Custom Hardware",
         "product_label": " VMware Cloud on AWS",
         "search_terms": [
-            "vmware-cloud-on-aws",
             "vcoa",
+            "vmware",
             "vmwarecloudonaws",
-            "vmware"
+            "vmware-cloud-on-aws"
         ],
         "service_name": "vmware-cloud-on-aws",
         "url": "https://aws.amazon.com/vmware/"
@@ -2375,10 +2449,10 @@
         "description": "Review and improve your workloads",
         "product_label": " AWS Well-Architected Tool",
         "search_terms": [
-            "wat",
             "well-architected-tool",
-            "well-architectedtool",
-            "wellarchitectedtool"
+            "wellarchitectedtool",
+            "wat",
+            "well-architectedtool"
         ],
         "service_name": "well-architected-tool",
         "url": "https://aws.amazon.com/well-architected-tool/"
@@ -2428,9 +2502,9 @@
         "description": "Analyze and debug your applications",
         "product_label": " AWS X-Ray",
         "search_terms": [
+            "xr",
             "xray",
-            "x-ray",
-            "xr"
+            "x-ray"
         ],
         "service_name": "x-ray",
         "url": "https://aws.amazon.com/xray/"

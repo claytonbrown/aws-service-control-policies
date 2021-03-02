@@ -40,6 +40,11 @@
             "actions": {}
         }
     },
+    "appintegrations": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "applicationautoscaling": {
         "iam": {
             "actions": {}
@@ -81,6 +86,11 @@
         }
     },
     "athena": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "auditmanager": {
         "iam": {
             "actions": {}
         }
@@ -171,6 +181,11 @@
         }
     },
     "cloudsearch": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "cloudshell": {
         "iam": {
             "actions": {}
         }
@@ -485,12 +500,12 @@
             "actions": {}
         }
     },
-    "elementalactivations": {
+    "elementalappliancesandsoftware": {
         "iam": {
             "actions": {}
         }
     },
-    "elementalappliancesandsoftware": {
+    "elementalappliancesandsoftwareactivationservice": {
         "iam": {
             "actions": {}
         }
@@ -540,6 +555,11 @@
             "actions": {}
         }
     },
+    "emroneksemrcontainers": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "eventbridge": {
         "iam": {
             "actions": {}
@@ -551,6 +571,11 @@
         }
     },
     "firewallmanager": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "fleethubforiotdevicemanagement": {
         "iam": {
             "actions": {}
         }
@@ -671,6 +696,16 @@
             "actions": {}
         }
     },
+    "iotcoredeviceadvisor": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "iotcoreforlorawan": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "iotdevicetester": {
         "iam": {
             "actions": {}
@@ -682,6 +717,11 @@
         }
     },
     "iotgreengrass": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "iotgreengrassv2": {
         "iam": {
             "actions": {}
         }
@@ -766,12 +806,27 @@
             "actions": {}
         }
     },
+    "lexv2": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "licensemanager": {
         "iam": {
             "actions": {}
         }
     },
     "lightsail": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "location": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "lookoutforequipment": {
         "iam": {
             "actions": {}
         }
@@ -806,6 +861,16 @@
             "actions": {}
         }
     },
+    "managedserviceforgrafana": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "managedserviceforprometheus": {
+        "iam": {
+            "actions": {}
+        }
+    },
     "managedstreamingforapachekafka": {
         "iam": {
             "actions": {}
@@ -822,6 +887,11 @@
         }
     },
     "marketplacecatalog": {
+        "iam": {
+            "actions": {}
+        }
+    },
+    "marketplacecommerceanalyticsservice": {
         "iam": {
             "actions": {}
         }
